@@ -1,0 +1,16 @@
+---
+layout: default
+title: Speakers
+---
+
+<h1>Speakers</h1>
+
+<ul>
+  {% for speaker in site.speakers %}
+  <li>
+    <h2><a href="{{ speaker.url }}">{{ speaker.name }}</a></h2>
+    <h3>{{ speaker.position }}</h3>
+    <p>{{ speaker.content | markdownify }}</p>
+  </li>
+  {% endfor %}
+</ul>

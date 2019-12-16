@@ -1,0 +1,16 @@
+<div id="speakers">
+  <h1>SPEAKERS</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea labore tenetur
+    eos rem veritatis veniam repellat minus quibusdam doloremque. Aspernatur at
+    quaerat saepe cumque officiis? Dicta quos quas quibusdam ab.
+  </p>
+  <div class="items-container">
+    {% for speaker in site.speakers %}
+    <a href="{{ speaker.url }}" class="item">
+      <h4>{{ speaker.name }}</h4>
+      <p>{{ speaker.position }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</div>
