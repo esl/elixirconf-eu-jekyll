@@ -1,15 +1,44 @@
+title: Elixir Conf EU 2020
+description: > # this means to ignore newlines until "baseurl:"
+  Elixir conf 2020
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "Your-Link.github.io" # the base hostname & protocol for your site
+# Build settings
+markdown: kramdown
+
+facebook:
+  app_id: 
+
+logo: "./assets/images/icon-large.png"
+
+social: 
+  name: Your Facebook Page
+  link: "https://www.facebook.com/"
+
+google_site_verification: googleXXXXXXXXXXXXXXXX.html
+
+include: []
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com
+  - title: twitter
+    url: https://twitter.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
 collections:
-  authors:
-    output: true
   speakers:
     output: true
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "speakers"

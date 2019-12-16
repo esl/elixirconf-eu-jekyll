@@ -3,12 +3,14 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"_sass/main.scss"
+		"_sass/main.sass",
+		"_sass/cover.sass"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n",
-		".current {\n  color: green;\n}\n"
+		"@import \"main\";\n@import \"cover\";\n",
+		"body {\n  margin: 0; }\n* {\n  box-sizing: border-box; }\n\nh1, h2, h3, h4, h5, p {\n  margin: 0; }\n",
+		".cover {\n    align-items: center;\n    background-color: #261145;\n    color: #fff;\n    display: flex;\n    flex-flow: column;\n    height: 43em;\n    padding: 5em 3em 3em 3em;\n    width: 100%; }\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,GAAG;;AACd,AAAA,CAAC,CAAC,EACA,UAAU,EAAE,UAAU,GAAG;;AAE3B,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,CAAC,EACpB,MAAM,EAAE,CAAC,GAAG;;ACNd,AAAA,MAAM,CAAC,EACH,WAAW,EAAE,MAAM,EACnB,gBAAgB,EAAE,OAAO,EACzB,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,IAAI,EACb,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,eAAe,EACxB,KAAK,EAAE,IAAI,GAAG"
 }

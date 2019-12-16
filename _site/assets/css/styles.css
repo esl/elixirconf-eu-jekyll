@@ -1,3 +1,9 @@
-.current { color: green; }
+body { margin: 0; }
+
+* { box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, p { margin: 0; }
+
+.cover { align-items: center; background-color: #261145; color: #fff; display: flex; flex-flow: column; height: 43em; padding: 5em 3em 3em 3em; width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
