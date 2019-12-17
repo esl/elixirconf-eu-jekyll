@@ -24,6 +24,10 @@ a { color: #ffffff; text-decoration: none; }
 
 .section { height: 35em; width: 100%; }
 
+.btn-outline { background: none; border: solid .1em #fff; border-radius: .3em; font-size: 1.3em; font-weight: 100; letter-spacing: .16em; padding: .5em 2.7em; }
+
+.mb-3 { margin-bottom: 3.1em; }
+
 .cover { align-items: center; background-image: linear-gradient(to right, #51183d, #261145); color: #fff; display: flex; flex-flow: column; height: 48em; padding: 13em 3em 3em 3em; width: 100%; }
 
 .cover .logo { width: 50%; }
@@ -34,8 +38,20 @@ a { color: #ffffff; text-decoration: none; }
 
 .cover hr { display: block; border: 1em solid #ee5a30; margin-top: 2em; margin-bottom: 2em; margin-left: auto; margin-right: auto; border-style: inset; border-width: 1px; width: 2em; }
 
-.cover .btn-register { background: none; border: solid .1em #fff; border-radius: .3em; font-size: 1.3em; font-weight: 100; letter-spacing: .16em; margin-bottom: 3.1em; padding: .5em 2.7em; }
+.cover .btn-arrow { border: solid .1em #ee5a30; border-radius: 60%; font-size: 1.6em; padding: .8em; }
 
-.cover .btn-arrow { border: solid .1em #ee5a30; border-radius: 60%; font-size: 1.4em; padding: 1em; }
+.banner-1 { align-items: center; background-color: #543465; display: flex; justify-content: center; padding: 2.8em 5em; }
+
+.banner-1 .text { color: #fff; font-size: 1.5em; letter-spacing: .1em; margin-right: 2em; }
+
+.banner-1 .text strong { color: #ee5a30; }
+
+.welcome { align-items: center; background-color: #fff; display: flex; flex-wrap: wrap; justify-content: center; padding: 6em 3em; width: 100%; }
+
+.welcome .title { text-align: center; width: 100%; }
+
+.welcome .left-content { width: 50%; }
+
+.welcome .right-content { width: 50%; }
 
 /*# sourceMappingURL=styles.css.map */
