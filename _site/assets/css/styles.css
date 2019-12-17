@@ -8,7 +8,7 @@ a { color: #ffffff; text-decoration: none; }
 
 .navbar-fixed-top { align-items: center; display: flex; justify-content: center; padding: 1em 0; position: fixed; top: 0; width: 100%; }
 
-.navbar-fixed-top .logo { background-image: url("../../assets/images/imagotype.svg"); background-position: 0 0; background-repeat: no-repeat; background-size: contain; display: block; height: 2.5em; width: 2.5em; }
+.navbar-fixed-top .logo { background-image: url("../../assets/images/imagotype.svg"); background-position: 0 0; background-repeat: no-repeat; background-size: contain; display: block; height: 2em; width: 2em; }
 
 .navbar-fixed-top .page-scroll { font-weight: 200; margin: 0 1em; }
 

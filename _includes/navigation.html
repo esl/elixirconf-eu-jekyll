@@ -1,6 +1,29 @@
 <nav class="navbar-fixed-top">
-    <a href="#/cover" class="logo"></a>
+
+    <div class="collapse navbar-collapse" >
+        <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+                <a href="/"></a>
+            </li>
+            <li>
+                <a class="page-scroll" href="#speakers">Speakers</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="#about">About</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+        </ul>
+
+  <!-- <ul class="nav">
+    <li>
+      <a href="#cover" class="logo"></a>
+    </li>
     {% for item in site.data.navigation %}
-    <a class="page-scroll" href="#{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}</a>
+    <li>
+      <a href="/#{{ item.link }}" class="page-scroll">{{ item.name }}</a>
+    </li>
     {% endfor %}
+  </ul> -->
 </nav>

@@ -1779,6 +1779,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
     this.activeTarget = target
 
     $(this.selector)
+      console.log(this.selector, "selector")
       .parentsUntil(this.options.target, '.active')
       .removeClass('active')
 
