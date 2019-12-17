@@ -4,13 +4,15 @@
 	"sources": [
 		"styles.scss",
 		"_sass/main.sass",
-		"_sass/cover.sass"
+		"_sass/cover.sass",
+		"_sass/_fonts.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n@import \"cover\";\n",
-		"body {\n  margin: 0; }\n* {\n  box-sizing: border-box; }\n\nh1, h2, h3, h4, h5, p {\n  margin: 0; }\n\n.section {\n  height: 35em;\n  width: 100%; }\n",
-		".cover {\n    align-items: center;\n    background-color: #261145;\n    color: #fff;\n    display: flex;\n    flex-flow: column;\n    height: 43em;\n    padding: 5em 3em 3em 3em;\n    width: 100%; }\n"
+		"@import \"main\";\n@import \"cover\";\n@import \"fonts\";\n",
+		"body {\n  color: #543462;\n  font-family: 'Roboto', sans-serif;\n  margin: 0; }\n\n* {\n  box-sizing: border-box; }\n\nh1, h2, h3, h4, h5, p {\n  font-family: 'Roboto', sans-serif;\n  margin: 0; }\n\na {\n  color: #ffffff;\n  text-decoration: none; }\n\n.navbar-fixed-top {\n  align-items: center;\n  display: flex;\n  justify-content: center;\n  padding: 1em 0;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  .logo {\n    background-image: url('../../assets/images/imagotype.svg');\n    background-position: 0 0;\n    background-repeat: no-repeat;\n    background-size: contain;\n    display: block;\n    height: 2.5em;\n    width: 2.5em; }\n  .page-scroll {\n    font-weight: 200;\n    margin: 0 1em; } }\n\n.section {\n  height: 35em;\n  width: 100%; }\n",
+		".cover {\n    align-items: center;\n    background-image: linear-gradient(to right, #51183d , #261145);\n    color: #fff;\n    display: flex;\n    flex-flow: column;\n    height: 43em;\n    padding: 5em 3em 3em 3em;\n    width: 100%;\n    .logo {\n        width: 50%; } }\n",
+		"@font-face {\n  font-family: \"Roboto\";\n  font-weight: 400;\n  font-style: normal;\n  src: url(\"../assets/fonts/Roboto-regular/Roboto-regular.eot\");\n  src: url(\"../assets/fonts/Roboto-regular/Roboto-regular.eot?#iefix\")\n      format(\"embedded-opentype\"),\n    local(\"Roboto\"), local(\"Roboto-regular\"),\n    url(\"../fonts/Roboto-regular/Roboto-regular.woff2\") format(\"woff2\"),\n    url(\"../fonts/Roboto-regular/Roboto-regular.woff\") format(\"woff\"),\n    url(\"../fonts/Roboto-regular/Roboto-regular.ttf\") format(\"truetype\"),\n    url(\"../assets/fonts/Roboto-regular/Roboto-regular.svg#Roboto\")\n      format(\"svg\");\n}\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,GAAG;;AACd,AAAA,CAAC,CAAC,EACA,UAAU,EAAE,UAAU,GAAG;;AAE3B,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,CAAC,EACpB,MAAM,EAAE,CAAC,GAAG;;AAEd,AAAA,QAAQ,CAAC,EACP,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,GAAG;;ACVhB,AAAA,MAAM,CAAC,EACH,WAAW,EAAE,MAAM,EACnB,gBAAgB,EAAE,OAAO,EACzB,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,IAAI,EACb,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,eAAe,EACxB,KAAK,EAAE,IAAI,GAAG"
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACH,KAAK,EAAE,OAAO,EACd,WAAW,EAAE,oBAAoB,EACjC,MAAM,EAAE,CAAC,GAAG;;AAEd,AAAA,CAAC,CAAC,EACA,UAAU,EAAE,UAAU,GAAG;;AAE3B,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,CAAC,EACpB,WAAW,EAAE,oBAAoB,EACjC,MAAM,EAAE,CAAC,GAAG;;AAEd,AAAA,CAAC,CAAC,EACA,KAAK,EAAE,OAAO,EACd,eAAe,EAAE,IAAI,GAAG;;AAE1B,AAAA,iBAAiB,CAAC,EAChB,WAAW,EAAE,MAAM,EACnB,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,EACvB,OAAO,EAAE,KAAK,EACd,QAAQ,EAAE,KAAK,EACf,GAAG,EAAE,CAAC,EACN,KAAK,EAAE,IAAI,GAWS;;AAlBtB,AAQE,iBARe,CAQf,KAAK,CAAC,EACJ,gBAAgB,EAAE,wCAAwC,EAC1D,mBAAmB,EAAE,GAAG,EACxB,iBAAiB,EAAE,SAAS,EAC5B,eAAe,EAAE,OAAO,EACxB,OAAO,EAAE,KAAK,EACd,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,KAAK,GAAG;;AAfnB,AAgBE,iBAhBe,CAgBf,YAAY,CAAC,EACX,WAAW,EAAE,GAAG,EAChB,MAAM,EAAE,KAAK,GAAG;;AAEpB,AAAA,QAAQ,CAAC,EACP,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,GAAG;;ACtChB,AAAA,MAAM,CAAC,EACH,WAAW,EAAE,MAAM,EACnB,gBAAgB,EAAE,2CAA4C,EAC9D,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,IAAI,EACb,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,eAAe,EACxB,KAAK,EAAE,IAAI,GAEQ;;AAVvB,AASI,MATE,CASF,KAAK,CAAC,EACF,KAAK,EAAE,GAAG,GAAG;;ACVrB,UAAU,GACR,WAAW,EAAE,QAAQ,EACrB,WAAW,EAAE,GAAG,EAChB,UAAU,EAAE,MAAM,EAClB,GAAG,EAAE,wDAAwD,EAC7D,GAAG,EAAE,+DAA+D,CAChE,2BAA2B,EAC7B,eAAe,EAAE,uBAAuB,EACxC,mDAAmD,CAAC,eAAe,EACnE,kDAAkD,CAAC,cAAc,EACjE,iDAAiD,CAAC,kBAAkB,EACpE,+DAA+D,CAC7D,aAAa"
 }

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-  {% include imports/js.html %} {% include imports/head.html %}
+  {% include imports/head.html %}
 
   <body>
-    {% include navigation.html %} {{ content }} {% include footer.html %}
+    {% include navigation.html %} {{ content }} {% include footer.html %} {%
+    include imports/js.html %}
   </body>
 </html>
