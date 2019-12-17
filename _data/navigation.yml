@@ -1,8 +1,16 @@
 - name: Home
-  link:
-- name: About
-  link: about
-- name: Blog
-  link: blog
+  link: cover
+- name: Welcome
+  link: welcome
 - name: Speakers
   link: speakers
+- name: Register
+  link: register
+- name: Training
+  link: training
+- name: Blog
+  link: blog
+- name: Contact
+  link: contact
+- name: Venue
+  link: venue

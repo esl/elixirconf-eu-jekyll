@@ -4,6 +4,8 @@ body { margin: 0; }
 
 h1, h2, h3, h4, h5, p { margin: 0; }
 
+.section { height: 35em; width: 100%; }
+
 .cover { align-items: center; background-color: #261145; color: #fff; display: flex; flex-flow: column; height: 43em; padding: 5em 3em 3em 3em; width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
