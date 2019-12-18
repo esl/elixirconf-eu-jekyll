@@ -1,6 +1,8 @@
 ---
 short_name: erikmeadous
-name: Erik Meadows-Jonsson
+pic_url: https://via.placeholder.com/150
+firstname: Erik
+lastname: Meadows-Jonsson
 position: Developer
 ---
 

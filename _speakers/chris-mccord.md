@@ -1,6 +1,8 @@
 ---
 short_name: chrismccord
-name: Chris McCord
+pic_url: https://via.placeholder.com/150
+firstname: Chris
+lastname: McCord
 position: Creator of phoenix
 ---
 

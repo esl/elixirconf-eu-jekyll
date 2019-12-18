@@ -62,12 +62,15 @@ a
 .btn-orange
   border: solid .1em #ee5a30
   color: #ee5a30
+
 .mb-1
   margin-bottom: 1em
 .mb-2
   margin-bottom: 2em
 .mb-3
   margin-bottom: 3.1em
+.w-100
+  width: 100%
 
 .section
   align-items: center
@@ -80,6 +83,13 @@ a
   width: 100%
   .title
     font-weight: 600
+    text-align: center
+    width: 100%
+  .section-text
+    color: #868688
+    font-style: italic
+    font-weight: 500
+    font-size: .9em
     text-align: center
     width: 100%
   hr
@@ -127,3 +137,36 @@ a
   font-family: 'Lato'
   font-size: 1.2em
   font-weight: 100
+
+.items-container
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  margin-top: 2em
+  width: 100%
+  .item
+    align-items: flex-start
+    background-color: #fff
+    color: #201042
+    display: flex
+    flex-flow: column
+    margin: 1em
+    width: 15em
+    .img
+      background-position: 0 0
+      background-repeat: no-repeat
+      background-size: cover
+      display: block
+      height: 13.5em
+      width: 100%
+    .item-name
+      font-size: 1.2em
+      line-height: 1.45em !important
+      margin: 1em 1em .8em 1em
+    .item-position
+      color: #868688
+      font-style: italic
+      font-weight: 500
+      font-size: .8em
+      text-align: center
+      margin: 0 1em 1em 1.45em
