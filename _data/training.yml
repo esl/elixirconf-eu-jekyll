@@ -1,0 +1,21 @@
+- from: 11.30
+  to: 12.30
+  type: training
+  training_1: Ship your code while its hot!
+  training_1_instructor: Ian Duggan
+  training_2: Knee deep into P2P
+  training_2_instructor: Evadne Wu
+- from: 12.30
+  to: 1.30
+  type: training
+  training_1: Ship your code while its hot!
+  training_1_instructor: Ian Duggan
+  training_2: Knee deep into P2P
+  training_2_instructor: Evadne Wu
+- from: 2.30
+  to: 3.30
+  type: Lunch
+  training_1: Lunch
+  training_1_instructor:
+  training_2: Lunch
+  training_2_instructor:

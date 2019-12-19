@@ -1,0 +1,10 @@
+<nav class="navbar-fixed-top">
+  <a href="#cover" class="logo"></a>
+  <ul class="nav">
+    {% for item in site.data.navigation %}
+    <li>
+      <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

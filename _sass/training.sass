@@ -1,0 +1,44 @@
+.training
+  background-color: #f3f7f8
+  .table-container
+    display: flex
+    flex-flow: column
+    width: 100%
+    .table-item
+      display: flex
+      height: 6em
+      width: 100%
+      &:nth-child(odd)
+        background-color: #ee5b30
+      &:nth-child(even)
+        background-color: #ee522f
+      .item-col
+        align-items: center
+        display: flex
+        flex-flow: column
+        flex-grow: 1
+        justify-content: center
+        height: 100%
+        width: 33%
+      .item-hours
+        color: #ffffff
+        font-weight: 500
+        font-size: 1.2em
+      .item-training
+        align-items: flex-start
+        background-color: #fff
+        border-right: solid #f3f7f8 .1em
+        border-bottom: dashed #f3f7f8 .1em
+        color: #161616
+        padding: 1em 3em
+        .item-title
+          font-family: 'Montserrat', sans-serif !important
+          font-size: 1.2em
+          font-weight: 600
+          line-height: 1.2em !important
+        .item-trainer
+          color: #868688
+          font-style: italic
+          font-weight: 500
+          font-size: .9em
+          text-align: center
