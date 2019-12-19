@@ -1,28 +1,32 @@
----
-layout: default
-title: Blog
----
-
 <div class="section blog" id="blog">
     <h1 class="title">OUR BLOG</h1>
-    <hr>
+    <hr/>
     <p class="section-text">
         Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac
-        ante ipsum primis
+                                                                            ante ipsum primis
     </p>
     <div class="posts-container">
         {% for post in site.posts %}
-        <div class="post-item">
-            <a href="{{ post.url }}">
+            <div class="post-item">
                 <div class="img"></div>
-                <h2>
+                <h2 class="post-title">
                     {{ post.title }}
-            </a>
-            </h2>
-            </a>
-            <p>{{ post.excerpt }}</p>
-        </div>
+                </h2>
+                <p class="post-item-tags">tags</p>
+                <div class="item-container">
+                    <div class="item-left">
+                        <div class="item-date">
+                            <p class="date-day">26</p>
+                            <p class="date-month">May</p>
+                        </div>
+                        <div class="item-hour">15:32</div>
+                    </div>
+                    <div class="item-right">
+                        {{ post.excerpt }}
+                        <a class="btn-more" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
         {% endfor %}
     </div>
-
 </div>
