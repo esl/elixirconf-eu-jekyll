@@ -1,1 +1,27 @@
-<div id="blog" class="section"></div>
+---
+layout: default
+title: Blog
+---
+
+<div class="section blog" id="blog">
+    <h1 class="title">OUR BLOG</h1>
+    <hr>
+    <p class="section-text">
+        Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac
+                                        ante ipsum primis
+    </p>
+    <div class="posts-container">
+        {% for post in site.posts %}
+            <div class="post-item">
+                <a href="{{ post.url }}">
+                <div class="img"></div>
+                <h2>
+                    {{ post.title }}</a>
+                </h2>
+                </a>
+                <p>{{ post.excerpt }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>
