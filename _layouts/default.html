@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
-  {% include imports/head.html %}
+    {% include imports/head.html %}
 
-  <body>
-    {% include navigation.html %} {{ content }} {% include footer.html %} {%
+    <body>
+        <div class="page-loader" id="page-loader">
+            <span class="load-icon"></span>
+        </div>
+        {% include navigation.html %}
+        {{ content }}
+        {% include footer.html %}
+        {%
     include imports/js.html %}
-  </body>
+    </body>
 </html>

@@ -1,6 +1,7 @@
 ---
 ---
 
+@import "global";
 @import "main";
 @import "cover";
 @import "banners";
@@ -12,3 +13,8 @@
 @import "contact";
 @import "venue";
 @import "footer";
+
+@import "_animations";
+@import "_owl-carousel";
+@import "_font-7-stroke";
+@import "_flaticon-social-icons";
