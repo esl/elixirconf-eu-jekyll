@@ -1,6 +1,12 @@
 $primary: blue;
-$light-blue: #294d6f;
+$light-blue: #543462;
 $white: #fff;
+
+a {
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
 
 .page-loader {
   display: block;
@@ -36,7 +42,7 @@ $white: #fff;
   content: "";
   display: block;
   position: absolute;
-  background: rgba(33, 194, 248, 0.2);
+  background: rgba(151, 33, 248, 0.2);
   width: 100%;
   height: 100%;
   -webkit-border-radius: 50%;
