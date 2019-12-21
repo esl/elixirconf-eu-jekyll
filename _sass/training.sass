@@ -1,13 +1,19 @@
 .training
   background-color: #f3f7f8
+  overflow-x: hidden
   .table-container
     display: flex
     flex-flow: column
     width: 100%
+    @media only screen and (max-width: 1112px)
+      scrollbar-width: thin
+      overflow-x: scroll
     .table-item
       display: flex
       height: 6em
       width: 100%
+      @media only screen and (max-width: 1112px)
+        min-width: 759px
       &:nth-child(odd)
         background-color: #ee5b30
       &:nth-child(even)
@@ -36,6 +42,8 @@
           font-size: 1.2em
           font-weight: 600
           line-height: 1.2em !important
+          @media only screen and (max-width: 1112px)
+            font-size: 1em
         .item-trainer
           color: #868688
           font-style: italic

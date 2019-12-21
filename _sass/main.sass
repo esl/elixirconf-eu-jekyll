@@ -1,7 +1,24 @@
-body
-  color: #543462
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
   font-family: 'Montserrat', sans-serif
   margin: 0
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
 
 *
   box-sizing: border-box
@@ -11,7 +28,7 @@ h1, h2, h3, h4, h5
   margin: 0
 
 p
-  font-family: "Lato", Arial, sans-serif
+  font-family: "Karla", Arial, sans-serif
   font-size: 16px
   font-weight: normal
   letter-spacing: 0.08rem
@@ -29,6 +46,13 @@ a
   position: fixed
   top: 0
   width: 100%
+  z-index: 9
+  @media only screen and (max-width: 1112px)
+    overflow-x: scroll
+    padding: 1em 2em
+    scrollbar-width: thin
+    .nav
+      width: 90%
   .logo
     background-image: url('../../assets/images/imagotype.svg')
     background-position: 0 0
@@ -88,8 +112,13 @@ a
   justify-content: center
   padding: 6em 3em
   width: 100%
+  @media only screen and (max-width: 1112px)
+    padding: 2em 1em
   .title
+    color: #553265
+    font-size: 2em
     font-weight: 600
+    letter-spacing: .1em
     text-align: center
     width: 100%
   .section-text
@@ -114,15 +143,24 @@ a
     @media screen and (max-width: 900px)
       flex-wrap: wrap
       justify-content: center
+      text-align: center
     .left-content
       padding: 1em
       width: 50%
       @media screen and (max-width: 900px)
+        align-items: center
+        display: flex
+        justify-content: center
+        flex-flow: column
         width: 100%
     .right-content
       padding: 1em
       width: 50%
       @media screen and (max-width: 900px)
+        align-items: center
+        display: flex
+        justify-content: center
+        flex-flow: column
         width: 100%
 
 .text-title
@@ -147,7 +185,7 @@ a
 
 .items-container
   display: flex
-  justify-content: space-between
+  justify-content: center
   flex-wrap: wrap
   margin-top: 2em
   width: 100%
@@ -159,7 +197,9 @@ a
     flex-flow: column
     margin: 1em
     transition: box-shadow 150ms linear
-    width: 15em
+    width: 18em
+    @media screen and (max-width: 580px)
+      width: 100%
     .img
       background-position: 0 0
       background-repeat: no-repeat
@@ -167,6 +207,8 @@ a
       display: block
       height: 13.5em
       width: 100%
+      @media screen and (max-width: 580px)
+        height: 18.5em
       i
         display: none
     .item-name

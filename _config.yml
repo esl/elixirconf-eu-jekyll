@@ -54,5 +54,20 @@ defaults:
     values:
       layout: "default"
 
+# Google Map JS api
+# This is my api for this template
+key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
+map-text: Hilton Warsaw Hotel and Convention Centre
+map-text-location: Grzybowska 63, 00-844 Warszawa, Poland
+map-lat: 52.2335221
+map-lng: 20.9836819
+
+# Enter your Mailchimp User ID and Campaign ID
+# @TODO: Add in a link for where to find these
+mailchimp:
+  user-id: REPLACEME
+  list-id: REPLACEME
+
+
 
 
