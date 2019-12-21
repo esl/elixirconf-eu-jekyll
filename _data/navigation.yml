@@ -8,8 +8,8 @@
   link: "register"
 - name: Training
   link: "training"
-- name: Blog
-  link: "blog"
+# - name: Blog
+#   link: "blog"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
