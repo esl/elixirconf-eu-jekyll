@@ -1,16 +1,33 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+{% include imports/head.html %}
 
-<h1>{{ page.name }}</h1>
-<h2>{{ page.position }}</h2>
+<body>
+  </div>
+  {% include navigation_2.html %}
+  <div class="speaker-content">
+    <div class="speaker-card">
+      <div class="speaker-head">
+        <div class="img" style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ page.pic_url }}');"></div>
+        <div class="speaker-col">
+          <h2 class="speaker-name">
+            {{ page.firstname }}
+            {{ page.lastname }}
+          </h2>
+          <h4 class="speaker-position">{{ page.position }}</h4>
+          <h4 class="speaker-desc">{{ page.description }}</h4>
+        </div>
+      </div>
+    </div>
 
-{{ content }}
+    
+    
+    {{ page.training }}
+    {{ page.github }}
+    {{ page.twitter }}
+  </div>
+  {% include footer.html %}
+  {% include imports/js.html %}
+</body>
 
-<h2>Posts</h2>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'speaker', page.short_name %}
-  {% for post in filtered_posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+</html>
