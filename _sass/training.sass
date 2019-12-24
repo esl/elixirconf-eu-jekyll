@@ -6,14 +6,16 @@
     flex-flow: column
     width: 100%
     @media only screen and (max-width: 1112px)
-      scrollbar-width: thin
-      overflow-x: scroll
+      // scrollbar-width: thin
+      // overflow-x: scroll
     .table-item
       display: flex
       height: 6em
       width: 100%
-      @media only screen and (max-width: 1112px)
-        min-width: 759px
+      @media only screen and (max-width: 800px)
+        height: auto
+        flex-wrap: wrap
+        // min-width: 759px
       &:nth-child(odd)
         background-color: #ee5b30
       &:nth-child(even)
@@ -26,6 +28,8 @@
         justify-content: center
         height: 100%
         width: 33%
+        @media only screen and (max-width: 800px)
+          width: 100%
       .item-hours
         color: #ffffff
         font-weight: 500
@@ -37,6 +41,8 @@
         border-bottom: dashed #f3f7f8 .1em
         color: #161616
         padding: 1em 3em
+        @media only screen and (max-width: 800px)
+          align-items: center
         .item-title
           font-family: 'Montserrat', sans-serif !important
           font-size: 1.2em

@@ -1,5 +1,6 @@
 
 .navbar-speaker
+    background: #4b295c
     .nav
         width: 80%
 .speaker-content
@@ -10,12 +11,19 @@
     justify-content: cener
     padding: 5em 3em
     width: 100%
+    @media only screen and (max-width: 1112px)
+        padding: 5em 1em
     .speaker-card
         background-color: #fff
         width: 80%
         padding: 2em
+        @media only screen and (max-width: 1112px)
+            padding: 1em
+            width: 100%
         .speaker-head
+            align-items: center
             display: flex
+            flex-flow: column
             .img
                 display: block
                 background-position: center
@@ -26,4 +34,49 @@
                 width: 12em
                 min-width: 12em
             .speaker-col
+                align-items: center
+                display: flex
+                flex-flow: column
+                justify-content: center
                 padding: 1em
+                .speaker-name
+                    font-size: 1.2em
+                    line-height: 1.45em !important
+                    margin: 1em 1em .8em 1em
+                    text-align: center
+                .speaker-position
+                    color: #868688
+                    font-style: italic
+                    font-weight: 500
+                    font-size: .8em
+                    text-align: center
+                    margin: 0 1em 1em 1.45em
+                .speaker-social
+                    a
+                        color: #333333
+                        font-size: 1.8em
+                .speaker-desc
+                    color: #868688
+                    font-weight: 500
+                    font-size: 1em
+                    text-align: center
+                    margin: 1.5em 1em 1em 1em
+                    width: 80%
+                    @media only screen and (max-width: 1112px)
+                        width: 100%
+                .training-title
+                    color: #553265
+                    font-size: 2em
+                    font-weight: 600
+                    letter-spacing: .1em
+                    text-align: center
+                    text-transform: uppercase
+                    width: 100%
+                .speaker-training
+                    color: #553363
+                    font-family: 'Montserrat', sans-serif !important
+                    font-size: 1.2em
+                    font-weight: 600
+                    line-height: 1.45em !important
+                    margin: 0 1em 1em 1em
+                    text-align: center
