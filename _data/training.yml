@@ -1,19 +1,19 @@
-- from: 11.30
-  to: 12.30
+- from: 11.30 AM
+  to: 12.30 PM
   type: training
   training_1: Ship your code while its hot!
   training_1_instructor: Ian Duggan
   training_2: Knee deep into P2P
   training_2_instructor: Evadne Wu
-- from: 12.30
-  to: 1.30
+- from: 12.30 PM
+  to: 1.30 PM
   type: training
   training_1: Ship your code while its hot!
   training_1_instructor: Ian Duggan
   training_2: Knee deep into P2P
   training_2_instructor: Evadne Wu
-- from: 2.30
-  to: 3.30
+- from: 2.30 PM
+  to: 3.30 PM
   type: Lunch
   training_1: Lunch
   training_1_instructor:

@@ -7,7 +7,7 @@
   </p>
   <div class="items-container">
     {% for speaker in site.speakers %}
-    <a href="{{ speaker.url }}" class="item">
+    <a href="{{site.baseurl}}{{ speaker.url }}" class="item">
       <div class="img" style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ speaker.pic_url }}');">
         <i class="fa fa-plus-circle"></i>
       </div>
