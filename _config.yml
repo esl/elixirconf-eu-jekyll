@@ -46,6 +46,11 @@ defaults:
       layout: "speaker"
   - scope:
       path: ""
+      type: "trainings"
+    values:
+      layout: "training"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
