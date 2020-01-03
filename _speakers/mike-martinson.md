@@ -1,5 +1,5 @@
 ---
-short_name: mike
+short_name: mikem-martinson
 pic_url: mikem_martinson.jpg
 firstname: Mike
 lastname: Martinson

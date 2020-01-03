@@ -1,5 +1,5 @@
 ---
-short_name: shankar
+short_name: shankar-dhanasekaran
 pic_url: shankar_dhanasekaran.jpg
 firstname: Shankar
 lastname: Dhanasekaran

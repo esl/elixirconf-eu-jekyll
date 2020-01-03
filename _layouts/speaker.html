@@ -20,13 +20,12 @@
             <a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i></a>
           </div>
           <h4 class="speaker-desc">{{ page.description }}</h4>
-          <h4 class="speaker-training">Training: <br>{{ page.training }}</h4>
-          --
+          <h4 class="speaker-training">Training: <br>
           {% assign filtered_trainings = site.trainings | where: 'speaker', page.short_name %} {%
             for training in filtered_trainings %}
-          <li><a href="{{site.baseurl}}{{ training.url }}">{{ training.speaker }}</a></li>
+          <a href="{{site.baseurl}}{{ training.url }}">{{ page.training }}
           {% endfor %}
-            --
+         </h4>
         </div>
       </div>
     </div>
