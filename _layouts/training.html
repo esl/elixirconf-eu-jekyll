@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+{% include imports/head.html %}
+
+<body>
+    </div>
+    {% include navigation_2.html %}
+    <div class="speaker-content">
+        <div class="speaker-card">
+            <div class="speaker-head">
+                <div class="img"
+                    style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ page.pic_url }}');"></div>
+                <div class="speaker-col">
+                    <h2 class="speaker-name">
+                        {{ page.firstname }}
+                        {{ page.lastname }}
+                    </h2>
+                    <h4 class="speaker-position">{{ page.position }}</h4>
+                    <div class="speaker-social">
+                        <a href="https://github.com/{{ page.github }}"><i class="fa fa-github"></i></a>
+                        <a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <h4 class="speaker-desc">{{ page.description }}</h4>
+                    <h4 class="speaker-training">Training: <br>{{ page.training }}</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {% include footer.html %}
+    {% include imports/js.html %}
+</body>
+
+</html>
