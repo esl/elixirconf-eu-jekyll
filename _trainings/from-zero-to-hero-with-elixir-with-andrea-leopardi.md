@@ -1,7 +1,7 @@
 ---
-speaker: eric-meadows
-trainer: Eric Meadows-Jönsson
-trainer2: Andrea Leopardi
+speaker: andrea-leopardi
+trainer: Andrea Leopardi
+trainer2: Eric Meadows-Jönsson
 event_date: 28 April
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
 summary:

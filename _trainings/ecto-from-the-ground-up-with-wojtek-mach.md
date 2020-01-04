@@ -1,6 +1,6 @@
 ---
-speaker: darin-wilson
-trainer: Darin Wilson
+speaker: wojtek-mach
+trainer: Wojtek Mach
 event_date: 28 April
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
 summary:

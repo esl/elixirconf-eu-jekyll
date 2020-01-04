@@ -1,6 +1,6 @@
 ---
-speaker: tam-kbeili
-trainer: Tam Kbeili
+speaker: mike-martinson
+trainer: Mike Martinson
 trainer2: Mike Martinson
 event_date: 28 April
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa

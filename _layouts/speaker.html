@@ -23,7 +23,7 @@
           <h4 class="speaker-training">Training: <br>
           {% assign filtered_trainings = site.trainings | where: 'speaker', page.short_name %} {%
             for training in filtered_trainings %}
-          <a href="{{site.baseurl}}{{ training.url }}">{{ page.training }}
+          <a href="{{site.baseurl}}{{ training.url }}">{{ page.training }}</a>
           {% endfor %}
          </h4>
         </div>
