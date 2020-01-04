@@ -5,27 +5,24 @@
 <body>
     </div>
     {% include navigation_2.html %}
-    <div class="speaker-content">
-        <div class="speaker-card">
-            <div class="speaker-head">
-                <div class="img"
-                    style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ page.pic_url }}');"></div>
-                <div class="speaker-col">
-                    <h2 class="speaker-name">
-                        {{ page.firstname }}
-                        {{ page.lastname }}
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">   
+                    <h2 class="training-name">
+                        {{ page.title }}
                     </h2>
-                    <h4 class="speaker-position">{{ page.position }}</h4>
-                    <div class="speaker-social">
-                        <a href="https://github.com/{{ page.github }}"><i class="fa fa-github"></i></a>
-                        <a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i></a>
-                    </div>
-                    <h4 class="speaker-desc">{{ page.description }}</h4>
-                    <h4 class="speaker-training">Training: <br>{{ page.training }}</h4>
+                    <h4 class="training-info"><strong>Trainer:</strong> <a href="{{site.baseurl}}/speakers/{{ page.speaker }}">{{ page.trainer }}</a></h4>
+                    <h4 class="training-info"><strong>Date:</strong> {{ page.event_date }}</h4>
+                    <h4 class="training-info"><strong>Venue:</strong> {{ page.venue }}</h4>
+                    <h4 class="training-info"><strong>Summary:</strong> {{ page.description }}</h4>
+                    <h4 class="training-info"><strong>Description:</strong> {{ page.description }} <br>
+                    <h4 class="training-info"><strong>Experience level:</strong> {{ page.experience }} <br>
+                       
+                    </h4>
                 </div>
             </div>
         </div>
-
     </div>
     {% include footer.html %}
     {% include imports/js.html %}

@@ -1,5 +1,5 @@
 ---
-short_name: erikmeadous
+short_name: eric-meadows
 pic_url: eric-meadows-jonsson.jpg
 firstname: Eric
 lastname: Meadows-Jonsson

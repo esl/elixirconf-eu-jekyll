@@ -1,5 +1,5 @@
 ---
-short_name: benmarx
+short_name: ben-marx
 pic_url: ben-marx.jpg
 firstname: Ben
 lastname: Marx

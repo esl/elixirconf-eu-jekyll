@@ -1,5 +1,5 @@
 ---
-short_name: chrismccord
+short_name: chris-mccord
 pic_url: chris_mccord.jpg
 firstname: Chris
 lastname: McCord

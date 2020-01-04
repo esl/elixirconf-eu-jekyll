@@ -1,5 +1,5 @@
 ---
-short_name: wojtek
+short_name: wojtek-mach
 pic_url: wojtek.jpg
 firstname: Wojtek
 lastname: Mach
