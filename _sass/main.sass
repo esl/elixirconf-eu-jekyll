@@ -50,11 +50,30 @@ a
   width: 100%
   z-index: 9
   @media only screen and (max-width: 1112px)
-    overflow-x: scroll
-    padding: 1em 2em
-    scrollbar-width: thin
+    justify-content: space-between
+    flex-wrap: wrap
+    padding: 1em 0
     .nav
-      width: 90%
+      display: none !important
+      margin-top: 1em
+      width: 100%
+      li
+        height: 3.5em
+        width: 100%
+        a
+          align-items: center
+          background-color: #fff
+          border-bottom: solid .01em #efefef
+          display: flex
+          flex-grow: 1
+          height: 100%
+          margin: 0
+          padding: .2em 1em 0 1em
+          width: 100%
+    .active
+      display: flex !important
+      flex-wrap: wrap
+
   .logo
     background-image: url('../../assets/images/imagotype.svg')
     background-position: 0 0
@@ -63,12 +82,18 @@ a
     display: block
     height: 2em
     width: 2em
+    @media only screen and (max-width: 1112px)
+      margin-left: 2em
   .nav
     display: flex
     li
       list-style-type: none
       a
         padding-bottom: .5em
+    .current-menu-item
+      a
+        @media only screen and (max-width: 1112px)
+          background-color: #f9f9f9 !important
   .page-scroll
     font-weight: 200
     margin: 0 1em
@@ -76,6 +101,10 @@ a
     a
       color: #ee5a30
       border-bottom: solid .1em #ee5a30
+      @media only screen and (max-width: 1112px)
+        border: none
+        color: #5e5e5e
+
 .navbar-shrink
   background: #4b295c
 
@@ -244,3 +273,11 @@ a
           color: #ffffff
           display: block
           font-size: 2.8em
+
+.toggle-menu
+  color: #ffffff
+  cursor: pointer
+  display: none
+  @media only screen and (max-width: 1112px)
+    margin-right: 2em
+    display: block

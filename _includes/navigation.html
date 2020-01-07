@@ -1,10 +1,16 @@
-<nav class="navbar-fixed-top">
-  <a href="#cover" class="logo"></a>
-  <ul class="nav">
-    {% for item in site.data.navigation %}
-    <li>
-      <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+<nav class="navbar-fixed-top nav-menu" id="navMenu">
+    <a class="logo" href="#cover"></a>
+    <div class="toggle-menu">
+        <!-- Burger -->
+        <div class="navTrigger">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+    <ul class="nav navigation-bar">
+        {% for item in site.data.navigation %}
+            <li>
+                <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 </nav>
