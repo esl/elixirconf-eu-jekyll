@@ -40,7 +40,6 @@
 
     // Navigation Menu Link
     $nav_menu_link.on("click", function() {
-      console.log("I was clicked");
       // Select Current Navigation Item
       $nav_menu_link.parent().removeClass("current-menu-item");
       $(this)
