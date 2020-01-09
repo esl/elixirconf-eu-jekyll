@@ -31,7 +31,8 @@ p
   font-family: "Karla", Arial, sans-serif
   font-size: 16px
   font-weight: normal
-  letter-spacing: 0.08rem
+  line-height: 1.5em
+  letter-spacing: 0.03rem
   color: #5e5e5e
 
 a
@@ -223,6 +224,7 @@ a
   .item
     align-items: flex-start
     background-color: #fff
+    border-radius: .5em
     color: #201042
     display: flex
     flex-flow: column
@@ -235,29 +237,33 @@ a
       background-position: 0 0
       background-repeat: no-repeat
       background-size: cover
+      border-radius: 50%
       display: block
-      height: 17.5em
-      width: 100%
+      height: 14em
+      margin: 2em auto 1em auto
+      width: 14em
       @media screen and (max-width: 580px)
-        height: 18.5em
+        height: 14em
       i
         display: none
     .item-name
-      font-size: 1.2em
+      color: #ee5a30
+      font-size: 1.35em
       line-height: 1.45em !important
+      font-weight: 500
       margin: 1em 1em .8em 1em
     .item-position
       color: #868688
       font-style: italic
       font-weight: 500
-      font-size: .8em
+      font-size: 1em
       text-align: left
       margin: 0 1em 1em 1.45em
     .item-training
       color: #553363
       font-family: 'Montserrat', sans-serif !important
       font-size: 1.2em
-      font-weight: 600
+      font-weight: 500
       line-height: 1.45em !important
       margin: 0 1em 1em 1em
     &:hover

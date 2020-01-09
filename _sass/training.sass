@@ -33,7 +33,9 @@
       .item-hours
         color: #ffffff
         font-weight: 500
+        font-family: 'Montserrat', sans-serif
         font-size: 1.2em
+        padding: 1em 0
       .item-training
         align-items: flex-start
         background-color: #fff
@@ -44,17 +46,21 @@
         @media only screen and (max-width: 800px)
           align-items: center
         .item-title
+          color: #553363
+          cursor: pointer
           font-family: 'Montserrat', sans-serif !important
           font-size: 1.2em
-          font-weight: 600
-          line-height: 1.2em !important
+          font-weight: 500
+          line-height: 1.45em !important
+          &:hover
+            color: #331f3c
           @media only screen and (max-width: 1112px)
-            font-size: 1em
+            font-size: 1.2em
         .item-trainer
-          color: #868688
+          color: #ee5a30
           font-style: italic
           font-weight: 500
-          font-size: .9em
+          font-size: 1.1em
           text-align: center
 
 .training-content
