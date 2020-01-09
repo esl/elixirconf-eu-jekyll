@@ -1,6 +1,7 @@
 ---
 label: speaker
-hide_body: false
+hide_body: true
+display_field: short_name
 fields:
 - type: text
   name: short_name
