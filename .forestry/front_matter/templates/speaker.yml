@@ -1,0 +1,28 @@
+---
+label: speaker
+hide_body: true
+fields:
+- type: text
+  name: short_name
+  label: short_name
+- type: file
+  name: pic_url
+  label: pic_url
+- type: text
+  name: firstname
+  label: firstname
+- type: text
+  name: lastname
+  label: lastname
+- type: text
+  name: position
+  label: position
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: github
+  label: github
+- type: text
+  name: twitter
+  label: twitter
