@@ -20,6 +20,8 @@ sections:
   label: Speakers
   create: all
   match: "**/*"
+  templates:
+  - speaker
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
