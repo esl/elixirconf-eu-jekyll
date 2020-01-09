@@ -1,0 +1,34 @@
+---
+label: Training
+hide_body: true
+fields:
+- type: text
+  name: speaker
+  label: speaker
+- type: text
+  name: trainer
+  label: trainer
+- type: text
+  name: event_date
+  label: event_date
+- type: text
+  name: venue
+  label: venue
+- type: text
+  name: summary
+  label: summary
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: experience
+  label: experience
+- type: text
+  name: from
+  label: from
+- type: text
+  name: to
+  label: to
+- type: text
+  name: type
+  label: type
