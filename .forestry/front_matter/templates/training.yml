@@ -1,6 +1,7 @@
 ---
 label: Training
-hide_body: true
+hide_body: false
+display_field: speaker
 fields:
 - type: text
   name: speaker
