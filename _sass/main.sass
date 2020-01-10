@@ -122,9 +122,38 @@ a
   letter-spacing: .16em
   padding: .5em 2.7em
 
+.btn-purple
+  &:hover
+    background-color: #fff
+    color: #543465
+
+.btn-blue
+  &:hover
+    background-color: #ffffff
+    color: #2f5677
+
 .btn-orange
   border: solid .1em #ee5a30
   color: #ee5a30
+  &:hover
+    background-color: #ee5a30
+    color: #fff
+
+.btn-orange-hover-white
+  &:hover
+    background-color: #ffffff
+    color: #ee5a30
+
+.btn-grey
+  &:hover
+    background-color: #ffffff
+    color: #323333
+
+.ml-1
+  @media only screen and (min-width: 981px)
+    margin-left: 1em
+  @media only screen and (max-width: 980px)
+    margin-left: 0
 
 .mb-1
   margin-bottom: 1em
@@ -186,7 +215,7 @@ a
         flex-flow: column
         width: 100%
     .right-content
-      padding: 1em
+      padding: .6em 1em
       width: 50%
       @media screen and (max-width: 900px)
         align-items: center
@@ -212,7 +241,7 @@ a
   color: #17222b
   letter-spacing: .1em
   font-family: 'Lato'
-  font-size: 1.2em
+  font-size: 1em
   font-weight: 100
 
 .items-container
@@ -287,3 +316,10 @@ a
   @media only screen and (max-width: 1112px)
     margin-right: 2em
     display: block
+
+.flex-end
+  display: flex
+  justify-content: flex-end
+
+.align-center
+  align-items: center
