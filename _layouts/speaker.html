@@ -19,7 +19,7 @@
             <a href="https://github.com/{{ page.github }}"><i class="fa fa-github"></i></a>
             <a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i></a>
           </div>
-          <h4 class="speaker-desc">{{ page.description }}</h4>
+          <p class="speaker-desc">{{ page.description }}</p>
           <h4 class="speaker-training">Training: <br>
           {% assign filtered_trainings = site.trainings | where: 'speaker', page.short_name %} {%
             for training in filtered_trainings %}

@@ -4,6 +4,8 @@
   link: "welcome"
 - name: Speakers
   link: "speakers"
+- name: Trainers
+  link: "trainers"
 - name: Register
   link: "register"
 - name: Training
