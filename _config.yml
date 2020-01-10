@@ -37,6 +37,8 @@ permalink: pretty
 collections:
   speakers:
     output: true
+  trainers:
+    output: true
   trainings:
     output: true
 

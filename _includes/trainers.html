@@ -1,0 +1,24 @@
+<div id="trainers" class="section speakers">
+  <h1 class="title">TRAINERS</h1>
+  <hr />
+  <div class="items-container">
+    {% for trainer in site.trainers %}
+    <a href="{{site.baseurl}}{{ trainer.url }}" class="item">
+      <div
+        class="img"
+        style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ trainer.pic_url }}');"
+      >
+        <i class="fa fa-plus-circle"></i>
+      </div>
+      <h4 class="item-name">
+        {{ trainer.firstname }} <br />
+        {{trainer.lastname}}
+      </h4>
+      <p class="item-position">{{ trainer.position }}</p>
+      {% if trainer.training %}
+      <p class="item-training">Training: {{ trainer.training }}</p>
+      {% endif%}
+    </a>
+    {% endfor %}
+  </div>
+</div>
