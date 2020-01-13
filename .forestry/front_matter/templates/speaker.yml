@@ -27,3 +27,5 @@ fields:
 - type: text
   name: twitter
   label: twitter
+pages:
+- _speakers/Testi.md
