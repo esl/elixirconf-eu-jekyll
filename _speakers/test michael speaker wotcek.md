@@ -7,6 +7,5 @@ position: Dev
 description: test description here
 github: ''
 twitter: ''
-published: false
 
 ---
