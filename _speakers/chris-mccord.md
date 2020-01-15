@@ -17,8 +17,6 @@ description: |+
 
 github: chrismccord
 twitter: chris_mccord
+---ljjjk
 
----
-ljjjk
-
-* ![](/assets/images/speakers/ju-lui.png)
+- ![](/assets/images/speakers/ju-lui.png)
