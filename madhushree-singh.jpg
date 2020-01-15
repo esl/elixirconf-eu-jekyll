@@ -1,0 +1,15 @@
+---
+short_name: madhushree-singh
+pic_url: madhushree-singh.jpg
+firstname: Madhushree
+lastname: Singh
+position: One World, One Life
+talk: Building a minesweeper game from scratch
+abstract: This talk is not only about building the game Minesweeper from scratch but also to make coding with Elixir a fun experience.
+ 
+ For a newbie, functional programming can get quite challenging. So, to make things enjoyable, I will use Phoenix LiveView interestingly and build a game in under 40 minutes. I will also talk about the difficulties I encountered while adopting Elixir, how I overcame it utilising various resources and talk about where to look for some tips and tricks.
+audience: Beginner
+bio: A Software Developer who's journey began as a Java developer followed by a QA Engineer and then an Elixir Developer. Having finished my Master's in Software Engineering, I love exploring new technologies and utilising them both in my personal and professional life. When I am not coding, I am usually travelling, relaxing or socialising.
+twitter: LinkedIn: https://ee.linkedin.com/in/madhushreesingh
+github: https://github.com/SnowDeveloper
+---
