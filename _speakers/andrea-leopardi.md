@@ -1,11 +1,13 @@
 ---
 short_name: andrea-leopardi
-pic_url: Andrea_Leopardi.jpg
+pic_url: andrea-leopardi.jpg
 firstname: Andrea
 lastname: Leopardi
-position: Elixir Core Team Member
-training: From Zero To Hero With Elixir
-description: Andrea is a programming enthusiast with a soft spot for functional programming and beautiful code. He loves learning new stuff. He strongly believes in accessible culture and education and in open-source software. He is active in the Elixir community and uses Elixir almost exclusively for work purposes.
-github: whatyouhide
+position: Elixir core team member
+talk: Mint - Disrupting HTTP clients
+abstract: Mint is a young HTTP/1 and HTTP/2 client for Elixir that aims at disrupting the status quo of HTTP clients for Erlang and Elixir. Mint is built on the idea of having a functional, data-centric client that is not backed up by a process and doesn't impose a process architecture on its users. In this talk, we'll discuss the ideas behind Mint's design and get a feel of how Mint works. We'll spend some time exploring how the low-level interface that Mint provides lets us build different abstractions on top of it that are suited for different situations. We'll see the future of Mint and what abstractions it will enable.
+audience: Intermediate
+bio: Andrea is a human born in the ancient lands of central Italy. He loves functional programming, beautiful code, and learning stuff. He's a software architect, speaker, and member of the core team of the Elixir programming language. His weak spot is having red hair.
 twitter: whatyouhide
+github: whatyouhide
 ---
