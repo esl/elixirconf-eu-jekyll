@@ -1,6 +1,6 @@
 ---
 short_name: Ju-Liu
-pic_url: Andrea_Leopardi.jpg
+pic_url: ju-lui.png
 firstname: Ju
 lastname: Liu
 position: Software Engineer and Troublemaker
