@@ -1,7 +1,7 @@
 ---
 short_name: andre-albuquerque
 pic_url: andre-albuquerque.jpg
-firstname: André
+firstname: Andre
 lastname: Albuquerque
 position: Keyboard builder, author and Interceptor creator
 talk: Elixir + Nerves + keys = Elixir keyboard!
