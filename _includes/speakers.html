@@ -19,6 +19,8 @@
                     </h4>
                 </a>
                 <p class="item-position">{{ speaker.position }}</p>
+                <p class="item-training">Talk:
+                    {{ speaker.talk }}</p>
                 {% assign filtered_trainings = site.trainings | where: 'speaker', speaker.short_name %}
                 {% for training in filtered_trainings %}
                     <a href="{{site.baseurl}}{{ training.url }}">
