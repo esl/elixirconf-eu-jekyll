@@ -23,16 +23,21 @@
                   <a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i></a>
             {% endif %}
           </div>
-          <p class="speaker-desc">{{ page.bio }}</p>
-          <p class="speaker-talk"><strong>Talk:</strong> {{ page.talk }}</p>
-          <p class="speaker-talk"><strong>Audience:</strong> {{ page.audience }}</p>
-          <p class="speaker-desc mt-0">{{ page.abstract }}</p>
+          <p class="speaker-desc">{{ page.bio }}</p>          
+          {% assign filtered_talks = site.talks | where: 'speaker', page.short_name %}
+          {% for talk in filtered_talks %}
+            <h4 class="speaker-training">Talk: <br>
+              <a href="{{site.baseurl}}{{ talk.url }}">{{ talk.title }}</a>
+            </h4>
+            <p class="speaker-talk"><strong>Audience:</strong> {{ talk.audience }}</p>
+            <p class="speaker-desc mt-0">{{ talk.abstract }}</p>
+          {% endfor %}
           {% assign filtered_trainings = site.trainings | where: 'speaker', page.short_name %}
           {% for training in filtered_trainings %}
             <h4 class="speaker-training">Training: <br>
-            <a href="{{site.baseurl}}{{ training.url }}">{{ training.title }}</a>
+              <a href="{{site.baseurl}}{{ training.url }}">{{ training.title }}</a>
+            </h4>
           {% endfor %}
-         </h4>
         </div>
       </div>
     </div>

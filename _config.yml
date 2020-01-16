@@ -41,6 +41,8 @@ collections:
     output: true
   trainings:
     output: true
+  talks:
+    output: true
 
 defaults:
   - scope:
@@ -58,6 +60,11 @@ defaults:
       type: "trainings"
     values:
       layout: "training"
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
   - scope:
       path: ""
       type: "posts"
