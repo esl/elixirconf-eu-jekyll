@@ -1,6 +1,6 @@
 ---
 short_name: ju-liu
-pic_url: ju-liu.png
+pic_url: ju-liu.jpg
 firstname: Ju
 lastname: Liu
 position: Troublemaker
