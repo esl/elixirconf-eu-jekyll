@@ -1,6 +1,6 @@
 ---
 short_name: andrea-leopardi
-pic_url: andrea-leopardi.jpg
+pic_url: Andrea_Leopardi.jpg
 firstname: Andrea
 lastname: Leopardi
 position: Elixir core team member
