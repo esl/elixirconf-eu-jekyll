@@ -3,7 +3,7 @@ short_name: marlus-saraiva
 pic_url: marlus-saraiva.jpg
 firstname: Marlus
 lastname: Saraiva
-position: Creator of Broadway, Surface and ElixirSense
+position: Creator of Broadway - Surface and ElixirSense
 talk: Introducing Surface - A new component-based library for Phoenix
 audience: Intermediate
 twitter: @MarlusSaraiva
