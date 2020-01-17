@@ -1,24 +1,29 @@
 ---
 layout: post
-title:  "Lion Wallpaper Design"
+title: Lion Wallpaper Design
 tagline: Single Page
 date: 2016-04-11 12:51
-categories: [Graphic Design]
-tags: [Graphic, Design, Photoshop, Wallpaper]
+categories:
+- Graphic Design
+tags:
+- Graphic
+- Design
+- Photoshop
+- Wallpaper
 image: img-04.jpg
+
 ---
+\**Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum condimentum justo, rhoncus ullamcorper orci dapibus eget. Aliquam id efficitur lacus. Donec ac mattis ante. Nam vehicula turpis augue. Aliquam erat volutpat.
 
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum condimentum justo, rhoncus ullamcorper orci dapibus eget. Aliquam id efficitur lacus. Donec ac mattis ante. Nam vehicula turpis augue. Aliquam erat volutpat.
-
-Aliquam fermentum ornare iaculis. Proin vehicula nisi sed vestibulum consectetur. Praesent placerat enim eu justo euismod, vel consequat ligula mollis. Quisque mollis, lacus sed imperdiet finibus, risus felis tempor sapien, in suscipit sem nulla bibendum magna. Curabitur venenatis condimentum ipsum, at hendrerit dui dictum quis. In sodales in ligula eget venenatis. Suspendisse imperdiet congue odio at tempus. Donec pellentesque cursus semper. Praesent vel augue sem. Integer nec diam consequat, sollicitudin urna eu, placerat justo. Donec in odio et tellus lobortis vehicula at pellentesque nisi.
+**Aliquam fermentum ornare iaculis. Proin vehicula nisi sed vestibulum consectetur. Praesent placerat enim eu justo euismod, vel consequat ligula mollis. Quisque mollis, lacus sed imperdiet finibus, risus felis tempor sapien, in suscipit sem nulla bibendum magna. Curabitur venenatis condimentum ipsum, at hendrerit dui dictum quis. In sodales in ligula eget venenatis. Suspendisse imperdiet congue odio at tempus. Donec pellentesque cursus semper. Praesent vel augue sem. Integer nec diam consequat, sollicitudin urna eu, placerat justo. Donec in odio et tellus lobortis vehicula at pellentesque nisi.**
 
 In tempus tristique sapien, at semper orci semper a. Vivamus dapibus tortor ligula, vitae eleifend est semper non. Fusce orci nunc, faucibus ut ligula sed, facilisis tempor enim. Mauris ullamcorper augue quis semper accumsan. Donec volutpat condimentum maximus. Donec aliquam ante eros, nec pretium est tempus ut. Suspendisse vehicula felis ac aliquam accumsan.
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed iaculis, tellus eu accumsan euismod, nunc est tempus diam, in vulputate velit ligula nec sem. Integer eu posuere orci. In malesuada, quam nec pulvinar lacinia, metus tellus interdum lorem, nec lacinia felis sem et metus. Nunc eu nulla velit. Nulla facilisi. Donec eu euismod libero, egestas bibendum mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in erat eu elit sodales maximus vitae ac sapien. Vestibulum tincidunt nunc a lacus iaculis, at ultricies nibh gravida. Vestibulum laoreet vestibulum metus in elementum. Morbi imperdiet congue magna, sit amet aliquam urna dictum in. Aenean pellentesque ultrices enim, ut rhoncus orci ultrices quis. Nam ac imperdiet augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
 <blockquote cite="http://gleesik.ro">
-  Simplicity is the <br> ultimate <strong>Sophistication</strong>
-  <small>Leonardo da Vinci</small>
+Simplicity is the <br> ultimate <strong>Sophistication</strong>
+<small>Leonardo da Vinci</small>
 </blockquote>
 
 Integer non elementum orci. Praesent vulputate id libero at congue. Ut eget urna mi. Morbi et malesuada erat. Etiam malesuada, arcu nec interdum sagittis, ipsum massa rhoncus sapien, sed ultricies dolor augue in dolor. Fusce eget massa nec dui pretium pulvinar. Sed ante purus, sagittis vel pretium et, malesuada quis augue. Pellentesque sodales quis nisi non rutrum. Sed sed turpis maximus, aliquet dui at, lacinia urna. Praesent fermentum convallis odio id volutpat. Donec pulvinar vestibulum felis vulputate venenatis. Nunc sed posuere lectus, sit amet pulvinar nisl.
