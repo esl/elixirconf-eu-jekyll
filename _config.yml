@@ -43,6 +43,8 @@ collections:
     output: true
   talks:
     output: true
+  posts:
+    output: true
 
 defaults:
   - scope:
