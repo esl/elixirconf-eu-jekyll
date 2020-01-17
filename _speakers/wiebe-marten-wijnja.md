@@ -3,7 +3,7 @@ short_name: wiebe-marten-wijnja
 pic_url: wiebe-marten-wijnja.jpg
 firstname: Wiebe-Marten
 lastname: Wijnja
-position: Maintainer of 20+ Elixir libraries - Elixir Forum moderator
+position: Maintainer of more than 20 Elixir libraries - Elixir Forum moderator
 talk: Multiplayer Games and Collaborative Editing with LiveView
 audience: Beginner
 twitter: @WiebeMarten
