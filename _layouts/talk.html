@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+{% include imports/head.html %}
+
+<body>
+    </div>
+    {% include navigation_2.html %}
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h2 class="training-name">
+                        {{ page.title }}
+                    </h2>
+                    <div class="training-info">
+                        <p><strong>Speaker:</strong><br> <a
+                                href="{{site.baseurl}}/speakers/{{ page.speaker }}">{{ page.speaker_name }}</a></p>
+                    </div>
+
+                    <div class="training-info">
+                        <p><strong>Abstract:</strong><br> {{ page.abstract }}</p>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Audience:</strong><br> {{ page.audience }}</p>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Date:</strong><br> {{ page.event_date }}</p>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Venue:</strong><br> {{ page.venue }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+    {% include imports/js.html %}
+</body>
+
+</html>
