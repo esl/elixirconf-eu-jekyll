@@ -37,8 +37,10 @@ permalink: pretty
 collections:
   speakers:
     output: true
+    sort_by: relevance
   trainers:
     output: true
+    sort_by: relevance
   trainings:
     output: true
   talks:

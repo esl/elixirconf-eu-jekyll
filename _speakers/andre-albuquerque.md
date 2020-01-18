@@ -1,4 +1,5 @@
 ---
+relevance:
 short_name: andre-albuquerque
 pic_url: andre-albuquerque.jpg
 firstname: Andre

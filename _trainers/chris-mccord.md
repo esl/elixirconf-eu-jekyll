@@ -1,4 +1,5 @@
 ---
+relevance: 1
 short_name: chris-mccord
 pic_url: chris_mccord.jpg
 firstname: Chris

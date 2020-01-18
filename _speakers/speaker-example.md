@@ -1,22 +1,13 @@
 ---
-layout: post
-title: Lion Wallpaper Design
-tagline: Single Page
-date: 2016-04-11 12:51
-pic_url: post-img-example.jpg
-categories:
-  - Graphic Design
-tags:
-  - Graphic
-  - Design
-  - Photoshop
-  - Wallpaper
-image: img-04.jpg
+relevance: 1
+short_name: speaker-example
+pic_url: https://via.placeholder.com/550
+firstname: Speaker
+lastname: Example
+position: This is an example of how to structure correctly the speaker file according to the current html implementaion.
+twitter: speakerexample
+github: speakerexample
 ---
-
-I think I'll use it to format all of my documents from now on.
-
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas placeat at molestiae illo, deserunt ut repellendus quod odit nostrum atque fuga, dolorem commodi error temporibus maxime cumque nam quidem alias!
 
 # Heading level 1
 

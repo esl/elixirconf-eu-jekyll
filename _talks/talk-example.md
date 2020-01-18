@@ -1,22 +1,13 @@
 ---
-layout: post
-title: Lion Wallpaper Design
-tagline: Single Page
-date: 2016-04-11 12:51
-pic_url: post-img-example.jpg
-categories:
-  - Graphic Design
-tags:
-  - Graphic
-  - Design
-  - Photoshop
-  - Wallpaper
-image: img-04.jpg
+speaker: speaker-example
+speaker_name: Speaker Example
+talk: Example of a talk
+audience: Beginner
+venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
+event_date: 28 April
+from: 11.30 AM
+to: 12.30 PM
 ---
-
-I think I'll use it to format all of my documents from now on.
-
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas placeat at molestiae illo, deserunt ut repellendus quod odit nostrum atque fuga, dolorem commodi error temporibus maxime cumque nam quidem alias!
 
 # Heading level 1
 
