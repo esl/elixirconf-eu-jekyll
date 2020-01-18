@@ -18,7 +18,10 @@
                     </div>
 
                     <div class="training-info">
-                        <p><strong>Abstract:</strong><br> {{ page.content | markdownify }}</p>
+                        <p><strong>Abstract:</strong></p>
+                        <div class="content">
+                            {{ page.content | markdownify }}
+                        </div>
                     </div>
                     <div class="training-info">
                         <p><strong>Audience:</strong><br> {{ page.audience }}</p>
