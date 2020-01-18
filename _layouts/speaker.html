@@ -23,7 +23,7 @@
                   <a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i></a>
             {% endif %}
           </div>
-          <p class="speaker-desc">{{ page.content | markdownify }}</p>          
+          <div class="speaker-desc">{{ page.content | markdownify }}</div>          
           {% assign filtered_talks = site.talks | where: 'speaker', page.short_name %}
           {% for talk in filtered_talks %}
             <h4 class="speaker-training">Talk: <br>
