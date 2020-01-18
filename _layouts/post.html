@@ -1,29 +1,18 @@
 <!DOCTYPE html>
 {% include imports/head.html %}
 <body>
+    {% include navigation_2.html %}
     <div class="cover-post">
         <h3 class="title">{{ page.title }}</h3>
         <h4 class="category">{{ page.categories | first }}</h4>
     </div>
     <!-- Blog Article -->
     <div class="post-full">
-        <article class="blog-article">
-            <!-- Article Header -->
-            <!-- <header class="article-header">
-                <div class="img-wrap">
-                    <img src="{{ site.baseurl }}/images/blog/{{ page.image }}" alt="Article Blog Image">
-                </div>
-                <div class="article-title">
-                    <h3 class="title">{{ page.title }}</h3>
-                    <h4 class="category">{{ page.categories | first }}</h4>
-                </div>
-            </header> -->
-    
+        <article class="blog-article">    
             <!-- Article Content -->
             <div class="article-content">
                 {{ page.content }}
             </div>
-    
     
             <!-- Share Article Links Box -->
             <div class="share-article box clearfix">

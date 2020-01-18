@@ -3,6 +3,7 @@ layout: post
 title: Lion Wallpaper Design
 tagline: Single Page
 date: 2016-04-11 12:51
+pic_url: post-img-example.jpg
 categories:
   - Graphic Design
 tags:
@@ -12,6 +13,8 @@ tags:
   - Wallpaper
 image: img-04.jpg
 ---
+
+I think I'll use it to format all of my documents from now on.
 
 # Heading level 1
 
