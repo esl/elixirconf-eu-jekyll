@@ -1,7 +1,7 @@
 ---
 relevance: 1
 short_name: speaker-example
-pic_url: https://via.placeholder.com/150
+pic_url: https://via.placeholder.com/550
 firstname: Speaker
 lastname: Example
 position: This is an example of how to structure correctly the speaker file according to the current html implementaion.
