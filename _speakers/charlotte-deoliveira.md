@@ -1,7 +1,7 @@
 ---
 relevance: 3
 short_name: charlotte lorelei-deoliveira
-pic_url: charlotte lorelei-deoliveira.jpg
+pic_url: charlotte-deoliveira.jpg
 firstname: Charlotte Lorelei
 lastname: De Oliveira
 position: Net Idol  - Cesarini, Francesco, 2018
