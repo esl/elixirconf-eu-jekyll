@@ -1,5 +1,5 @@
 ---
-speaker: dániel-vámosi
+speaker: daniel-vamosi
 speaker_name: Dániel Vámosi
 talk: Visual concurrency cookbook
 audience: Intermediate
