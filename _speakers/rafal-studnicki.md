@@ -1,7 +1,7 @@
 ---
 relevance: 
 short_name: rafał-studnicki
-pic_url: rafał-studnicki.jpg
+pic_url: rafal-studnicki.jpg
 firstname: Rafał
 lastname: Studnicki
 position: Engineer obsessed with quality and correctness.
