@@ -1,10 +1,12 @@
 ---
-short_name: hans-josephsen
-pic_url: hans_josephsen.jpeg
-firstname: Hans
+relevance: 
+short_name: hans elias-josephsen
+pic_url: hans elias-josephsen.jpg
+firstname: Hans Elias
 lastname: Josephsen
-position: Lumen Core Team Member
-description: Hans Elias Josephsen is a member of the Lumen core team at Dockyard. He primarily works on the compiler front- and middleend. In his free time, he enjoys working on his own software projects and tinkering with electronics.
-github:
-twitter: hanshihe
+position: Lumen Core Team member
+twitter: hansihe
+github: hansihe
 ---
+<p>Hans is a member of the Lumen core team, and works primarily on the compiler. He has a keen fascination for language runtimes, compilers and low-level programming. In his free time, he enjoys tinkering with electronics.
+</p>
