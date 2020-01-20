@@ -1,7 +1,7 @@
 ---
 relevance: 
 short_name: hans elias-josephsen
-pic_url: hans elias-josephsen.jpg
+pic_url: hans_josephsen.jpeg
 firstname: Hans Elias
 lastname: Josephsen
 position: Lumen Core Team member
