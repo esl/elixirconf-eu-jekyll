@@ -1,7 +1,7 @@
 ---
 relevance: 
-short_name: anamaria-benites rodriguez
-pic_url: anamaria-benites rodriguez.jpg
+short_name: anamaria-benitesrodriguez
+pic_url: anamaria-benitesrodriguez.jpg
 firstname: Ana Maria
 lastname: Benites Rodriguez
 position: #wit, #education, #ghc19_speaker, #elixir_dev, #diversity
