@@ -1,7 +1,7 @@
 ---
 relevance: 
 short_name: daniel-vamosi
-pic_url: dániel-vamosi.jpg
+pic_url: daniel-vamosi.jpg
 firstname: Dániel
 lastname: Vámosi
 position: A visual thinker, working on making BEAM big in the aviation industry
