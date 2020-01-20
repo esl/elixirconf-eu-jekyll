@@ -1,6 +1,6 @@
 ---
 relevance: 
-short_name: rafał-studnicki
+short_name: rafal-studnicki
 pic_url: rafal-studnicki.jpg
 firstname: Rafał
 lastname: Studnicki
