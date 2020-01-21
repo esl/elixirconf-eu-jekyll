@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 6
 short_name: tonci-galic
 pic_url: Tonci-Galic.jpg
 firstname: Tonći
