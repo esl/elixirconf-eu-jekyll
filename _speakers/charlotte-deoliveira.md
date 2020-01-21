@@ -1,6 +1,6 @@
 ---
 relevance: 3
-short_name: charlottelorelei-deoliveira
+short_name: charlotte-deoliveira
 pic_url: charlotte-deoliveira.jpg
 firstname: Charlotte Lorelei
 lastname: De Oliveira
