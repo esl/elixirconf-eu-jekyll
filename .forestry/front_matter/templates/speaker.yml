@@ -37,6 +37,3 @@ fields:
     max: 
     step: 
   description: This field is used to display speakers in the top of the list
-pages:
-- _speakers/Testi.md
-- _speakers/test michael speaker wotcek.md
