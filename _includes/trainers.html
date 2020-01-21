@@ -1,31 +1,30 @@
 <div class="section speakers" id="trainers">
-  <h1 class="title">TRAINERS</h1>
-  <hr />
-  <div class="items-container">
-    {% for trainer in site.trainers %}
-    <div class="item">
-      <a href="{{site.baseurl}}{{ trainer.url }}" class="item-head-link">
-        <div
-          class="img"
-          style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ trainer.pic_url }}');"
-        >
-          <i class="fa fa-plus-circle"></i>
-        </div>
-        <h4 class="item-name">
-          {{ trainer.firstname }}
-          <br />
-          {{trainer.lastname}}
-        </h4>
-      </a>
-      <p class="item-position">{{ trainer.position }}</p>
+    <h1 class="title">TRAINERS</h1>
+    <hr/>
+    <div class="items-container">
+        {% for trainer in site.trainers | sort: "relevance" %}
+            <div class="item">
+                <a href="{{site.baseurl}}{{ trainer.url }}" class="item-head-link">
+                    <div class="img" style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ trainer.pic_url }}');">
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <h4 class="item-name">
+                        {{ trainer.firstname }}
+                        <br/>
+                        {{trainer.lastname}}
+                    </h4>
+                </a>
+                <p class="item-position">{{ trainer.position }}</p>
 
-      {% assign filtered_trainings = site.trainings | where: 'speaker',
-      trainer.short_name %} {% for training in filtered_trainings %}
-      <a href="{{site.baseurl}}{{ training.url }}">
-        <p class="item-training">Training: {{ trainer.training }}</p>
-      </a>
-      {% endfor %}
+                {% assign filtered_trainings = site.trainings | where: 'speaker',
+      trainer.short_name %}
+                {% for training in filtered_trainings %}
+                    <a href="{{site.baseurl}}{{ training.url }}">
+                        <p class="item-training">Training:
+                            {{ trainer.training }}</p>
+                    </a>
+                {% endfor %}
+            </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-  </div>
 </div>
