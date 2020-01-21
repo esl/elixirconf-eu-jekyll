@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 3
 short_name: linda achieng-otieno
 pic_url: linda-otieno.jpg
 firstname: Linda Achieng
