@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 11
 short_name: daniel-vamosi
 pic_url: daniel-vamosi.jpg
 firstname: Dániel
