@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 24
 short_name: lucjan-suski
 pic_url: lucjan-suski.jpg
 firstname: Lucjan
