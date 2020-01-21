@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 2
 short_name: hans elias-josephsen
 pic_url: hans_josephsen.jpeg
 firstname: Hans Elias
