@@ -33,5 +33,3 @@ fields:
 - type: text
   name: type
   label: type
-pages:
-- _speakers/test-two.md
