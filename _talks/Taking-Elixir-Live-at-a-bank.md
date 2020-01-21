@@ -1,5 +1,5 @@
 ---
-speaker: thomas-o'rourke
+speaker: thomas-orourke
 speaker_name: Thomas O'Rourke
 talk: Taking Elixir Live at a Bank
 audience: Intermediate
