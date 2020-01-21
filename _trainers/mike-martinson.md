@@ -1,5 +1,5 @@
 ---
-relevance:
+relevance: 7
 short_name: mike-martinson
 pic_url: mikem_martinson.jpg
 firstname: Mike

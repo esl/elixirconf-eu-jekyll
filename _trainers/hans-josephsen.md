@@ -1,5 +1,5 @@
 ---
-relevance:
+relevance: 6
 short_name: hans-josephsen
 pic_url: hans_josephsen.jpeg
 firstname: Hans
