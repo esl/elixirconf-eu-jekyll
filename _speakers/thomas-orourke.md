@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 19
 short_name: thomas-orourke
 pic_url: thomas-orourke.jpg
 firstname: Thomas
