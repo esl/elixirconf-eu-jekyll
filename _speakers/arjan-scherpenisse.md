@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 8
 short_name: arjan-scherpenisse
 pic_url: arjan-scherpenisse.jpg
 firstname: Arjan
