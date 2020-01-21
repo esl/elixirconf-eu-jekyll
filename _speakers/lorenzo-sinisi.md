@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 25
 short_name: lorenzo-sinisi
 pic_url: lorenzo-sinisi.jpg
 firstname: Lorenzo
