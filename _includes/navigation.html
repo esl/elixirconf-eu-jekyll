@@ -12,5 +12,18 @@
                 <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
             </li>
         {% endfor %}
+        <li>
+            <div class="dropdown">
+                <a class="dropbtn">Archive
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    {% for conf in site.data.archive-links %}
+                        <a href="#{{conf.link}}">{{conf.name}}</a>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </li>
     </ul>
 </nav>
