@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 9
 short_name: claudio-ortolina
 pic_url: claudio-ortolina.jpg
 firstname: Claudio
