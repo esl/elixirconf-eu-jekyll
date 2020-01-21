@@ -14,6 +14,5 @@ firstname: Test
 lastname: Two
 position: test two
 relevance: '1'
-published: false
 
 ---
