@@ -1,5 +1,5 @@
 ---
-relevance: 6
+relevance: 15
 short_name: peter-ullrich
 pic_url: peter-ullrich.jpg
 firstname: Peter
