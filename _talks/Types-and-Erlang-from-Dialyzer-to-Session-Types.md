@@ -1,5 +1,5 @@
 ---
-speaker: charlottelorelei-deoliveira
+speaker: charlotte-deoliveira
 speaker_name: Charlotte Lorelei De Oliveira
 talk: Types and Erlang: from Dialyzer to Session Types
 audience: Beginner
