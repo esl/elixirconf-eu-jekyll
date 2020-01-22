@@ -1,5 +1,5 @@
 ---
-relevance: 6
+relevance: 101
 short_name: gabriel-kolawole
 pic_url: gabriel-kolawole.jpg
 firstname: Gabriel
