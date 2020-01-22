@@ -4,7 +4,7 @@ short_name: charlotte-deoliveira
 pic_url: charlotte-deoliveira.jpg
 firstname: Charlotte Lorelei
 lastname: De Oliveira
-position: Net Idol  - Cesarini, Francesco, 2018
+position: Net Idol
 twitter: umamaistempo
 github: umamaistempo
 ---
