@@ -15,4 +15,5 @@ from: 09.00 AM
 to: 05.00 PM
 type: training
 ---
-
+Trainer: Andrea Leopardi
+Trainer: Eric Meadows-Jönsson
