@@ -1,5 +1,5 @@
 ---
-relevance: 4
+relevance: 3
 short_name: eric-meadows
 pic_url: eric-meadows-jonsson.jpg
 firstname: Eric
