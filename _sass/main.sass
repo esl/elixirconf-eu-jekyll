@@ -54,6 +54,7 @@ a
     justify-content: space-between
     flex-wrap: wrap
     padding: 1em 0
+    overflow-y: scroll
     .nav
       display: none !important
       margin-top: 1em
@@ -105,6 +106,41 @@ a
       @media only screen and (max-width: 1112px)
         border: none
         color: #5e5e5e
+  .dropbtn
+    font-weight: 200
+    margin: 0 1em
+    @media only screen and (max-width: 1112px)
+      padding: 1em !important
+      width: 100%
+
+.dropdown
+  cursor: pointer
+  float: left
+  overflow: hidden
+  @media only screen and (max-width: 1112px)
+    width: 100%
+  &:hover
+    .dropdown-content
+      display: flex
+      flex-flow: column
+      @media only screen and (max-width: 1112px)
+        width: 100%
+      a
+        color: #17222b !important
+        border-bottom: solid .1em #eeeeee
+        font-weight: 200
+        padding: .5em
+        @media only screen and (max-width: 1112px)
+          padding: 1em
+        &:hover
+          background-color: #eee
+  .dropdown-content
+    display: none
+    position: absolute
+    background-color: #f9f9f9
+    min-width: 160px
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    z-index: 1
 
 .navbar-shrink
   background: #4b295c
