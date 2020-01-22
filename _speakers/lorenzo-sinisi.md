@@ -9,4 +9,4 @@ twitter: lorenzosinisi
 github: lorenzosinisi
 
 ---
-<p>Lorenzo is a seasoned software engineer now working and living in Berlin. He is a consult for companies that want to expand their business globally using Elixir and other scalable technologies. </p>
+<p>Lorenzo is a seasoned software engineer now working and living in Berlin. He is a consultant for companies that want to expand their business globally using Elixir and other scalable technologies. </p>
