@@ -1,5 +1,5 @@
 ---
-relevance: 1
+relevance: 100
 short_name: zac-barnes
 pic_url: zac-barnes.jpg
 firstname: Zac
