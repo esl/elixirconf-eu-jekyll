@@ -9,4 +9,4 @@ twitter:
 github: SnowDeveloper
 
 ---
-<p>A Software Developer whose journey began as a Java developer followed by a QA Engineer and then an Elixir Developer. Having finished his Master's in Software Engineering, he loves exploring new technologies and utilising them both in his personal and professional life. When he is not coding, he is usually travelling, relaxing or socialising. <br />LinkedIn: https://ee.linkedin.com/in/madhushreesingh </p>
+<p>A Software Developer whose journey began as a Java developer followed by a QA Engineer and then an Elixir Developer. Having finished his Master's in Software Engineering, he loves exploring new technologies and utilising them both in his personal and professional life. When he is not coding, he is usually travelling, relaxing or socialising. <br />[LinkedIn]() </p>
