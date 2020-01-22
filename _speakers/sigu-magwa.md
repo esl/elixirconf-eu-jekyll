@@ -1,5 +1,5 @@
 ---
-relevance: 
+relevance: 4
 short_name: sigu-magwa
 pic_url: sigu-magwa.jpg
 firstname: Sigu
