@@ -6,5 +6,7 @@ audience: Beginner
 
 ---
 <p>This talk is not only about building the game Minesweeper from scratch but also to make coding with Elixir a fun experience.
+ <br /> <br />
+ For a newbie, functional programming can get quite challenging. So, to make things enjoyable, Madhushree will use Phoenix LiveView and build a game in under 40 minutes.  <br /> <br />Madhushree will also talk about the difficulties she encountered while adopting Elixir, how she overcame them, utilising various resources and where to look for some tips and tricks.</p>
  
- For a newbie, functional programming can get quite challenging. So, to make things enjoyable, I will use Phoenix LiveView interestingly and build a game in under 40 minutes. I will also talk about the difficulties I encountered while adopting Elixir, how I overcame it utilising various resources and talk about where to look for some tips and tricks.</p>
+ 
