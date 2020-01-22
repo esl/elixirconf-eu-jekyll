@@ -7,7 +7,6 @@ lastname: de Maio
 position: Software Engineer in love with Elixir/Erlang
 twitter: nirev
 github: nirev
+
 ---
-<p>Iâ€™m a software engineer with 10 years of experience, focused on web applications, from ops to backend. Currently working at Telnyx, a CPaSS company aiming at democratizing universal communications.
-Iâ€™ve been in love Elixir since I started working with the language in 2015, being an active member of Elixir Meetups in SÃ£o Paulo, Brazil and spreading Elixir love all around :)
-</p>
+<p>Guilherme is a software engineer with 10 years' worth of experience, focused on web applications, from ops to backend. He is currently working at Telnyx, a CPaSS company aiming at democratizing universal communications. Guilherme has been in love with Elixir since he started working with the language in 2015, he is an active member of Elixir Meetups in São Paulo, Brazil and spreading Elixir love all around :) </p>
