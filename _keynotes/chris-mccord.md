@@ -13,4 +13,3 @@ Chris McCord is a programmer with a passion for science and building
 things. He spends his time crafting the Phoenix Framework, working with the fine
 folks at DockYard, writing books like Metaprogramming Elixir, and teaching others
 the tools of the trade.
-
