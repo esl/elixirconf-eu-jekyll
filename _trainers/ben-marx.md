@@ -1,5 +1,5 @@
 ---
-relevance: 2
+relevance: 5
 short_name: ben-marx
 pic_url: ben-marx.jpg
 firstname: Ben
