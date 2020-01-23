@@ -12,6 +12,8 @@
   link: "training"
 # - name: Blog
 #   link: "blog"
+- name: Diversity
+  link: "diversity"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
