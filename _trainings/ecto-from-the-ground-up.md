@@ -1,8 +1,8 @@
 ---
-trainer: devon-estes
-trainer-name: Devon Estes
-trainer-2:
-trainer-name-2:
+trainer: Wojtek Mach
+trainer-name: wojtek-mach
+trainer-2: Darin Wilson
+trainer-name-2: darin-wilson
 event_date: 28 April
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
 summary:
