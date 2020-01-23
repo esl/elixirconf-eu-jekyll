@@ -16,7 +16,7 @@ Once we're through those concepts, we'll build a chatroom on the concurrency con
 
 This is a lab-focused training day so come ready to to do a lot of programming and a lot of learning.
 experience: Beginner, Intermediate
-from: 11.30 AM
-to: 12.30 PM
+from: 09.00
+to: 17.00 
 type: training
 ---
