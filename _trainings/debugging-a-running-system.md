@@ -18,7 +18,7 @@ from: 11.30 AM
 to: 12.30 PM
 type: training
 ---
-In this training, we'll start out with a single app and show how you can identify and fix bottlenecks in a running system. You'll learn how to make a release and then debug it.
+TEST In this training, we'll start out with a single app and show how you can identify and fix bottlenecks in a running system. You'll learn how to make a release and then debug it.
 
 Once we've instrumented a single node release, we'll move to a multi-node release instrument with distributed traces and then resolve the issues.
 
