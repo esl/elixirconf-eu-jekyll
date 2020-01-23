@@ -25,10 +25,10 @@
   training_1_url: phoenix-liveview-from-prototype-to-production
   training_1_instructor: Mike Martinson
   training_1_instructor_2: Tam Kbeili
-  training_2: From Zero To Hero With Elixir
-  training_2_url: from-zero-to-hero-with-elixir
-  training_2_instructor: Eric Meadows
-  training_2_instructor_2: Andrea Leopardi
+  training_2:
+  training_2_instructor:
+  training_2_url:
+
 - from: 09.00 AM
   to: 17.00 PM
   type: training
