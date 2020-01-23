@@ -38,11 +38,15 @@ collections:
   speakers:
     output: true
     sort_by: relevance
+  keynotes:
+    output: true
+    sort_by: relevance
   trainers:
     output: true
     sort_by: relevance
   trainings:
     output: true
+    sort_by: relevance
   talks:
     output: true
   posts:

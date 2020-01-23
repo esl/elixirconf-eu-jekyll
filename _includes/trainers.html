@@ -17,12 +17,22 @@
                 </a>
                 <p class="item-position">{{ trainer.position }}</p>
 
-                {% assign filtered_trainings = site.trainings | where: 'speaker',
-      trainer.short_name %}
+                <!-- filters by the first trainer -->
+                {% assign filtered_trainings = site.trainings | where: 'trainer',
+                      trainer.short_name %}
                 {% for training in filtered_trainings %}
                     <a href="{{site.baseurl}}{{ training.url }}">
                         <p class="item-training">Training:
-                            {{ trainer.training }}</p>
+                            {{ training.title }}</p>
+                    </a>
+                {% endfor %}
+                <!-- filters by the second trainer -->
+                {% assign filtered_trainings = site.trainings | where: 'trainer-2',
+                      trainer.short_name %}
+                {% for training in filtered_trainings %}
+                    <a href="{{site.baseurl}}{{ training.url }}">
+                        <p class="item-training">Training:
+                            {{ training.title }}</p>
                     </a>
                 {% endfor %}
             </div>

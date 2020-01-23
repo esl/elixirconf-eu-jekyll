@@ -1,8 +1,8 @@
 ---
-trainer: devon-estes
-trainer-name: Devon Estes
-trainer-2:
-trainer-name-2:
+trainer: ben-marx
+trainer-name: Ben Marx
+trainer-2: justin-schneck
+trainer-name-2: Justin Schneck
 event_date: 28 April
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
 summary:
