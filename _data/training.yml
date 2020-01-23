@@ -25,9 +25,10 @@
   training_1_url: phoenix-liveview-from-prototype-to-production
   training_1_instructor: Mike Martinson
   training_1_instructor_2: Tam Kbeili
-  training_2:
-  training_2_instructor:
-  training_2_url:
+  training_2: Phoenix LiveView from prototype to production
+  training_2_url: phoenix-liveview-from-prototype-to-production
+  training_2_instructor: Mike Martinson TEST
+  training_2_instructor_2: Tam Kbeili TEST
 
 - from: 09.00 AM
   to: 17.00 PM
