@@ -8,7 +8,7 @@ venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warsza
 summary:
 description:
 experience: Beginner, Intermediate
-from: 11.30 AM
-to: 12.30 PM
+from: 09.00 AM
+to: 17.00 PM
 type: training
 ---
