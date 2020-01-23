@@ -12,10 +12,11 @@
                     <h2 class="training-name">
                         {{ page.title }}
                     </h2>
-                    <div class="training-info"><p><strong>Trainer:</strong><br> <a href="{{site.baseurl}}/trainers/{{ page.speaker }}">{{ page.trainer }}</a></p></div>
+                    <div class="training-info"><p><strong>Trainers:</strong><br> <a href="{{site.baseurl}}/trainers/{{ page.trainer }}">{{ page.trainer-name }}</a><br> <a href="{{site.baseurl}}/trainers/{{ page.trainer-2 }}">{{ page.trainer-name-2 }}</a></p></div>
                     <div class="training-info"><p><strong>Date:</strong><br> {{ page.event_date }}</p></div>
                     <div class="training-info"><p><strong>Venue:</strong><br> {{ page.venue }}</p></div>
-                    <div class="training-info"><p><strong>Summary:</strong><br> {{ page.description }}</p></div>
+                    <div class="training-info"><p><strong>Summary:</strong><br> {{ page.summary }}</p></div>
+                    <div class="training-info"><p><strong>Description:</strong><br> {{ page.description }}</p></div>
                     <div class="training-info"><p><strong>Experience level:</strong><br> {{ page.experience }}</p></div>
                 </div>
             </div>
