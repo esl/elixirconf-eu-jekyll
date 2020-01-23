@@ -4,7 +4,7 @@ short_name: mike-martinson
 pic_url: mikem_martinson.jpg
 firstname: Mike
 lastname: Martinson
-position: CodeCast
+position: CTO at CodeCast
 training: Phoenix LiveView from Prototype to Production
 github: mmartinson
 twitter: untimelyquests
