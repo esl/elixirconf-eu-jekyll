@@ -22,7 +22,7 @@
       {% assign filtered_talks = site.talks | where: 'speaker',
       keynote.short_name %} {% for talk in filtered_talks %}
       <a href="{{site.baseurl}}{{ talk.url }}">
-        <p class="item-training">Talk: {{ talk.title }}</p>
+        <p class="item-training">Keynote: {{ talk.title }}</p>
       </a>
       {% endfor %} {% assign filtered_trainings = site.trainings | where:
       'speaker', keynote.short_name %} {% for training in filtered_trainings %}
