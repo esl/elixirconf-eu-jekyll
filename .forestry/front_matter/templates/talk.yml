@@ -1,0 +1,28 @@
+---
+label: talk
+hide_body: false
+fields:
+- type: number
+  name: relevance
+  label: relevance
+- type: text
+  name: short_name
+  label: short_name
+- type: file
+  name: pic_url
+  label: pic_url
+- type: text
+  name: firstname
+  label: firstname
+- type: text
+  name: lastname
+  label: lastname
+- type: text
+  name: position
+  label: position
+- type: text
+  name: twitter
+  label: twitter
+- type: text
+  name: github
+  label: github
