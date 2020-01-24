@@ -3,11 +3,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <title>
-        {% if page.title %}
-            {{ page.title }}
-        {% else %}
-            {{ site.title }}
-        {% endif %}
+        {{ site.title }}
     </title>
     <meta content="width=device-width" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -16,21 +12,21 @@
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1"></script>
-<script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1"></script>
+    <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-44973668-1');
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KRSPKJ3');</script>
-<!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
 
     {% seo %}
 
@@ -47,6 +43,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
 
         <!-- WEBSITE ICON IN BROWSER -->
-                                                                <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
+                                                                                                                                                                <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
     </body>
 </head>

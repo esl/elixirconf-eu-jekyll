@@ -7,6 +7,7 @@ lastname: McCord
 position: Creator of Phoenix
 github: chrismccord
 twitter: chris_mccord
+type: keynote
 ---
 
 Chris McCord is a programmer with a passion for science and building
