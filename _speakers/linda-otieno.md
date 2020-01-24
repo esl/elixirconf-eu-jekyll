@@ -1,6 +1,6 @@
 ---
 relevance: 3
-short_name: linda achieng-otieno
+short_name: lindaachieng-otieno
 pic_url: linda-otieno.jpg
 firstname: Linda Achieng
 lastname: Otieno
