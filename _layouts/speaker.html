@@ -33,7 +33,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h4 class="speaker-training">Talk: <br>
               <a href="{{site.baseurl}}{{ talk.url }}">{{ talk.title }}</a>
             </h4>
-            <p class="speaker-talk"><strong>Audience:</strong> {{ talk.audience }}</p>
+       <!--     <p class="speaker-talk"><strong>Audience:</strong> {{ talk.audience }}</p> -->
             <div class="speaker-desc mt-0">{{ talk.content | markdownify }}</div>
           {% endfor %}
           {% assign filtered_trainings = site.trainings | where: 'speaker', page.short_name %}
