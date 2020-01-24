@@ -2,30 +2,41 @@
   <h1 class="title">KEYNOTES</h1>
   <hr />
   <div class="items-container">
-    {% assign sorted = site.keynotes | sort: "relevance" %} {% for keynote in
-    sorted %}
+    {% assign sorted = site.speakers | sort: "relevance" | where: 'type',
+    'keynote' %} {% for speaker in sorted %}
     <div class="item">
-      <a href="{{site.baseurl}}{{ keynote.url }}" class="item-head-link">
+      <a href="{{site.baseurl}}{{ speaker.url }}" class="item-head-link">
         <div
           class="img"
-          style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ keynote.pic_url }}');"
+          style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ speaker.pic_url }}');"
         >
           <i class="fa fa-plus-circle"></i>
         </div>
         <h4 class="item-name">
-          {{ keynote.firstname }}
+          {{ speaker.firstname }}
           <br />
-          {{keynote.lastname}}
+          {{speaker.lastname}}
         </h4>
       </a>
-      <p class="item-position">{{ keynote.position }}</p>
+      <p class="item-position">{{ speaker.position }}</p>
+      <!-- <p class="item-training">Talk:
+                    {{ speaker.talk }}</p> -->
       {% assign filtered_talks = site.talks | where: 'speaker',
-      keynote.short_name %} {% for talk in filtered_talks %}
+      speaker.short_name %} {% for talk in filtered_talks %}
       <a href="{{site.baseurl}}{{ talk.url }}">
         <p class="item-training">Keynote: {{ talk.title }}</p>
       </a>
-      {% endfor %} {% assign filtered_trainings = site.trainings | where:
-      'speaker', keynote.short_name %} {% for training in filtered_trainings %}
+      {% endfor %}
+      <!-- filters by the first trainer -->
+      {% assign filtered_trainings = site.trainings | where: 'trainer',
+      speaker.short_name %} {% for training in filtered_trainings %}
+      <a href="{{site.baseurl}}{{ training.url }}">
+        <p class="item-training">Training: {{ training.title }}</p>
+      </a>
+      {% endfor %}
+      <!-- filters by the second trainer -->
+      {% assign filtered_trainings = site.trainings | where: 'trainer-2',
+      speaker.short_name %} {% for training in filtered_trainings %}
       <a href="{{site.baseurl}}{{ training.url }}">
         <p class="item-training">Training: {{ training.title }}</p>
       </a>
