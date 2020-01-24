@@ -28,8 +28,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             {{ page.content | markdownify }}
                         </div>
                     </div>
+                    
+                
+                 
+          
+                    
                     <div class="training-info">
+                             {% if page.type=speaker %}
                         <p><strong>Audience:</strong><br> {{ page.audience }}</p>
+                          {% endif %}
                     </div>
                     <div class="training-info">
                         <p><strong>Date:</strong><br> {{ page.event_date }}</p>
