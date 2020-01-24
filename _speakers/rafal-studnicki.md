@@ -7,6 +7,7 @@ lastname: Studnicki
 position: Engineer obsessed with quality and correctness.
 twitter: studzien
 github: studzien
+type: speaker
 ---
 
 <p>Rafal is a software engineer with 10 years of experience in Elixir, Erlang and C. He has worked on various distributed systems, ranging from tiny clusters on microcontrollers to some of the largest chat servers in the world.
