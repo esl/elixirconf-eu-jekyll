@@ -1,5 +1,5 @@
 ---
-speaker: hans elias-josephsen
+speaker: hans-josephsen
 speaker_name: Hans Elias Josephsen
 talk: Lumen Keynote
 audience: Beginner
