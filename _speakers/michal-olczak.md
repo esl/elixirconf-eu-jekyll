@@ -1,5 +1,5 @@
 ---
-relevance: 20
+relevance: 23
 short_name: michal-olczak
 pic_url: michal-olczak.jpg
 firstname: Michał
