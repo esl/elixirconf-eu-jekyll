@@ -6,9 +6,6 @@ url: "https://esl.github.io/elixirconf-eu-jekyll" # the base hostname & protocol
 # Build settings
 markdown: kramdown
 
-facebook:
-  app_id: 
-
 logo: "./assets/images/icon-large.png"
 
 social: 
