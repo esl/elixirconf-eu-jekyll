@@ -1,7 +1,7 @@
 ---
 speaker: andrew-selder
 speaker_name: Andrew Selder
-talk: Splitting the Difference
+talk: Splitting the difference
 audience: Intermediate
 
 ---
