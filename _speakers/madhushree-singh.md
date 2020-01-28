@@ -10,4 +10,4 @@ github: SnowDeveloper
 type: speaker
 ---
 
-<p>A Software Developer whose journey began as a Java developer followed by a QA Engineer and then an Elixir Developer. Having finished his Master's in Software Engineering, he loves exploring new technologies and utilising them both in his personal and professional life. When he is not coding, he is usually travelling, relaxing or socialising. <br />LinkedIn: </p>
+<p>A Software Developer whose journey began as a Java developer followed by a QA Engineer and then an Elixir Developer. Having finished her Master's in Software Engineering, she loves exploring new technologies and utilising them both in her personal and professional life. When she is not coding, she is usually travelling, relaxing or socialising.  </p>
