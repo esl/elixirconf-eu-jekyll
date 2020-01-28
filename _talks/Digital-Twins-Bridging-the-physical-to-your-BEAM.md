@@ -1,7 +1,7 @@
 ---
 speaker: wannes-fransen
 speaker_name: Wannes Fransen
-talk: Digital Twins Bridging the physical to your BEAM
+talk: Digital twins bridging the physical to your BEAM
 audience: Beginner
 ---
 
