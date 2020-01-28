@@ -5,9 +5,9 @@ pic_url: zac-barnes.jpg
 firstname: Zac
 lastname: Barnes
 position: Elixir Developer @ PepsiCo
-twitter:
+twitter: 
 github: zbarnes757
 type: speaker
----
 
-<p>Zac lives in Texas with his wife. He enjoys cooking, working out, and being with friends and family. He is originally from Virginia but moved after attending a Bootcamp in San Francisco to learn how to program. He now has over 4 years of experience and loves working with Elixir every day. </p>
+---
+<p>Elixir called out to Zac, who was living in Virginia at the time and brought him to San Francisco. After 4 years coding, he now works for PepsiCo, loves working with Elixir everyday and lives in Texas with his wife. </p>
