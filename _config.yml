@@ -12,7 +12,7 @@ social:
   name: ElixirConf EU
   link: "https://twitter.com/elixirconfeu"
 
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
+# google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
 include: []
 
@@ -24,6 +24,8 @@ plugins:
 social:
   - title: twitter
     url: https://twitter.com/elixirconfeu
+    username: elixirconfeu
+    card: image
 
 # Build settings
 markdown: kramdown
