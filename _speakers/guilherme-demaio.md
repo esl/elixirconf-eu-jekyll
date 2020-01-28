@@ -1,5 +1,5 @@
 ---
-relevance: 23
+relevance: 21
 short_name: guilherme-de maio
 pic_url: guilherme-de maio.jpg
 firstname: Guilherme
