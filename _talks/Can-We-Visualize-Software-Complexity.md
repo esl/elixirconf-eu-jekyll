@@ -1,7 +1,7 @@
 ---
 speaker: rafal-studnicki
 speaker_name: Rafał Studnicki
-talk: Can We Visualize Software Complexity?
+talk: Can we visualize software complexity?
 audience: Intermediate
 
 ---
