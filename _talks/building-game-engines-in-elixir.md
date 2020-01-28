@@ -1,7 +1,7 @@
 ---
 speaker: gabriel-kolawole
 speaker_name: Gabriel Kolawole
-talk: Building Game Engines in Elixir
+talk: Building game engines in Elixir
 audience: Intermediate
 
 ---
