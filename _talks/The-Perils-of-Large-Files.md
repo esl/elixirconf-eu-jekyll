@@ -1,7 +1,7 @@
 ---
 speaker: claudio-ortolina
 speaker_name: Claudio Ortolina
-talk: The Perils of Large Files
+talk: The Perils of large files
 audience: Intermediate
 
 ---
