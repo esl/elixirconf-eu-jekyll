@@ -18,8 +18,8 @@
   training_2: Getting up to speed with Phoenix and LiveView
   training_2_instructor: Shankar Dhanasekaran
   training_2_url: getting-up-to-speed-with-phoenix-and-liveview
-- from: 09.00 AM
-  to: 17.00 PM
+- from: 9.00 AM
+  to: 5.00 PM
   type: training
   training_1: Phoenix LiveView from prototype to production
   training_1_url: phoenix-liveview-from-prototype-to-production
