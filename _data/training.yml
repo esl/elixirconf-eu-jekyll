@@ -1,5 +1,5 @@
-- from: 09.00 
-  to: 17.00 
+- from: 9.00 AM
+  to: 5.00 PM
   type: training
   training_1: Debugging a running system
   training_1_url: debugging-a-running-system
@@ -8,8 +8,8 @@
   training_2: Elixir testing - from zero to hero
   training_2_url: elixir-testing-from-zero-to-hero
   training_2_instructor: Devon Estes
-- from: 09.00 
-  to: 17.00 
+- from: 9.00 AM
+  to: 5.00 PM
   type: training
   training_1: Ecto from the ground up
   training_1_instructor: Wojtek Mach
@@ -18,8 +18,8 @@
   training_2: Getting up to speed with Phoenix and LiveView
   training_2_instructor: Shankar Dhanasekaran
   training_2_url: getting-up-to-speed-with-phoenix-and-liveview
-- from: 09.00 
-  to: 17.00 
+- from: 09.00 AM
+  to: 17.00 PM
   type: training
   training_1: Phoenix LiveView from prototype to production
   training_1_url: phoenix-liveview-from-prototype-to-production
@@ -27,8 +27,8 @@
   training_1_instructor_2: Tam Kbeili
  
 
-- from: 09.00 
-  to: 17.00 
+- from: 9.00 AM
+  to: 5.00 PM
   type: training
   training_1: From zero to hero with Elixir
   training_1_url: from-zero-to-hero-with-elixir
