@@ -1,7 +1,7 @@
 ---
 speaker: lorenzo-sinisi
 speaker_name: Lorenzo Sinisi
-talk: Artificial intelligence with Elixir the Rete algorithm to build Expert Systems
+talk: Artificial intelligence with Elixir - the Rete algorithm to build expert systems
 audience: Proficient
 ---
 
