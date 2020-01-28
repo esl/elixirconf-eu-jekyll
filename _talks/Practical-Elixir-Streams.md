@@ -1,7 +1,7 @@
 ---
 speaker: evadne-wu
 speaker_name: Evadne Wu
-talk: Practical Elixir Streams
+talk: Practical Elixir streams
 audience: Intermediate
 
 ---
