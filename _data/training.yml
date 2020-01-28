@@ -5,7 +5,7 @@
   training_1_url: debugging-a-running-system
   training_1_instructor: Ben Marx
   training_1_instructor_2: Justin Schneck
-  training_2: Elixir Testing - From Zero to Hero
+  training_2: Elixir testing - from zero to hero
   training_2_url: elixir-testing-from-zero-to-hero
   training_2_instructor: Devon Estes
 - from: 09.00 AM
@@ -15,7 +15,7 @@
   training_1_instructor: Wojtek Mach
   training_1_instructor_2: Darin Wilson
   training_1_url: ecto-from-the-ground-up
-  training_2: Getting up to speed with Phoenix  and LiveView
+  training_2: Getting up to speed with Phoenix and LiveView
   training_2_instructor: Shankar Dhanasekaran
   training_2_url: getting-up-to-speed-with-phoenix-and-liveview
 - from: 09.00 AM
@@ -25,15 +25,12 @@
   training_1_url: phoenix-liveview-from-prototype-to-production
   training_1_instructor: Mike Martinson
   training_1_instructor_2: Tam Kbeili
-  training_2: Phoenix LiveView from prototype to production
-  training_2_url: phoenix-liveview-from-prototype-to-production
-  training_2_instructor: Mike Martinson TEST
-  training_2_instructor_2: Tam Kbeili TEST
+ 
 
 - from: 09.00 AM
   to: 17.00 PM
   type: training
-  training_1: From Zero To Hero With Elixir
+  training_1: From zero to hero with Elixir
   training_1_url: from-zero-to-hero-with-elixir
   training_1_instructor: Eric Meadows-Jönsson
   training_1_instructor_2: Andrea Leopardi
