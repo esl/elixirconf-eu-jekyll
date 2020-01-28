@@ -1,7 +1,7 @@
 ---
 speaker: wiebe-marten-wijnja
 speaker_name: Wiebe-Marten Wijnja
-talk: Multiplayer Games and Collaborative Editing with LiveView
+talk: Multiplayer games and collaborative editing with LiveView
 audience: Beginner
 ---
 <p>In this talk, Wiebe-Marten will explain and share his experiences on how Elixir, Phoenix and LiveView can be used to create web-applications in which multiple users are collaborating in real-time like collaborative document editing and multiplayer games.<br /><br />
