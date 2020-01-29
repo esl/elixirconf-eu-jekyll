@@ -4,11 +4,11 @@ short_name: michal-olczak
 pic_url: michal-olczak.jpg
 firstname: Michał
 lastname: Olczak
-position:
-twitter:
-github:
+position: Working at a bank can be fun too!
+twitter: m1halo
+github: m1halo
 type: speaker
 ---
 
-<p>
+<p>Engineer at heart, building sustainable innovation 
 </p>
