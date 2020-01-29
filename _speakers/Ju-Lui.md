@@ -3,7 +3,7 @@ relevance: 14
 short_name: ju-lui
 pic_url: ju-lui.jpg
 firstname: Ju
-lastname: Liu
+lastname: Lui
 position: Troublemaker
 twitter: arkh4m
 github: Arkham
