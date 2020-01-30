@@ -1,6 +1,6 @@
 ---
-speaker: ju-lui
-speaker_name: Ju Lui
+speaker: ju-liu
+speaker_name: Ju Liu
 talk: Taking back control of your life with Nerves
 audience: Intermediate
 ---
