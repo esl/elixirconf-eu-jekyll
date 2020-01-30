@@ -1,6 +1,6 @@
 ---
 relevance: 14
-short_name: ju-lui
+short_name: ju-liu
 pic_url: ju-lui.jpg
 firstname: Ju
 lastname: Liu 
