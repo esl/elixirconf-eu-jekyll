@@ -1,5 +1,5 @@
 ---
-relevance: 9
+relevance: 1
 short_name: wojtek-mach
 pic_url: wojtek.jpg
 firstname: Wojtek
