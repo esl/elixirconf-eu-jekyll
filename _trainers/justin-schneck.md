@@ -1,5 +1,5 @@
 ---
-relevance: 2
+relevance: 9
 short_name: justin-schneck
 pic_url: justin-schneck.jpg
 firstname: Justin
