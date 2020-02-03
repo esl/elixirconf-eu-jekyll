@@ -1,5 +1,5 @@
 ---
-relevance: 1
+relevance: 2
 short_name: darin-wilson
 pic_url: darin_wilson.jpg
 firstname: Darin
