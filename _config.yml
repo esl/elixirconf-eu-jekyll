@@ -1,7 +1,7 @@
 title: Elixir Conf EU 2020
 description: > # this means to ignore newlines until "baseurl:"
   Elixir conf 2020
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.elixirconf.eu" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
