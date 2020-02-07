@@ -4,12 +4,10 @@ short_name: thomas-orourke
 pic_url: thomas-orourke.jpg
 firstname: Thomas
 lastname: O'Rourke
-position:
-  Organized the northernmost Elixir meetup in the world. Worked on Media Player
-  1.0 at Microsoft to make computers do more then beep-beep.
+position: Organized the northernmost Elixir meetup in the world. Worked on Media Player 1.0 at Microsoft - making computers do more than beep-beep.
 twitter: tomjoro
 github: tomjoro
 type: speaker
 ---
 
-<p>Thomas does both managing/leading and architecting/developing. His greatest strengths are his enthusiasm and ability to mentor others. He enjoys making sense of software stacks/organizations and driving products to market, applying himself where needed. He has worked within many fields over the years: Finance, Media, and Security/Enterprise software, etc. He is constantly learning and applying cutting edge software methodologies and technologies. </p>
+<p>Thomas’ greatest strengths are enthusiasm and mentoring. He keeps himself busy making sense of software stacks/organisations and driving products to market. Having worked with a variety of computer languages, systems and fields for three decades gives some perspective. He has been using Elixir for several years now and is an avid supporter and evangelist for the language,  organizing meetups, blogging and commits when he can. “Take it apart until you understand how it works,” is his motto – he’s currently busy putting lots of things back together. </p>
