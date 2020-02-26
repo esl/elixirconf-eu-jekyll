@@ -11,8 +11,6 @@ to: 17.00
 type: training
 ---
 
-Summary
-
 Start out with a buggy release and use tools to debug that running instance.
 
 In this training, we'll start out with a single app and show how you can identify and fix bottlenecks in a running system. You'll learn how to make a release and then debug it.
