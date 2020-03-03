@@ -8,6 +8,8 @@
   link: "trainers"
 - name: Register
   link: "register"
+- name: Health advice
+  link: "healthadvice"
 - name: Training
   link: "training"
 # - name: Blog
@@ -16,8 +18,6 @@
   link: "diversity"
 - name: Sponsors
   link: "sponsors"
-  - name: Health advice
-  link: "healthadvice"
 - name: Contact
   link: "contact"
 - name: Venue
