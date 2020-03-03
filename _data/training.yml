@@ -8,6 +8,7 @@
   training_2: Elixir testing - from zero to hero
   training_2_url: elixir-testing-from-zero-to-hero
   training_2_instructor: Devon Estes
+  
 - from: 9.00 AM
   to: 5.00 PM
   type: training
@@ -15,9 +16,10 @@
   training_1_instructor: Wojtek Mach
   training_1_instructor_2: Darin Wilson
   training_1_url: ecto-from-the-ground-up
-  training_2: Getting up to speed with Phoenix and LiveView
-  training_2_instructor: Shankar Dhanasekaran
-  training_2_url: getting-up-to-speed-with-phoenix-and-liveview
+  training_2: 
+  training_2_instructor: 
+  training_2_url:
+  
 - from: 9.00 AM
   to: 5.00 PM
   type: training
