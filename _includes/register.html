@@ -3,18 +3,62 @@
     <h2 class="title">REGISTER</h2>
     <hr>
     <div class="register-widget" id="eventbrite-widget-container-82221947057">&nbsp;</div>
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-    <script type="text/javascript">
-        var exampleCallback = function () {
-            console.log("Order complete!");
-        };
-        window.EBWidgets.createWidget({ // Required
-            widgetType: "checkout",
-            eventId: "82221947057",
-            iframeContainerId: "eventbrite-widget-container-82221947057",
-            // Optional
-            iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-            onOrderComplete: exampleCallback // Method called when an order has successfully completed
-        });
-    </script>
+   
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1 "></script> 
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag() {
+dataLayer.push(arguments);
+ }
+ gtag('js', new Date());
+ gtag('config', 'UA-44973668-1 ', { 'send_page_view': false });
+</script> 
+
+
+
+<!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/elixirconf-eu-2020-tickets-82221947057" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-82221947057" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
+
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+  
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ // WARNING: Replace 'YOUR-GOOGLE-ANALYTICS-TRACKING-ID'
+ // with the tracking id provided by Google Analytics→
+ ga('create', 'UA-44973668-1', 'auto');
+ga('require', 'linker');
+//name of the site to link with eventbrite
+ ga('linker:autoLink', [‘elixirconf.eu,eventbrite.com’], false, true);
+
+
+ // Get the tracking clientId and set it to a variable
+ var clientId;
+
+ ga(function(tracker){
+clientId = tracker.get('clientId');
+ });
+  
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '82221947057', // replace with your event id
+        modal: true,
+        googleAnalyticsClientId: clientId,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-82221947057', // replace with your modal widget trigger for the event
+        onOrderComplete: exampleCallback
+    });
+</script>
 </div>
