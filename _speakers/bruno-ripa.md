@@ -1,5 +1,5 @@
 ---
-relevance: 103
+relevance: 22
 short_name: bruno-ripa
 pic_url: bruno-ripa.jpg
 firstname: Bruno
