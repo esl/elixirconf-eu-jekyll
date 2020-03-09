@@ -5,8 +5,7 @@ pic_url: bruno-ripa.jpg
 firstname: Bruno
 lastname: Ripa
 position:
-  Pitching Elixir to a scientific company - Easily finding the right processes
-  to mentor people - See the good practices spread quickly and nicely
+  Architect at Erlang Solutions
 twitter: brunoripa
 github: brunoripa
 type: speaker
