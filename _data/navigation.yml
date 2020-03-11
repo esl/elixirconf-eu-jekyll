@@ -8,8 +8,6 @@
   link: "trainers"
 - name: Register
   link: "register"
-- name: Health advice
-  link: "healthadvice"
 - name: Training
   link: "training"
 # - name: Blog
