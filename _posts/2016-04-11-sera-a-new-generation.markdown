@@ -1,16 +1,10 @@
 ---
 layout: post
-title: Lion Wallpaper Design
+title: Nerves Post
 tagline: Single Page
 date: 2016-04-11 12:51
 pic_url: post-img-example.jpg
-categories:
-  - Graphic Design
-tags:
-  - Graphic
-  - Design
-  - Photoshop
-  - Wallpaper
+category: elixir
 image: img-04.jpg
 ---
 

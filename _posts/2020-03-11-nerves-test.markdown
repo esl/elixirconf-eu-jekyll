@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Elixir Example Post
+title: Nerves Test Post
 tagline: Single Page
 date: 2016-04-11 12:51
 pic_url: post-img-example.jpg
-category: elixir
+category: nerves
 image: img-04.jpg
 ---
 
