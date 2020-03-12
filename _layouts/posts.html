@@ -17,7 +17,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <article class="blog-article">    
             <!-- Article Content -->
             <div class="article-content">
-                <div class="posts-container">
+                <div class="posts-container posts-layout">
                     {% assign filtered_posts = site.posts | where: 'category', page.category %}
                     {% for post in filtered_posts %}
                     <div class="post-item">
