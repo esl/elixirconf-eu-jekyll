@@ -1,11 +1,21 @@
 <div class="section register" id="register">
     <h2 class="title">REGISTER</h2>
     <hr>
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1 "></script>  <script>  window.dataLayer = window.dataLayer || [];  function gtag() { dataLayer.push(arguments);  }  gtag('js', new Date());  gtag('config', 'UA-44973668-1 ', { 'send_page_view': false }); </script>   //add event link generated in iframe code by eventbrite for a specific event  
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1 "></script> 
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag() {
+dataLayer.push(arguments);
+ }
+ gtag('js', new Date());
+ gtag('config', 'UA-44973668-1 ', { 'send_page_view': false });
+</script> 
+
+//add event link generated in iframe code by eventbrite for a specific event
+ 
 <div class="register-widget" id="eventbrite-widget-container-82221947057">&nbsp;</div>
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-    <script type="text/javascript">
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    <script type="text/javascript">
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,23 +24,30 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
  // WARNING: Replace 'YOUR-GOOGLE-ANALYTICS-TRACKING-ID'
  // with the tracking id provided by Google Analytics→
  ga('create', 'UA-44973668-1', 'auto');
+        
+ga('require', 'linker');
+//name of the site to link with eventbrite
+ ga('linker:autoLink', ['elixirconf.eu,eventbrite.com'], false , true);
 
 
-ga('require', 'linker'); ga('linker:autoLink', ['elixirconf.eu,eventbrite.com'], false , true);    // Get the tracking clientId and set it to a variable  var clientId;  ga(function(tracker){ clientId = tracker.get('clientId');  });
+ // Get the tracking clientId and set it to a variable
+ var clientId;
+ ga(function(tracker){
+clientId = tracker.get('clientId');
+ });
 
-        var exampleCallback = function () {
-            console.log("Order complete!");
-        };
-        window.EBWidgets.createWidget({ // Required
-            widgetType: "checkout",
-            eventId: "82221947057",
-            googleAnalyticsClientId: clientId,
-            iframeContainerId: "eventbrite-widget-container-82221947057",
-            // Optional
-            iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-            onOrderComplete: exampleCallback // Method called when an order has successfully completed
-        });
-    </script>
-
+        var exampleCallback = function () {
+            console.log("Order complete!");
+        };
+        window.EBWidgets.createWidget({ // Required
+            widgetType: "checkout",
+            eventId: "82221947057",
+            googleAnalyticsClientId: clientId,
+            iframeContainerId: "eventbrite-widget-container-82221947057",
+            // Optional
+            iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: exampleCallback // Method called when an order has successfully completed
+        });
+    </script>
 </div>
 
