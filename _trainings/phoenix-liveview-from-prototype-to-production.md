@@ -3,14 +3,14 @@ trainer: tam-kbeili
 trainer-name: Tam Kbeili
 trainer-2: mike-martinson
 trainer-name-2: Mike Martinson
-event_date: 28 April
+event_date: 6 October
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
 experience: Beginner, Intermediate
-from: 09.00 AM
+from: '09.00 AM'
 to: 17.00 PM
 type: training
----
 
+---
 Summary
 
 In this training, we’ll evaluate which sorts of features are the best fit for what LiveView can offer, then build out an interactive real-time UI to get a feel for how LiveView works. We’ll then look at integrating LiveView into an existing Phoenix application, address performance considerations and failover strategies, and look at examples of how to test and monitor a LiveView feature in a real-world application.

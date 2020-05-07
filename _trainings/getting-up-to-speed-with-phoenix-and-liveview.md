@@ -1,14 +1,15 @@
 ---
 trainer: shankar-dhanasekaran
 trainer-name: Shankar Dhanasekaran
-trainer-2:
-trainer-name-2:
-event_date: 28 April
+trainer-2: 
+trainer-name-2: 
+event_date: 6 October
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
 experience: Beginner, Intermediate
-from: 09.00 AM
+from: '09.00 AM'
 to: 17.00 PM
 type: training
+
 ---
 <p>Drawing upon the experience of building Phoenix and LiveView powered apps, Shankar Dhanasekaran will bring you up to speed to develop Phoenix apps with confidence and walk you through building specific features of an ecommerce system using LiveView.</p>
 
