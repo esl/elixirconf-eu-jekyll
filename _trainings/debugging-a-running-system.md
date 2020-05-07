@@ -3,14 +3,14 @@ trainer: ben-marx
 trainer-name: Ben Marx
 trainer-2: justin-schneck
 trainer-name-2: Justin Schneck
-event_date: 28 April
+event_date: 6 October
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszaw
 experience: Beginner, Intermediate
-from: 09.00
-to: 17.00
+from: "9"
+to: "17"
 type: training
----
 
+---
 Start out with a buggy release and use tools to debug that running instance.
 
 In this training, we'll start out with a single app and show how you can identify and fix bottlenecks in a running system. You'll learn how to make a release and then debug it.
