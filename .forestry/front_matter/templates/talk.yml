@@ -2,27 +2,15 @@
 label: talk
 hide_body: false
 fields:
-- type: number
-  name: relevance
-  label: relevance
 - type: text
-  name: short_name
-  label: short_name
-- type: file
-  name: pic_url
-  label: pic_url
+  name: talk 
+  label: talk
 - type: text
-  name: firstname
-  label: firstname
+  name: audience
+  label: audience
 - type: text
-  name: lastname
-  label: lastname
+  name: speaker
+  label: speaker
 - type: text
-  name: position
-  label: position
-- type: text
-  name: twitter
-  label: twitter
-- type: text
-  name: github
-  label: github
+  name: speaker_name
+  label: speaker_name
