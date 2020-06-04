@@ -3,7 +3,7 @@ label: talk
 hide_body: false
 fields:
 - type: text
-  name: talk 
+  name: talk
   label: talk
 - type: text
   name: audience
