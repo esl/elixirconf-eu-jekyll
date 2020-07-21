@@ -11,4 +11,4 @@ fields:
   name: author
   label: author
 pages:
-- _posts/why learn elixir in 2020.md
+- _posts/2020-07-21-why learn elixir in 2020.md
