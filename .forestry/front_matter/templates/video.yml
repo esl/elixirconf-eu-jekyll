@@ -1,4 +1,13 @@
 ---
 label: Video
 hide_body: true
-fields: []
+fields:
+- name: video_url
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: videourl
