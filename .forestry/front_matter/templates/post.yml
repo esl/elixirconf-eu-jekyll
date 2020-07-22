@@ -15,5 +15,10 @@ fields:
 - type: text
   name: author
   label: author
+- name: tags
+  type: text
+  config:
+    required: false
+  label: tags
 pages:
 - _posts/2020-07-21-why learn elixir in 2020.md
