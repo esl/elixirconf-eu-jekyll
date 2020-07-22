@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: video url
+pages:
+- _posts/elixirconf-2019-building-an-elixir-team-when-no-one-knew-elixir-jacob-parry.md
