@@ -3,6 +3,7 @@ layout: post
 author: Erlang Solutions
 title: Why learn elixir in 2020
 post_pic_url: "/assets/images/why-elixir.jpeg"
+pic_url: "/assets/images/why-elixir.jpeg"
 
 ---
 ![](/assets/images/why-elixir.jpeg)

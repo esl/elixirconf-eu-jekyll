@@ -2,7 +2,7 @@
 label: Post
 hide_body: false
 fields:
-- name: post_pic_url
+- name: pic_url
   type: file
   config:
     maxSize: 64
