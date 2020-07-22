@@ -4,21 +4,19 @@
     <div class="posts-container">
         {% for post in site.posts %}
             <div class="post-item">
-                <div class="img" style="background-image: url('{{site.baseurl}}/assets/images/posts/{{ post.pic_url }}');"></div>
-                <h2 class="post-title">
-                    {{ post.title }}
-                </h2>
-                <p class="post-item-tags">tags</p>
                 <div class="item-container">
                     <div class="item-left">
                         <div class="item-date">
                             <p class="date-day">26</p>
                             <p class="date-month">May</p>
                         </div>
-                        <div class="item-hour">15:32</div>
                     </div>
-                    <div class="item-right">
-                        {{ post.excerpt }}
+                   <div class="item-right">
+                 <div class="img" style="background-image: url('{{site.baseurl}}/assets/images/{{ post.pic_url }}');"></div>
+                 <h2 class="post-title">
+                     {{ post.title }}
+                 </h2>
+                 <p class="post-item-tags">{{ post.tags }}</p>
                         <a class="btn-more" href="{{site.baseurl}}{{post.url}}">Read More</a>
                     </div>
                 </div>
