@@ -7,7 +7,6 @@ sections:
 - type: document
   path: index.html
   label: index
-  match: "**/*"
 - type: directory
   path: "."
   label: root

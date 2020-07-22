@@ -10,5 +10,3 @@ fields:
 - type: text
   name: author
   label: author
-pages:
-- _posts/2020-07-21-why learn elixir in 2020.md

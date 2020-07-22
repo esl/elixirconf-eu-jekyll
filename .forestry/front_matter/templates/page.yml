@@ -11,3 +11,5 @@ fields:
 - type: text
   name: title
   label: title
+pages:
+- _posts/2020-07-21-why learn elixir in 2020.md

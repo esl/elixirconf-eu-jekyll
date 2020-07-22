@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: default
 author: Erlang Solutions
+title: Why learn elixir in 2020
 
 ---
 ![](/assets/images/why-elixir.jpeg)
