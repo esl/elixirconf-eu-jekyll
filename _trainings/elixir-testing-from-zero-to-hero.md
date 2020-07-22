@@ -3,11 +3,11 @@ trainer: devon-estes
 trainer-name: Devon Estes
 trainer-2: 
 trainer-name-2: 
-event_date: 6 October
-venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
+event_date: 5 October
+venue: Online
 experience: Beginner, Intermediate
 from: '09.00 AM'
-to: 17.00 PM
+to: 17.00 Central European Time
 type: training
 
 ---
