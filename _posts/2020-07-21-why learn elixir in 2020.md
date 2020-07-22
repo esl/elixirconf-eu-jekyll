@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: Erlang Solutions
 title: Why learn elixir in 2020
 
