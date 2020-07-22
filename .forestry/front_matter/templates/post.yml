@@ -2,6 +2,11 @@
 label: Post
 hide_body: false
 fields:
+- name: post_pic_url
+  type: file
+  config:
+    maxSize: 64
+  label: post picture
 - type: text
   name: layout
   label: layout
