@@ -1,14 +1,15 @@
 ---
-trainer: eric-meadows
+trainer: ''
 trainer-name: Eric Meadows-Jönsson
 trainer-2: andrea-leopardi
 trainer-name-2: Andrea Leopardi
 event_date: 6 October
-venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
+venue: Online
 experience: Beginner, Intermediate
-from: "9"
-to: "17"
+from: '9:00'
+to: 17:00 Central European Time
 type: training
+published: false
 
 ---
 Elixir can be a demanding programming language to learn. Developers who are coming from object-oriented languages have new concepts to learn, such as modelling programs in a functional way and working with processes and message passing.
