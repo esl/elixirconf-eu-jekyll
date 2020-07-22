@@ -15,4 +15,4 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: videourl
+  label: video url
