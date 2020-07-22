@@ -52,3 +52,5 @@ fields:
   config:
     required: false
   label: twitter
+pages:
+- _layouts/devon-estes.html
