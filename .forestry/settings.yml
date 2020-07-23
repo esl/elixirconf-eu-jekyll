@@ -35,6 +35,9 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: jekyll-videos
+  label: Videos
+  create: all
 - type: directory
   path: _trainings
   label: Trainings
