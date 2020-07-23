@@ -10,10 +10,12 @@
 #  link: "register"
 - name: Training
   link: "training"
-# - name: Blog
-#   link: "blog"
 - name: Diversity
   link: "diversity"
+- name: Videos
+  link: "video"
+- name: Blog
+  link: "blog"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
