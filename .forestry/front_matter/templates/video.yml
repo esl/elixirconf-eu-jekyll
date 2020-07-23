@@ -21,5 +21,24 @@ fields:
   config:
     required: false
   label: video url short
+- name: event_date
+  type: text
+  config:
+    required: false
+  label: event date
+- name: venue
+  type: text
+  config:
+    required: false
+  label: venue
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
 pages:
 - _videos/elixirconf-2019-un-learning-elixir-randall-thomas.md
