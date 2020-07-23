@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: video url
+pages:
+- _videos/chris-mccord-phoenix-liveview-interactive-apps-without-javascript-elixirconf-eu-2019.md
