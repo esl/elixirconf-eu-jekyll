@@ -36,6 +36,13 @@ sections:
   label: Posts
   create: all
 - type: directory
+  path: _videos
+  label: Videos
+  create: all
+  match: "**/*"
+  templates:
+  - video
+- type: directory
   path: _trainings
   label: Trainings
   create: all
