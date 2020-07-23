@@ -48,6 +48,8 @@ collections:
     output: true
   posts:
     output: true
+  videos:
+    output: true
 
 defaults:
   - scope:
@@ -75,6 +77,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"
   - scope:
       path: ""
     values:
