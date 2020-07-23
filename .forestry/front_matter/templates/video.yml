@@ -16,5 +16,3 @@ fields:
     schema:
       format: markdown
   label: video url
-pages:
-- _videos/elixirconf-2019-un-learning-elixir-randall-thomas.md

@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: _videos
+  label: Videos
+  create: all
+  match: "**/*"
+  templates:
+  - video
 - type: document
   path: index.html
   label: index
@@ -35,13 +42,6 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-- type: directory
-  path: _videos
-  label: Videos
-  create: all
-  match: "**/*"
-  templates:
-  - video
 - type: directory
   path: _trainings
   label: Trainings
