@@ -1,6 +1,9 @@
 ---
 title: 'Chris McCord - Phoenix LiveView: Interactive Apps Without JavaScript ElixirConf
   EU 2019'
-video_url: https://www.youtube.com/watch?v=8xJzHq8ru0M&list=PLvL2NEhYV4ZtoiQC735NjHyPJUS_nmrxy
+video_url: <iframe width="560" height="315" src="https://www.youtube.com/embed/8xJzHq8ru0M"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+published: false
 
 ---
