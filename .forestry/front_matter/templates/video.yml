@@ -16,5 +16,10 @@ fields:
     schema:
       format: markdown
   label: video url
+- name: video_url_short
+  type: text
+  config:
+    required: false
+  label: video url short
 pages:
-- _videos/chris-mccord-phoenix-liveview-interactive-apps-without-javascript-elixirconf-eu-2019.md
+- _videos/elixirconf-2019-un-learning-elixir-randall-thomas.md
