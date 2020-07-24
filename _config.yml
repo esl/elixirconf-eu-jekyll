@@ -50,6 +50,8 @@ collections:
     output: true
   videos:
     output: true
+  archive:
+    output: true
 
 defaults:
   - scope:
@@ -82,6 +84,11 @@ defaults:
       type: "videos"
     values:
       layout: "video"
+  - scope:
+      path: ""
+      type: "archives"
+    values:
+      layout: "archive"
   - scope:
       path: ""
     values:
