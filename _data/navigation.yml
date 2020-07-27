@@ -6,8 +6,8 @@
   link: "speakers"
 - name: Trainers
   link: "trainers"
-#- name: Register
-#  link: "register"
+- name: Register
+  link: "register"
 - name: Training
   link: "training"
 - name: Diversity
