@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: _data
+  label: data
+  create: documents
+  match: "**/*.yml"
 - type: document
   path: index.html
   label: index
@@ -12,18 +17,6 @@ sections:
   label: root
   create: all
   match: "**/*"
-- type: directory
-  path: _layouts
-  label: _layouts
-  create: all
-  match: "**/*"
-  new_doc_ext: html
-- type: directory
-  path: _includes
-  label: _includes
-  create: all
-  match: "**/*"
-  new_doc_ext: html
 - type: directory
   path: _talks
   label: talks
