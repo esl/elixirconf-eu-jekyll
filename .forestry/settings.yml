@@ -40,8 +40,6 @@ sections:
   label: Trainings
   create: all
   match: "**/*"
-  templates:
-  - training
 - type: directory
   path: _speakers
   label: Speakers
