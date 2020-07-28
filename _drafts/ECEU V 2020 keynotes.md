@@ -25,6 +25,8 @@ Phoenix LiveView is a game-changing framework for Elixir. Over the last 12 month
 
 In his keynote talk at ElixirConf EU Virtual 2020 in June, Chris McCord, the creator of Phoenix LiveView, outlined the upcoming plans for both growth and improvement of the framework. This included plans to introduce deep change tracking and a view for LiveView to be giving users feedback by default to ensure that Phoenix LiveView is a good citizen on the web. Discover the full talk in the video below.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VU1JMg9AbLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 (Insert video [https://youtu.be/VU1JMg9AbLQ](https://youtu.be/VU1JMg9AbLQ "https://youtu.be/VU1JMg9AbLQ"))
 
 **Jane Walerud: Got a technical idea? How to build a company from there.**
