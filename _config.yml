@@ -16,6 +16,8 @@ social:
 
 include: []
 
+keep_files: [archives]
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
