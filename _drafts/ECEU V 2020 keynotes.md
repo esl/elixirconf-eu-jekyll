@@ -17,6 +17,7 @@ For those of you who weren't able to attend, the keynote videos are available on
 
 Lastly, don't miss out on our next virtual event in October. Purchasing a ticket guarantees you access to all talks, plus, live discussion and networking, job opportunities, exclusive sponsor giveaways and heaps more. Early bird tickets are on sale now!
 
+
 **Keynotes from ElixirConf EU Virtual June 2020**
 
 **Chris McCord: What's new in LiveView**
@@ -27,7 +28,7 @@ In his keynote talk at ElixirConf EU Virtual 2020 in June, Chris McCord, the cre
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VU1JMg9AbLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-(Insert video [https://youtu.be/VU1JMg9AbLQ](https://youtu.be/VU1JMg9AbLQ "https://youtu.be/VU1JMg9AbLQ"))
+
 
 **Jane Walerud: Got a technical idea? How to build a company from there.**
 
@@ -35,12 +36,12 @@ Jane Walerud is a serial tech entrepreneur with a connection to the BEAM communi
 
 This was an extremely interactive talk, with Jane leaving plenty of time for questions from our attendees, who asked a range of insightful questions. The result is a fabulous talk that is sure to help anyone thinking of turning their technical knowledge into a successful company.
 
-(insert video [https://youtu.be/Lqv9D54-0Bw](https://youtu.be/Lqv9D54-0Bw "https://youtu.be/Lqv9D54-0Bw"))
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lqv9D54-0Bw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Anna Neyzberg, Amos King and Chris Keathley: Elixir Outlaws live**
 
 Elixir Outlaws is an extremely popular Elixir podcast featuring three of the most respected members of the community. It is hosted by Amos King (CEO of Binary Noggin and Erlang Ecosystem Foundation member), Anna Neyzberg (co-founder of ElixirBridge) and Chris Keathley (Senior Engineer at Bleacher Report). The team made the most of the virtual conference format, using the opportunity to host a live podcast full of interaction from our global attendee list.
 
-(insert video [https://youtu.be/9pRBhUB_9F0](https://youtu.be/9pRBhUB_9F0 "https://youtu.be/9pRBhUB_9F0"))
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9pRBhUB_9F0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If these talks have inspired you to enjoy an upcoming ElixirConf event, then you should book your ticket to join us on October 7-8. We have a fantastic line up of speakers including Chris McCord, Linda Achieng' Otieno, Sigu Magwa, Marlus Saraiva and heaps more. Get the full details on the home page.
