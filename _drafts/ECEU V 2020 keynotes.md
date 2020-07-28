@@ -5,6 +5,8 @@ author: 'ElixirConf EU Virtual '
 tags: Elixir language
 
 ---
+![](/assets/images/elixirconf-eu-keynote-blog-1.png)
+
 **ElixirConf EU Virtual June 2020 Keynotes**
 
 In June 2020, we hosted our very first virtual ElixirConf EU event. ElixirConf EU has long been the premiere Elixir users event in Europe. It provides a hub for like-minded community members to come together, share ideas, inspire each other, learn and ultimately, grow both the language and its community.
@@ -17,7 +19,6 @@ For those of you who weren't able to attend, the keynote videos are available on
 
 Lastly, don't miss out on our next virtual event in October. Purchasing a ticket guarantees you access to all talks, plus, live discussion and networking, job opportunities, exclusive sponsor giveaways and heaps more. Early bird tickets are on sale now!
 
-
 **Keynotes from ElixirConf EU Virtual June 2020**
 
 **Chris McCord: What's new in LiveView**
@@ -27,8 +28,6 @@ Phoenix LiveView is a game-changing framework for Elixir. Over the last 12 month
 In his keynote talk at ElixirConf EU Virtual 2020 in June, Chris McCord, the creator of Phoenix LiveView, outlined the upcoming plans for both growth and improvement of the framework. This included plans to introduce deep change tracking and a view for LiveView to be giving users feedback by default to ensure that Phoenix LiveView is a good citizen on the web. Discover the full talk in the video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VU1JMg9AbLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 **Jane Walerud: Got a technical idea? How to build a company from there.**
 
