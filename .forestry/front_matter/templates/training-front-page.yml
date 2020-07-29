@@ -36,11 +36,12 @@ fields:
   - type: text
     name: training_2_instructor
     label: training_2_instructor
+  - name: description
+    type: text
+    config:
+      required: true
+    label: description
+    description: the description
   config:
-    labelField: from
-- name: description
-  type: text
-  config:
-    required: true
-  label: description
-  description: the description
+    labelField: description
+
