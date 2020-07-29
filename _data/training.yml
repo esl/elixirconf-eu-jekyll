@@ -1,45 +1,12 @@
-- from: 9.00 AM
-  description: row 1
-  to: 5.00 PM
-  type: training
-  training_1: Debugging a running system
-  training_1_url: debugging-a-running-system
-  training_1_instructor: Ben Marx
-  training_1_instructor_2: Justin Schneck
-  training_2:
-  training_2_url:
-  training_2_instructor:
-  
-- from: 9.00 AM
-  description: row 2
-  to: 5.00 PM
-  type: training
-  training_1: Ecto from the ground up
-  training_1_instructor: Wojtek Mach
-  training_1_instructor_2: Darin Wilson
-  training_1_url: ecto-from-the-ground-up
-  training_2: 
-  training_2_instructor: 
-  training_2_url:
-  
-- from: 9.00 AM
-  description: row 3
-  to: 5.00 PM
-  type: training
-  training_1: Phoenix LiveView from prototype to production
-  training_1_url: phoenix-liveview-from-prototype-to-production
-  training_1_instructor: Mike Martinson
-  training_1_instructor_2: Tam Kbeili
- 
-
-- from: 9.00 AM
-  to: 5.00 PM
+---
+- from: ''
+  to: ''
   description: row 4
   type: training
-  training_1: From zero to hero with Elixir
-  training_1_url: from-zero-to-hero-with-elixir
-  training_1_instructor: Eric Meadows-Jönsson
-  training_1_instructor_2: Andrea Leopardi
-  training_2:
-  training_2_instructor:
-  training_2_url:
+  training_1: 'Wait and see.. '
+  training_1_url: ''
+  training_1_instructor: ''
+  training_1_instructor_2: ''
+  training_2: 
+  training_2_instructor: 
+  training_2_url: 
