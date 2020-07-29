@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _trainers
+  label: trainers
+  create: all
+  match: "**/*"
+  templates:
+  - trainers
+- type: directory
   path: _data
   label: data
   create: documents
