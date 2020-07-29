@@ -1,12 +1,12 @@
 ---
-- from: ''
-  to: ''
-  description: row 4
-  type: training
-  training_1: 'Wait and see.. '
-  training_1_url: ''
-  training_1_instructor: ''
+- from: 5 Oct, 9 AM
+  to: 5 PM CEST
+  description: Elixir Testing - From Zero to Hero
+  type: tutorial
+  training_1: Elixir Testing - From Zero to Hero
+  training_1_url: elixir-testing-from-zero-to-hero
+  training_1_instructor: Devon Estes
   training_1_instructor_2: ''
-  training_2: 
-  training_2_instructor: 
-  training_2_url: 
+  training_2: ''
+  training_2_instructor: ''
+  training_2_url: ''
