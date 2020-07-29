@@ -44,4 +44,3 @@ fields:
     description: the description
   config:
     labelField: description
-
