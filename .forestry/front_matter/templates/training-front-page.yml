@@ -6,15 +6,6 @@ fields:
   name: Training
   label: Training
   fields:
-  - name: day-and-row
-    type: datetime
-    label: day-and-row
-    description: ''
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
   - type: text
     name: from
     label: from
@@ -45,3 +36,11 @@ fields:
   - type: text
     name: training_2_instructor
     label: training_2_instructor
+  config:
+    labelField: from
+- name: description
+  type: text
+  config:
+    required: true
+  label: description
+  description: the description
