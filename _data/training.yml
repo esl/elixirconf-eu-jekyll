@@ -1,4 +1,15 @@
 ---
+- from: 6 Oct, 9AM
+  to: 5PM CEST
+  description: ''
+  type: training
+  training_1: From Zero to Hero with Elixir
+  training_1_url: from-zero-to-hero-with-elixir
+  training_1_instructor: Andrea Leopardi
+  training_1_instructor_2: ''
+  training_2: ''
+  training_2_instructor: ''
+  training_2_url: ''
 - from: 5 Oct, 9 AM
   to: 5 PM CEST
   description: Elixir Testing - From Zero to Hero
