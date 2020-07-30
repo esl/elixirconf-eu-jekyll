@@ -1,7 +1,7 @@
 ---
-relevance: 0
+relevance: 
 short_name: devon-estes
-pic_url: ''
+pic_url: "/assets/images/speakers/devon_estes.jpeg"
 firstname: Devon
 lastname: Estes
 position: ''
