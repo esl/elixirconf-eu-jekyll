@@ -12,5 +12,6 @@ description: Eric Meadows-Jönsson is a member of the Elixir team and an active 
   by Pragmatic Bookshelf.
 github: ericmj
 twitter: emjii
+published: false
 
 ---
