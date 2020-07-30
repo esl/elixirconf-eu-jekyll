@@ -1,8 +1,8 @@
 ---
-trainer: ''
-trainer-name: Eric Meadows-Jönsson
-trainer-2: andrea-leopardi
-trainer-name-2: Andrea Leopardi
+trainer: andrea-leopardi
+trainer-name: Andrea Leopardi
+trainer-2: ''
+trainer-name-2: ''
 event_date: 6 October
 venue: Online
 experience: Beginner, Intermediate
