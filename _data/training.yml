@@ -2,10 +2,10 @@
 - from: 6 Oct, 9 AM
   to: 5 PM CEST
   description: ''
-  type: ''
+  type: training
   training_1: Rebuild Phoenix from Scratch and Develop with Confidence
   training_1_url: develop-phoenix-ecto-apps
-  training_1_instructor: ''
+  training_1_instructor: Shankar Dhanasekaran
   training_1_instructor_2: ''
   training_2: ''
   training_2_instructor: ''
