@@ -6,7 +6,7 @@ firstname: Shankar
 lastname: Dhanasekaran
 position: Co-founder & CTO of tālam, Auroville Centre for Scientific Research. The
   author of Phoenix Inside Out Book series.
-training: Develop Phoenix and Ecto Apps with Confidence
+training: Rebuild Phoenix from Scratch and Develop with Confidence
 github: shankardevy
 twitter: shankardevy
 
