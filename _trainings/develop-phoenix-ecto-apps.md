@@ -6,36 +6,44 @@ venue: Online
 summary: ''
 description: A mix of both theory and hands on exercise on Phoenix and Ecto libraries.
 experience: ''
-from: 6 Oct TBD
-to: 6 Oct TBD
+from: 9 AM
+to: 17 PM Central European Time
 type: training
 published: false
 
 ---
-Most people think Phoenix and Ecto libraries do several magical things and perceive them as complex frameworks to use. Even if they do use them, they don't fully appreciate the simple and brilliant design behind it.
+The training will be a mix of both theory and hands-on exercise where the participants will recreate a mini-version of Phoenix from scratch.
 
-In this training we aim to understand how these simple data structures play vital roles in the design and internal working of Phoenix and Ecto.
-
-The training will be a mix of both theory and hands on exercise where the participants will recreate a mini-version of Phoenix all from scratch and see through the magic of Elixir macros and functional composition nature of Phoenix and Ecto.
+As we build our mini-Phoenix, we will see how Phoenix uses a very thin layer of Elixir macros for much of the magic it does. As we see through this layer of Elixir macros, we will see how the functional nature of phoenix is very simple and yet powerful with several aha moments throughout the session to make you a confident developer who knows the Phoenix framework inside out.
 
 **EXPERTISE**
 
-Intermediate
+* Intermediate
 
 **COURSE DURATION**
 
-1 day
+* 1 day
 
 **TARGET AUDIENCE**
 
-Software developers
+* Software developers
 
 **PREREQUISITES**
 
-Some prior experience with Phoenix is necessary
+* Having worked with real world project using Phoenix will help to appreciate this training more
 
-**ABOUT YOUR TRAINER**
 
-Shankar Dhanasekaran is the Co-founder & CTO of tālam, Auroville Centre for Scientific Research. He is also the author of Phoenix Inside Out Book series.
+* At minimum, you should have with Phoenix to create a simple CRUD interface.
 
-As a programmer with more than a decade’s worth of experience in various technologies, he has been giving training at local and international conferences.
+**OBJECTIVES**
+
+* _Learn the internal working of Phoenix framework to get mastery of the framework._
+
+**COVERS THE FOLLOWING TOPICS**
+
+* How to build a web app using Elixir and Cowboy
+* What are Elixir macros? How  and where does Phoenix use them
+* What is a Plug? How is it designed and working
+* Understand how Phoenix is like an onion with layers and layers of Plug.
+* What are Phoenix View and Templates and how does Phoenix render templates so fast?
+* How does variables in Phoenix templates work? What are 'assigns'?
