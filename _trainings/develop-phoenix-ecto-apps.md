@@ -9,7 +9,6 @@ experience: ''
 from: 9 AM
 to: 17 PM Central European Time
 type: training
-published: false
 
 ---
 The training will be a mix of both theory and hands-on exercise where the participants will recreate a mini-version of Phoenix from scratch.
@@ -37,7 +36,7 @@ As we build our mini-Phoenix, we will see how Phoenix uses a very thin layer of 
 
 **OBJECTIVES**
 
-* _Learn the internal working of Phoenix framework to get mastery of the framework._
+* Learn the internal working of Phoenix framework to get mastery of the framework.
 
 **COVERS THE FOLLOWING TOPICS**
 
