@@ -9,6 +9,5 @@ position: Co-founder & CTO of tālam, Auroville Centre for Scientific Research. 
 training: Develop Phoenix and Ecto Apps with Confidence
 github: shankardevy
 twitter: shankardevy
-published: false
 
 ---
