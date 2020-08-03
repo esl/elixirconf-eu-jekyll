@@ -53,6 +53,7 @@ fields:
     required: false
   label: twitter
 pages:
+- _trainers/annette-bieniusa.md
 - _trainers/daniel-tipping.md
 - _trainers/devon-estes.md
 - _trainers/mariano-guerra.md
