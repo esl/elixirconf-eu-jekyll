@@ -8,6 +8,5 @@ position: Founder of Git Scientist
 training: 'Ecto: Everything You Need To Know'
 github: dtip
 twitter: dtip_
-published: false
 
 ---
