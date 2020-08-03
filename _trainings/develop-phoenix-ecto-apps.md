@@ -1,6 +1,6 @@
 ---
 speaker: ''
-trainer: Shankar Dhanasekaran
+trainer: shankar-dhanasekaran
 event_date: 6 Oct
 venue: Online
 summary: ''
