@@ -1,7 +1,7 @@
 ---
 relevance: 4
 short_name: andrea-leopardi
-pic_url: Andrea_Leopardi.jpg
+pic_url: ./assets/images/speakers/Andrea_Leopardi.jpg
 firstname: Andrea
 lastname: Leopardi
 position: Elixir Core Team Member

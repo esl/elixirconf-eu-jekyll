@@ -1,7 +1,7 @@
 ---
 relevance: 8
 short_name: mike-martinson
-pic_url: mikem_martinson.jpg
+pic_url: /assets/images/mikem_martinson.jpg
 firstname: Mike
 lastname: Martinson
 position: CTO at CodeCast

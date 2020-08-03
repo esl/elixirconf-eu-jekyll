@@ -1,7 +1,7 @@
 ---
 relevance: 3
 short_name: eric-meadows
-pic_url: eric-meadows-jonsson.jpg
+pic_url: /assets/images/eric-meadows-jonsson.jpg
 firstname: Eric
 lastname: Meadows-Jönsson
 position: Developer

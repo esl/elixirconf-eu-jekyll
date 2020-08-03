@@ -1,7 +1,7 @@
 ---
 relevance: 5
 short_name: ben-marx
-pic_url: ben-marx.jpg
+pic_url: /assets/images/ben-marx.jpg
 firstname: Ben
 lastname: Marx
 position: Lead Engineer / Co-author of Adopting Elixir
