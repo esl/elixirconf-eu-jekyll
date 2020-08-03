@@ -8,6 +8,5 @@ position: Programmer, Trainer
 training: ''
 github: marianoguerra
 twitter: warianoguerra
-published: false
 
 ---
