@@ -11,7 +11,6 @@ experience: Beginner, Intermediate
 from: 10:30 AM
 to: 6:30 PM Central European Time
 type: training
-published: false
 
 ---
 _Ecto is Elixir’s database wrapper. If you want to use a database with Elixir, you need to know Ecto._
