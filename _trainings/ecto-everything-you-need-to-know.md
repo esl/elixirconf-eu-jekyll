@@ -22,7 +22,7 @@ _We’ll focus on practical exercises rather than lectures. We’ll be getting h
 
 **EXPERTISE**
 
-* _Beginner, Intermediate_
+* _Beginner - Intermediate_
 
 **COURSE DURATION**
 
