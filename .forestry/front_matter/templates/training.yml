@@ -35,5 +35,8 @@ fields:
   label: type
 pages:
 - _trainings/distributed-systems-with-riak-core-lite.md
+- _trainings/distributed-systems-with-riak-core-lite.md
 - _trainings/ecto-everything-you-need-to-know.md
+- _trainings/ecto-everything-you-need-to-know.md
+- _trainings/rebuild-phoenix-from-scratch.md
 - _trainings/rebuild-phoenix-from-scratch.md
