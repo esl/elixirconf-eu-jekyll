@@ -5,7 +5,7 @@ pic_url: "/assets/images/annette-beniusa.png"
 firstname: Annette
 lastname: Bieniusa
 position: Senior Researcher at TU Kaiserslautern
-training: ''
+training: Distributed Systems with Riak Core Lite
 github: bieniusa
 twitter: anne_biene
 
