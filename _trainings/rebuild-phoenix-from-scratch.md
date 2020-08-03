@@ -7,7 +7,7 @@ summary: ''
 description: A mix of both theory and hands on exercise on Phoenix and Ecto libraries.
 experience: ''
 from: 9 AM
-to: 17 PM Central European Time
+to: 5 PM Central European Time
 type: training
 
 ---
