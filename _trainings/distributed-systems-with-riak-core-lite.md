@@ -1,6 +1,6 @@
 ---
 speaker: ''
-trainer: ''
+trainer: Annette Bieniusa and Mariano Guerra
 event_date: October 6
 venue: Online
 summary: ''
