@@ -35,3 +35,4 @@ fields:
   label: type
 pages:
 - _trainings/develop-phoenix-ecto-apps.md
+- _trainings/ecto-everything-you-need-to-know.md
