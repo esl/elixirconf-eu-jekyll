@@ -9,6 +9,7 @@ experience: Beginner, Intermediate
 from: '09.00 AM'
 to: 17.00 PM
 type: training
+published: false
 
 ---
 Summary
