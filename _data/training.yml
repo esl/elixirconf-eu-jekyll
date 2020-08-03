@@ -1,6 +1,6 @@
 ---
 - from: 6 Oct, 10AM
-  to: 6PM Central European Time
+  to: 6PM CEST
   description: This tutorial explores the practical aspects of implementing and testing
     horizontally scalable distributed applications using Elixir with Riak Core Lite.
   type: training
