@@ -53,5 +53,6 @@ fields:
     required: false
   label: twitter
 pages:
+- _trainers/daniel-tipping.md
 - _trainers/devon-estes.md
 - _trainers/shankar-dhanasekaran.md
