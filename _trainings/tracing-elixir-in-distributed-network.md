@@ -10,7 +10,6 @@ experience: Intermediate
 from: 5 Oct, 10AM
 to: 5 PM Central European Time
 type: training
-published: false
 
 ---
 Live tracing is an extremely powerful, yet underutilised feature of the BEAM. It comes from the requirement to troubleshoot live systems handling millions of requests without affecting performance and throughput.

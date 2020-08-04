@@ -8,6 +8,5 @@ position: Senior Developer at Erlang Solutions
 training: ''
 github: DenysGonchar
 twitter: ''
-published: false
 
 ---
