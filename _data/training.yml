@@ -1,4 +1,16 @@
 ---
+- from: 5 Oct, 10 AM
+  to: 4 PM CEST
+  description: In this tutorial, Denys Gonchar will show you how to trace Erlang and
+    Elixir programs in a distributed network.
+  type: training
+  training_1: Tracing Elixir in a Distributed Network
+  training_1_url: tracing-elixir-in-distributed-network
+  training_1_instructor: Denys Gonchar
+  training_1_instructor_2: ''
+  training_2: ''
+  training_2_instructor: ''
+  training_2_url: ''
 - from: 6 Oct, 10AM
   to: 6PM CEST
   description: This tutorial explores the practical aspects of implementing and testing
