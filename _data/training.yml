@@ -1,4 +1,15 @@
 ---
+- from: 5 Oct, 9 AM
+  to: 5 PM CEST
+  description: Elixir Testing - From Zero to Hero
+  type: ''
+  training_1: Elixir Testing - From Zero to Hero
+  training_1_url: elixir-testing-from-zero-to-hero
+  training_1_instructor: Devon Estes
+  training_1_instructor_2: ''
+  training_2: ''
+  training_2_instructor: ''
+  training_2_url: ''
 - from: 5 Oct, 10 AM
   to: 4 PM CEST
   description: In this tutorial, Denys Gonchar will show you how to trace Erlang and
@@ -7,29 +18,6 @@
   training_1: Tracing Elixir in a Distributed Network
   training_1_url: tracing-elixir-in-distributed-network
   training_1_instructor: Denys Gonchar
-  training_1_instructor_2: ''
-  training_2: ''
-  training_2_instructor: ''
-  training_2_url: ''
-- from: 6 Oct, 10AM
-  to: 6PM CEST
-  description: This tutorial explores the practical aspects of implementing and testing
-    horizontally scalable distributed applications using Elixir with Riak Core Lite.
-  type: training
-  training_1: Distributed Systems with Riak Core Lite
-  training_1_url: distributed-systems-with-riak-core-lite
-  training_1_instructor: Annette Bieniusa
-  training_1_instructor_2: Mariano Guerra
-  training_2: ''
-  training_2_instructor: ''
-  training_2_url: ''
-- from: 6 Oct, 10:30AM
-  to: 6:30 PM CEST
-  description: ''
-  type: training
-  training_1: 'Ecto: Everything You Need to Know'
-  training_1_url: ecto-everything-you-need-to-know
-  training_1_instructor: Daniel Tipping
   training_1_instructor_2: ''
   training_2: ''
   training_2_instructor: ''
@@ -56,13 +44,25 @@
   training_2: ''
   training_2_instructor: ''
   training_2_url: ''
-- from: 5 Oct, 9 AM
-  to: 5 PM CEST
-  description: Elixir Testing - From Zero to Hero
-  type: ''
-  training_1: Elixir Testing - From Zero to Hero
-  training_1_url: elixir-testing-from-zero-to-hero
-  training_1_instructor: Devon Estes
+- from: 6 Oct, 10AM
+  to: 6PM CEST
+  description: This tutorial explores the practical aspects of implementing and testing
+    horizontally scalable distributed applications using Elixir with Riak Core Lite.
+  type: training
+  training_1: Distributed Systems with Riak Core Lite
+  training_1_url: distributed-systems-with-riak-core-lite
+  training_1_instructor: Annette Bieniusa
+  training_1_instructor_2: Mariano Guerra
+  training_2: ''
+  training_2_instructor: ''
+  training_2_url: ''
+- from: 6 Oct, 10:30AM
+  to: 6:30 PM CEST
+  description: ''
+  type: training
+  training_1: 'Ecto: Everything You Need to Know'
+  training_1_url: ecto-everything-you-need-to-know
+  training_1_instructor: Daniel Tipping
   training_1_instructor_2: ''
   training_2: ''
   training_2_instructor: ''
