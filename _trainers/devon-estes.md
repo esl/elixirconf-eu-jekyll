@@ -5,7 +5,7 @@ pic_url: "/assets/images/speakers/devon_estes.jpeg"
 firstname: Devon
 lastname: Estes
 position: Maintainer of Benchee & Elixir Track on Exercism.io
-training: Elixir Training - From Zero to Hero
+training: Elixir Training - From Beginner to Expert
 github: devonestes
 twitter: devoncestes
 
