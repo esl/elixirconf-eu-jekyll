@@ -21,13 +21,11 @@ Created by Boyd Multerer (the inventor of Xbox Live), the Scenic framework is a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GwMwMft2FP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  
 **Lumen - Hans Elias Josephsen**
 
 Lumen is the latest Elixir framework to improve the ease of use for front-end use cases. It is a new compiler and runtime suitable for any BEAM language that is compatible with WebAssembly. In this talk, Hans introduces the Lumen project with a specific focus on the compiler.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kkA9rtMPyBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 **Membrane Framework - Marcin Lewandowski**
 
@@ -35,12 +33,10 @@ Media processing requires a large amount of data, a huge variety of formats, pro
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zJjrEaZZ72Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-Pelemay - Susumu Yamazaki
+**Pelemay - Susumu Yamazaki**
 
 Pelamay has been available since mid-May 2020. It can compile Enum.map in parallel with an integer and (or) a float calculation or String.replace into native code with SIMD instructions. The result is an increase in speed from Enum of between2.25x to 4.48x. In this talk, Susumu Yamazaki, Pelemay’s co-creator shows of what Pelemay can do with demonstrations as well as discussing something that we will see in the near future.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/00AECbsSK28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 If these talks have inspired you to discover more of the newest developments in the Elixir community, make sure you buy your ticket to ElixirConf EU Virtual in October. See the programme and [buy your tickets here.](https://www.elixirconf.eu/)
