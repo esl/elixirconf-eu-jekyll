@@ -1,7 +1,13 @@
 ---
 label: Participant
-hide_body: true
+hide_body: false
+display_field: name
 fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: name
 - type: number
   name: relevance
   label: relevance
