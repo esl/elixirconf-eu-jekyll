@@ -23,6 +23,9 @@ fields:
   name: twitter
   label: twitter
 pages:
+- _participants/mike-martinson.md
+- _participants/peter-ullrich.md
+- _participants/rafal-studnicki.md
 - _participants/shankar-dhanasekaran.md
 - _participants/sigu-magwa.md
 - _participants/simon-kistler.md
