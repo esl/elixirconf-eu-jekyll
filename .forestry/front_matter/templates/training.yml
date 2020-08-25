@@ -3,36 +3,18 @@ label: Training
 hide_body: false
 display_field: speaker
 fields:
-- type: text
-  name: speaker
-  label: speaker
-- type: text
-  name: trainer
-  label: trainer
-- type: text
-  name: event_date
-  label: event_date
-- type: text
-  name: venue
-  label: venue
-- type: text
-  name: summary
-  label: summary
-- type: textarea
-  name: description
-  label: description
-- type: text
-  name: experience
-  label: experience
-- type: text
-  name: from
-  label: from
-- type: text
-  name: to
-  label: to
-- type: text
-  name: type
-  label: type
+- name: training
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: trainings
+      file: 
+      path: 
+  label: training
 pages:
 - _trainings/distributed-systems-with-riak-core-lite.md
 - _trainings/ecto-everything-you-need-to-know.md
