@@ -23,7 +23,10 @@ fields:
   name: twitter
   label: twitter
 pages:
+- _participants/shankar-dhanasekaran.md
+- _participants/sigu-magwa.md
 - _participants/simon-kistler.md
+- _participants/tam-kbeili.md
 - _participants/thomas-orourke.md
 - _participants/tonci-galic.md
 - _participants/victor-nascimento.md
