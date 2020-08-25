@@ -1,4 +1,14 @@
 ---
 label: dfsafda
 hide_body: true
-fields: []
+fields:
+- name: trainin
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: trainings
+  label: trainings
