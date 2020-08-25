@@ -6,41 +6,17 @@ fields:
   name: Training
   label: Training
   fields:
-  - type: text
-    name: from
-    label: from
-  - type: text
-    name: to
-    label: to
-  - type: text
-    name: type
-    label: type
-  - type: text
-    name: training_1
-    label: training_1
-  - type: text
-    name: training_1_url
-    label: training_1_url
-  - type: text
-    name: training_1_instructor
-    label: training_1_instructor
-  - type: text
-    name: training_1_instructor_2
-    label: training_1_instructor_2
-  - type: text
-    name: training_2
-    label: training_2
-  - type: text
-    name: training_2_url
-    label: training_2_url
-  - type: text
-    name: training_2_instructor
-    label: training_2_instructor
-  - name: description
-    type: text
+  - name: item
+    type: select
+    default: []
     config:
       required: true
-    label: description
-    description: the description
+      options: []
+      source:
+        type: pages
+        section: trainings
+        file: 
+        path: 
+    label: item
   config:
     labelField: description
