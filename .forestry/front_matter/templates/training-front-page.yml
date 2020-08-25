@@ -18,5 +18,25 @@ fields:
         file: 
         path: 
     label: item
+  - name: start
+    type: datetime
+    label: start
+    description: 'start time '
+    config:
+      required: true
+      date_format: 
+      time_format: 
+      display_utc: true
+  - name: end
+    type: datetime
+    label: end
+    description: 'end time '
+    config:
+      required: true
+      date_format: 
+      time_format: 
+      display_utc: true
   config:
-    labelField: description
+    labelField: item
+pages:
+- _data/training.yml
