@@ -23,6 +23,9 @@ fields:
   name: twitter
   label: twitter
 pages:
+- _participants/mariano-guerra.md
+- _participants/marlus-saraiva.md
+- _participants/michal-olczak.md
 - _participants/mike-martinson.md
 - _participants/peter-ullrich.md
 - _participants/rafal-studnicki.md
