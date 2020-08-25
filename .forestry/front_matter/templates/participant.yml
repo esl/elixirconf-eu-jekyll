@@ -29,3 +29,6 @@ fields:
 - type: text
   name: twitter
   label: twitter
+pages:
+- _participants/wiebe-marten-wijnja.md
+- _talks/Visual-concurrency-cookbook.md
