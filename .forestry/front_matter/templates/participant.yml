@@ -23,6 +23,10 @@ fields:
   name: twitter
   label: twitter
 pages:
+- _participants/simon-kistler.md
+- _participants/thomas-orourke.md
+- _participants/tonci-galic.md
+- _participants/victor-nascimento.md
 - _participants/wannes-fransen.md
 - _participants/wiebe-marten-wijnja.md
 - _talks/Visual-concurrency-cookbook.md
