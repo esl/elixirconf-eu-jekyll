@@ -1,11 +1,11 @@
 ---
 relevance: 22
-pic_url: /assets/images/wannes-fransen.jpg
+pic_url: "/assets/images/wannes-fransen.jpg"
 name: Wannes Fransen
 tagline: Researcher / Lecturer
-twitter:
-github:
+twitter: ''
+github: ''
 type: speaker
----
 
-<p>Wannes Fransen is a researcher, lecturer in Distributed Applications and Internet Programming Major (both in Elixir), most of the researcher he does is also in Elixir. </p>
+---
+Wannes Fransen is a researcher, lecturer in Distributed Applications and Internet Programming Major (both in Elixir), most of the research he does is also in Elixir.

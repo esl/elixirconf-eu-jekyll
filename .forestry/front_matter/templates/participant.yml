@@ -8,21 +8,14 @@ fields:
   config:
     required: true
   label: name
-- type: number
-  name: relevance
-  label: relevance
 - type: file
   name: pic_url
   label: pic_url
 - type: text
-  name: firstname
-  label: firstname
-- type: text
-  name: lastname
-  label: lastname
-- type: text
-  name: position
-  label: position
+  name: tagline
+  label: tagline
+  config:
+    required: true
 - type: text
   name: github
   label: github
@@ -30,5 +23,6 @@ fields:
   name: twitter
   label: twitter
 pages:
+- _participants/wannes-fransen.md
 - _participants/wiebe-marten-wijnja.md
 - _talks/Visual-concurrency-cookbook.md

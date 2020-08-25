@@ -6,7 +6,7 @@ lastname: ''
 position: ''
 twitter: WiebeMarten
 github: Qqwy
-name: ''
+name: Wiebe Marten
 tagline: Maintainer of more than 20 Elixir libraries, Elixir Forum moderator
 
 ---
