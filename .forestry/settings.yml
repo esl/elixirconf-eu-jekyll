@@ -48,12 +48,10 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: _speakers
-  label: Speakers
+  path: _participants
+  label: Participants
   create: all
   match: "**/*"
-  templates:
-  - speaker
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''

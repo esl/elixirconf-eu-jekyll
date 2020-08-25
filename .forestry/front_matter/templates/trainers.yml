@@ -52,10 +52,3 @@ fields:
   config:
     required: false
   label: twitter
-pages:
-- _trainers/annette-bieniusa.md
-- _trainers/daniel-tipping.md
-- _trainers/denys-gonchar.md
-- _trainers/devon-estes.md
-- _trainers/mariano-guerra.md
-- _trainers/shankar-dhanasekaran.md
