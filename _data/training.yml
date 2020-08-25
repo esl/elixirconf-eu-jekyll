@@ -1,5 +1,9 @@
 ---
 - item: _trainings/distributed-systems-with-riak-core-lite.md
   mnemonic: dist
+  start: 2020-08-25 00:00:00 +0000
+  end: 2020-08-25 14:00:00 +0000
 - item: _trainings/debugging-a-running-system.md
   mnemonic: debugging a running system
+  start: 2020-08-25 00:00:00 +0000
+  end: 2020-08-26 00:00:00 +0000
