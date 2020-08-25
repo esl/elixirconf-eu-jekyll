@@ -1,6 +1,6 @@
 ---
 relevance: 2
-pic_url: /assets/images/hans_josephsen.jpeg
+pic_url: "/assets/images/hans_josephsen.jpeg"
 name: Hans Elias Josephsen
 tagline: Lumen Core Team member
 twitter: hansihe
