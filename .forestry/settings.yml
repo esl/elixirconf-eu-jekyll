@@ -7,8 +7,6 @@ sections:
 - type: document
   path: _data/training.yml
   label: training-list
-  templates:
-    - training-front-page
 - type: directory
   path: _trainers
   label: trainers
