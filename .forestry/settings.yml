@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/training.yml
   label: training-list
-  match: "**/*"
 - type: directory
   path: _trainers
   label: trainers
