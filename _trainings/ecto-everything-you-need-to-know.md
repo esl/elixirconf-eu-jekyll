@@ -1,6 +1,5 @@
 ---
-speaker: ''
-trainer: daniel-tipping
+trainer1: _participants/daniel-tipping.md
 event_date: 6 Oct
 venue: Online
 summary: 'Ecto: Everything you need to know'

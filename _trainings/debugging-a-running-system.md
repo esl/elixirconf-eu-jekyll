@@ -1,8 +1,6 @@
 ---
-trainer: ben-marx
-trainer-name: Ben Marx
-trainer-2: justin-schneck
-trainer-name-2: Justin Schneck
+trainer1: _participants/ben-marx.md
+trainer2: _participants/justin-schneck.md
 event_date: 6 October
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszaw
 experience: Beginner, Intermediate

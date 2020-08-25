@@ -1,6 +1,5 @@
 ---
-speaker: ''
-trainer: Annette Bieniusa and Mariano Guerra
+trainer1: Annette Bieniusa and Mariano Guerra
 event_date: October 6
 venue: Online
 summary: ''
@@ -38,7 +37,7 @@ Erlang 21 or above, Elixir 1.9/1.10 and Mix installed
 
 Elixir developers interested in building scalable services
 
-  
+
 **OBJECTIVES**
 
 * What are Riak, Riak Core and Riak Core Lite. History and relationship between them

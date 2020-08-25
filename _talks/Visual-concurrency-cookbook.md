@@ -1,6 +1,5 @@
 ---
-speaker: daniel-vamosi
-speaker_name: Dániel Vámosi
+speaker1: _speakers/daniel-vamosi.md
 talk: Visual concurrency cookbook
 audience: Intermediate
 ---

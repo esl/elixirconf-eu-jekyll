@@ -1,6 +1,5 @@
 ---
-speaker: hans-josephsen
-speaker_name: Hans Elias Josephsen
+speaker1: _speakers/hans-josephsen.md
 talk: Lumen Keynote
 audience: Beginner
 ---

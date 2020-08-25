@@ -1,10 +1,6 @@
 <div class="section speakers" id="speakers">
     <h2 class="title">SPEAKERS</h2>
     <hr/>
-    <!-- <p class="section-text">
-    Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac
-    ante ipsum primis
-  </p> -->
     <div class="items-container">
         {% assign sorted = site.speakers | sort: "relevance" | where: 'type',
     'speaker' %}
@@ -12,7 +8,7 @@
     sorted %}
             <div class="item">
                 <a href="{{site.baseurl}}{{ speaker.url }}" class="item-head-link">
-                    <div class="img" style="background-image: url('{{site.baseurl}}/assets/images/speakers/{{ speaker.pic_url }}');">
+                    <div class="img" style="background-image: url('{{site.baseurl}}{{ speaker.pic_url }}');">
                         <i class="fa fa-plus-circle"></i>
                     </div>
                     <h4 class="item-name">
@@ -22,8 +18,6 @@
                     </h4>
                 </a>
                 <p class="item-position">{{ speaker.position }}</p>
-                <!-- <p class="item-training">Talk:
-                    {{ speaker.talk }}</p> -->
                 {% assign filtered_talks = site.talks | where: 'speaker',
       speaker.short_name %}
                 {% for talk in filtered_talks %}
@@ -32,7 +26,6 @@
                             {{ talk.title }}</p>
                     </a>
                 {% endfor %}
-                <!-- filters by the first trainer -->
                 {% assign filtered_trainings = site.trainings | where: 'trainer',
       speaker.short_name %}
                 {% for training in filtered_trainings %}
@@ -41,7 +34,6 @@
                             {{ training.title }}</p>
                     </a>
                 {% endfor %}
-                <!-- filters by the second trainer -->
                 {% assign filtered_trainings = site.trainings | where: 'trainer-2',
       speaker.short_name %}
                 {% for training in filtered_trainings %}

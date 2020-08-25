@@ -1,8 +1,6 @@
 ---
-trainer: wojtek-mach
-trainer-name: Wojtek Mach
-trainer-2: darin-wilson
-trainer-name-2: Darin Wilson
+trainer1: _particpants/wojtek-mach.md
+trainer2: _particpants/darin-wilson.md
 event_date: 6 October
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
 experience: Beginner, Intermediate

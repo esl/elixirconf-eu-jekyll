@@ -1,6 +1,5 @@
 ---
-speaker: anamaria-benitesrodriguez
-speaker_name: Ana Maria Benites Rodriguez
+speaker1: _speakers/anamaria-benitesrodriguez.md
 talk: If you want to master "Elixir", teach it!
 audience: Beginner
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa

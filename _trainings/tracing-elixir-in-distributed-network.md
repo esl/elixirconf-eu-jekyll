@@ -1,6 +1,6 @@
 ---
 speaker: ''
-trainer: denys-gonchar
+trainer: _trainers/denys-gonchar.md
 event_date: 5 October
 venue: Online
 summary: " In this tutorial, Denys Gonchar will show you how to trace Erlang and Elixir

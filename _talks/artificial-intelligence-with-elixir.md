@@ -1,6 +1,5 @@
 ---
-speaker: lorenzo-sinisi
-speaker_name: Lorenzo Sinisi
+speaker1: _speakers/lorenzo-sinisi.md
 talk: Artificial intelligence with Elixir - the Rete algorithm to build expert systems
 audience: Proficient
 

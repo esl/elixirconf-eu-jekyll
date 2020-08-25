@@ -1,6 +1,5 @@
 ---
-speaker: zac-barnes
-speaker_name: Zac Barnes
+speaker1: _speakers/zac-barnes.md
 talk: Splitting the difference
 audience: Intermediate
 
