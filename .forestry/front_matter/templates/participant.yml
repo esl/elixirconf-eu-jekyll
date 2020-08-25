@@ -23,6 +23,9 @@ fields:
   name: twitter
   label: twitter
 pages:
+- _participants/ben-marx.md
+- _participants/hans-josephsen.md
+- _participants/lorenzo-sinisi.md
 - _participants/lucjan-suski.md
 - _participants/madhushree-singh.md
 - _participants/mariano-guerra.md
