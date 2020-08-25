@@ -1,22 +1,16 @@
 ---
 label: Training
 hide_body: false
-display_field: speaker
 fields:
-- name: training
-  type: select
-  default: []
-  config:
-    required: true
-    options: []
-    source:
-      type: pages
-      section: trainings
-      file: 
-      path: 
-  label: training
-pages:
-- _trainings/distributed-systems-with-riak-core-lite.md
-- _trainings/ecto-everything-you-need-to-know.md
-- _trainings/rebuild-phoenix-from-scratch.md
-- _trainings/tracing-elixir-in-distributed-network.md
+- type: text
+  name: trainer1
+  label: trainer1
+- type: text
+  name: trainer2
+  label: trainer2
+- type: text
+  name: experience
+  label: experience
+- type: text
+  name: type
+  label: type
