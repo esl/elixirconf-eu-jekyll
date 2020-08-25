@@ -1,7 +1,7 @@
 ---
 relevance: 22
 short_name: victor-nascimento
-pic_url: ''
+pic_url: "/assets/images/victor-nascimento.jpg"
 firstname: Victor
 lastname: Nascimento
 position: Philosophy engineer who always remember the language part in the programming
