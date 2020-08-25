@@ -39,3 +39,4 @@ fields:
   description: This field is used to display speakers in the top of the list
 pages:
 - _layouts/video.html
+- _speakers/victor-nascimento.md
