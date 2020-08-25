@@ -1,9 +1,8 @@
 ---
 relevance: 21
 pic_url: /assets/images/guilherme-de maio.jpg
-firstname: Guilherme
-lastname: de Maio
-position: Software Engineer in love with Elixir/Erlang
+name: Guilherme de Maio
+tagline: Software Engineer in love with Elixir/Erlang
 twitter: nirev
 github: nirev
 ---

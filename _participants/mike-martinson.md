@@ -1,9 +1,8 @@
 ---
 relevance: 8
 pic_url: /assets/images/mikem_martinson.jpg
-firstname: Mike
-lastname: Martinson
-position: CTO at CodeCast
+name: Mike Martinson
+tagline: CTO at CodeCast
 training: Phoenix LiveView from Prototype to Production
 github: mmartinson
 twitter: untimelyquests

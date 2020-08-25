@@ -1,9 +1,8 @@
 ---
 relevance: 14
 pic_url: /assets/images/ju-lui.jpg
-firstname: Ju
-lastname: Liu
-position: Troublemaker
+name: Ju Liu
+tagline: Troublemaker
 twitter: arkh4m
 github: Arkham
 ---

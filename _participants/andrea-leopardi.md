@@ -1,9 +1,8 @@
 ---
 relevance: 4
 pic_url: /assets/images/Andrea_Leopardi.jpg
-firstname: Andrea
-lastname: Leopardi
-position: Elixir Core Team Member
+name: Andrea Leopardi
+tagline: Elixir Core Team Member
 github: whatyouhide
 twitter: whatyouhide
 ---

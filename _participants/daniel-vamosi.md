@@ -1,9 +1,8 @@
 ---
 relevance: 11
 pic_url: /assets/images/daniel-vamosi.jpg
-firstname: Dániel
-lastname: Vámosi
-position: A visual thinker, working on making BEAM big in the aviation industry
+name: Dániel Vámosi
+tagline: A visual thinker, working on making BEAM big in the aviation industry
 twitter: danielvamosi
 github: danielvamosi
 ---

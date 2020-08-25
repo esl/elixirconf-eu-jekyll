@@ -1,9 +1,8 @@
 ---
 relevance: 23
 pic_url: /assets/images/michal-olczak.jpg
-firstname: Michał
-lastname: Olczak
-position: Working at a bank can be fun too!
+name: Michał Olczak
+tagline: Working at a bank can be fun too!
 twitter: m1halo
 github: m1halo
 

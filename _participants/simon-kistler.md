@@ -1,9 +1,8 @@
 ---
 relevance: 22
 pic_url: /assets/images/simon-kistler.jpg
-firstname: Simon
-lastname: Kistler
-position: Software Engineer at VIU Eyewear
+name: Simon Kistler
+tagline: Software Engineer at VIU Eyewear
 twitter:
 github:
 type: speaker

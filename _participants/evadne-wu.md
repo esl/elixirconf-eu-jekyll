@@ -1,9 +1,8 @@
 ---
 relevance: 7
 pic_url: /assets/images/evadne-wu.jpg
-firstname: Evadne
-lastname: Wu
-position: Won Spawnfest (2019) in multiple categories as part of The Bodgemasters
+name: Evadne Wu
+tagline: Won Spawnfest (2019) in multiple categories as part of The Bodgemasters
 twitter: evadne
 github: evadne
 ---

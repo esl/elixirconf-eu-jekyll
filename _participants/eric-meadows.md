@@ -1,9 +1,8 @@
 ---
 relevance: 3
 pic_url: /assets/images/eric-meadows-jonsson.jpg
-firstname: Eric
-lastname: Meadows-Jönsson
-position: Developer
+name: Eric Meadows-Jönsson
+tagline: Developer
 github: ericmj
 twitter: emjii
 ---

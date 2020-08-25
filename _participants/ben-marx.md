@@ -1,9 +1,8 @@
 ---
 relevance: 5
 pic_url: /assets/images/ben-marx.jpg
-firstname: Ben
-lastname: Marx
-position: Lead Engineer / Co-author of Adopting Elixir
+name: Ben Marx
+tagline: Lead Engineer / Co-author of Adopting Elixir
 github: bgmarx
 twitter: bgmarx
 published: false

@@ -1,9 +1,8 @@
 ---
 relevance: 17
 pic_url: /assets/images/anamaria-benitesrodriguez.jpg
-firstname: Ana Maria
-lastname: Benites Rodriguez
-position: wit education ghc19_speaker elixir_dev diversity
+name: Ana Maria Benites Rodriguez
+tagline: wit education ghc19_speaker elixir_dev diversity
 twitter: anitabenites201
 github: anitabenites
 ---

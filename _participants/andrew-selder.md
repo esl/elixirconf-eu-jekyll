@@ -1,9 +1,8 @@
 ---
 relevance: 23
 pic_url: /assets/images/andrew-selder.jpg
-firstname: Andrew
-lastname: Selder
-position:
+name: Andrew Selder
+tagline:
 twitter:
 github:
 published: false

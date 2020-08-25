@@ -1,9 +1,8 @@
 ---
 relevance: 22
 pic_url: /assets/images/madhushree-singh.jpg
-firstname: Madhushree
-lastname: Singh
-position: One World, One Life
+name: Madhushree Singh
+tagline: One World, One Life
 twitter:
 github: SnowDeveloper
 published: false

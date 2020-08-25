@@ -1,9 +1,8 @@
 ---
 relevance: 9
 pic_url: /assets/images/claudio-ortolina.jpg
-firstname: Claudio
-lastname: Ortolina
-position: Building things and cooking food
+name: Claudio Ortolina
+tagline: Building things and cooking food
 twitter: cloud8421
 github: cloud8421
 ---

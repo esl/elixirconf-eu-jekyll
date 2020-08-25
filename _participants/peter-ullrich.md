@@ -1,9 +1,8 @@
 ---
 relevance: 15
 pic_url: /assets/images/peter-ullrich.jpg
-firstname: Peter
-lastname: Ullrich
-position: Software Developer
+name: Peter Ullrich
+tagline: Software Developer
 twitter: pjullrich
 github: PJUllrich
 ---

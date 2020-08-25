@@ -1,9 +1,8 @@
 ---
 relevance: 102
 pic_url: /assets/images/andre-albuquerque.jpg
-firstname: Andre
-lastname: Albuquerque
-position: Keyboard builder - author and Interceptor creator
+name: Andre Albuquerque
+tagline: Keyboard builder - author and Interceptor creator
 twitter: lejboua
 github: amalbuquerque
 ---

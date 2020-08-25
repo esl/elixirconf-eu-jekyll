@@ -1,9 +1,8 @@
 ---
 relevance: 24
 pic_url: /assets/images/lucjan-suski.jpg
-firstname: Lucjan
-lastname: Suski
-position: Co-founded a successful, bootstrapped SaaS product company which evolved from an Elixir side project.
+name: Lucjan Suski
+tagline: Co-founded a successful, bootstrapped SaaS product company which evolved from an Elixir side project.
 twitter:
 github: https://github.com/methyl
 ---

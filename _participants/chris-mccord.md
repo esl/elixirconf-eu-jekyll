@@ -1,9 +1,8 @@
 ---
 relevance: 1
 pic_url: /assets/images/chris_mccord.jpg
-firstname: Chris
-lastname: McCord
-position: Creator of Phoenix
+name: Chris McCord
+tagline: Creator of Phoenix
 github: chrismccord
 twitter: chris_mccord
 ---

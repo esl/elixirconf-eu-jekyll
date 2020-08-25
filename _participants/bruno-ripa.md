@@ -1,9 +1,8 @@
 ---
 relevance: 22
 pic_url: /assets/images/bruno-ripa.jpg
-firstname: Bruno
-lastname: Ripa
-position: Architect at Erlang Solutions
+name: Bruno Ripa
+tagline: Architect at Erlang Solutions
 twitter: brunoripa
 github: brunoripa
 ---

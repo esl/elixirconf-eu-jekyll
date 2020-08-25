@@ -1,9 +1,8 @@
 ---
 relevance: 3
 pic_url: /assets/images/linda-otieno.jpg
-firstname: Linda Achieng'
-lastname: Otieno
-position: 24/7 joker |> mom |> software developer
+name: Linda Achieng Otieno
+tagline: 24/7 joker |> mom |> software developer
 twitter: Kadzlyn
 github: LindaKadz
 ---

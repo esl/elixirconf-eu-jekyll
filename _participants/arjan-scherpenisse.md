@@ -1,9 +1,8 @@
 ---
 relevance: 22
 pic_url: /assets/images/arjan-scherpenisse.jpg
-firstname: Arjan
-lastname: Scherpenisse
-position: Founder at Botsquad; Elixir fanboy
+name: Arjan Scherpenisse
+tagline: Founder at Botsquad; Elixir fanboy
 twitter: acscherp
 github: arjan
 published: false

@@ -1,9 +1,8 @@
 ---
 relevance:
 pic_url: "/assets/images/daniel-tipping.jpg"
-firstname: Daniel
-lastname: Tipping
-position: Founder of Git Scientist
+name: Daniel Tipping
+tagline: Founder of Git Scientist
 github: dtip
 twitter: dtip_
 ---

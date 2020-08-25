@@ -1,9 +1,8 @@
 ---
 relevance: 22
 pic_url: /assets/images/wannes-fransen.jpg
-firstname: Wannes
-lastname: Fransen
-position: Researcher / Lecturer
+name: Wannes Fransen
+tagline: Researcher / Lecturer
 twitter:
 github:
 type: speaker

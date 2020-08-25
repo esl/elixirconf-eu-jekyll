@@ -1,11 +1,9 @@
 ---
 relevance: 2
 pic_url: "/assets/images/shankar_dhanasekaran.jpg"
-firstname: Shankar
-lastname: Dhanasekaran
-position: Co-founder & CTO of tālam, Auroville Centre for Scientific Research. The
-  author of Phoenix Inside Out Book series.
+name: Shankar Dhanasekaran
+tagline: CTO of tālam, Auroville Centre for Scientific Research.
 github: shankardevy
 twitter: shankardevy
-
 ---
+Co-founder & CTO of tālam, Auroville Centre for Scientific Research. The author of Phoenix Inside Out Book series.

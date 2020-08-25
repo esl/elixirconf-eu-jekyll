@@ -1,9 +1,8 @@
 ---
 relevance: 22
 pic_url: "/assets/images/victor-nascimento.jpg"
-firstname: Victor
-lastname: Nascimento
-position: Philosophy engineer who always remember the language part in the programming language expression
+name: Victor Nascimento
+tagline: Philosophy engineer who always remember the language part in the programming language expression
 github: victorolinasc
 twitter: olinasc
 

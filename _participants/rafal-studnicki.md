@@ -1,9 +1,8 @@
 ---
 relevance: 103
 pic_url: /assets/images/rafal-studnicki.jpg
-firstname: Rafał
-lastname: Studnicki
-position: Engineer obsessed with quality and correctness.
+name: Rafał Studnicki
+tagline: Engineer obsessed with quality and correctness.
 twitter: studzien
 github: studzien
 ---

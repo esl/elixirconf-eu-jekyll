@@ -1,9 +1,8 @@
 ---
 relevance: 2
 pic_url: /assets/images/hans_josephsen.jpeg
-firstname: Hans Elias
-lastname: Josephsen
-position: Lumen Core Team member
+name: Hans Elias Josephsen
+tagline: Lumen Core Team member
 twitter: hansihe
 github: hansihe
 published: false

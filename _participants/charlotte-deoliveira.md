@@ -1,9 +1,8 @@
 ---
 relevance: 13
 pic_url: /assets/images/charlotte-deoliveira.jpg
-firstname: Charlotte Lorelei
-lastname: De Oliveira
-position: Net Idol
+name: Charlotte Lorelei De Oliveira
+tagline: Net Idol
 twitter: umamaistempo
 github: umamaistempo
 ---

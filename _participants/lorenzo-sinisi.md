@@ -1,9 +1,8 @@
 ---
 relevance: 25
 pic_url: /assets/images/lorenzo-sinisi.jpg
-firstname: Lorenzo
-lastname: Sinisi
-position: Freelance Elixir software engineer
+name: Lorenzo Sinisi
+tagline: Freelance Elixir software engineer
 twitter: lorenzosinisi
 github: lorenzosinisi
 ---

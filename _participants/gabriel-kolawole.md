@@ -1,9 +1,8 @@
 ---
 relevance: 101
 pic_url: /assets/images/gabriel-kolawole.jpg
-firstname: Gabriel
-lastname: Kolawole
-position: Software Developer Hub88.io
+name: Gabriel Kolawole
+tagline: Software Developer Hub88.io
 twitter:
 github: segaz2002
 ---
