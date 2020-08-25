@@ -20,3 +20,5 @@ fields:
     label: item
   config:
     labelField: description
+pages:
+- _data/training.yml
