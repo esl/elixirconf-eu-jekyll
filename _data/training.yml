@@ -1,2 +1,5 @@
 ---
+- item: _trainings/distributed-systems-with-riak-core-lite.md
+  mnemonic: dist
 - item: _trainings/debugging-a-running-system.md
+  mnemonic: debugging a running system

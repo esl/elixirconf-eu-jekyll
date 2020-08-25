@@ -19,6 +19,6 @@ fields:
         path: 
     label: item
   config:
-    labelField: description
+    labelField: item
 pages:
 - _data/training.yml
