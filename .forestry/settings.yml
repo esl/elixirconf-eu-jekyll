@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/training.yml
+  label: training-list
+  match: "**/*"
 - type: directory
   path: _trainers
   label: trainers
