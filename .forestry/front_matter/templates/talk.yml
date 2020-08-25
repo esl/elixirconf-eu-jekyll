@@ -14,3 +14,5 @@ fields:
 - type: text
   name: speaker_name
   label: speaker_name
+pages:
+- _talks/Developing-a-production-OpenBank-with-Elixir-at-Stone.md
