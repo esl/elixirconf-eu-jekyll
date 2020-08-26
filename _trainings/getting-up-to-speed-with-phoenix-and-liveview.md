@@ -1,9 +1,11 @@
 ---
-trainer1:
+trainer1: ''
 experience: Beginner, Intermediate
 tagline: Getting up to speed with Phoenix and Liveview
----
+trainer2: []
+type: ''
 
+---
 Drawing upon the experience of building Phoenix and LiveView powered apps, Shankar Dhanasekaran will bring you up to speed to develop Phoenix apps with confidence and walk you through building specific features of an ecommerce system using LiveView.
 
 This workshop is for beginners in Phoenix having good experience with other web frameworks.This workshop is designed as a mix of two crash courses on Phoenix and LiveView.
@@ -15,4 +17,3 @@ In the second part of the workshop, we will start with the theory and components
 We will then will walk you through building a few specific features of an ecommerce system using LiveView such as live updates showing "total users currently viewing each product," typical to many hotel booking websites.
 
 By the end of the workshop, participants will have a good practical grounding of both Phoenix and LiveView and feel confident to work on real projects.
-

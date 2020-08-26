@@ -39,5 +39,7 @@ fields:
       path: 
   label: trainer2
 pages:
+- _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
+- _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md
 - _trainings/tracing-elixir-in-distributed-network.md

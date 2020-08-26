@@ -1,9 +1,11 @@
 ---
-trainer1: tam-kbeili
-trainer2: mike-martinson
+trainer1: _participants/tam-kbeili.md
+trainer2: _participants/mike-martinson.md
 experience: Beginner, Intermediate
-published: false
 tagline: Phoenix Liveview from prototype to production
+type: ''
+published: false
+
 ---
 Summary
 
