@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/wannes-fransen.md
+- speaker: _speakers/wannes-fransen.md
 title: Digital twins bridging the physical to your BEAM
 audience: Beginner
 ---

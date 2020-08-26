@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/simon-kistler.md
+- speaker: _speakers/simon-kistler.md
 title: From a monolith to productive umbrella app in ecommerce
 audience: Beginner
 ---

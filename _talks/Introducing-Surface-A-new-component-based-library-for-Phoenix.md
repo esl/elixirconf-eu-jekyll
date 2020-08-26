@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/marlus-saraiva.md
+- speaker: _speakers/marlus-saraiva.md
 title: Introducing Surface - A new component-based library for Phoenix
 audience: Intermediate
 ---

@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/anamaria-benitesrodriguez.md
+- speaker: _speakers/anamaria-benitesrodriguez.md
 title: If you want to master "Elixir", teach it!
 audience: Beginner
 ---

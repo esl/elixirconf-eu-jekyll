@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/sigu-magwa.md
+- speaker: _speakers/sigu-magwa.md
 title: Building an emergency software with Phoenix & Elixir
 audience:
 ---

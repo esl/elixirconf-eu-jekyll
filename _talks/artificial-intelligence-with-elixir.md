@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/lorenzo-sinisi.md
+- speaker: _speakers/lorenzo-sinisi.md
 title: Artificial intelligence with Elixir - the Rete algorithm to build expert systems
 audience: Proficient
 

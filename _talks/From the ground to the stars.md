@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/bruno-ripa.md
+- speaker: _speakers/bruno-ripa.md
 title: From the ground to the stars
 audience: Beginner
 ---

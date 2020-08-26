@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/michal-olczak.md
+- speaker: _speakers/michal-olczak.md
 title: Taking Elixir live at a bank
 audience: Intermediate
 ---

@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/rafal-studnicki.md
+- speaker: _speakers/rafal-studnicki.md
 title: Can we visualize software complexity?
 audience: Intermediate
 ---

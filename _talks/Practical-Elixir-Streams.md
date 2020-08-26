@@ -1,6 +1,6 @@
 ---
 speakers:
-- _speakers/evadne-wu.md
+- speaker: _speakers/evadne-wu.md
 title: Practical Elixir streams
 audience: Intermediate
 ---
