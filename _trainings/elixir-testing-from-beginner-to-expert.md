@@ -1,13 +1,8 @@
 ---
-trainer: devon-estes
-trainer-name: Devon Estes
-trainer-2: 
-trainer-name-2: 
+trainer1: devon-estes
 event_date: 5 October
 venue: Online
 experience: Beginner, Intermediate
-from: '09.00 AM'
-to: 17.00 Central European Time
 type: training
 
 ---

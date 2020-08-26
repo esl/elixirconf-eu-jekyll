@@ -1,12 +1,8 @@
 ---
 trainer1: _participants/ben-marx.md
 trainer2: _participants/justin-schneck.md
-event_date: 6 October
-venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszaw
 experience: Beginner, Intermediate
-from: "9"
-to: "17"
-type: training
+tagline: Debugging a running system
 published: false
 
 ---

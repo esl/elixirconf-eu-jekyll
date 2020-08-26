@@ -1,15 +1,8 @@
 ---
-trainer: andrea-leopardi
-trainer-name: Andrea Leopardi
-trainer-2: ''
-trainer-name-2: ''
-event_date: 6 October
-venue: Online
+trainer1: andrea-leopardi
+trainer2:
 experience: Beginner, Intermediate
-from: '9:00'
-to: 17:00 Central European Time
-type: training
-
+tagline: From Zero to Hero with Elixir
 ---
 Elixir can be a demanding programming language to learn. Developers who are coming from object-oriented languages have new concepts to learn, such as modelling programs in a functional way and working with processes and message passing.
 

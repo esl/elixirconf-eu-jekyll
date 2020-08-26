@@ -1,16 +1,9 @@
 ---
-trainer: tam-kbeili
-trainer-name: Tam Kbeili
-trainer-2: mike-martinson
-trainer-name-2: Mike Martinson
-event_date: 6 October
-venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
+trainer1: tam-kbeili
+trainer2: mike-martinson
 experience: Beginner, Intermediate
-from: '09.00 AM'
-to: 17.00 PM
-type: training
 published: false
-
+tagline: Phoenix Liveview from prototype to production
 ---
 Summary
 

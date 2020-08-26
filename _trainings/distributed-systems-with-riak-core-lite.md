@@ -1,15 +1,8 @@
 ---
-trainer1: Annette Bieniusa and Mariano Guerra
-event_date: October 6
-venue: Online
-summary: ''
-description: This tutorial explores the practical aspects of implementing and testing
-  horizontally scalable distributed applications using Elixir with Riak Core Lite.
+trainer1: _participants/annette-bieniusa.md
+trainer2: _participants/mariano-guerra.md
+tagline: Distributed systems with Riak Core Lite
 experience: Intermediate
-from: '10AM '
-to: 6PM (CEST)
-type: training
-
 ---
 This tutorial explores the practical aspects of implementing and testing horizontally scalable distributed applications using Elixir with Riak Core Lite.
 

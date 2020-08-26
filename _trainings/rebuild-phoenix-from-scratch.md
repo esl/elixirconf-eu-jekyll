@@ -1,15 +1,9 @@
 ---
-speaker: ''
-trainer: shankar-dhanasekaran
+trainer1: shankar-dhanasekaran
 event_date: 6 Oct
 venue: Online
-summary: ''
 description: A mix of both theory and hands on exercise on Phoenix and Ecto libraries.
-experience: ''
-from: 9 AM
-to: 5 PM Central European Time
-type: training
-
+tagline: Rebuild Phoenix from Scratch
 ---
 The training will be a mix of both theory and hands-on exercise where the participants will recreate a mini-version of Phoenix from scratch.
 

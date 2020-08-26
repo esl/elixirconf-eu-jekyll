@@ -2,7 +2,7 @@
 trainer1: _participants/daniel-tipping.md
 event_date: 6 Oct
 venue: Online
-summary: 'Ecto: Everything you need to know'
+tagline: 'Ecto: Everything you need to know'
 description: This training will take you from zero Ecto knowledge to a happy an proficient
   Ecto user. We cover all the basics and core concepts – including testing – and finish
   up with some tips, tricks, and more advanced features.

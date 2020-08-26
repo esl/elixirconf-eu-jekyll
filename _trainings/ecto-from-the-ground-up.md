@@ -8,6 +8,7 @@ from: "9"
 to: "17"
 type: training
 published: false
+tagline: Ecto from the ground up
 
 ---
 Are you new to Ecto, or just trying to get a better understanding of how it works? This is the workshop for you!
