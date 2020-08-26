@@ -1,18 +1,34 @@
 ---
-label: talk
+label: Talk
 hide_body: false
 fields:
 - type: text
-  name: talk
-  label: talk
+  name: title
+  label: title
+  config:
+    required: true
 - type: text
   name: audience
   label: audience
-- type: text
-  name: speaker
-  label: speaker
-- type: text
-  name: speaker_name
-  label: speaker_name
+- name: speakers
+  type: field_group_list
+  fields:
+  - name: speaker
+    type: select
+    default: []
+    config:
+      required: true
+      options: []
+      source:
+        type: pages
+        section: speakers
+        file: 
+        path: 
+    label: speaker
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: speakers
 pages:
 - _talks/Developing-a-production-OpenBank-with-Elixir-at-Stone.md
