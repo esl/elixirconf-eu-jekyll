@@ -1,0 +1,16 @@
+---
+label: Talks
+hide_body: true
+fields:
+- name: talk
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: talks
+      file: 
+      path: 
+  label: talk
