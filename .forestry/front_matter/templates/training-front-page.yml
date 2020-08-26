@@ -42,6 +42,6 @@ fields:
       required: true
     label: mnemonic
   config:
-    labelField: item
+    labelField: mnemonic
 pages:
 - _data/training.yml
