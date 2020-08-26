@@ -9,14 +9,32 @@ fields:
     required: true
   label: tagline
 - type: text
-  name: trainer1
-  label: trainer1
-- type: text
-  name: trainer2
-  label: trainer2
+  name: type
+  label: type
 - type: text
   name: experience
   label: experience
-- type: text
-  name: type
-  label: type
+- name: trainer1
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: speakers
+      file: 
+      path: 
+  label: trainer1
+- name: trainer2
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: speakers
+      file: 
+      path: 
+  label: trainer2
