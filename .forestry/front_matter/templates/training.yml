@@ -38,3 +38,6 @@ fields:
       file: 
       path: 
   label: trainer2
+pages:
+- _trainings/rebuild-phoenix-from-scratch.md
+- _trainings/tracing-elixir-in-distributed-network.md
