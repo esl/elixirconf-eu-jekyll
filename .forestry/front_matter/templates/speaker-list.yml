@@ -2,7 +2,7 @@
 label: speaker-list
 hide_body: true
 fields:
-- name: dsafdas
+- name: speakers
   type: field_group
   config: {}
   fields:
@@ -18,4 +18,4 @@ fields:
         file: 
         path: 
     label: speaker
-  label: dsafdas
+  label: speakers
