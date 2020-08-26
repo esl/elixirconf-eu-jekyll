@@ -14,30 +14,6 @@ fields:
 - type: text
   name: experience
   label: experience
-- name: trainer1
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: speakers
-      file: 
-      path: 
-  label: trainer1
-- name: trainer2
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: speakers
-      file: 
-      path: 
-  label: trainer2
 - name: trainers
   type: field_group_list
   fields:

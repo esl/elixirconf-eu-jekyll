@@ -14,14 +14,14 @@ fields:
       source:
         type: pages
         section: speakers
-        file:
-        path:
+        file: 
+        path: 
     label: speaker
   config:
-    min:
-    max:
+    min: 
+    max: 
     labelField: speaker
   label: speakers
 pages:
-- _data/speaker-list.yml
 - _data/keynote-list.yml
+- _data/speaker-list.yml
