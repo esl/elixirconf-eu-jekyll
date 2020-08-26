@@ -1,13 +1,13 @@
 ---
 label: Training
 hide_body: false
-display_field: tagline
+display_field: name
 fields:
-- name: tagline
+- name: name
   type: text
   config:
     required: true
-  label: tagline
+  label: name
 - type: text
   name: type
   label: type
