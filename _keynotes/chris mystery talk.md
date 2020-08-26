@@ -1,6 +1,6 @@
 ---
-relevance: 1
-speaker1: _participants/chris-mccord.md
-talk: Chris' mystery talk!
+speakers:
+- speaker: _participants/chris-mccord.md
+title: Chris' mystery talk!
 ---
 TBD!

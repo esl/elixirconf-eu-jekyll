@@ -3,14 +3,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Elixir conf 2020
 baseurl: "/elixirconf-eu-jekyll-" # the subpath of your site, e.g. /blog
 url: "https://www.elixirconf.eu" # the base hostname & protocol for your site
-# Build settings
-markdown: kramdown
 
 logo: "./assets/images/icon-large.png"
-
-social:
-  name: ElixirConf EU
-  link: "https://twitter.com/elixirconfeu"
 
 # google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
@@ -32,18 +26,14 @@ markdown: kramdown
 permalink: pretty
 
 collections:
-  speakers:
+  participants:
     output: true
-    sort_by: relevance
   keynotes:
     output: true
-    sort_by: relevance
   trainers:
     output: true
-    sort_by: relevance
   trainings:
     output: true
-    sort_by: relevance
   talks:
     output: true
   posts:
@@ -101,7 +91,3 @@ map-text: Hilton Warsaw Hotel and Convention Centre
 map-text-location: Grzybowska 63, 00-844 Warszawa, Poland
 map-lat: 52.2335221
 map-lng: 20.9836819
-
-
-
-

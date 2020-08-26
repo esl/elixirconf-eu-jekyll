@@ -1,5 +1,4 @@
 ---
-relevance: 3
 pic_url: /assets/images/linda-otieno.jpg
 name: Linda Achieng Otieno
 tagline: 24/7 joker |> mom |> software developer

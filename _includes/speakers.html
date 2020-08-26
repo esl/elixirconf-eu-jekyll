@@ -2,7 +2,7 @@
     <h2 class="title">SPEAKERS</h2>
     <hr/>
     <div class="items-container">
-        {% assign sorted = site.speakers | sort: "relevance" | where: 'type',
+        {% assign sorted = site.data.speakers | sort: "relevance" | where: 'type',
     'speaker' %}
         {% for speaker in
     sorted %}
