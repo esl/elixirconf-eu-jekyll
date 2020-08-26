@@ -1,7 +1,7 @@
 ---
 trainers:
-- trainer: _particpants/wojtek-mach.md
-- trainer: _particpants/darin-wilson.md
+- trainer: _participants/wojtek-mach.md
+- trainer: _participants/darin-wilson.md
 event_date: 6 October
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
 experience: Beginner, Intermediate
@@ -9,7 +9,7 @@ from: "9"
 to: "17"
 type: training
 published: false
-tagline: Ecto from the ground up
+title: Ecto from the ground up
 
 ---
 Are you new to Ecto, or just trying to get a better understanding of how it works? This is the workshop for you!

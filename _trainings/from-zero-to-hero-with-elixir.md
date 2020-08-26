@@ -2,8 +2,7 @@
 trainers:
 - trainer: _participants/andrea-leopardi.md
 experience: Beginner, Intermediate
-tagline: From Zero to Hero with Elixir
-type: ''
+title: From Zero to Hero with Elixir
 ---
 Elixir can be a demanding programming language to learn. Developers who are coming from object-oriented languages have new concepts to learn, such as modelling programs in a functional way and working with processes and message passing.
 

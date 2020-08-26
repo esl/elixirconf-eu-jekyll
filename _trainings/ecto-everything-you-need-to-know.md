@@ -3,16 +3,13 @@ trainers:
 - trainer: _participants/daniel-tipping.md
 event_date: 6 Oct
 venue: Online
-tagline: 'Ecto: Everything you need to know'
-description: This training will take you from zero Ecto knowledge to a happy an proficient
-  Ecto user. We cover all the basics and core concepts – including testing – and finish
-  up with some tips, tricks, and more advanced features.
+title: Ecto - everything you need to know
 experience: Beginner, Intermediate
 from: 10:30 AM
 to: 6:30 PM Central European Time
 type: training
-
 ---
+
 _Ecto is Elixir’s database wrapper. If you want to use a database with Elixir, you need to know Ecto._
 
 _This training will take you from zero Ecto knowledge to a happy an proficient Ecto user. We cover all the basics and core concepts – including testing – and finish up with some tips, tricks, and more advanced features._
