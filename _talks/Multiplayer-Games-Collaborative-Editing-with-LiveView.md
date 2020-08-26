@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _speakers/wiebe-marten-wijnja.md
+- speaker: _participants/wiebe-marten-wijnja.md
 title: Multiplayer games and collaborative editing with LiveView
 audience: Beginner
 ---

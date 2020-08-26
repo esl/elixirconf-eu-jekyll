@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _speakers/claudio-ortolina.md
+- speaker: _participants/claudio-ortolina.md
 title: The Perils of large files
 audience: Intermediate
 

@@ -31,7 +31,7 @@
             {% assign speakers = talk.speakers | map: 'speaker' %}
             {% if speakers contains participant.path %}
             <a href="{{ talk.url | relative_url }}">
-                <p class="item-training">Keynote:
+                <p class="item-training">Speaker:
                     {{ talk.title }}</p>
             </a>
             {% endif %}
@@ -39,10 +39,10 @@
 
             <!-- speaker -->
             {% for training in site.trainings %}
-            {% assign speakers = training.speakers | map: 'speaker' %}
+            {% assign speakers = training.trainers | map: 'trainer' %}
             {% if speakers contains participant.path %}
             <a href="{{ training.url | relative_url }}">
-                <p class="item-training">Keynote:
+                <p class="item-training">Training:
                     {{ training.title }}</p>
             </a>
             {% endif %}

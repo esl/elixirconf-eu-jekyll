@@ -1,48 +1,56 @@
 <div class="section speakers" id="speakers">
     <h2 class="title">SPEAKERS</h2>
-    <hr/>
+    <hr />
     <div class="items-container">
-        {% assign sorted = site.data.speakers | sort: "relevance" | where: 'type',
-    'speaker' %}
-        {% for speaker in
-    sorted %}
-            <div class="item">
-                <a href="{{site.baseurl}}{{ speaker.url }}" class="item-head-link">
-                    <div class="img" style="background-image: url('{{site.baseurl}}{{ speaker.pic_url }}');">
-                        <i class="fa fa-plus-circle"></i>
-                    </div>
-                    <h4 class="item-name">
-                        {{ speaker.firstname }}
-                        <br/>
-                        {{speaker.lastname}}
-                    </h4>
-                </a>
-                <p class="item-position">{{ speaker.position }}</p>
-                {% assign filtered_talks = site.talks | where: 'speaker',
-      speaker.short_name %}
-                {% for talk in filtered_talks %}
-                    <a href="{{site.baseurl}}{{ talk.url }}">
-                        <p class="item-training">
-                            {{ talk.title }}</p>
-                    </a>
-                {% endfor %}
-                {% assign filtered_trainings = site.trainings | where: 'trainer',
-      speaker.short_name %}
-                {% for training in filtered_trainings %}
-                    <a href="{{site.baseurl}}{{ training.url }}">
-                        <p class="item-training">Training:
-                            {{ training.title }}</p>
-                    </a>
-                {% endfor %}
-                {% assign filtered_trainings = site.trainings | where: 'trainer-2',
-      speaker.short_name %}
-                {% for training in filtered_trainings %}
-                    <a href="{{site.baseurl}}{{ training.url }}">
-                        <p class="item-training">Training:
-                            {{ training.title }}</p>
-                    </a>
-                {% endfor %}
-            </div>
+        {% for item in site.data.speaker-list.speakers %}
+        {% assign participant = site.participants | where: "path", item.speaker | first  %}
+        {% if participant.path != null %}
+        <div class="item">
+            <a href="{{ participant.url | relative_url }}" class="item-head-link">
+                <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
+                    <i class="fa fa-plus-circle"></i>
+                </div>
+                <h4 class="item-name">
+                    {{ participant.name}}
+                </h4>
+            </a>
+            <p class="item-position">{{ participant.tagline }}</p>
+            <!-- keynote -->
+            {% for keynote in site.keynotes %}
+            {% assign speakers = keynote.speakers | map: 'speaker' %}
+            {% if speakers contains participant.path %}
+            <a href="{{ keynote.url | relative_url }}">
+                <p class="item-training">Keynote:
+                    {{ keynote.title }}</p>
+            </a>
+            {% endif %}
+            {% endfor %}
+
+            <!-- speaker -->
+            {% for talk in site.talks %}
+            {% assign speakers = talk.speakers | map: 'speaker' %}
+            {% if speakers contains participant.path %}
+            <a href="{{ talk.url | relative_url }}">
+                <p class="item-training">Speaker:
+                    {{ talk.title }}</p>
+            </a>
+            {% endif %}
+            {% endfor %}
+
+            <!-- speaker -->
+            {% for training in site.trainings %}
+            {% assign speakers = training.speakers | map: 'speaker' %}
+            {% if speakers contains participant.path %}
+            <a href="{{ training.url | relative_url }}">
+                <p class="item-training">Training:
+                    {{ training.title }}</p>
+            </a>
+            {% endif %}
+            {% endfor %}
+
+        </div>
+
+        {% endif %}
         {% endfor %}
     </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _speakers/hans-josephsen.md
+- speaker: _participants/hans-josephsen.md
 title: Lumen Keynote
 audience: Beginner
 ---

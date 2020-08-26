@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _speakers/charlotte-deoliveira.md
+- speaker: _participants/charlotte-deoliveira.md
 title: Types and Erlang from Dialyzer to session types
 audience: Beginner
 ---

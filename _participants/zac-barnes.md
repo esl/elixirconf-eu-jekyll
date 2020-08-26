@@ -1,5 +1,4 @@
 ---
-relevance: 22
 pic_url: /assets/images/zac-barnes.jpg
 name: Zac Barnes
 tagline: Elixir Developer @ PepsiCo

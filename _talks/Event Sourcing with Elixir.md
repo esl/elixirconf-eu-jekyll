@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _speakers/peter-ullrich.md
+- speaker: _participants/peter-ullrich.md
 title: Event sourcing with Elixir
 audience: Intermediate
 ---

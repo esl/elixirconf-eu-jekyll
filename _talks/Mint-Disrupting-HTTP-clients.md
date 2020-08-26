@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _speakers/andrea-leopardi.md
+- speaker: _participants/andrea-leopardi.md
 title: Mint - Disrupting HTTP clients
 audience: Intermediate
 ---

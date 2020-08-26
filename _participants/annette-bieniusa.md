@@ -1,5 +1,4 @@
 ---
-relevance: 0
 pic_url: "/assets/images/annette-beniusa.png"
 name: Annette Bieniusa
 tagline: Senior Researcher at TU Kaiserslautern
