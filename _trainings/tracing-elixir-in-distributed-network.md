@@ -10,6 +10,8 @@ tagline: Tracing Elixir in distributed network
 trainer1: _participants/denys-gonchar.md
 trainer2: []
 type: ''
+trainers:
+- trainer: _participants/anamaria-benitesrodriguez.md
 
 ---
 Live tracing is an extremely powerful, yet underutilised feature of the BEAM. It comes from the requirement to troubleshoot live systems handling millions of requests without affecting performance and throughput.
