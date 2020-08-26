@@ -1,4 +1,24 @@
 ---
 label: keynotes
 hide_body: true
-fields: []
+fields:
+- name: keynotes
+  type: field_group_list
+  fields:
+  - name: keynote
+    type: select
+    default: []
+    config:
+      required: true
+      options: []
+      source:
+        type: pages
+        section: talks
+        file: 
+        path: 
+    label: keynote
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: keynotes
