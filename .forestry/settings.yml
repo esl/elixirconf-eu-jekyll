@@ -8,13 +8,6 @@ sections:
   path: _data/training.yml
   label: training-list
 - type: directory
-  path: _trainers
-  label: trainers
-  create: all
-  match: "**/*"
-  templates:
-  - trainers
-- type: directory
   path: _data
   label: data
   create: documents
