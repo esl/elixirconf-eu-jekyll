@@ -36,12 +36,7 @@ fields:
       date_format: 
       time_format: 
       display_utc: true
-  - name: mnemonic
-    type: text
-    config:
-      required: true
-    label: mnemonic
   config:
-    labelField: mnemonic
+    labelField: item
 pages:
 - _data/training.yml
