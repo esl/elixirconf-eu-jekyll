@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/speaker-list.yml
+  label: speaker-list
+  match: "**/*"
+- type: document
   path: _data/talks.yml
   label: talks-list
 - type: document
