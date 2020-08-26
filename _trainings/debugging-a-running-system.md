@@ -1,6 +1,7 @@
 ---
-trainer1: _participants/ben-marx.md
-trainer2: _participants/justin-schneck.md
+trainers:
+- trainer1: _participants/ben-marx.md
+- trainer2: _participants/justin-schneck.md
 experience: Beginner, Intermediate
 tagline: Debugging a running system
 published: false

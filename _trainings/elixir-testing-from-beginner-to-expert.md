@@ -1,5 +1,6 @@
 ---
-trainer1: devon-estes
+trainers:
+- trainer: _participants/devon-estes.md
 event_date: 5 October
 venue: Online
 experience: Beginner, Intermediate

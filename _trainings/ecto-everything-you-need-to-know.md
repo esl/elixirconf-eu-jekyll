@@ -1,5 +1,6 @@
 ---
-trainer1: _participants/daniel-tipping.md
+trainers:
+- trainer: _participants/daniel-tipping.md
 event_date: 6 Oct
 venue: Online
 tagline: 'Ecto: Everything you need to know'

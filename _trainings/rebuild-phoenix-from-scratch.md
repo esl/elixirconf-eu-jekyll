@@ -1,10 +1,10 @@
 ---
-trainer1: _participants/shankar-dhanasekaran.md
 event_date: 6 Oct
 venue: Online
 description: A mix of both theory and hands on exercise on Phoenix and Ecto libraries.
 tagline: Rebuild Phoenix from Scratch
-trainer2: []
+trainers:
+- trainer: _participants/shankar-dhanasekaran.md
 type: ''
 experience: ''
 
