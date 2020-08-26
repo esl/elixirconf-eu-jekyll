@@ -19,3 +19,5 @@ fields:
         path: 
     label: speaker
   label: speakers
+pages:
+- _data/speaker-list.yml
