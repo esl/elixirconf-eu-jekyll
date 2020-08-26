@@ -1,6 +1,7 @@
 ---
-speaker1: _speakers/bruno-ripa.md
-talk: From the ground to the stars
+speakers:
+- _speakers/bruno-ripa.md
+title: From the ground to the stars
 audience: Beginner
 ---
 One of the hardest decisions that a startup has to make is which technology stack to adopt in order to maximize productivity, minimize time to market, and also create values like tech culture and vision that naturally become some of the most important company assets.

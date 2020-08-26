@@ -1,6 +1,7 @@
 ---
-speaker1: _speakers/charlotte-deoliveira.md
-talk: Types and Erlang from Dialyzer to session types
+speakers:
+- _speakers/charlotte-deoliveira.md
+title: Types and Erlang from Dialyzer to session types
 audience: Beginner
 ---
 

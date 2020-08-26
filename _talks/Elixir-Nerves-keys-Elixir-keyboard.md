@@ -1,6 +1,6 @@
 ---
-speaker1: _speakers/andre-albuquerque.md
-speaker_name: André Albuquerque
+speakers:
+- _speakers/andre-albuquerque.md
 title: Elixir + Nerves + keys = Elixir keyboard!
 audience: Beginner
 ---

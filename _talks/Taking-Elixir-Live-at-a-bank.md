@@ -1,6 +1,7 @@
 ---
-speaker1: _speakers/michal-olczak.md
-talk: Taking Elixir live at a bank
+speakers:
+- _speakers/michal-olczak.md
+title: Taking Elixir live at a bank
 audience: Intermediate
 ---
 <p>

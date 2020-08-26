@@ -1,6 +1,7 @@
 ---
-speaker1: _speakers/zac-barnes.md
-talk: Splitting the difference
+speaker:
+- _speakers/zac-barnes.md
+title: Splitting the difference
 audience: Intermediate
 
 ---

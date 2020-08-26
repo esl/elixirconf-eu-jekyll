@@ -1,6 +1,7 @@
 ---
-speaker1: _speakers/arjan-scherpenisse.md
-talk: Deploying Phoenix at the speed of light
+speakers:
+- _speakers/arjan-scherpenisse.md
+title: Deploying Phoenix at the speed of light
 audience: Intermediate
 ---
 CI/CD systems and docker can become frustrating to work with when your project grows. Especially with monorepo-projects like Phoenix, where you ship frontend and backend as part of the same release. The days where you could quickly fix a typo or styling mistake on the server are finally behind us.

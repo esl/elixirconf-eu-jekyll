@@ -1,6 +1,7 @@
 ---
-speaker1: _speakers/lorenzo-sinisi.md
-talk: Artificial intelligence with Elixir - the Rete algorithm to build expert systems
+speakers:
+- _speakers/lorenzo-sinisi.md
+title: Artificial intelligence with Elixir - the Rete algorithm to build expert systems
 audience: Proficient
 
 ---

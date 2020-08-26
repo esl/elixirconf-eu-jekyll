@@ -1,6 +1,7 @@
 ---
-speaker1: _speakers/claudio-ortolina.md
-talk: The Perils of large files
+speakers:
+- _speakers/claudio-ortolina.md
+title: The Perils of large files
 audience: Intermediate
 
 ---

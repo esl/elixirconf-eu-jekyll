@@ -1,6 +1,7 @@
 ---
-speaker1: _speakers/rafal-studnicki.md
-talk: Can we visualize software complexity?
+speakers:
+- _speakers/rafal-studnicki.md
+title: Can we visualize software complexity?
 audience: Intermediate
 ---
 We all know that certain software design principles help with system maintenance. Assigning every module a single responsibility is one such principle.
