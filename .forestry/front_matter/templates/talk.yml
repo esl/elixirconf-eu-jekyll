@@ -28,7 +28,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: speaker
   label: speakers
 pages:
 - _talks/Developing-a-production-OpenBank-with-Elixir-at-Stone.md
