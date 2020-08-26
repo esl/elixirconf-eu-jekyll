@@ -1,4 +1,5 @@
 ---
 speakers:
-- speaker: _participants/andre-albuquerque.md
-- speaker: _participants/anamaria-benitesrodriguez.md
+  - speaker: _participants/chris-mccord.md
+  - speaker: _participants/linda-otieno.md
+  - speaker: _participants/sigu-magwa.md
