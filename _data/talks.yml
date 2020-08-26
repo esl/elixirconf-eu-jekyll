@@ -1,0 +1,28 @@
+---
+- item: _talks/Building-a-minesweeper-game-from-scratch.md
+- item: _talks/The-Perils-of-Large-Files.md
+- item: _talks/From the ground to the stars.md
+- item: _talks/Event Sourcing with Elixir.md
+- item: _talks/Multiplayer-Games-Collaborative-Editing-with-LiveView.md
+- item: _talks/Practical-Elixir-Streams.md
+- item: _talks/Types-and-Erlang-from-Dialyzer-to-Session-Types.md
+- item: _talks/Taking-Elixir-Live-at-a-bank.md
+- item: _talks/Splitting-the-Difference.md
+- item: _talks/Can-We-Visualize-Software-Complexity.md
+- item: _talks/Digital-Twins-Bridging-the-physical-to-your-BEAM.md
+- item: _talks/Introducing-Surface-A-new-component-based-library-for-Phoenix.md
+- item: _talks/From a monolith to productive umbrella app in ecommerce.md
+- item: _talks/Mint-Disrupting-HTTP-clients.md
+- item: _talks/Lumen.md
+- item: _talks/Developing-a-production-OpenBank-with-Elixir-at-Stone.md
+- item: _talks/Using Elixir for scheduling cloud-native DAG workflows.md
+- item: _talks/if-you-want-to-master-elixir-teach-it.md
+- item: _talks/Visual-concurrency-cookbook.md
+- item: _talks/Livecoding-a-Web-Assembly-interpreter.md
+- item: _talks/artificial-intelligence-with-elixir.md
+- item: _talks/Deploying Phoenix at the speed of light.md
+- item: _talks/Building-an-emergency-software-with-Phoenix-&-Elixir.md
+- item: _talks/Crashing-BEAM-applications.md
+- item: _talks/Taking back control of your life with Nerves.md
+- item: _talks/building-game-engines-in-elixir.md
+- item: _talks/Elixir-Nerves-keys-Elixir-keyboard.md
