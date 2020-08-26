@@ -1,7 +1,7 @@
 ---
 trainers:
-- _participants/annette-bieniusa.md
-- _participants/mariano-guerra.md
+- trainer: _participants/annette-bieniusa.md
+- trainer: _participants/mariano-guerra.md
 tagline: Distributed systems with Riak Core Lite
 experience: Intermediate
 ---
