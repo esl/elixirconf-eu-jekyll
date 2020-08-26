@@ -1,5 +1,4 @@
 ---
-relevance: 22
 pic_url: "/assets/images/simon-kistler.jpg"
 name: Simon Kistler
 tagline: Software Engineer at VIU Eyewear

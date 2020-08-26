@@ -1,5 +1,4 @@
 ---
-relevance: 8
 pic_url: "/assets/images/mikem_martinson.jpg"
 name: Mike Martinson
 tagline: CTO at CodeCast

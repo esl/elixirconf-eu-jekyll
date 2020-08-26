@@ -1,5 +1,4 @@
 ---
-relevance: 14
 pic_url: /assets/images/ju-lui.jpg
 name: Ju Liu
 tagline: Troublemaker

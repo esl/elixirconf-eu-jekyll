@@ -1,5 +1,4 @@
 ---
-relevance: 103
 pic_url: "/assets/images/rafal-studnicki.jpg"
 name: Rafał Studnicki
 tagline: Engineer obsessed with quality and correctness.

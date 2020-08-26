@@ -1,9 +1,5 @@
 ---
-relevance: 22
 pic_url: "/assets/images/wiebe-marten-wijnja.jpg"
-firstname: ''
-lastname: ''
-position: ''
 twitter: WiebeMarten
 github: Qqwy
 name: Wiebe Marten

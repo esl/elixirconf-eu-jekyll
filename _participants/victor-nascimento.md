@@ -1,5 +1,4 @@
 ---
-relevance: 22
 pic_url: "/assets/images/victor-nascimento.jpg"
 name: Victor Nascimento
 tagline: Philosophy engineer who always remember the language part in the programming

@@ -4,7 +4,7 @@
     <div class="items-container">
         {% for item in site.data.speaker-list.speakers %}
         {% assign participant = site.participants | where: "path", item.speaker | first  %}
-        {% if participant.path != null %}
+        {% if participant != null %}
         <div class="item">
             <a href="{{ participant.url | relative_url }}" class="item-head-link">
                 <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
@@ -15,6 +15,18 @@
                 </h4>
             </a>
             <p class="item-position">{{ participant.tagline }}</p>
+
+            <!-- speaker -->
+            {% for talk in site.talks %}
+            {% assign speakers = talk.speakers | map: 'speaker' %}
+            {% if speakers contains participant.path %}
+            <a href="{{ talk.url | relative_url }}">
+                <p class="item-training">
+                    {{ talk.title }}</p>
+            </a>
+            {% endif %}
+            {% endfor %}
+
             <!-- keynote -->
             {% for keynote in site.keynotes %}
             {% assign speakers = keynote.speakers | map: 'speaker' %}
@@ -26,23 +38,12 @@
             {% endif %}
             {% endfor %}
 
-            <!-- speaker -->
-            {% for talk in site.talks %}
-            {% assign speakers = talk.speakers | map: 'speaker' %}
-            {% if speakers contains participant.path %}
-            <a href="{{ talk.url | relative_url }}">
-                <p class="item-training">Speaker:
-                    {{ talk.title }}</p>
-            </a>
-            {% endif %}
-            {% endfor %}
-
-            <!-- speaker -->
+            <!-- trainer -->
             {% for training in site.trainings %}
-            {% assign speakers = training.speakers | map: 'speaker' %}
-            {% if speakers contains participant.path %}
+            {% assign trainers = training.trainers| map: 'trainer' %}
+            {% if trainers contains participant.path %}
             <a href="{{ training.url | relative_url }}">
-                <p class="item-training">Training:
+                <p class="item-training">Trainer:
                     {{ training.title }}</p>
             </a>
             {% endif %}

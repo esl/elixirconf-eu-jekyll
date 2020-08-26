@@ -1,5 +1,4 @@
 ---
-relevance: 9
 pic_url: "/assets/images/tam_kbeili.jpg"
 name: Tam Kbeili
 tagline: CEO of CodeCast

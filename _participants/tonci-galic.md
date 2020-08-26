@@ -1,5 +1,4 @@
 ---
-relevance: 6
 pic_url: "/assets/images/Tonci-Galic.jpg"
 name: Tonći Galić
 tagline: Making myself superfluous since my first job.

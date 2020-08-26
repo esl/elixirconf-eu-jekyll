@@ -1,10 +1,7 @@
 ---
-relevance: 22
 pic_url: "/assets/images/wannes-fransen.jpg"
 name: Wannes Fransen
 tagline: Researcher / Lecturer
-twitter: ''
-github: ''
 type: speaker
 
 ---

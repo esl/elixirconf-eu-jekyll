@@ -1,5 +1,4 @@
 ---
-relevance: 2
 pic_url: "/assets/images/shankar_dhanasekaran.jpg"
 name: Shankar Dhanasekaran
 tagline: CTO of tālam, Auroville Centre for Scientific Research.

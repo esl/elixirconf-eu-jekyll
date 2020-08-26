@@ -1,5 +1,4 @@
 ---
-relevance: 4
 pic_url: "/assets/images/Sigu-magwa.jpg"
 name: Sigu Magwa
 tagline: A team builder, community builder, trainer and problem solver

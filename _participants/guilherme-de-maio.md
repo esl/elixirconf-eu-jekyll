@@ -1,6 +1,5 @@
 ---
-relevance: 21
-pic_url: /assets/images/guilherme-de maio.jpg
+pic_url: /assets/images/guilherme-de-maio.jpg
 name: Guilherme de Maio
 tagline: Software Engineer in love with Elixir/Erlang
 twitter: nirev

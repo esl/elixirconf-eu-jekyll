@@ -1,5 +1,4 @@
 ---
-relevance: 15
 pic_url: "/assets/images/peter-ullrich.jpg"
 name: Peter Ullrich
 tagline: Software Developer
