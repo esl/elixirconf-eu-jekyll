@@ -1,4 +1,21 @@
 ---
 label: speaker-list
 hide_body: true
-fields: []
+fields:
+- name: dsafdas
+  type: field_group
+  config: {}
+  fields:
+  - name: speaker
+    type: select
+    default: []
+    config:
+      required: true
+      options: []
+      source:
+        type: pages
+        section: speakers
+        file: 
+        path: 
+    label: speaker
+  label: dsafdas
