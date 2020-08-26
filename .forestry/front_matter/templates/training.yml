@@ -38,6 +38,26 @@ fields:
       file: 
       path: 
   label: trainer2
+- name: trainers
+  type: field_group_list
+  fields:
+  - name: trainer
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: speakers
+        file: 
+        path: 
+    label: trainer
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: trainers
 pages:
 - _trainings/from-zero-to-hero-with-elixir.md
 - _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
