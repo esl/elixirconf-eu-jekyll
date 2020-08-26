@@ -1,6 +1,4 @@
 ---
-speaker:
-- speaker: _speakers/zac-barnes.md
 title: Splitting the difference
 audience: Intermediate
 speakers:
