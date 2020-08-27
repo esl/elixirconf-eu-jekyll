@@ -4,7 +4,9 @@ trainers:
 - _participants/darin-wilson.md
 event_date: 6 October
 venue: Centrum Konferencyjne, Golden Floor Tower, ul. Chłodna 51, 00-867 Warszawa
-experience: Beginner, Intermediate
+experience:
+- Beginner
+- Intermediate
 from: "9"
 to: "17"
 type: training

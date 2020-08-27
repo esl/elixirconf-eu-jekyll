@@ -3,7 +3,9 @@ trainers:
 - _participants/devon-estes.md
 event_date: 5 October
 venue: Online
-experience: Beginner, Intermediate
+experience:
+- Beginner
+- Intermediate
 type: training
 name: Elixir testing from beginner to expert
 

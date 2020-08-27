@@ -4,7 +4,9 @@ trainers:
 event_date: 6 Oct
 venue: Online
 name: Ecto - everything you need to know
-experience: Beginner, Intermediate
+experience:
+- Beginner
+- Intermediate
 from: 10:30 AM
 to: 6:30 PM Central European Time
 type: training

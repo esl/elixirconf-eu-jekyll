@@ -2,7 +2,9 @@
 trainers:
 - _participants/ben-marx.md
 - _participants/justin-schneck.md
-experience: Beginner, Intermediate
+experience:
+- Beginner
+- Intermediate
 name: Debugging a running system
 published: false
 ---
