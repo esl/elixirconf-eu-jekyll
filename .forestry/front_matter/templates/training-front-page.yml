@@ -38,3 +38,6 @@ fields:
       display_utc: true
   config:
     labelField: item
+  description: 'use <a href="https://www.worldtimebuddy.com/" title="https://www.worldtimebuddy.com/"
+    target="_blank">https://www.worldtimebuddy.com/</a> to calculate the times - enter
+    them in UTC '
