@@ -1,15 +1,9 @@
 ---
 trainers:
-  - _participants/andrea-leopardi.md
-  - _participants/annette-bieniusa.md
-  - _participants/ben-marx.md
-  - _participants/daniel-tipping.md
-  - _participants/darin-wilson.md
-  - _participants/devon-estes.md
-  - _participants/denys-gonchar.md
-  - _participants/justin-schneck.md
-  - _participants/mariano-guerra.md
-  - _participants/mike-martinson.md
-  - _participants/shankar-dhanasekaran.md
-  - _participants/tam-kbeili.md
-  - _participants/wojtek-mach.md
+- _participants/daniel-tipping.md
+- _participants/devon-estes.md
+- _participants/annette-bieniusa.md
+- _participants/mariano-guerra.md
+- _participants/shankar-dhanasekaran.md
+- _participants/andrea-leopardi.md
+- _participants/denys-gonchar.md
