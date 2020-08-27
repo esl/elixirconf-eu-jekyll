@@ -25,7 +25,6 @@ fields:
       section: speakers
   label: trainers
 pages:
-- _trainings/foo.md.md
 - _trainings/from-zero-to-hero-with-elixir.md
 - _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
 - _trainings/phoenix-liveview-from-prototype-to-production.md

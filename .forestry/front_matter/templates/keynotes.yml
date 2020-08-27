@@ -1,24 +1,14 @@
 ---
-label: keynotes
+label: keynote-list
 hide_body: true
 fields:
 - name: keynotes
-  type: field_group_list
-  fields:
-  - name: keynote
-    type: select
-    default: []
-    config:
-      required: true
-      options: []
-      source:
-        type: pages
-        section: talks
-        file: 
-        path: 
-    label: keynote
+  type: list
   config:
+    use_select: true
     min: 
     max: 
-    labelField: 
+    source:
+      type: pages
+      section: speakers
   label: keynotes
