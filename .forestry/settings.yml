@@ -5,17 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _data/trainer-list.yml
-  label: trainer-list
-- type: document
   path: _data/keynote-list.yml
   label: keynote-list
 - type: document
   path: _data/speaker-list.yml
   label: speaker-list
 - type: document
-  path: _data/talks.yml
-  label: talks-list
+  path: _data/trainers-list.yml
+  label: trainers-list
 - type: document
   path: _data/training.yml
   label: training-list
@@ -28,7 +25,9 @@ sections:
   - talk
 - type: jekyll-posts
   label: Posts
-  create: all
+  create: documents
+  templates:
+  - post
 - type: directory
   path: _videos
   label: Videos
