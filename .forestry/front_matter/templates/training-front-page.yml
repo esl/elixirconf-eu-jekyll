@@ -3,10 +3,10 @@ label: training-list
 hide_body: true
 fields:
 - type: field_group_list
-  name: Training
-  label: Training
+  name: trainings
+  label: Trainings
   fields:
-  - name: item
+  - name: training
     type: select
     default: []
     config:
@@ -17,7 +17,7 @@ fields:
         section: trainings
         file: 
         path: 
-    label: item
+    label: training
   - name: start
     type: datetime
     label: start (UTC)
@@ -37,7 +37,7 @@ fields:
       time_format: 
       display_utc: true
   config:
-    labelField: item
+    labelField: ''
   description: 'use <a href="https://www.worldtimebuddy.com/" title="https://www.worldtimebuddy.com/"
     target="_blank">https://www.worldtimebuddy.com/</a> to calculate the times - enter
     them in UTC '
