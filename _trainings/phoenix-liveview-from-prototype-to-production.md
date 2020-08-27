@@ -2,7 +2,9 @@
 trainers:
 - _participants/tam-kbeili.md
 - _participants/mike-martinson.md
-experience: Beginner, Intermediate
+experience:
+- Beginner
+- Intermediate
 name: Phoenix Liveview from prototype to production
 type: ''
 
