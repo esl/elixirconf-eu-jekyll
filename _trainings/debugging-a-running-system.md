@@ -1,14 +1,14 @@
 ---
 trainers:
 - _participants/ben-marx.md
-- _participants/justin-schneck.md
 experience:
 - Beginner
 - Intermediate
 name: Debugging a running system
+type: ''
 published: false
----
 
+---
 Start out with a buggy release and use tools to debug that running instance.
 
 In this training, we'll start out with a single app and show how you can identify and fix bottlenecks in a running system. You'll learn how to make a release and then debug it.
