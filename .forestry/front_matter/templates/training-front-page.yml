@@ -20,7 +20,7 @@ fields:
     label: item
   - name: start
     type: datetime
-    label: start
+    label: start (UTC)
     description: 'start time '
     config:
       required: true
@@ -29,7 +29,7 @@ fields:
       display_utc: true
   - name: end
     type: datetime
-    label: end
+    label: end (UTC)
     description: 'end time '
     config:
       required: true
