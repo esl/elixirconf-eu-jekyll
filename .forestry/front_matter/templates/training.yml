@@ -15,8 +15,8 @@ fields:
   type: list
   config:
     use_select: true
-    min: 
-    max: 
+    min:
+    max:
     source:
       type: pages
       section: speakers
@@ -26,8 +26,13 @@ fields:
   default: []
   label: experience
 pages:
-- _trainings/from-zero-to-hero-with-elixir.md
-- _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
+- _trainings/ecto-from-the-ground-up.md
+- _trainings/distributed-systems-with-riak-core-lite.md
 - _trainings/phoenix-liveview-from-prototype-to-production.md
+- _trainings/ecto-everything-you-need-to-know.md
 - _trainings/rebuild-phoenix-from-scratch.md
+- _trainings/debugging-a-running-system.md
 - _trainings/tracing-elixir-in-distributed-network.md
+- _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
+- _trainings/from-zero-to-hero-with-elixir.md
+- _trainings/elixir-testing-from-beginner-to-expert.md
