@@ -1,5 +1,4 @@
 ---
-relevance: 17
 pic_url: /assets/images/anamaria-benitesrodriguez.jpg
 name: Ana Maria Benites Rodriguez
 tagline: wit education ghc19_speaker elixir_dev diversity

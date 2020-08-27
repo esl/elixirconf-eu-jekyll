@@ -1,5 +1,4 @@
 ---
-relevance: 4
 pic_url: /assets/images/Andrea_Leopardi.jpg
 name: Andrea Leopardi
 tagline: Elixir Core Team Member

@@ -2,7 +2,8 @@
 speakers:
 - _participants/rafal-studnicki.md
 title: Can we visualize software complexity?
-audience: Intermediate
+audience:
+- Intermediate
 ---
 We all know that certain software design principles help with system maintenance. Assigning every module a single responsibility is one such principle.
 It's common that these principles are only applied at early stages of development, since it's much easier to follow good practices when the system is still in on pen-and-paper. It gets harder with a real programming language.

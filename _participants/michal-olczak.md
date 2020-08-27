@@ -1,5 +1,4 @@
 ---
-relevance: 23
 pic_url: "/assets/images/michal-olczak.jpg"
 name: Michał Olczak
 tagline: Working at a bank can be fun too!

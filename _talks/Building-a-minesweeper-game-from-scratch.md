@@ -2,7 +2,8 @@
 speakers:
 - _participants/madhushree-singh.md
 title: Building a minesweeper game from scratch
-audience: Beginner
+audience:
+- Beginner
 
 ---
 <p>This talk is not only about building the game Minesweeper from scratch but also to make coding with Elixir a fun experience.

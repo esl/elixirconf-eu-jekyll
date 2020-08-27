@@ -1,5 +1,4 @@
 ---
-relevance: 22
 pic_url: /assets/images/arjan-scherpenisse.jpg
 name: Arjan Scherpenisse
 tagline: Founder at Botsquad; Elixir fanboy

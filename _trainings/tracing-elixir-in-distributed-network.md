@@ -1,13 +1,11 @@
 ---
 event_date: 5 October
-venue: Online
-description: In this tutorial, Denys Gonchar will show you how to trace Erlang and Elixir programs in a distributed network.
 experience:
 - Intermediate
 title: Tracing Elixir in distributed network
 trainers:
 - _participants/denys-gonchar.md
-
+summary: In this tutorial, Denys Gonchar will show you how to trace Erlang and Elixir programs in a distributed network.
 ---
 Live tracing is an extremely powerful, yet underutilised feature of the BEAM. It comes from the requirement to troubleshoot live systems handling millions of requests without affecting performance and throughput.
 

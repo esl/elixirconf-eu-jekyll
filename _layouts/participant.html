@@ -40,7 +40,7 @@
                     {% for keynote in filtered_keynotes %}
                     <h4 class="speaker-training">Keynote:
                         <br>
-                        <a href="{{site.baseurl}}{{ keynote.url }}">dawg {{ keynote.title }}</a>
+                        <a href="{{site.baseurl}}{{ keynote.url }}">{{ keynote.title }}</a>
                     </h4>
 
                     {% endfor %}
@@ -54,7 +54,8 @@
                     </h4>
                     <p class="speaker-talk">
                         <strong>Audience:</strong>
-                        {{ talk.audience }}</p>
+                        {{ talk.audience | join: ","}}
+                    </p>
 
                     <div class="speaker-desc mt-0">{{ talk.content | markdownify }}</div>
                     {% endfor %}
@@ -64,7 +65,9 @@
                     <h4 class="speaker-training">Training:
                         <br>
                         <a href="{{site.baseurl}}{{ training.url }}">{{ training.title }}</a>
+
                     </h4>
+                    <div class="speaker-desc mt-0">{{ training.summary }}</div>
                     {% endfor %}
 
 

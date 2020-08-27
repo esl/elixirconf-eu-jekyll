@@ -1,5 +1,4 @@
 ---
-relevance: 1
 pic_url: /assets/images/chris_mccord.jpg
 name: Chris McCord
 tagline: Creator of Phoenix

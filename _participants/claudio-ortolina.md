@@ -1,5 +1,4 @@
 ---
-relevance: 9
 pic_url: /assets/images/claudio-ortolina.jpg
 name: Claudio Ortolina
 tagline: Building things and cooking food

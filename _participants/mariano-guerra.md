@@ -1,5 +1,4 @@
 ---
-relevance: 0
 pic_url: "/assets/images/mariano-guerra.jpg"
 name: Mariano Guerra
 tagline: Programmer, Trainer

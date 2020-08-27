@@ -1,5 +1,4 @@
 ---
-relevance: 22
 pic_url: /assets/images/bruno-ripa.jpg
 name: Bruno Ripa
 tagline: Architect at Erlang Solutions

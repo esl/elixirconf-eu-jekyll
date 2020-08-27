@@ -4,10 +4,10 @@
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     </div>
     {% include navigation_2.html %}
     <div class="training-content">
@@ -17,9 +17,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h1 class="training-name">
                         {{ page.title }}
                     </h1>
+
+                    {% assign speakers = site.participants | where_exp: "participant", "page.speakers contains participant.path " %}
+
                     <div class="training-info">
+                        {% for speaker in speakers %}
                         <p><strong>Speaker:</strong><br> <a
-                                href="{{site.baseurl}}/speakers/{{ page.speaker }}">{{ page.speaker_name }}</a></p>
+                                href="{{ site.baseurl }}{{ speaker.url | absolute_path }}">{{ speaker.name}}</a></p>
+                        <br>
+                        {% endfor %}
                     </div>
 
                     <div class="training-info">
@@ -28,21 +34,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             {{ page.content | markdownify }}
                         </div>
                     </div>
-                    
-                
-                 
-          
-                    
+
                     <!--    <div class="training-info">  -->
-                        
-                     <!--   <p><strong>Audience:</strong><br> {{ page.audience }}</p> -->
-                        
-                      <!--    </div> -->
                     <div class="training-info">
-                            <!--      <p><strong>Date:</strong><br> {{ page.event_date }}</p> -->
+                        <p><strong>Audience:</strong><br> {{ page.audience | join: ","}}</p>
+                    </div>
+
+                    <!--    </div> -->
+                    <div class="training-info">
+                        <!--      <p><strong>Date:</strong><br> {{ page.event_date }}</p> -->
                     </div>
                     <div class="training-info">
-                    <!--       <p><strong>Venue:</strong><br> {{ page.venue }}</p> -->
+                        <!--       <p><strong>Venue:</strong><br> {{ page.venue }}</p> -->
                     </div>
                 </div>
             </div>

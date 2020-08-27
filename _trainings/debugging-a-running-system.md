@@ -5,6 +5,7 @@ experience:
 - Beginner
 - Intermediate
 title: Debugging a running system
+summary: Start out with a buggy release and use tools to debug that running instance
 type: ''
 published: false
 

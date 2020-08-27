@@ -1,5 +1,4 @@
 ---
-relevance: 102
 pic_url: /assets/images/andre-albuquerque.jpg
 name: Andre Albuquerque
 tagline: Keyboard builder - author and Interceptor creator

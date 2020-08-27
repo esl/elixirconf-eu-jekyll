@@ -5,7 +5,7 @@ description: A mix of both theory and hands on exercise on Phoenix and Ecto libr
 title: Rebuild Phoenix from Scratch
 trainers:
 - _participants/shankar-dhanasekaran.md
-
+summary: A hands-on exercise where the participants will recreate a mini-version of Phoenix from scratch
 ---
 The training will be a mix of both theory and hands-on exercise where the participants will recreate a mini-version of Phoenix from scratch.
 

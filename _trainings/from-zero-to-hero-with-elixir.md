@@ -5,6 +5,7 @@ experience:
 - Beginner
 - Intermediate
 title: From Zero to Hero with Elixir
+summary: A lab-focused training day so come ready to to do a lot of programming and a lot of learning.
 ---
 Elixir can be a demanding programming language to learn. Developers who are coming from object-oriented languages have new concepts to learn, such as modelling programs in a functional way and working with processes and message passing.
 

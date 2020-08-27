@@ -1,5 +1,4 @@
 ---
-relevance: 3
 pic_url: /assets/images/eric-meadows-jonsson.jpg
 name: Eric Meadows-Jönsson
 tagline: Developer

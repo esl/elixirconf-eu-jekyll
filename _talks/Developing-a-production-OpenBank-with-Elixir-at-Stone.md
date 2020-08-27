@@ -1,6 +1,7 @@
 ---
 title: Developing a production OpenBank with Elixir at Stone
-audience: Beginner
+audience:
+- Beginner
 speakers:
 - _participants/victor-nascimento.md
 ---

@@ -1,5 +1,4 @@
 ---
-relevance: 25
 pic_url: "/assets/images/lorenzo-sinisi.jpg"
 name: Lorenzo Sinisi
 tagline: Freelance Elixir software engineer

@@ -1,5 +1,4 @@
 ---
-relevance:
 pic_url: "/assets/images/daniel-tipping.jpg"
 name: Daniel Tipping
 tagline: Founder of Git Scientist

@@ -1,5 +1,4 @@
 ---
-relevance: 5
 pic_url: "/assets/images/ben-marx.jpg"
 name: Ben Marx
 tagline: Lead Engineer / Co-author of Adopting Elixir

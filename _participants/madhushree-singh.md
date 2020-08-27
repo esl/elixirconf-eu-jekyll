@@ -1,5 +1,4 @@
 ---
-relevance: 22
 pic_url: "/assets/images/madhushree-singh.jpg"
 name: Madhushree Singh
 tagline: One World, One Life

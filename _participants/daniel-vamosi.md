@@ -1,5 +1,4 @@
 ---
-relevance: 11
 pic_url: /assets/images/daniel-vamosi.jpg
 name: Dániel Vámosi
 tagline: A visual thinker, working on making BEAM big in the aviation industry

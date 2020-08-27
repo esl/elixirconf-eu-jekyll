@@ -12,6 +12,7 @@ to: "17"
 type: training
 published: false
 title: Ecto from the ground up
+summary: Ecto instruction and hands-on exercises
 
 ---
 Are you new to Ecto, or just trying to get a better understanding of how it works? This is the workshop for you!

@@ -1,5 +1,4 @@
 ---
-relevance: 101
 pic_url: /assets/images/gabriel-kolawole.jpg
 name: Gabriel Kolawole
 tagline: Software Developer Hub88.io
