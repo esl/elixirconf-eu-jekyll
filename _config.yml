@@ -46,14 +46,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "speakers"
+      type: "participants"
     values:
-      layout: "speaker"
-  - scope:
-      path: ""
-      type: "trainers"
-    values:
-      layout: "speaker"
+      layout: "participant"
   - scope:
       path: ""
       type: "trainings"
@@ -62,6 +57,11 @@ defaults:
   - scope:
       path: ""
       type: "talks"
+    values:
+      layout: "talk"
+  - scope:
+      path: ""
+      type: "keynotes"
     values:
       layout: "talk"
   - scope:
