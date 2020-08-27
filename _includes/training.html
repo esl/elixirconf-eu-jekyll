@@ -2,7 +2,7 @@
     <h2 class="title">TRAINING</h2>
     <hr />
     <div class="table-container">
-        {% for item in site.data.training-list %}
+        {% for item in site.data.training-list.trainings %}
 
         {% assign training = site.trainings | where_exp: "training", "item.training == training.path" | first  %}
 
