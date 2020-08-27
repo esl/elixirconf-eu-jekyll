@@ -12,5 +12,3 @@ fields:
       type: pages
       section: speakers
   label: trainers
-pages:
-- _data/trainer-list.yml

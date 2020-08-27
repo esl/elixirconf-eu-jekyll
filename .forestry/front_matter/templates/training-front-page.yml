@@ -38,5 +38,3 @@ fields:
       display_utc: true
   config:
     labelField: item
-pages:
-- _data/training.yml

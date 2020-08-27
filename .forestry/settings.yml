@@ -14,7 +14,7 @@ sections:
   path: _data/trainers-list.yml
   label: trainers-list
 - type: document
-  path: _data/training.yml
+  path: _data/training-list.yml
   label: training-list
 - type: directory
   path: _talks
