@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/trainer-list.yml
   label: trainer-list
-  match: "**/*"
 - type: document
   path: _data/keynote-list.yml
   label: keynote-list
