@@ -2,7 +2,7 @@
 trainers:
 - _participants/annette-bieniusa.md
 - _participants/mariano-guerra.md
-title: Distributed systems with Riak Core Lite
+name: Distributed systems with Riak Core Lite
 experience: Intermediate
 ---
 This tutorial explores the practical aspects of implementing and testing horizontally scalable distributed applications using Elixir with Riak Core Lite.
