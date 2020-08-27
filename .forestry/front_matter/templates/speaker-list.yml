@@ -23,5 +23,4 @@ fields:
     labelField: speaker
   label: speakers
 pages:
-- _data/keynote-list.yml
 - _data/speaker-list.yml
