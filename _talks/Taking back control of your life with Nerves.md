@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _participants/ju-liu.md
+- _participants/ju-liu.md
 title: Taking back control of your life with Nerves
 audience: Intermediate
 ---

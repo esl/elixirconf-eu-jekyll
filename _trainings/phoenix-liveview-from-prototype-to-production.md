@@ -5,7 +5,7 @@ trainers:
 experience:
 - Beginner
 - Intermediate
-name: Phoenix Liveview from prototype to production
+title: Phoenix Liveview from prototype to production
 type: ''
 
 ---

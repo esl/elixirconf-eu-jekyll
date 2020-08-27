@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _participants/gabriel-kolawole.md
+- _participants/gabriel-kolawole.md
 title: Building game engines in Elixir
 audience: Intermediate
 ---

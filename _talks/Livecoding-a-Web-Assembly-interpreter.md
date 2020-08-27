@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _participants/tonci-galic.md
+- _participants/tonci-galic.md
 title: Livecoding a WebAssembly interpreter
 audience: Intermediate
 ---

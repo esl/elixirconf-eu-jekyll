@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _participants/madhushree-singh.md
+- _participants/madhushree-singh.md
 title: Building a minesweeper game from scratch
 audience: Beginner
 

@@ -4,7 +4,7 @@ trainers:
 experience:
 - Beginner
 - Intermediate
-name: Debugging a running system
+title: Debugging a running system
 type: ''
 published: false
 

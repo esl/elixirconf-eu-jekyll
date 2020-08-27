@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _participants/lucjan-suski.md
+- _participants/lucjan-suski.md
 title: Using Elixir for scheduling cloud-native DAG workflows
 audience: Intermediate
 

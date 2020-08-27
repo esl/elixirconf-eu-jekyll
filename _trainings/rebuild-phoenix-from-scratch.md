@@ -2,7 +2,7 @@
 event_date: 6 Oct
 venue: Online
 description: A mix of both theory and hands on exercise on Phoenix and Ecto libraries.
-name: Rebuild Phoenix from Scratch
+title: Rebuild Phoenix from Scratch
 trainers:
 - _participants/shankar-dhanasekaran.md
 

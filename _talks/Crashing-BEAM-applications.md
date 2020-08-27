@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _participants/guilherme-de-maio.md
+- _participants/guilherme-de-maio.md
 title: Crashing BEAM applications
 audience: Intermediate
 ---

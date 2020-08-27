@@ -3,7 +3,7 @@ trainers:
 - _participants/daniel-tipping.md
 event_date: 6 Oct
 venue: Online
-name: Ecto - everything you need to know
+title: Ecto - everything you need to know
 experience:
 - Beginner
 - Intermediate

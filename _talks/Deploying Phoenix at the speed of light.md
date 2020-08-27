@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _participants/arjan-scherpenisse.md
+- _participants/arjan-scherpenisse.md
 title: Deploying Phoenix at the speed of light
 audience: Intermediate
 ---

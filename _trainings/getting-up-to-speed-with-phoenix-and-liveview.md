@@ -2,7 +2,7 @@
 experience:
 - Beginner
 - Intermediate
-name: Getting up to speed with Phoenix and Liveview
+title: Getting up to speed with Phoenix and Liveview
 trainers:
 - _participants/shankar-dhanasekaran.md
 ---

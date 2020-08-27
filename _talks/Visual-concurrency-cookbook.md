@@ -1,6 +1,6 @@
 ---
 speakers:
-- speaker: _participants/daniel-vamosi.md
+- _participants/daniel-vamosi.md
 title: Visual concurrency cookbook
 audience: Intermediate
 name: ''
