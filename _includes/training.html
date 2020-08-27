@@ -1,28 +1,44 @@
 <div class="section training" id="training">
     <h2 class="title">TRAINING</h2>
-    <hr/>
+    <hr />
     <div class="table-container">
-        {% for training in site.data.training %}
-            <div class="table-item">
-                <div class="item-col item-hours">
-                    {{training.from}}
-                    -
-                    {{training.to}}
-                </div>
-                <div class="item-col item-training">
-                    <a href="{{site.baseurl}}/trainings/{{training.training_1_url}}">
-                        <p class="item-title">{{training.training_1}}</p>
-                    </a>
-                    <p class="item-trainer">{{training.training_1_instructor}}</p>
-                    <p class="item-trainer">{{training.training_1_instructor_2}}</p>
-                </div>
-                <div class="item-col item-training">
-                    <a href="{{site.baseurl}}/trainings/{{training.training_2_url}}">
-                        <p class="item-title">{{training.training_2}}</p>
-                    </a>
-                    <p class="item-trainer">{{training.training_2_instructor}}</p>
-                </div>
-            </div> 
+        {% for item in site.data.training-list %}
+
+        {% assign training = site.trainings | where_exp: "training", "item.training == training.path" | first  %}
+
+        {% if training != null %}
+        <div class="table-item">
+            <div class="item-col item-hours" onload="this.innerText = 'foo'">
+                <script>
+                    d = new Date("{{ item.start | date: '%Y-%m-%dT%H:%M:%SZ'}}").toLocaleString()
+                    document.write(d)
+                </script>
+                -
+                <script>
+                    d = new Date("{{ item.end | date: '%Y-%m-%dT%H:%M:%SZ'}}").toLocaleString()
+                    document.write(d)
+                </script>
+            </div>
+
+            <div class="item-col item-training">
+                <a href="{{site.baseurl}}/trainings/{{training.training_2_url}}">
+                    <p class="item-title">{{training.title }}
+
+
+                    </p>
+                </a>
+                {% for trainer_path in training.trainers %}
+                {% assign participant = site.participants | where_exp: "x", "trainer_path == x.path" | first  %}
+
+
+                <a href="{{ participant.url | relative_url }}">
+                    <p class="item-trainer">Trainer:
+                        {{ participant.name}}</p>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
         {% endfor %}
     </div>
 </div>

@@ -2,8 +2,11 @@
     <h2 class="title">TRAINERS</h2>
     <hr />
     <div class="items-container">
-        {% for data in site.data.trainer-list.trainers %}
-        {% assign participant = site.participants | where: "path", data.trainer | first  %}
+        {% for item in site.data.trainers-list.trainers %}
+
+        {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
+
+
         {% if participant != null %}
         <div class="item">
             <a href="{{ participant.url | relative_url }}" class="item-head-link">

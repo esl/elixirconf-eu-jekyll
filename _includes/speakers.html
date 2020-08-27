@@ -3,7 +3,9 @@
     <hr />
     <div class="items-container">
         {% for item in site.data.speaker-list.speakers %}
-        {% assign participant = site.participants | where: "path", item.speaker | first  %}
+
+        {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
+
         {% if participant != null %}
         <div class="item">
             <a href="{{ participant.url | relative_url }}" class="item-head-link">
