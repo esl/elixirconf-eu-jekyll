@@ -15,24 +15,14 @@ fields:
   name: experience
   label: experience
 - name: trainers
-  type: field_group_list
-  fields:
-  - name: trainer
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: speakers
-        file: 
-        path: 
-    label: trainer
+  type: list
   config:
+    use_select: true
     min: 
     max: 
-    labelField: trainer
+    source:
+      type: pages
+      section: speakers
   label: trainers
 pages:
 - _trainings/foo.md.md
