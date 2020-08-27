@@ -9,22 +9,25 @@
         {% if training != null %}
         <div class="table-item">
             <div class="item-col item-hours" onload="this.innerText = 'foo'">
+
+                {% assign start_date = item.start | date: '%Y-%m-%d'%}
+                {% assign start = item.start | date: '%Y-%m-%dT%H:%M:%SZ'%}
+                {% assign end = item.end | date: '%Y-%m-%dT%H:%M:%SZ'%}
+
+                {{start_date}}
                 <script>
-                    d = new Date("{{ item.start | date: '%Y-%m-%dT%H:%M:%SZ'}}").toLocaleString()
-                    document.write(d)
-                </script>
-                -
-                <script>
-                    d = new Date("{{ item.end | date: '%Y-%m-%dT%H:%M:%SZ'}}").toLocaleString()
-                    document.write(d)
+                    s = new Date("{{start}}")
+                    out = s.getHours().toString().padStart(2, "0") + ':' + s.getMinutes().toString().padStart(2, "0")
+                    out += "-"
+                    e = new Date("{{end}}")
+                    out += e.getHours().toString().padStart(2, "0") + ':' + e.getMinutes().toString().padStart(2, "0") + " " + "(" + Intl.DateTimeFormat().resolvedOptions().timeZone + ")"
+                    document.write(out)
                 </script>
             </div>
 
             <div class="item-col item-training">
-                <a href="{{site.baseurl}}/trainings/{{training.training_2_url}}">
+                <a href="{{training.url | relative_url }}">
                     <p class="item-title">{{training.title }}
-
-
                     </p>
                 </a>
                 {% for trainer_path in training.trainers %}
@@ -37,6 +40,7 @@
                 </a>
                 {% endfor %}
             </div>
+
         </div>
         {% endif %}
         {% endfor %}

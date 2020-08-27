@@ -1,14 +1,11 @@
 ---
 trainers:
 - _participants/daniel-tipping.md
-event_date: 6 Oct
 venue: Online
 title: Ecto - everything you need to know
 experience:
 - Beginner
 - Intermediate
-from: 10:30 AM
-to: 6:30 PM Central European Time
 summary: From zero Ecto knowledge to a happy and proficient Ecto user
 ---
 
