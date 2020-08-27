@@ -26,6 +26,7 @@ fields:
   default: []
   label: experience
 pages:
+- _trainings/debugging-a-running-system.md
 - _trainings/distributed-systems-with-riak-core-lite.md
 - _trainings/from-zero-to-hero-with-elixir.md
 - _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
