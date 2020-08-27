@@ -1,9 +1,5 @@
 ---
-speakers:
-- speaker: _participants/chris-mccord.md
-- speaker: _participants/linda-otieno.md
-- speaker: _participants/sigu-magwa.md
 keynotes:
-- _participants/sigu-magwa.md
-- _participants/linda-otieno.md
-- _participants/chris-mccord.md
+  - _participants/sigu-magwa.md
+  - _participants/linda-otieno.md
+  - _participants/chris-mccord.md
