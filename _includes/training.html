@@ -22,7 +22,10 @@
                     e = new Date("{{end}}")
                     out += e.getHours().toString().padStart(2, "0") + ':' + e.getMinutes().toString().padStart(2, "0") + " " + "(" + Intl.DateTimeFormat().resolvedOptions().timeZone + ")"
                     document.write(out)
-                </script>
+                </script
+                <noscript>
+                    {{start}} - {{end}}
+                </noscript>
             </div>
 
             <div class="item-col item-training">
