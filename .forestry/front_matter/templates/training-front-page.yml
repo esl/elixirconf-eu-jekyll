@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group_list
   name: trainings
-  label: Trainings
+  label: trainings
   fields:
   - name: training
     type: select
@@ -21,7 +21,9 @@ fields:
   - name: start
     type: datetime
     label: start (UTC)
-    description: 'start time '
+    description: use <a href="https://www.worldtimebuddy.com/" title="https://www.worldtimebuddy.com/"
+      target="_blank">https://www.worldtimebuddy.com/</a> to calculate the times -
+      enter them in UTC
     config:
       required: true
       date_format: 
@@ -30,7 +32,9 @@ fields:
   - name: end
     type: datetime
     label: end (UTC)
-    description: 'end time '
+    description: use <a href="https://www.worldtimebuddy.com/" title="https://www.worldtimebuddy.com/"
+      target="_blank">https://www.worldtimebuddy.com/</a> to calculate the times -
+      enter them in UTC
     config:
       required: true
       date_format: 
