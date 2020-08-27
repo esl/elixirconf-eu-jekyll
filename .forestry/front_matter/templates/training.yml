@@ -11,9 +11,6 @@ fields:
 - type: text
   name: type
   label: type
-- type: text
-  name: experience
-  label: experience
 - name: trainers
   type: list
   config:
@@ -24,6 +21,10 @@ fields:
       type: pages
       section: speakers
   label: trainers
+- name: experience
+  type: tag_list
+  default: []
+  label: experience
 pages:
 - _trainings/from-zero-to-hero-with-elixir.md
 - _trainings/getting-up-to-speed-with-phoenix-and-liveview.md

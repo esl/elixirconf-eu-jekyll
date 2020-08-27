@@ -40,5 +40,15 @@ fields:
     schema:
       format: markdown
   label: description
+- name: speakers
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: speakers
+  label: speakers
 pages:
 - _videos/chris-mccord-phoenix-liveview-interactive-apps-without-javascript-elixirconf-eu-2019.md
