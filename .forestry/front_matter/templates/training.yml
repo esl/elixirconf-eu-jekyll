@@ -17,7 +17,7 @@ fields:
 - name: trainers
   type: field_group_list
   fields:
-  - name: trainer
+  - name: 
     type: select
     default: []
     config:
