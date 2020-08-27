@@ -4,7 +4,7 @@ venue: Online
 description: A mix of both theory and hands on exercise on Phoenix and Ecto libraries.
 title: Rebuild Phoenix from Scratch
 trainers:
-- trainer: _participants/shankar-dhanasekaran.md
+- _participants/shankar-dhanasekaran.md
 
 ---
 The training will be a mix of both theory and hands-on exercise where the participants will recreate a mini-version of Phoenix from scratch.

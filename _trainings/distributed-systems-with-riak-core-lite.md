@@ -1,7 +1,7 @@
 ---
 trainers:
-- trainer: _participants/annette-bieniusa.md
-- trainer: _participants/mariano-guerra.md
+- _participants/annette-bieniusa.md
+- _participants/mariano-guerra.md
 title: Distributed systems with Riak Core Lite
 experience: Intermediate
 ---

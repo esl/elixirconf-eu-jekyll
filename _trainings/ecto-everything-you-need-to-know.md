@@ -1,6 +1,6 @@
 ---
 trainers:
-- trainer: _participants/daniel-tipping.md
+- _participants/daniel-tipping.md
 event_date: 6 Oct
 venue: Online
 title: Ecto - everything you need to know

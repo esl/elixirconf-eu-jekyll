@@ -1,7 +1,7 @@
 ---
 trainers:
-- trainer: _participants/ben-marx.md
-- trainer: _participants/justin-schneck.md
+- _participants/ben-marx.md
+- _participants/justin-schneck.md
 experience: Beginner, Intermediate
 title: Debugging a running system
 published: false

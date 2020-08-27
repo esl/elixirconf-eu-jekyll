@@ -1,6 +1,6 @@
 ---
 trainers:
-- trainer: _participants/andrea-leopardi.md
+- _participants/andrea-leopardi.md
 experience: Beginner, Intermediate
 title: From Zero to Hero with Elixir
 ---
