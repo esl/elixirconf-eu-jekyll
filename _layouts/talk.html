@@ -27,26 +27,21 @@
                         <br>
                         {% endfor %}
                     </div>
-
                     <div class="training-info">
                         <p><strong>Abstract:</strong></p>
                         <div class="content">
                             {{ page.content | markdownify }}
                         </div>
                     </div>
-
-                    <!--    <div class="training-info">  -->
                     <div class="training-info">
                         <p><strong>Audience:</strong><br> {{ page.audience | join: ","}}</p>
                     </div>
-
-                    <!--    </div> -->
+                    {% assign size = page.tags | size %}
+                    {% if size > 0 %}
                     <div class="training-info">
-                        <!--      <p><strong>Date:</strong><br> {{ page.event_date }}</p> -->
+                        <p><strong>Tags:</strong><br> {{ page.tags | join: ","}}</p>
                     </div>
-                    <div class="training-info">
-                        <!--       <p><strong>Venue:</strong><br> {{ page.venue }}</p> -->
-                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
