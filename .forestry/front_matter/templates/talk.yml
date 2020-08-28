@@ -21,3 +21,7 @@ fields:
       type: pages
       section: speakers
   label: speakers
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
