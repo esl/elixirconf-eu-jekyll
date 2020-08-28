@@ -1,60 +1,23 @@
 <div class="section speakers" id="speakers">
     <h2 class="title">TRAINERS</h2>
-    <hr />
+    <hr/>
     <div class="items-container">
         {% for item in site.data.trainers-list.trainers %}
-
-        {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
-
-
-        {% if participant != null %}
-        <div class="item">
-            <a href="{{ participant.url | relative_url }}" class="item-head-link">
-                <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
-                    <i class="fa fa-plus-circle"></i>
+            {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
+            {% if participant != null %}
+                <div class="item">
+                    <a href="{{ participant.url | relative_url }}" class="item-head-link">
+                        <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
+                            <i class="fa fa-plus-circle"></i>
+                        </div>
+                        <h4 class="item-name">
+                            {{ participant.name}}
+                        </h4>
+                    </a>
+                    <p class="item-position">{{ participant.tagline }}</p>
+                    {% include participations.html participant=participant %}
                 </div>
-                <h4 class="item-name">
-                    {{ participant.name}}
-                </h4>
-            </a>
-            <p class="item-position">{{ participant.tagline }}</p>
-
-            <!-- speaker -->
-            {% for talk in site.talks %}
-            {% assign speakers = talk.speakers | map: 'speaker' %}
-            {% if speakers contains participant.path %}
-            <a href="{{ talk.url | relative_url }}">
-                <p class="item-training">
-                    {{ talk.title }}</p>
-            </a>
             {% endif %}
-            {% endfor %}
-
-            <!-- keynote -->
-            {% for keynote in site.keynotes %}
-            {% assign speakers = keynote.speakers | map: 'speaker' %}
-            {% if speakers contains participant.path %}
-            <a href="{{ keynote.url | relative_url }}">
-                <p class="item-training">Keynote:
-                    {{ keynote.title }}</p>
-            </a>
-            {% endif %}
-            {% endfor %}
-
-            <!-- trainer -->
-            {% for training in site.trainings %}
-            {% assign trainers = training.trainers| map: 'trainer' %}
-            {% if trainers contains participant.path %}
-            <a href="{{ training.url | relative_url }}">
-                <p class="item-training">Trainer:
-                    {{ training.title }}</p>
-            </a>
-            {% endif %}
-            {% endfor %}
-
-        </div>
-
-        {% endif %}
         {% endfor %}
     </div>
 </div>
