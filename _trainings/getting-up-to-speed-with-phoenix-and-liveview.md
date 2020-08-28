@@ -3,9 +3,12 @@ experience:
 - Beginner
 - Intermediate
 title: Getting up to speed with Phoenix and Liveview
-trainers:
-- _participants/shankar-dhanasekaran.md
-summary: Shankar Dhanasekaran will bring you up to speed to develop Phoenix apps with confidence
+trainers: []
+summary: Shankar Dhanasekaran will bring you up to speed to develop Phoenix apps with
+  confidence
+name: getting-up-to-speed-with-phoenix-and-liveview
+type: ''
+
 ---
 Drawing upon the experience of building Phoenix and LiveView powered apps, Shankar Dhanasekaran will bring you up to speed to develop Phoenix apps with confidence and walk you through building specific features of an ecommerce system using LiveView.
 
