@@ -1,6 +1,7 @@
 ---
 title: Splitting the difference
-audience: Intermediate
+audience:
+- Intermediate
 speakers:
 - _participants/zac-barnes.md
 ---
