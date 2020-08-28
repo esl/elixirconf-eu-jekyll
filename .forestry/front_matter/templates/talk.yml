@@ -7,26 +7,17 @@ fields:
   label: title
   config:
     required: true
-- type: text
-  name: audience
+- name: audience
+  type: tag_list
+  default: []
   label: audience
 - name: speakers
-  type: field_group_list
-  fields:
-  - name: speaker
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: speakers
-        file: 
-        path: 
-    label: speaker
+  type: list
   config:
+    use_select: true
     min: 
     max: 
-    labelField: speaker
+    source:
+      type: pages
+      section: speakers
   label: speakers
