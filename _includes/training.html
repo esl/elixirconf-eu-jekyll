@@ -1,7 +1,8 @@
 <script>
     function write_dates(start, end) {
         s = new Date(start)
-        out = s.getFullYear() + "-" + s.getMonth().toString().padStart(2, "0") + "-" + s.getDay().toString().padStart(2, "0")
+        out = ""
+        out += s.getFullYear() + "-" + (s.getMonth() + 1).toString().padStart(2, "0") + "-" + s.getDate().toString().padStart(2, "0")
         out += " " + s.getHours().toString().padStart(2, "0") + ':' + s.getMinutes().toString().padStart(2, "0")
         out += "-"
         e = new Date(end)
