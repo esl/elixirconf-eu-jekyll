@@ -1,0 +1,35 @@
+<div class="section register" id="register">
+    <h2 class="title">REGISTER</h2>
+    <hr>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1 "></script> 
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag() {
+dataLayer.push(arguments);
+ }
+ gtag('js', new Date());
+ gtag('config', 'UA-44973668-1 ', { 'send_page_view': false });
+</script> 
+
+<div class="register-widget" id="eventbrite-widget-container-114666994066">&nbsp;</div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '114666994066',
+        iframeContainerId: 'eventbrite-widget-container-114666994066',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+</div>
+

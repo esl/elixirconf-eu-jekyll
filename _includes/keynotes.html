@@ -1,0 +1,22 @@
+<div class="section speakers" id="speakers">
+    <h2 class="title">KEYNOTES
+    </h2>
+    <hr/>
+    <div class="items-container">
+        {% for keynote in site.data.keynote-list.keynotes%}
+            {% assign participant = site.participants | where_exp: "participant", "keynote == participant.path" | first  %}
+            <div class="item">
+                <a href="{{ participant.url | relative_url }}" class="item-head-link">
+                    <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <h4 class="item-name">
+                        {{ participant.name}}
+                    </h4>
+                </a>
+                <p class="item-position">{{ speaker.position }}</p>
+                {% include participations.html participant=participant %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
