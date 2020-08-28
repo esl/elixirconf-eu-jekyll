@@ -17,18 +17,6 @@ sections:
   path: _data/training-list.yml
   label: training-list
 - type: directory
-  path: _talks
-  label: Talks
-  create: documents
-  match: "**/*"
-  templates:
-  - talk
-- type: jekyll-posts
-  label: Posts
-  create: documents
-  templates:
-  - post
-- type: directory
   path: _videos
   label: Videos
   create: all
