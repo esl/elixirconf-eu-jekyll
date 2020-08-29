@@ -1,6 +1,6 @@
 ---
 speakers:
 - _participants/chris-mccord.md
-title: Chris' mystery talk!
+title: To be announced
+
 ---
-TBD!
