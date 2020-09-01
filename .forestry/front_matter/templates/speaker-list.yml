@@ -10,7 +10,7 @@ fields:
     max: 
     source:
       type: pages
-      section: speakers
+      section: participants
   label: speakers
 pages:
 - _data/speaker-list.yml
