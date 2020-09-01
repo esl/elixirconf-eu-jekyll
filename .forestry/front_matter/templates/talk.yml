@@ -19,7 +19,7 @@ fields:
     max: 
     source:
       type: pages
-      section: speakers
+      section: participants
   label: speakers
 - name: tags
   type: tag_list
