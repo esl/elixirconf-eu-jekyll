@@ -2,9 +2,20 @@
     <h2 class="title">TRAINERS</h2>
     <hr/>
     <div class="items-container">
+
+
+        {% assign all_trainers = "" | split: ',' %}
+        {% for ts in site.trainings %}
+            {% for t in ts.trainers %}
+                {% assign all_trainers = all_trainers | push: t %}
+            {% endfor %}
+        {% endfor %}
+
+
         {% for item in site.data.trainers-list.trainers %}
             {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
-            {% if participant != null %}
+            {% assign is_trainer = all_trainers | where_exp: "trainer", "trainer == item" | first  %}
+            {% if participant != null and is_trainer != null%}
                 <div class="item">
                     <a href="{{ participant.url | relative_url }}" class="item-head-link">
                         <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">

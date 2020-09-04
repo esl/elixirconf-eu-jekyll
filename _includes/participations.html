@@ -1,7 +1,7 @@
 {% assign participant = include.participant %}
 {% assign section = include.section %}
-<!-- keynote -->
 
+<!-- keynote -->
 {% if section == "keynotes"%}
     {% for keynote in site.keynotes %}
         {% if keynote.speakers contains participant.path %}
@@ -14,13 +14,11 @@
 {% endif %}
 
 <!-- speaker -->
-
 {% if section == "speakers" %}
     {% for talk in site.talks %}
         {% if talk.speakers contains participant.path %}
             <a href="{{ talk.url | relative_url }}">
                 <p class="item-training">
-
                     {{ talk.title }}</p>
             </a>
         {% endif %}
@@ -29,7 +27,6 @@
 
 
 <!-- speaker -->
-
 {% if section == "trainers" %}
     {% for training in site.trainings %}
         {% if training.trainers contains participant.path %}
