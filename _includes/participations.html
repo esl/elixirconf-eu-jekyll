@@ -1,4 +1,5 @@
 {% assign participant = include.participant %}
+{% assign section = include.section %}
 <!-- keynote -->
 {% for keynote in site.keynotes %}
     {% if keynote.speakers contains participant.path %}
