@@ -11,6 +11,8 @@ fields:
 - type: file
   name: pic_url
   label: pic_url
+  config:
+    maxSize: 0.1
 - type: text
   name: tagline
   label: tagline
