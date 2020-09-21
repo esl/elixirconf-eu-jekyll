@@ -1,8 +1,6 @@
 ---
 audience:
-- Beginner
-- " Intermediate"
-- " Advance"
+- Everyone
 tags: []
 title: Using Elixir and WhatsApp to launch WHO’s global COVID-19 response
 speakers:
