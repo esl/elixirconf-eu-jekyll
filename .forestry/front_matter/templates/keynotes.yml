@@ -10,7 +10,7 @@ fields:
     max: 
     source:
       type: pages
-      section: speakers
+      section: participants
   label: keynotes
 pages:
 - _data/keynote-list.yml
