@@ -25,3 +25,5 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- _keynotes/using-elixir-and-whatsapp-to-launch-who-s-global-covid-19-response.md
