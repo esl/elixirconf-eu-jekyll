@@ -5,7 +5,7 @@ tags:
 - Metrics
 - Phoenix
 - Telementry
-title: It's Alive! Instrumenting Phoenix 1.5 with Telemetry and LiveDashboard
+title: 'Telemetry and LiveDashboard: Elixir Ecosystem Superpowers'
 speakers:
 - _participants/sophie-debenedetto.md
 
