@@ -6,6 +6,8 @@
   link: "speakers"
 - name: Trainers
   link: "trainers"
+- name: Schedule
+  link: schedule
 - name: Register
   link: "register"
 - name: Training
