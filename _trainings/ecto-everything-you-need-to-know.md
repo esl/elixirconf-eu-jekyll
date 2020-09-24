@@ -1,14 +1,15 @@
 ---
-trainers:
-- _participants/daniel-tipping.md
+trainers: []
 venue: Online
 title: Ecto - everything you need to know
 experience:
 - Beginner
 - Intermediate
 summary: From zero Ecto knowledge to a happy and proficient Ecto user
----
+name: Ecto - Everything You Need to Know
+type: training
 
+---
 _Ecto is Elixir’s database wrapper. If you want to use a database with Elixir, you need to know Ecto._
 
 _This training will take you from zero Ecto knowledge to a happy an proficient Ecto user. We cover all the basics and core concepts – including testing – and finish up with some tips, tricks, and more advanced features._
