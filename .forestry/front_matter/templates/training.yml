@@ -19,7 +19,7 @@ fields:
     max: 
     source:
       type: pages
-      section: speakers
+      section: participants
   label: trainers
 - name: experience
   type: tag_list
