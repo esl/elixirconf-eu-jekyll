@@ -1,5 +1,6 @@
 ---
-trainers: []
+trainers:
+- _participants/manuel-rubio.md
 venue: Online
 title: Ecto - everything you need to know
 experience:
