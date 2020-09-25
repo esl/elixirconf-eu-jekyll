@@ -10,5 +10,5 @@ fields:
     max: 
     source:
       type: pages
-      section: speakers
+      section: participants
   label: trainers
