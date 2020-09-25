@@ -12,3 +12,5 @@ fields:
       type: pages
       section: participants
   label: trainers
+pages:
+- _data/trainers-list.yml
