@@ -5,14 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _per-conf-keynotes
-  label: per-conf-keynotes
-  create: all
-  match: "**/*"
-  new_doc_ext: "*.yaml"
-  templates:
-  - keynotes
-- type: directory
   path: _keynotes
   label: Keynotes
   create: documents

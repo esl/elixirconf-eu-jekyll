@@ -14,4 +14,3 @@ fields:
   label: keynotes
 pages:
 - _data/keynote-list.yml
-- _per-conf-keynotes/2020/2020.yaml.yaml
