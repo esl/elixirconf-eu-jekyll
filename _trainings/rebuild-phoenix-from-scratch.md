@@ -10,6 +10,7 @@ summary: A hands-on exercise where the participants will recreate a mini-version
 name: Phoenix from scratch
 type: ''
 experience: []
+published: false
 
 ---
 The training will be a mix of both theory and hands-on exercise where the participants will recreate a mini-version of Phoenix from scratch.
