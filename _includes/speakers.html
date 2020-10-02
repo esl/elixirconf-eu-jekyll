@@ -13,7 +13,7 @@
         {% for item in site.data.speaker-list.speakers %}
             {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
             {% assign is_speaker = all_speakers | where_exp: "speaker", "speaker == item" | first  %}
-            {% if participant != null and is_speaker != null %}
+            {% if participant != null %}
                 <div class="item">
                     <a href="{{ participant.url | relative_url }}" class="item-head-link">
                         <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
