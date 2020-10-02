@@ -9,8 +9,10 @@ fields:
     min: 
     max: 
     source:
-      type: pages
-      section: participants
+      type: documents
+      section: talks-6eda9dbc-36b2-4977-a03c-733224f4e9f3
+      file: 
+      path: speakers
   label: speakers
 pages:
 - _data/speaker-list.yml
