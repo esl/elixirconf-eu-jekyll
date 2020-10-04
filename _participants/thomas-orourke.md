@@ -1,8 +1,7 @@
 ---
 pic_url: "/assets/images/thomas-orourke.jpg"
 name: Thomas O'Rourke
-tagline: Organized the northernmost Elixir meetup in the world. Worked on Media Player
-  1.0 at Microsoft - making computers do more than beep-beep.
+tagline: Worked on Media Player 1.0 @ Microsoft making computers do more than beep-beep.
 twitter: tomjoro
 github: tomjoro
 
