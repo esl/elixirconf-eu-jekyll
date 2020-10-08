@@ -28,3 +28,4 @@ fields:
 pages:
 - _keynotes/it-s-alive-instrumenting-phoenix-1.5-with-telemetry-and-livedashboard.md
 - _keynotes/using-elixir-and-whatsapp-to-launch-who-s-global-covid-19-response.md
+- _talks/q-a-on-liveview.md
