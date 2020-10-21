@@ -1,8 +1,10 @@
 - name: Home
   link: "cover"
-- name: Welcome
-  link: "welcome"
-- name: Access videos
+#- name: Welcome
+# link: "welcome"
+- name: Keynote videos
+  link: "video"
+- name: All videos
   link: "register"
 - name: Speakers
   link: "speakers"
@@ -14,13 +16,11 @@
   link: "training"
 #- name: Diversity
 #  link: "diversity"
-- name: Keynote videos
-  link: "video"
 - name: Blog
   link: "blog"
 - name: Sponsors
   link: "sponsors"
-- name: Contact
-  link: "contact"
+#- name: Contact
+#  link: "contact"
 #- name: Venue
 #  link: "venue"
