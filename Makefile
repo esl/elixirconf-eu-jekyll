@@ -1,5 +1,5 @@
 serve:
-	bundle exec jekyll serve --trace
+	bundle exec jekyll serve --trace --incremental
 
 install:
 	gem install bundler
