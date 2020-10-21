@@ -2,19 +2,19 @@
   link: "cover"
 - name: Welcome
   link: "welcome"
+- name: Access videos
+  link: "register"
 - name: Speakers
   link: "speakers"
 - name: Trainers
   link: "trainers"
 - name: Schedule
   link: schedule
-- name: Register
-  link: "register"
 - name: Training
   link: "training"
-- name: Diversity
-  link: "diversity"
-- name: Videos
+#- name: Diversity
+#  link: "diversity"
+- name: Keynote videos
   link: "video"
 - name: Blog
   link: "blog"
