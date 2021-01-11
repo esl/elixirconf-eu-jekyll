@@ -7,8 +7,6 @@ sections:
 - type: document
   path: index.html
   label: Index
-  match: "**/*"
-  read_only: false
 - type: directory
   path: _keynotes
   label: Keynotes
