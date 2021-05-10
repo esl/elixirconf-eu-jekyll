@@ -2,7 +2,7 @@
 layout: post
 pic_url: "/assets/images/elixir-frameworks-blog.png"
 author: ElixirConf EU
-tags: elixir
+tags: elixir, frameworks
 
 ---
 One of the most exciting parts of any ElixirConf EU event is hearing from the creators or core teams of new Elixir frameworks. These frameworks open doors to the community and expand the capabilities of the ecosystem, making it easier for even more developers to do a wider array of tasks in Elixir. At our June edition, we heard first hand about the updates, capabilities and future plans for five exciting new frameworks. If you're always looking for new projects or ways to expand your Elixir skill set, make sure you [get tickets to our next edition of ElixirConf EU Virtual on October 7-8.](https://www.elixirconf.eu/#register "tickets")

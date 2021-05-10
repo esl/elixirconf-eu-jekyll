@@ -2,7 +2,7 @@
 layout: post
 pic_url: "/assets/images/elixirconf-eu-keynote-blog-1.png"
 author: 'ElixirConf EU Virtual '
-tags: []
+tags: keynote, virtual, 2020
 
 ---
 ![](/assets/images/elixirconf-eu-keynote-blog-1.png)
