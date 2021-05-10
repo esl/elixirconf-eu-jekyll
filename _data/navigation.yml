@@ -4,10 +4,10 @@
 # link: "welcome"
 - name: Call for Talks
   link: "cft"
+- name: Tickets
+  link: "register"
 - name: Videos
   link: "video"
-#- name: All videos
-#  link: "register"
 #- name: Speakers
 #  link: "speakers"
 #- name: Trainers
@@ -20,8 +20,8 @@
 #  link: "diversity"
 - name: Newsletter
   link: "newsletter"
-- name: Blog
-  link: "blog"
+#- name: Blog
+#  link: "blog"
 - name: Venue & Accommodation
   link: "venue"
 - name: Sponsors
