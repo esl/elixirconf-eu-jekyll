@@ -22,9 +22,11 @@
   link: "newsletter"
 - name: Blog
   link: "blog"
+- name: Venue & Accommodation
+  link: "venue"
 - name: Sponsors
   link: "sponsors"
 #- name: Contact
 #  link: "contact"
-- name: Venue & Accommodation
-  link: "venue"
+- name: Going hybrid
+  link: "hybrid"
