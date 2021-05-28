@@ -2,8 +2,8 @@
   link: "cover"
 #- name: Welcome
 # link: "welcome"
-- name: Call for Talks
-  link: "cft"
+#- name: Call for Talks
+#  link: "cft"
 - name: Tickets
   link: "register"
 - name: Videos
@@ -24,9 +24,9 @@
 #  link: "blog"
 - name: Venue & Accommodation
   link: "venue"
+- name: Going hybrid
+  link: "hybrid"
 - name: Sponsors
   link: "sponsors"
 #- name: Contact
 #  link: "contact"
-- name: Going hybrid
-  link: "hybrid"
