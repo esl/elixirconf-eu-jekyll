@@ -7,7 +7,7 @@
 - name: Tickets
   link: "register"
 - name: Speakers
-  link: "speakers"
+  link: "keynotes"
 - name: Videos
   link: "video"
 #- name: Trainers
