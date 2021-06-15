@@ -6,10 +6,10 @@
 #  link: "cft"
 - name: Tickets
   link: "register"
+- name: Speakers
+  link: "speakers"
 - name: Videos
   link: "video"
-#- name: Speakers
-#  link: "speakers"
 #- name: Trainers
 #  link: "trainers"
 #- name: Schedule
