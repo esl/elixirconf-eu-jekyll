@@ -24,6 +24,8 @@
 #  link: "blog"
 - name: Venue & Accommodation
   link: "venue"
+- name: COVID-19 safety
+  link: "covid-19"
 - name: Going hybrid
   link: "hybrid"
 - name: Sponsors
