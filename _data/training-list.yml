@@ -1,2 +1,5 @@
 ---
-trainings: []
+trainings:
+- training: _trainings/hypersonicotp.md
+  start: 2021-09-13 07:00:00 +0000
+  end: 2021-09-13 11:00:00 +0000
