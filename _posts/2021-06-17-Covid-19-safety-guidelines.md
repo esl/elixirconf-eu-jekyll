@@ -2,7 +2,7 @@
 layout: post
 author: ElixirConf EU
 title: Covid-19 safety guidelines
-pic_url: "/assets/images/hybrid-conference.png"
+pic_url: "/assets/images/covid-safety.jpg"
 tags: covid-19, safety, guidelines, rules
 
 ---
