@@ -9,6 +9,7 @@ experience:
 summary: From zero Ecto knowledge to a happy and proficient Ecto user
 name: Ecto - Everything You Need to Know
 type: training
+published: false
 
 ---
 _Ecto is Elixir’s database wrapper. If you want to use a database with Elixir, you need to know Ecto._
