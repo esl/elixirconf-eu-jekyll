@@ -27,7 +27,6 @@ fields:
   label: experience
 pages:
 - _trainings/Architecting-reactive-systems.md
-- _trainings/Hypersonic OTP.md
 - _trainings/debugging-a-running-system.md
 - _trainings/distributed-systems-with-riak-core-lite.md
 - _trainings/ecto-everything-you-need-to-know.md
