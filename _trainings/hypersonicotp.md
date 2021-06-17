@@ -2,17 +2,18 @@
 experience: []
 name: Hypersonic OTP for Elixir Programmers
 type: tutorial
-trainers: []
+trainers:
+- _participants/aleksander-lisiecki.md
 
 ---
-A condensed version of our extended OTP course. The course will walk you through how to build an Elixir application step by step, in a reliable and battle tested way using OTP. Have you ever been wondering:   
+A condensed version of our extended OTP course. The course will walk you through how to build an Elixir application step by step, in a reliable and battle tested way using OTP. Have you ever been wondering:  
 How to structure your processes?  
 How to handle your process’s state?  
 What is BEAM fault tolerance all about?
 
 **EXPERTISE**
 
-* _Beginner and lower intermediate_
+* Beginner and lower intermediate
 
 **COURSE DURATION**
 
