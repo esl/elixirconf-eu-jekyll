@@ -6,6 +6,7 @@ tags:
 title: Q&A on LiveView
 speakers:
 - _participants/chris-mccord.md
+published: false
 
 ---
 At the previous ElixirConf EU Virtual conference Chris updated us on what's new in LiveView:  
