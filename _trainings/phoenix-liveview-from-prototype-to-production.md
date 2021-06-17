@@ -7,6 +7,7 @@ experience:
 - Intermediate
 title: Phoenix Liveview from prototype to production
 summary: Build an interactive real-time UI to get a feel for how LiveView works
+published: false
 
 ---
 Summary

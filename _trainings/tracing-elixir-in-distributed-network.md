@@ -9,6 +9,7 @@ summary: In this tutorial, Denys Gonchar will show you how to trace Erlang and E
   programs in a distributed network.
 name: Tracing Elixir in a Distributed Network
 type: ''
+published: false
 
 ---
 Live tracing is an extremely powerful, yet underutilised feature of the BEAM. It comes from the requirement to troubleshoot live systems handling millions of requests without affecting performance and throughput.
