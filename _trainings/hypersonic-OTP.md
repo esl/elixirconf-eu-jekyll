@@ -17,7 +17,7 @@ What is BEAM fault tolerance all about?
 
 **COURSE DURATION**
 
-* 4 hours
+* 4 hours, June 13, 9:00-13:00 Central European time
 
 **PREREQUISITES**
 
@@ -28,3 +28,5 @@ What is BEAM fault tolerance all about?
 * Have a deeper understanding of how to architect back-end systems and micro-services.
 * Learn why we need behaviours such as Generic Servers and others, when to use them, and how to integrate them into supervision trees.
 * Get a deeper understanding about how an Application works and how to create them and work together with others.
+
+**NOTE:** This is an **online** tutorial.

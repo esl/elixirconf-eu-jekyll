@@ -15,7 +15,7 @@ So you have mastered Elixir. Now the time has come to ask yourself a question: h
 
 **COURSE DURATION**
 
-* 4 hours
+* 4 hours, June 13, 14:00-18:00 Central European time
 
 **TARGET AUDIENCE**
 
@@ -38,3 +38,5 @@ So you have mastered Elixir. Now the time has come to ask yourself a question: h
 * Sandboxing untrusted code
 * Preventing timing attacks
 * Applying OTP libraries (ssl, inets, crypto and others) to secure your code
+
+**NOTE:** This is an **online** tutorial.
