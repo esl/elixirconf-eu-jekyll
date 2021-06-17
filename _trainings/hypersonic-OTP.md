@@ -17,7 +17,7 @@ What is BEAM fault tolerance all about?
 
 **COURSE DURATION**
 
-* 4 hours, June 13, 9:00-13:00 Central European time
+* 4 hours, September 13, 9:00-13:00 Central European time
 
 **PREREQUISITES**
 

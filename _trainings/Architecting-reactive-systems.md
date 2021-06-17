@@ -10,7 +10,7 @@ Learn how to architect fault-tolerant, scalable, soft, real-time systems with re
 
 In this tutorial, we will look at the steps needed to design scalable and resilient systems. The lessons learnt apply to the Erlang ecosystem, Elixir included, but are in fact technology agnostic and could be applied to most stacks, including Scala/AKKA, .net and others.
 
-\**  
+  
 **EXPERTISE**
 
 Intermediate
@@ -34,3 +34,5 @@ Software development experience is a must, as is the understanding of data consi
 * Availability
 * Scalability
 * Observability
+
+**NOTE:** This is an **online** tutorial.
