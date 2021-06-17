@@ -3,6 +3,7 @@ experience: []
 name: Hypersonic OTP for Elixir Programmers
 type: tutorial
 trainers: []
+published: false
 
 ---
 A condensed version of our extended OTP course. The course will walk you through how to build an Elixir application step by step, in a reliable and battle tested way using OTP. Have you ever been wondering:   
