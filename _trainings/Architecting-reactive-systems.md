@@ -2,16 +2,16 @@
 experience: []
 name: Architecting Reactive Systems for Scalability and Availability
 type: tutorial
-trainers: []
+trainers:
+- _participants/Francesco-cesarini.md
 
 ---
 Learn how to architect fault-tolerant, scalable, soft, real-time systems with requirements for high availability.
 
 In this tutorial, we will look at the steps needed to design scalable and resilient systems. The lessons learnt apply to the Erlang ecosystem, Elixir included, but are in fact technology agnostic and could be applied to most stacks, including Scala/AKKA, .net and others.
 
-  
-**  
-EXPERTISE**
+\**  
+**EXPERTISE**
 
 Intermediate
 
@@ -29,7 +29,7 @@ Software development experience is a must, as is the understanding of data consi
 
 **COVERS THE FOLLOWING TOPICS**
 
-* Distribution 
+* Distribution
 * Interfaces and state
 * Availability
 * Scalability
