@@ -8,7 +8,7 @@ trainers:
 published: false
 
 ---
-So, you have mastered Elixir. Now the time has come to ask yourself a question: how secure is the code you are running? Do you know about BEAM potential vulnerabilities, the ways to attack it and how to defend against it? Join the Secure Coding in Elixir course to learn about Elixir good practices, which corners avoid and crush the BEAM in all sorts of funny ways.
+So you have mastered Elixir. Now the time has come to ask yourself a question: how secure is the code you are running? Do you know about BEAM potential vulnerabilities, the ways to attack it and how to defend against it? Join the Secure Coding in Elixir course to learn about Elixir good practices, which corners avoid and crush the BEAM in all sorts of funny ways.
 
 **EXPERTISE**
 
@@ -16,7 +16,7 @@ So, you have mastered Elixir. Now the time has come to ask yourself a question: 
 
 **COURSE DURATION**
 
-* **4 hours**
+* 4 hours
 
 **TARGET AUDIENCE**
 
@@ -24,8 +24,8 @@ So, you have mastered Elixir. Now the time has come to ask yourself a question: 
 
 **PREREQUISITES**
 
-* _Basic Elixir syntax and concepts_
-* _Basic familiarity with the BEAM_
+* Basic Elixir syntax and concepts
+* Basic familiarity with the BEAM
 
 **OBJECTIVES**
 
