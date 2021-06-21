@@ -4,6 +4,7 @@ name: Hypersonic OTP for Elixir Programmers
 type: tutorial
 trainers:
 - _participants/aleksander-lisiecki.md
+published: false
 
 ---
 A condensed version of our extended OTP course. The course will walk you through how to build an Elixir application step by step, in a reliable and battle tested way using OTP. Have you ever been wondering:  
@@ -17,7 +18,7 @@ What is BEAM fault tolerance all about?
 
 **COURSE DURATION**
 
-* 4 hours, September 13, 9:00-13:00 Central European time
+* 4 hours, June 13, 9:00-13:00 Central European time
 
 **PREREQUISITES**
 
