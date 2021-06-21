@@ -1,8 +1,11 @@
 ---
 trainings:
+- training: _trainings/secure-coding-in-elixir.md
+  start: 2021-09-13 12:00:00 +0000
+  end: 2021-09-13 16:00:00 +0000
 - training: _trainings/hypersonic-OTP.md
-  start: 2021-09-13 07:00:00 +0000
-  end: 2021-09-13 11:00:00 +0000
+  start: 2021-09-13T07:00:00.000+00:00
+  end: 2021-09-13T11:00:00.000+00:00
 - training: _trainings/Architecting-reactive-systems.md
-  start: 2021-09-08 08:00:00 +0000
-  end: 2021-09-08 00:00:00 +0000
+  start: 2021-09-08T08:00:00.000+00:00
+  end: 2021-09-08T00:00:00.000+00:00
