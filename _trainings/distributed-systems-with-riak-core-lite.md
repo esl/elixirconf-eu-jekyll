@@ -7,7 +7,7 @@ experience:
 - Intermediate
 summary: This tutorial explores the practical aspects of implementing and testing
   horizontally scalable distributed applications using Elixir with Riak Core Lite.
-type: ''
+type: training
 published: false
 
 ---
