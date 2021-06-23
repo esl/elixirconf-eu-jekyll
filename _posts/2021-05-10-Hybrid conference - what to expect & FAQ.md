@@ -38,7 +38,7 @@ The [Whova app](https://youtu.be/pK1hnGIR0EI) will be in use for both versions o
 Virtual and in-person talks will take place at the same time on two tracks (9:00-17:00) in the Central European Summer Time zone.
 
 **How can I give a talk at this year’s event?**
-Call for talks is still open till 25th May and we’re considering talks from speakers who can attend in person and those who would prefer to present from our virtual stage. Please submit your talk, noting whether you plan to give it virtually or in-person.
+Call for talks was open till 25th May and we’ve considered talks from speakers who can attend in person and those who would prefer to present from our virtual stage. If you missed the Call for Papers, as an attendee (with a ticket) you can submit a lightning talk. More information will be available closer to the conference.
 
 **If I submit to the in-person event will I be able to alter my choice?**
 Yes, all ticket holders will be able to change from an in-person to virtual ticket up-to a month before the conference. We will also offer refunds and the ability to switch to a virtual ticket at any time should you be unable to travel for a genuine legal reason.
