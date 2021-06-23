@@ -7,6 +7,7 @@ audience:
 tags:
 - visualisation
 - concurrency
+published: false
 
 ---
 While building an air travel distribution system, the number and variety of concurrency patterns we need to evaluate and apply can be vast. Sometimes OTP comes to the rescue, sometimes good tricks from the community, sometimes our own designs. 
