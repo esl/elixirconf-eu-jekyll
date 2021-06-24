@@ -31,5 +31,6 @@ pages:
 - _talks/a-safer-elixir.md
 - _talks/exercism-v3.md
 - _talks/going-multi-node-with-exunit.md
+- _talks/love-your-crash-dumps.md
 - _talks/q-a-on-liveview.md
 - _talks/the-pillars-of-metaprogramming-in-elixir.md
