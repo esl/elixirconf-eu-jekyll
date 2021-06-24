@@ -5,7 +5,7 @@ audience:
 tags:
 - distributed
 - BEAM
-- tests
+- testing
 title: Going Multi-Node with ExUnit
 speakers:
 - _participants/devon-estes.md
