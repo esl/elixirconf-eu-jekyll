@@ -4,9 +4,9 @@
     <div class="items-container">
 
         {% assign all_keynotes = "" | split: ',' %}
-        {% for t in site.talks %}
-            {% for s in t.speakers %}
-                {% assign all_keynotes = all_keynotes | push: s %}
+        {% for kn in site.talks %}
+            {% for t in kn.speakers %}
+                {% assign all_keynotes = all_keynotes | push: t %}
             {% endfor %}
         {% endfor %}
 
