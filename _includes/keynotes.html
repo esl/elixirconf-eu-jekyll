@@ -1,16 +1,14 @@
 <div class="section keynotes" id="keynotes">
-    <h2 class="title">KEYNOTES
-    </h2>
+    <h2 class="title">KEYNOTES</h2>
     <hr/>
     <div class="items-container">
 
         {% assign all_keynotes = "" | split: ',' %}
-        {% for kn in site.keynotes %}
+        {% for kn in site.talks %}
             {% for t in kn.speakers %}
                 {% assign all_keynotes = all_keynotes | push: t %}
             {% endfor %}
         {% endfor %}
-
 
         {% for item in site.data.keynote-list.keynotes%}
             {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
@@ -25,12 +23,10 @@
                             {{ participant.name}}
                         </h4>
                     </a>
-                    <p class="item-position">{{ speaker.position }}</p>
+                    <p class="item-position">{{ participant.tagline }}</p>
                     {% include participations.html participant=participant section="keynotes" %}
                 </div>
             {% endif %}
-
-
         {% endfor %}
     </div>
 </div>
