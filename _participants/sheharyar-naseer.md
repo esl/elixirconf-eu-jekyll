@@ -1,6 +1,6 @@
 ---
 name: Sheharyar Naseer
-pic_url: ''
+pic_url: "/assets/images/sheharyar-naseer.jpg"
 tagline: Minimalist Web Craftsman, Manager @ GDG Lahore, Author of open-source libraries
 github: sheharyarn
 twitter: sheharyarn
