@@ -5,7 +5,7 @@
 
         {% assign all_keynotes = "" | split: ',' %}
         {% for t in site.talks %}
-            {% for s in t.speakers %}
+            {% for s in t.keynotes %}
                 {% assign all_keynotes = all_keynotes | push: s %}
             {% endfor %}
         {% endfor %}
