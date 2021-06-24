@@ -30,6 +30,7 @@ pages:
 - _keynotes/using-elixir-and-whatsapp-to-launch-who-s-global-covid-19-response.md
 - _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
 - _talks/a-safer-elixir.md
+- _talks/building-a-real-time-collaborative-editor-with-phoenix.md
 - _talks/exercism-v3.md
 - _talks/going-multi-node-with-exunit.md
 - _talks/love-your-crash-dumps.md
