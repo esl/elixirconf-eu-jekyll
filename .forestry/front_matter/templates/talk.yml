@@ -28,6 +28,7 @@ fields:
 pages:
 - _keynotes/it-s-alive-instrumenting-phoenix-1.5-with-telemetry-and-livedashboard.md
 - _keynotes/using-elixir-and-whatsapp-to-launch-who-s-global-covid-19-response.md
+- _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
 - _talks/a-safer-elixir.md
 - _talks/exercism-v3.md
 - _talks/going-multi-node-with-exunit.md
