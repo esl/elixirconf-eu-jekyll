@@ -5,7 +5,7 @@ tags:
 - event-sourcing
 - domain-modeling
 - architecture
-title: A journey of eventsourcing and CQRS through commanded.
+title: Eventsourcing and CQRS in Elixir
 speakers:
 - _participants/vasilis-spilka.md
 
