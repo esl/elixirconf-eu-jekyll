@@ -1,7 +1,7 @@
 ---
 name: Vasilis Spilka
-pic_url: ''
-tagline: Architected financial ledger that tracks millions of dollars monthly.
+pic_url: "/assets/images/vasilis-spilka.jpg"
+tagline: Elixir developer & advocate, DDD architect.
 github: vasspilka
 twitter: vasspilka
 
