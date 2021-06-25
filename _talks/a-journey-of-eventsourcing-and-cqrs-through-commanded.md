@@ -10,6 +10,6 @@ speakers:
 - _participants/vasilis-spilka.md
 
 ---
-I would like to share my experience working on event-sourced systems.
+Eventsourcing can be difficult, modeling such systems requires new ways of thinking to make sure things don't go wrong.
 
-In particular, I am thinking of starting with the general concepts to domain-driven/event-sourced applications and CQRS. Later using a model of a pet project called MicroWords explore how to use event-sourcing for a content sharing platform using commanded and how the aforementioned concepts apply in the real world. Along the way, I would like to talk about gotchas and things to watch out for while considering/planning an event-sourced application.
+In this talk we will explore some of its history, what are in my opinion the three pillars of event-sourced systems and their substituent parts, and then we will explore the Commanded library to see how we can model and apply these concepts in elixir. Finally, we'll go through some real-world examples of how commanded works in action.
