@@ -1,6 +1,6 @@
 ---
 name: Esteban Ibarra
-pic_url: ''
+pic_url: "/assets/images/esteban-ibarra.jpg"
 tagline: Let compilers save your code
 github: ''
 twitter: ibarrae
