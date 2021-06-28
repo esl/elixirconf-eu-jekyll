@@ -43,6 +43,7 @@ pages:
 - _talks/love-your-crash-dumps.md
 - _talks/membrane-sfu-bringing-webrtc-to-elixir.md
 - _talks/monitoring-elixir-with-opentelemetry.md
+- _talks/nerves-an-industrialization-journey.md
 - _talks/q-a-on-liveview.md
 - _talks/testing-asynchronous-otp.md
 - _talks/the-pillars-of-metaprogramming-in-elixir.md
