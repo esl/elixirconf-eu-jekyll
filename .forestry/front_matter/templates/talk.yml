@@ -35,6 +35,7 @@ pages:
 - _talks/creating-a-scalable-intent-classifier-with-elixir-python-and-tensorflow.md
 - _talks/debugging-elixir-code-the-tools-the-mindset.md
 - _talks/digitalizing-the-steel-industry-with-elixir.md
+- _talks/diving-into-ecto.query.md
 - _talks/doing-weird-things-with-ecto.md
 - _talks/elixir-webassembly-and-rust-the-ultimate-hybrid.md
 - _talks/exercism-v3.md
