@@ -27,5 +27,24 @@ fields:
   label: tags
 pages:
 - _keynotes/it-s-alive-instrumenting-phoenix-1.5-with-telemetry-and-livedashboard.md
+- _keynotes/q-a-with-chris-mccord.md
 - _keynotes/using-elixir-and-whatsapp-to-launch-who-s-global-covid-19-response.md
+- _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
+- _talks/a-safer-elixir.md
+- _talks/building-a-real-time-collaborative-editor-with-phoenix.md
+- _talks/creating-a-scalable-intent-classifier-with-elixir-python-and-tensorflow.md
+- _talks/debugging-elixir-code-the-tools-the-mindset.md
+- _talks/digitalizing-the-steel-industry-with-elixir.md
+- _talks/diving-into-ecto.query.md
+- _talks/doing-weird-things-with-ecto.md
+- _talks/elixir-webassembly-and-rust-the-ultimate-hybrid.md
+- _talks/exercism-v3.md
+- _talks/going-multi-node-with-exunit.md
+- _talks/lessons-learned-from-elixir-learning-paths.md
+- _talks/love-your-crash-dumps.md
+- _talks/membrane-sfu-bringing-webrtc-to-elixir.md
+- _talks/monitoring-elixir-with-opentelemetry.md
+- _talks/nerves-an-industrialization-journey.md
 - _talks/q-a-on-liveview.md
+- _talks/testing-asynchronous-otp.md
+- _talks/the-pillars-of-metaprogramming-in-elixir.md
