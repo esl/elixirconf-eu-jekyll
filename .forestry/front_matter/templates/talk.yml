@@ -32,7 +32,6 @@ pages:
 - _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
 - _talks/a-safer-elixir.md
 - _talks/building-a-real-time-collaborative-editor-with-phoenix.md
-- _talks/control-node-continuous-delivery-and-orchestration-as-code-for-elixir.md
 - _talks/creating-a-scalable-intent-classifier-with-elixir-python-and-tensorflow.md
 - _talks/debugging-elixir-code-the-tools-the-mindset.md
 - _talks/digitalizing-the-steel-industry-with-elixir.md
