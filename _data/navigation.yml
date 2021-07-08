@@ -6,6 +6,10 @@
 #  link: "cft"
 - name: Tickets
   link: "register"
+- name: Diversity
+  link: "diversity"
+- name: Student
+  link: "student"
 - name: Speakers
   link: "keynotes"
 #- name: Videos
@@ -16,12 +20,10 @@
 #  link: schedule
 - name: Training
   link: "training"
-- name: Diversity
-  link: "diversity"
 - name: Venue & Hotel
   link: "venue"
-- name: Volunteer
-  link: "volunteer"
+#- name: Volunteer
+#  link: "volunteer"
 - name: COVID-19 safety
   link: "covid-19"
 #- name: Hybrid
