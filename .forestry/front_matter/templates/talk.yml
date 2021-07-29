@@ -50,4 +50,3 @@ pages:
 - _talks/q-a-on-liveview.md
 - _talks/testing-asynchronous-otp.md
 - _talks/the-pillars-of-metaprogramming-in-elixir.md
-- _talks/tls-the-otp-way.md
