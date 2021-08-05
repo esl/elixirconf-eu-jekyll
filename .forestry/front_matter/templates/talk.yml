@@ -33,6 +33,7 @@ pages:
 - _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
 - _talks/a-safer-elixir.md
 - _talks/building-a-real-time-collaborative-editor-with-phoenix.md
+- _talks/clarity.md
 - _talks/control-node-continuous-delivery-and-orchestration-as-code-for-elixir.md
 - _talks/creating-a-scalable-intent-classifier-with-elixir-python-and-tensorflow.md
 - _talks/debugging-elixir-code-the-tools-the-mindset.md
@@ -50,3 +51,4 @@ pages:
 - _talks/q-a-on-liveview.md
 - _talks/testing-asynchronous-otp.md
 - _talks/the-pillars-of-metaprogramming-in-elixir.md
+- _talks/tls-the-otp-way.md
