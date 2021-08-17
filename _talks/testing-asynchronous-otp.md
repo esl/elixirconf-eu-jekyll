@@ -8,7 +8,6 @@ tags:
 - OTP
 title: Testing Asynchronous OTP
 speakers:
-- _participants/Jeffrey-matthias.md
 - _participants/andrea-leopardi.md
 
 ---
