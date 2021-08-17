@@ -1,7 +1,7 @@
 ---
 name: Willian Frantz
 pic_url: "/assets/images/willian-frantz.jpg"
-tagline: Elixir Enthusiast
+tagline: Elixir Enthusiast, Software Alchemist at Trybe
 github: ''
 twitter: frantz_willian
 
