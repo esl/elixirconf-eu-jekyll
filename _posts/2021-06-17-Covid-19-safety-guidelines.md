@@ -8,10 +8,12 @@ tags: covid-19, safety, guidelines, rules
 ---
 Your safety and the safety of others is of the utmost importance to us as organisers and The Hilton Warsaw.
 
+Before attending ElixirConf EU 2021 all attendees must complete and sign this waiver form via Whova app or on paper on the conference day.
+
 All attendees must present **one of the following**:
 * A negative COVID test dated no more than 72 hours prior to the conference (both quick test and PCR test are accepted)
 * Proof of vaccination (either in writing, on a card, or on the mObywatel app - QR code)
-* A waiver form signed a day prior to the conference via conference app or signed on paper on the day of the conference.
+* Answer yes to all questions 3-7 in waiver form.
 
 Do not attend if you or anyone you have been in contact with has shown any symptoms of COVID 72 hours prior. If you click “Yes” on any item on the waiver form, you will **not** be admitted to the event.
 
