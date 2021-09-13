@@ -26,8 +26,8 @@
 #  link: "volunteer"
 - name: COVID-19 safety
   link: "covid-19"
-#- name: Hybrid
-#  link: "hybrid"
+- name: Hybrid
+  link: "hybrid"
 - name: E-SHOP
   link: "shop"
 #- name: Blog
@@ -36,5 +36,5 @@
   link: "sponsors"
 #- name: Newsletter
 #  link: "newsletter"
-#- name: Contact
-#  link: "contact"
+- name: Contact
+  link: "contact"
