@@ -18,16 +18,16 @@
 #  link: "trainers"
 - name: Schedule
   link: schedule
-- name: Training
-  link: "training"
+#- name: Training
+#  link: "training"
 - name: Venue & Hotel
   link: "venue"
 #- name: Volunteer
 #  link: "volunteer"
-- name: COVID-19 safety
-  link: "covid-19"
-- name: Hybrid
-  link: "hybrid"
+#- name: COVID-19 safety
+#  link: "covid-19"
+#- name: Hybrid
+#  link: "hybrid"
 - name: E-SHOP
   link: "shop"
 #- name: Blog
