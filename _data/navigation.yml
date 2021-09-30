@@ -4,16 +4,16 @@
 # link: "welcome"
 #- name: Call for Talks
 #  link: "cft"
-- name: Recordings
+- name: All Recordings
   link: "recordings"
 #- name: Diversity
 #  link: "diversity"
 #- name: Student
 #  link: "student"
+- name: Public videos
+  link: "video"
 - name: Speakers
   link: "keynotes"
-- name: Videos
-  link: "video"
 #- name: Trainers
 #  link: "trainers"
 - name: Schedule
