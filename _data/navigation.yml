@@ -4,6 +4,8 @@
   link: "welcome"
 #- name: Call for Talks
 #  link: "cft"
+- name: Newsletter
+  link: "newsletter"
 #- name: All Recordings
 #  link: "recordings"
 #- name: Diversity
@@ -20,21 +22,19 @@
 #  link: schedule
 #- name: Training
 #  link: "training"
-#- name: Venue & Hotel
-#  link: "venue"
+- name: Venue & Hotel
+  link: "venue"
 #- name: Volunteer
 #  link: "volunteer"
 - name: COVID-19 safety
   link: "covid-19"
-#- name: Hybrid
-#  link: "hybrid"
+- name: Hybrid
+  link: "hybrid"
 #- name: E-SHOP
 #  link: "shop"
 - name: Blog
   link: "blog"
 #- name: Sponsors
 #  link: "sponsors"
-#- name: Newsletter
-#  link: "newsletter"
 - name: Contact
   link: "contact"
