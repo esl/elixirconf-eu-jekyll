@@ -2,10 +2,10 @@
 #  link: "cover"
 - name: Welcome
   link: "welcome"
-#- name: Call for Talks
-#  link: "cft"
 - name: Newsletter
   link: "newsletter"
+- name: Call for Talks
+  link: "cft"
 #- name: All Recordings
 #  link: "recordings"
 #- name: Diversity
