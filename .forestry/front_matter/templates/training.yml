@@ -35,6 +35,7 @@ pages:
 - _trainings/from-zero-to-hero-with-elixir.md
 - _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
 - _trainings/going-back-to-devops-roots.md
+- _trainings/introduction-to-liveview.md
 - _trainings/oban-101-201.md
 - _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md
