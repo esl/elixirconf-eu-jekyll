@@ -1,5 +1,8 @@
 ---
 trainings:
+- training: _trainings/secure-coding-in-elixir.md
+  start: 2022-04-06 09:30:00 +0000
+  end: 2022-04-06 13:00:00 +0000
 - training: _trainings/introduction-to-liveview.md
   start: 2022-04-04 10:00:00 +0000
   end: 2022-04-04 17:30:00 +0000
