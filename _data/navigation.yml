@@ -23,8 +23,9 @@
 - name: Trainers
   link: "trainers"
 #- name: Schedule
-#  link: schedule- name: Training
-#  link: "training"
+#  link: schedule
+- name: Training
+  link: "training"
 - name: Venue & Hotel
   link: "venue"
 #- name: Volunteer
