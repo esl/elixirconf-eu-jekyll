@@ -3,7 +3,7 @@ trainings:
 - training: _trainings/Why-on-Earth-would-I-test-if-I-have-to-just-"Let-it-crash"-?-(virtual).md
   start: 2022-04-05 10:00:00 +0000
   end: 2022-04-05 13:30:00 +0000
-- training: _trainings/nerves-2022.md
+- training: _trainings/nerves-(in-person).md
   start: 2022-04-06 09:30:00 +0000
   end: 2022-04-06 17:00:00 +0000
 - training: _trainings/secure-coding-in-elixir.md
