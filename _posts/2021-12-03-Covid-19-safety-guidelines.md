@@ -6,13 +6,13 @@ pic_url: "/assets/images/safety.jpg"
 tags: covid-19, safety, guidelines, rules
 
 ---
-Your safety and the safety of others is of the utmost importance to us as organisers and The Hilton Warsaw.
+Your safety and the safety of others is of the utmost importance to us as organisers and the ILEC Conference Centre.
 
-Before attending ElixirConf EU 2021 all attendees must complete and sign this waiver form via Whova app or on paper on the conference day.
+Before attending ElixirConf EU 2022 all attendees must complete and sign the waiver form via Whova app or on paper on the conference day.
 
 All attendees must present **one of the following**:
 * A negative COVID test dated no more than 72 hours prior to the conference (both quick test and PCR test are accepted)
-* Proof of vaccination (either in writing, on a card, or on the mObywatel app - QR code)
+* Proof of vaccination (either in writing, on a card, or on the NHS app - QR code)
 
 We will also ask you to sign:
 * A waiver form signed a day prior to the conference via conference app or signed on paper on the day of the conference.
@@ -23,13 +23,8 @@ Anyone who cannot attend in person can receive a full refund by contacting us up
 
 **During the conference we will ensure that:**
 * All attendees will have their temperature taken before admission
-* We will limit how many attendees can be in one room following the guidelines from the Polish Health Authorities and the Hilton
-* There will be 1 meter between attendees and a seat will be blocked or moved apart between each delegate.
+* We will limit how many attendees can be in one room following the guidelines from the UK Health Authorities and the ILEC
 * Attendees will be seated facing the same direction
-* All attendees, speakers, crew and any additional staff need to wear a face mask inside the venue.
-* Sanitizers will be available on all tables and by all entrances
-* All doorknobs and all horizontal surfaces will be disinfected after each session
-* All food and snacks will be served separately by the venue staff
-* Water served bottled
-* All rooms will be vented after each session
+* All attendees, speakers, crew and any additional staff need to wear a face mask inside the venue
+* Sanitisers will be available on all tables and by all entrances
 * Money back guarantee if we have to postpone the conference.
