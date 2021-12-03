@@ -2,7 +2,7 @@
 experience:
 - Beginners
 - Intermediate
-name: Introduction to LiveView
+name: Introduction to LiveView (virtual)
 type: training
 trainers:
 - _participants/tam-kbeili.md
