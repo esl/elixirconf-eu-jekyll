@@ -2,7 +2,7 @@
 layout: post
 author: ElixirConf EU
 title: Covid-19 safety guidelines
-pic_url: "/assets/images/covid-safety.jpg"
+pic_url: "/assets/images/safety.jpg"
 tags: covid-19, safety, guidelines, rules
 
 ---
@@ -13,7 +13,9 @@ Before attending ElixirConf EU 2021 all attendees must complete and sign this wa
 All attendees must present **one of the following**:
 * A negative COVID test dated no more than 72 hours prior to the conference (both quick test and PCR test are accepted)
 * Proof of vaccination (either in writing, on a card, or on the mObywatel app - QR code)
-* Answer yes to all questions 3-7 in waiver form.
+
+We will also ask you to sign:
+* A waiver form signed a day prior to the conference via conference app or signed on paper on the day of the conference.
 
 Do not attend if you or anyone you have been in contact with has shown any symptoms of COVID 72 hours prior. If you click “Yes” on any item on the waiver form, you will **not** be admitted to the event.
 
