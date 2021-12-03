@@ -1,7 +1,7 @@
 ---
 experience: []
 name: Going back to DevOps roots, a real journey from dev to production with BEAM
-  apps
+  apps (in-person)
 type: training
 trainers:
 - _participants/josep-lluis-giralt-dlacoste.md
