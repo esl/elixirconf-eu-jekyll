@@ -1,5 +1,6 @@
 ---
-experience: []
+experience:
+- Advanced
 name: Going back to DevOps roots, a real journey from dev to production with BEAM
   apps (in-person)
 type: training
