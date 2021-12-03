@@ -1,11 +1,10 @@
 ---
 experience:
 - Intermediate
-name: Why on Earth would I test if I have to just "Let it crash"?
+name: Why on Earth would I test if I have to just "Let it crash"? (virtual)
 type: training
 trainers:
 - _participants/laura-m-castro.md
-published: false
 
 ---
 Do you still write tests one by one? Learn how to write them by the hundreds in this introduction to Property-Based Testing in Elixir!
