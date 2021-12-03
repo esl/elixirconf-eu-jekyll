@@ -38,6 +38,7 @@ pages:
 - _trainings/introduction-to-liveview.md
 - _trainings/nerves-2022.md
 - _trainings/oban-101-201.md
+- _trainings/pbt-in-elixir.md
 - _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md
 - _trainings/secure-coding-in-elixir.md
