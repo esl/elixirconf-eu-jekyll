@@ -4,6 +4,7 @@ name: Architecting Reactive Systems for Scalability and Availability
 type: tutorial
 trainers:
 - _participants/Francesco-cesarini.md
+published: false
 
 ---
 Learn how to architect fault-tolerant, scalable, soft, real-time systems with requirements for high availability.
