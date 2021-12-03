@@ -1,2 +1,5 @@
 ---
-trainings: []
+trainings:
+- training: _trainings/oban-101-201.md
+  end: 2022-04-06 17:00:00 +0000
+  start: 2022-04-06 13:00:00 +0000
