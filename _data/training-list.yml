@@ -9,12 +9,12 @@ trainings:
 - training: _trainings/secure-coding-in-elixir-(in-person).md
   start: 2022-04-06 09:30:00 +0000
   end: 2022-04-06 13:00:00 +0000
-- training: _trainings/introduction-to-liveview.md
+- training: _trainings/introduction-to-liveview-(virtual).md
   start: 2022-04-04 10:00:00 +0000
   end: 2022-04-04 17:30:00 +0000
-- training: _trainings/going-back-to-devops-roots.md
+- training: _trainings/going-back-to-devops-roots,-a-real-journey-from-dev-to-production-with-BEAM-apps-(in-person).md
   start: 2022-04-04 09:30:00 +0000
   end: 2022-04-04 17:00:00 +0000
-- training: _trainings/oban-101-201.md
+- training: _trainings/oban-101-201-(virtual).md
   end: 2022-04-06 17:00:00 +0000
   start: 2022-04-06 13:30:00 +0000
