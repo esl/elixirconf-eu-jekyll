@@ -36,8 +36,8 @@ pages:
 - _trainings/from-zero-to-hero-with-elixir.md
 - _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
 - _trainings/going-back-to-devops-roots,-a-real-journey-from-dev-to-production-with-BEAM-apps-(in-person).md
-- _trainings/hands-on-tour-of-nerves-using-livebook-(in-person).md
 - _trainings/introduction-to-liveview-(virtual).md
+- _trainings/nerves-(in-person).md
 - _trainings/oban-101-201-(virtual).md
 - _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md
