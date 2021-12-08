@@ -38,7 +38,7 @@
 #  link: "shop"
 - name: Blog
   link: "blog"
-#- name: Sponsors
-#  link: "sponsors"
+- name: Sponsors
+  link: "sponsors"
 - name: Contact
   link: "contact"
