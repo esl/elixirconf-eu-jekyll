@@ -4,8 +4,8 @@
   link: "welcome"
 - name: Register
   link: "register"
-- name: Newsletter
-  link: "newsletter"
+#- name: Newsletter
+#  link: "newsletter"
 - name: Call for Talks
   link: "cft"
 #- name: Call for Tutorials
