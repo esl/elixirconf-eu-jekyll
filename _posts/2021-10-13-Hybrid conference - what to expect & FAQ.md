@@ -2,7 +2,7 @@
 layout: post
 author: ElixirConf EU
 title: Hybrid conference - what to expect? + Frequently Asked Auestions
-pic_url: "/assets/images/hybrid-conference.png"
+pic_url: "/assets/images/hybrid-conference.jpg"
 tags: hybrid, virtual, covid-19
 
 ---
