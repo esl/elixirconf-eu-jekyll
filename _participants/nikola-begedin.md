@@ -7,4 +7,4 @@ github: begedin
 twitter: begedinnikola
 
 ---
-Started as a .NET developer in a typical, discovered the joys of JavaScript before SPA was a thing while working there, then discovered the joy of freelancing and learning new things soon after. Worked with Ember and Ruby+Rails for a while, but then found out about Elixir and never looked back.
+Started out as a .NET developer, expanded into JS, replaced .NET with Ruby, added Ember, replaced Ruby with Elixir, replaced Ember with React and then Vue. Sticking with Elixir for the time being. Trying to do other stuff along the way.
