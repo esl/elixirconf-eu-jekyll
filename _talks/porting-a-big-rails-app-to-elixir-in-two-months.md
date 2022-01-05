@@ -1,5 +1,6 @@
 ---
-audience: []
+audience:
+- beginner
 tags: []
 title: Porting a Big Rails App to Elixir in Two Months
 speakers:
