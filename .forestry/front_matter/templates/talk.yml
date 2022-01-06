@@ -32,6 +32,7 @@ pages:
 - _keynotes/using-elixir-and-whatsapp-to-launch-who-s-global-covid-19-response.md
 - _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
 - _talks/a-safer-elixir.md
+- _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application-1.md
 - _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application.md
 - _talks/building-a-real-time-collaborative-editor-with-phoenix.md
 - _talks/clarity.md
