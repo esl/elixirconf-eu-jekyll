@@ -35,6 +35,7 @@ pages:
 - _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application-1.md
 - _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application.md
 - _talks/building-a-real-time-collaborative-editor-with-phoenix.md
+- _talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one.md
 - _talks/clarity.md
 - _talks/config.exs-is-simple-and-other-lies.md
 - _talks/control-node-continuous-delivery-and-orchestration-as-code-for-elixir.md
