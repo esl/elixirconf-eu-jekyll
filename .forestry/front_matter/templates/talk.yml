@@ -60,3 +60,4 @@ pages:
 - _talks/testing-asynchronous-otp.md
 - _talks/the-pillars-of-metaprogramming-in-elixir.md
 - _talks/tls-the-otp-way.md
+- _talks/typecheck-effortless-runtime-type-checking.md
