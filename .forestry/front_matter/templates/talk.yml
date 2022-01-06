@@ -49,6 +49,7 @@ pages:
 - _talks/get-your-crud-together.md
 - _talks/getting-to-phoenix-liveview-a-journey-through-nextjs-hasura-faunadb-supabase-rails-and-vanilla-phoenix.md
 - _talks/going-multi-node-with-exunit.md
+- _talks/it-s-a-live-book.md
 - _talks/lessons-learned-from-elixir-learning-paths.md
 - _talks/love-your-crash-dumps.md
 - _talks/membrane-sfu-bringing-webrtc-to-elixir.md
