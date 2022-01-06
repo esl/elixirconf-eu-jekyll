@@ -52,6 +52,7 @@ pages:
 - _talks/lessons-learned-from-elixir-learning-paths.md
 - _talks/love-your-crash-dumps.md
 - _talks/membrane-sfu-bringing-webrtc-to-elixir.md
+- _talks/micro-services-and-events-friends-or-foes.md
 - _talks/monitoring-elixir-with-opentelemetry.md
 - _talks/nerves-an-industrialization-journey.md
 - _talks/nerves-and-snmp-just-relax-and-use-it.md
