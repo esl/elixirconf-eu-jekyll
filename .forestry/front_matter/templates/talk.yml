@@ -34,7 +34,6 @@ pages:
 - _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
 - _talks/a-safer-elixir.md
 - _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application-1.md
-- _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application.md
 - _talks/automating-the-automator.md
 - _talks/bringing-opencv-to-the-elixir-world.md
 - _talks/building-a-block-based-editor-in-phoenix-live-view.md
