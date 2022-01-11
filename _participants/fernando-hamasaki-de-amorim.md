@@ -1,7 +1,7 @@
 ---
 name: Fernando Hamasaki de Amorim
 pic_url: "/assets/images/fernando-hamasaki-de-amorim.jpeg"
-tagline: Elixir adoption at FindHotel
+tagline: Software Engineer at FindHotel, Author of Miss Elixir Library
 github: prodis
 twitter: prodis
 
