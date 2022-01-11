@@ -6,4 +6,4 @@ github: rolandtritsch
 twitter: innolocity
 
 ---
-Software Craftsman and Sofware Engineering Manager. Builder and runner of functional teams and functional systems (pun intended). Explore of extreme digital nomading and remote-first cultures. Occasional blogger and talker/presenter.
+Software Craftsman and Sofware Engineering Manager. Builder and runner of functional teams and functional systems (pun intended). Explorer of extreme digital nomading and remote-first cultures. Occasional blogger and talker/presenter.
