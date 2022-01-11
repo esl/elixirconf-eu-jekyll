@@ -1,8 +1,8 @@
 ---
 name: Aswin Mohan
 pic_url: "/assets/images/aswin-mohan.jpeg"
-tagline: Made an Android Launcher called Lessphone which was downloaded over 250,000
-  times
+tagline: Solo Founder building his first startup in Elixir and loving every second
+  of it
 github: aswinmohanme
 twitter: aswinmohanme
 
