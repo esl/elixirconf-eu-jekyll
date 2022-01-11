@@ -1,6 +1,6 @@
 ---
 name: Miguel Michelson
-pic_url: "/assets/images/miguel-michelson.jpeg"
+pic_url: "/assets/images/miguel-michelson.png"
 tagline: Chaskiq Platform and Dante-Editor Creator
 github: Michelson
 twitter: Michelson
