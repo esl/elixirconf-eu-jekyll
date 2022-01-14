@@ -1,6 +1,6 @@
 ---
 name: Anton Satin
-pic_url: ''
+pic_url: "/assets/images/anton-satin.png"
 tagline: Professional sceptic, Software Developer @ Mindvalley
 github: antonsatin
 twitter: ournextmove
