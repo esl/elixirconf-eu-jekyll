@@ -3,6 +3,7 @@ experience: []
 name: Hands-on Tour of Nerves using Livebook (in-person)
 type: training
 trainers:
+- _participants/jon-carstens.md
 - _participants/frank-hunleth.md
 
 ---
