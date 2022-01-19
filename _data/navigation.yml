@@ -12,8 +12,6 @@
 #  link: "call-for-tutorials"
 #- name: All Recordings
 #  link: "recordings"
-#- name: Diversity
-#  link: "diversity"
 #- name: Student
 #  link: "student"
 #- name: Public videos
@@ -26,6 +24,8 @@
 #  link: schedule
 - name: Training
   link: "training"
+- name: Diversity
+  link: "diversity"
 - name: Venue & Hotel
   link: "venue"
 #- name: Volunteer
