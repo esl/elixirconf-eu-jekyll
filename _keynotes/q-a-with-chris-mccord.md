@@ -10,6 +10,7 @@ title: Q&A with Chris McCord
 speakers:
 - _participants/Jose-valim.md
 - _participants/chris-mccord.md
+published: false
 
 ---
 Interview with Chris McCord. Session hosted by José Valim.
