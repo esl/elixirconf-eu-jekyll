@@ -8,7 +8,7 @@ tags:
 - Q&A
 title: Q&A with Chris McCord
 speakers:
-- _participants/Jose-valim.md
+- _participants/jose-valim.md
 - _participants/chris-mccord.md
 published: false
 
