@@ -1,6 +1,6 @@
 ---
 experience: []
-name: Why on Earth would I test if I have to just Let it crash? (virtual)
+name: Why on Earth would I test if I have to just Let it crash (virtual)
 type: training
 trainers:
 - _participants/laura-m-castro.md
