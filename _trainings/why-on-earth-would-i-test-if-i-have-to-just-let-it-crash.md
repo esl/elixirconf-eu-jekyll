@@ -1,5 +1,6 @@
 ---
-experience: []
+experience:
+- Intermediate
 name: Why on Earth would I test if I have to just Let it crash? (virtual)
 type: training
 trainers:
@@ -18,4 +19,4 @@ Target audience:
 
 Training prerequisites:
 
-* Standard Elixir, best if up-to-date but shouldn't be a problem if it's not the latest! 
+* Standard Elixir, best if up-to-date but shouldn't be a problem if it's not the latest!
