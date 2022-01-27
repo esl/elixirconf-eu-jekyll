@@ -43,4 +43,3 @@ pages:
 - _trainings/rebuild-phoenix-from-scratch.md
 - _trainings/secure-coding-in-elixir-(in-person).md
 - _trainings/tracing-elixir-in-distributed-network.md
-- _trainings/why-on-earth-would-i-test-if-i-have-to-just-let-it-crash.md
