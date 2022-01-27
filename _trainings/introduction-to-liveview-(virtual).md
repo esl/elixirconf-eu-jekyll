@@ -6,6 +6,7 @@ name: Introduction to LiveView (virtual)
 type: training
 trainers:
 - _participants/tam-kbeili.md
+venue: Online
 
 ---
 In this full-day workshop, you will learn about Phoenix LiveView. With LiveView, you can build highly interactive applications powered by Phoenix and WebSockets with little to no Javascript.
