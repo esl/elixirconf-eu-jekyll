@@ -36,8 +36,8 @@
   link: "hybrid"
 #- name: E-SHOP
 #  link: "shop"
-- name: Blog
-  link: "blog"
+#- name: Blog
+#  link: "blog"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
