@@ -19,7 +19,7 @@ We will also ask you to sign:
 
 Do not attend if you or anyone you have been in contact with has shown any symptoms of COVID 72 hours prior. If you click “Yes” on any item on the waiver form, you will **not** be admitted to the event.
 
-Anyone who cannot attend in person can receive a full refund by contacting us up-to **a month** before the conference or exchange the in-person ticket to a virtual one and receive the reimbursement of the difference in the tickets’ prices. If circumstances change and there is **a legitimate legal reason** you are unable to travel to attend the conference, we will happily refund you right up until the day of the conference.
+Anyone who cannot attend in person can receive a full refund by contacting us up-to a month before the conference or exchange the in-person ticket to a virtual one and receive the reimbursement of the difference in the tickets’ prices. If circumstances change and there is a legitimate legal reason you are unable to travel to attend the conference, we will happily refund you right up until the day of the conference.
 
 **During the conference we will ensure that:**
 * All attendees will have their temperature taken before admission
