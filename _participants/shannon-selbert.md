@@ -2,8 +2,8 @@
 name: Shannon Selbert
 pic_url: "/assets/images/shannon-and-parker.jpeg"
 tagline: Author of Oban, Partner @ Soren
-github: sorenone
-twitter: sorenone
+github: sorentwo
+twitter: "@sorentwo"
 title: Shannon Selbert
 
 ---
