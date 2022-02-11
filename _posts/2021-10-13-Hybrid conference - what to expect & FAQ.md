@@ -6,7 +6,7 @@ pic_url: "/assets/images/hybrid-conference.jpg"
 tags: hybrid, virtual, covid-19
 
 ---
-April is coming close and though the pandemic situation is not yet fully contained, we’re optimistic to meet with you in London and we will make sure not only to deliver a great experience, but also that it’s delivered in a safe environment. However, we’re also keeping in mind that by then not everyone will be able to travel, therefore, we’ve decided to make ElixirConf EU a hybrid event, combining both an in-person and virtual conference.
+June is coming close and though the pandemic situation is not yet fully contained, we’re optimistic to meet with you in London and we will make sure not only to deliver a great experience, but also that it’s delivered in a safe environment. However, we’re also keeping in mind that by then not everyone will be able to travel, therefore, we’ve decided to make ElixirConf EU a hybrid event, combining both an in-person and virtual conference.
 
 There will be two different categories of tickets going on sale at the same time - for the in-person conference and training and for virtual conference attendance.
 
@@ -48,6 +48,5 @@ If you purchased a virtual ticket and you would like to exchange it to an in-per
 
 **Will the videos from the talks be public after the event?**
 Yes, talks from this event will be published on our YouTube channel and website following the event, some videos will be kept exclusive to attendees who purchased a ticket for the first 3 months.
-
 
 We look forward to sharing an event worth celebrating with you later this year as we bring the community together, in person for a long overdue reunion. If you have any more questions, feel free to contact us at [info@elixirconf.eu](mailto: info@elixirconf.eu).
