@@ -20,13 +20,13 @@ There will be two different categories of tickets going on sale at the same time
 The pandemic regulations and state of coronavirus vaccinations vary across Europe. We know that not everybody, for a variety of reasons, will be able to travel and meet at big gatherings like ElixirConf. We decided on this format, not only to make the knowledge accessible to a wide audience, wherever they are based, but also to keep the community together and make sure we keep the high standards and diversity of the content (hence virtual speakers).
 
 **Given COVID, why not go fully virtual?**
-Whilst the situation is still fast moving, we believe that by April, the vaccine rollout throughout Europe will be sufficient to allow for events to be conducted safely. We will work with the venue to ensure participants have proof of a negative test or vaccination and to make sure the highest safety standards are in place. With these measures in place, we’re confident that we will be able to run a safe event.
+Whilst the situation is still fast moving, we believe that by June, the vaccine rollout throughout Europe will be sufficient to allow for events to be conducted safely. We will work with the venue to ensure participants have proof of a negative test or vaccination and to make sure the highest safety standards are in place. With these measures in place, we’re confident that we will be able to run a safe event.
 
 **Why attend the in-person event?**
 For some of us, the social experience surrounding the conference is a big part of what makes them so special. While tools like [Whova](https://youtu.be/pK1hnGIR0EI) and the [Toucan](https://youtu.be/7O2AC4QHfX0) lounge have helped us replicate a genuine social hallway track, the experience of exploring a new city and going out for dinner long into the evening is one that is better in-person.
 
 **Will the virtual content differ from the in-person content?**
-The talks and their content will be the same for both the virtual and in-person conferences. We’re working with our technical partners to ensure the quality of livestreamed talks from the in-person venues look and feel similar to the talks at our virtual conferences so far. The slides and the speakers will both be clearly visible to ensure it’s easy for everyone to follow along at home.
+The talks and their content will be the same for both the virtual and in-person conferences. We’re working with our technical partners to ensure the quality of live-streamed talks from the in-person venues look and feel similar to the talks at our virtual conferences so far. The slides and the speakers will both be clearly visible to ensure it’s easy for everyone to follow along at home.
 
 **Why does the price for the virtual event differ so much for the in-person conference?**
 The price of the physical ticket includes the expense of hiring the venue and catering for lunches and breaks throughout the day.
