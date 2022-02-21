@@ -3,7 +3,7 @@ layout: post
 pic_url: "/assets/images/liveview-blog.jpg"
 author: ElixirConf EU
 tags: liveview, phoenix
-date: 20 February 2022
+date: 20.02.2022
 
 ---
 # Want to Know More About LiveView?
@@ -24,12 +24,14 @@ So without further ado here are some brilliant videos we’ve collected over the
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VU1JMg9AbLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 In January 2020 LiveView saw rapid growth and a ton of new features added which creator Chris McCord takes you through one by one in his update on LiveView.
-<br>
+
+
 **Q&A on LiveView - Chris McCord, ElixirConf EU Virtual 2020**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rc_iqnZ05ZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 In this next video, Chris McCord answers audience questions like ‘when you created Pheonix what was the problem you were trying to solve?’ and ‘where does surface fit in with the LiveView landscape?’ Check out the video for all his answers.
+
 
 **Multiplayer games and collaborative editing with LiveView - Wiebe-Marten Wijnja, ElixirConf EU Virtual 2020**
 
@@ -37,12 +39,13 @@ In this next video, Chris McCord answers audience questions like ‘when you cre
 <br>
 In this talk, Wiebe-Marten Wijnja explains and shares his experiences on how Elixir, Phoenix and LiveView can be used to create web applications in which multiple users are collaborating in real-time-like collaborative document editing and multiplayer games.
 
+
 **Phoenix LiveView: Interactive Apps without Javascript - Chris McCord, ElixirConf EU 2019**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8xJzHq8ru0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 In this talk, Chris McCord walks you through how to take advantage of the many features and functions of Phoenix LiveView. He also explains why there is ‘no need to write Javascript’ with Phoenix LiveView.
-
+<br>
 
 ## Don’t Miss Out on The Latest LiveView Updates This Year at ElixirConf EU 2022
 <br>
