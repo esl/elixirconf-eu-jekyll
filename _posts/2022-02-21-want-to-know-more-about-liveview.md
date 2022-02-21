@@ -5,7 +5,7 @@ author: ElixirConf EU
 tags: liveview, phoenix
 
 ---
-#Want to Know More About LiveView?
+# Want to Know More About LiveView?
 We’ve got you covered. We’ve been singing from the LiveView hymn sheet for years now
 and we’re pretty confident that you could become a LiveView evangelist too but first, here’s why we think it’s so great:
 
@@ -29,7 +29,7 @@ In this talk, Chris McCord walks you through how to take advantage of the many f
 [Chris McCord - Keynote: Phoenix LiveView - Interactive Apps without Javascript - ElixirConf EU 2019](https://youtu.be/8xJzHq8ru0M)
 
 
-##Don’t Miss Out on The Latest LiveView Updates This Year at ElixirConf EU 2022
+## Don’t Miss Out on The Latest LiveView Updates This Year at ElixirConf EU 2022
 You won’t want to miss our incredible speakers at this year’s ElixirConf EU. Our LiveView talks include: ["Introducing LiveData: LiveView for JSON endpoints"](https://www.elixirconf.eu/talks/introducing-livedata-liveview-for-json-endpoints/), [“Getting to Phoenix LiveView, A journey through NextJS, Hasura, FaunaDB, Supabase, Rails and Vanilla Phoenix”](https://www.elixirconf.eu/talks/getting-to-phoenix-liveview-a-journey-through-nextjs-hasura-faunadb-supabase-rails-and-vanilla-phoenix/) and [“Building a block-based editor in Phoenix Live View”](https://www.elixirconf.eu/talks/building-a-block-based-editor-in-phoenix-live-view/).
 
 [Early Bird tickets are on sale now!](https://www.elixirconf.eu/) Don’t wait before it’s too late, reserve your tickets today!
