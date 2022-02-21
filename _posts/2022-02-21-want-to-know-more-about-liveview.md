@@ -1,6 +1,6 @@
 ---
 layout: post
-pic_url: "/assets/images/elixir-frameworks-blog.png"
+pic_url: "/assets/images/liveview-blog.jpg"
 author: ElixirConf EU
 tags: liveview, phoenix
 
