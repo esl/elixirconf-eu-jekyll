@@ -1,9 +1,9 @@
 ---
-audience: []
-tags:
+audience:
 - beginner
 - intermediate
 - proficient
+tags: []
 title: It's A-Live(book)
 speakers:
 - _participants/adam-lancaster.md
