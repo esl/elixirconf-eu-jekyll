@@ -8,7 +8,7 @@ speakers:
 - _participants/ryan-young.md
 
 ---
-Wouldn't it be great if you could \`$mix mycompany.new foo\`, then \`$mix hex.publish\` published that library to an internal package repository, complete with documentation pushed to an internal site like \`[https://docs.mycompany.com](https://docs.mycompany.com "https://docs.mycompany.com")\`, with an embedded livebook link to play around with the library? Mirroring the same wonderful elixir developer experience internally can provide huge benefits to mature elixir shops or ones looking to increase adoption.
+Wouldn't it be great if you could use the same familiar mix commands to create, publish, and consume libraries and documentation privately within your company as you do when working on personal projects? In this talk, I'll demonstrate how self-hosting your own package repository, documentation, and livebook instance can create an intuitive internal elixir ecosystem your engineers will feel right at home using.
 
 **Talk objectives:**
 
