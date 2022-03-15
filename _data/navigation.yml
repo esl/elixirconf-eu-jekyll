@@ -1,7 +1,7 @@
 #- name: Home
 #  link: "cover"
-- name: Welcome
-  link: "welcome"
+#- name: Welcome
+#  link: "welcome"
 - name: Register
   link: "register"
 # name: Newsletter
@@ -32,8 +32,8 @@
   link: "venue"
 - name: COVID-19 safety
   link: "covid-19"
-- name: Hybrid
-  link: "hybrid"
+#- name: Hybrid
+#  link: "hybrid"
 #- name: E-SHOP
 #  link: "shop"
 #- name: Blog
