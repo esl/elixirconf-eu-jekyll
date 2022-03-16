@@ -1,10 +1,7 @@
 ---
 layout: post
-tags:
-- traveling
-- accommodation
-- things-to-do
-pic_url: ''
+tags: traveling, accommodation, things-to-do
+pic_url: '/assets/images/liveview-blog.jpg'
 author: Erlang Solutions
 
 ---
