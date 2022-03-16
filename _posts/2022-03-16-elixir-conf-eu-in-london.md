@@ -1,7 +1,6 @@
 ---
 layout: post
 tags:
-- London
 - traveling
 - accommodation
 - things-to-do
@@ -13,15 +12,15 @@ author: Erlang Solutions
 
 London hosts one of the most engaging and varied tech communities in the world and you might be surprised to know that the UK also has a healthy, ever-expanding Elixir community. Some London-based companies whom you might not know that use Elixir include Duffel, Ably, Square Enix, British Broadcasting Corporation, SaltPay, V7, Vetspire and Nested.
 
-In addition to our usual conference activities, we will also be hosting a special party to celebrate ten incredible years of Elixir. We hope to see you there!
+In addition to our usual conference activities, we will also be hosting a **special party** to celebrate ten incredible years of Elixir. We hope to see you there!
 
 With all that in mind, we are thrilled to be holding ElixirConf EU in London and we have a few tips and tricks for you to get the most out of your visit!
 
-## Coming to London
+### Coming to London
 
 London is open! From 4am Friday 18 March, all COVID-19 travel restrictions will be lifted, including the passenger locator form (PLF) and day 2 testing after arrival. That means you can plan, book and join us in London with ease and confidence.
 
-## Affordable Accommodation
+### Affordable Accommodation
 
 Looking for the right place to stay on your trip to London? Check out some of our favourite accommodation options that might be more affordable than you’d expect.
 
@@ -49,4 +48,4 @@ Why not make the most of your time in London and treat yourself to some of the b
 
 ## See You in London
 
-Without a doubt, London is the place to be this June! So secure your ticket for ElixirConf EU 2022 today! Should you have any questions just drop us an email at info@codesync.global and our team will be on hand to help you.
+Without a doubt, London is the place to be this June! So [**secure your ticket for ElixirConf EU 2022 today**](https://www.elixirconf.eu/#register)! Should you have any questions just drop us an email at info@codesync.global and our team will be on hand to help you.
