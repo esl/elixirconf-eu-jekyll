@@ -34,9 +34,9 @@ Looking for the right place to stay on your trip to London? Check out some of ou
 <br>
 London has a rich historical past and a modern and vibrant multicultural scene. It’s also home to our headquarters in the East End near the heart of the tech community. We have compiled our local knowledge to bring you this list of fun spots to check out while you’re in London.
 
-* London is home to some incredible outdoor food markets and June is one of the best months in the UK to explore them. From [Vinegar Yardto](https://www.vinegaryard.london/), Mercato Metropolitano  and Eataly, London has something for everyone’s taste buds!
+* London is home to some incredible outdoor food markets and June is one of the best months in the UK to explore them. From [Vinegar Yardto](https://www.vinegaryard.london/), [Mercato Metropolitano](https://mercatometropolitano.com/) and [Eataly](https://www.eataly.co.uk/), London has something for everyone’s taste buds!
 * Enjoy some of London’s incredible theatre performances. The west end boasts world-renowned theatre performances frequently featuring some of the world’s biggest names.
-* London has fun experiences and games that appeal to all audiences! Step into the world of VR at London’s own Dopamine Land.
+* London has fun experiences and games that appeal to all audiences! Step into the world of VR at London’s own [Dopamine Land](https://feverup.com/m/109997?utm_source=secretldn&utm_medium=post&utm_campaign=109997_lon&thm=159&utm_content=dopamine-land-waitlist&utm_term=cta3&cp_landing=cta-hero&_ga=2.237627011.284589723.1646212679-974343569.1646212679).
 * Did you know that some of London’s greatest attractions are all completely free? From world-class museums to stunning gardens and famous cultural landmarks, there is always something to see or do in London.
 
 ## World-Class Food and Drink
@@ -44,9 +44,9 @@ London has a rich historical past and a modern and vibrant multicultural scene. 
 <br>
 Why not make the most of your time in London and treat yourself to some of the best culinary delights the world has to offer? London boasts some brilliant world-renowned chefs and Michelin star restaurants, however you don’t have to spend a lot of cash to get great quality food in London. Here are a few of our recommendations:
 
-* For the high-end foodies out there, we’d recommend you check out internationally renowned chef and MasterChef Judge Marcus Wareing’s Michelin star restaurant, Marcushttps, just inside the Berkeley Hotel, across from the scenic Hyde Park.
-* For our vegetarian and vegan attendees we would recommend you check out Holy Carrot, an exceptional vegan restaurant near London’s Hyde Park!
-* You can’t come to the UK and not have a good plate of Fish and Chips! We suggest you check out Golden Union in popular SOHO for what is arguably one of the best fish and chip restaurants in the city!
+* For the high-end foodies out there, we’d recommend you check out internationally renowned chef and MasterChef Judge Marcus Wareing’s Michelin star restaurant, [Marcus](https://www.marcusrestaurant.com/), just inside the Berkeley Hotel, across from the scenic Hyde Park.
+* For our vegetarian and vegan attendees we would recommend you check out [Holy Carrot](https://www.holycarrot.co.uk/), an exceptional vegan restaurant near London’s Hyde Park!
+* You can’t come to the UK and not have a good plate of Fish and Chips! We suggest you check out [Golden Union](https://www.goldenunion.co.uk/) in popular SOHO for what is arguably one of the best fish and chip restaurants in the city!
 
 ## See You in London
 
