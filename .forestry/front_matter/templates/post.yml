@@ -19,5 +19,3 @@ fields:
   type: tag_list
   default: []
   label: tags
-pages:
-- _posts/elixir-conf-eu-in-london.md
