@@ -5,7 +5,7 @@ pic_url: "/assets/images/travel-blog.jpg"
 author: Erlang Solutions
 
 ---
-# ElixirConf EU in London
+# Why you should come to London for ElixirConf EU
 
 <br>
 London hosts one of the most engaging and varied tech communities in the world and you might be surprised to know that the UK also has a healthy, ever-expanding Elixir community. Some London-based companies whom you might not know that use Elixir include Duffel, Ably, Square Enix, British Broadcasting Corporation, SaltPay, V7, Vetspire and Nested.
