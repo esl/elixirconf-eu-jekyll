@@ -42,7 +42,7 @@ London has a rich historical past and a modern and vibrant multicultural scene. 
 
 Why not make the most of your time in London and treat yourself to some of the best culinary delights the world has to offer? London boasts some brilliant world-renowned chefs and Michelin star restaurants, however you don’t have to spend a lot of cash to get great quality food in London. Here are a few of our recommendations:
 
-* For the high-end foodies out there, we’d recommend you check out internationally renowned chef and MasterChef Judge Marcus Wareing’s Michelin star restaurant, [Marcus](https://www.marcusrestaurant.com/), just inside the Berkeley Hotel, across from the scenic Hyde Park.
+* For the high-end foodies out there, we’d recommend you check out internationally renowned chef and MasterChef Judge Marcus Wareing’s Michelin star restaurant, [**Marcus**](https://www.marcusrestaurant.com/), just inside the Berkeley Hotel, across from the scenic Hyde Park.
 * For our vegetarian and vegan attendees we would recommend you check out [Holy Carrot](https://www.holycarrot.co.uk/), an exceptional vegan restaurant near London’s Hyde Park!
 * You can’t come to the UK and not have a good plate of Fish and Chips! We suggest you check out [Golden Union](https://www.goldenunion.co.uk/) in popular SOHO for what is arguably one of the best fish and chip restaurants in the city!
 
