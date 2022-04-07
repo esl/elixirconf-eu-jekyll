@@ -1,7 +1,7 @@
 ---
 name: Elle Imhoff
 pic_url: "/assets/images/elle-imhoff.jpeg"
-tagline: Software Archeologist and Entomologist. Creator of IntelliJ Elixir.
+tagline: Creator of IntelliJ Elixir. Principal Software Engineer at DockYard.
 github: KronicDeth
 twitter: KronicDeth
 
