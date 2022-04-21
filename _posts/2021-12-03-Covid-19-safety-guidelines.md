@@ -15,7 +15,7 @@ The government has now removed remaining domestic restrictions in England. There
 * Self-isolate if feeling unwell
 
 **We will ensure that:**
-* We will limit how many attendees can be in one room following the guidelines from the UK Health Authorities and the ILEC, should the restrictions be reintroduced
-* Attendees will be seated facing the same direction during the talks
-* Sanitisers will be available at the venue
-* Money back guarantee if we have to postpone the conference.
+* we will limit how many attendees can be in one room following the guidelines from the UK Health Authorities and the ILEC, should the restrictions be reintroduced
+* attendees will be seated facing the same direction during the talks
+* sanitisers will be available at the venue
+* we will provide money back guarantee if we have to postpone the conference.
