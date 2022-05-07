@@ -2,6 +2,7 @@
 audience:
 - beginners
 - intermediate
+- proficient
 tags: []
 title: Why Is My LiveView Slow and What Can I Do About It?
 speakers:
