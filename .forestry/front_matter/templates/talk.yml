@@ -40,6 +40,7 @@ pages:
 - _talks/building-a-block-based-editor-in-phoenix-live-view.md
 - _talks/building-a-real-time-collaborative-editor-with-phoenix.md
 - _talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one.md
+- _talks/celebrating-the-10-years-of-elixir.md
 - _talks/clarity.md
 - _talks/config.exs-is-simple-and-other-lies.md
 - _talks/control-node-continuous-delivery-and-orchestration-as-code-for-elixir.md
