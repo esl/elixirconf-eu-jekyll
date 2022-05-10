@@ -1,7 +1,7 @@
 ---
 audience: []
 tags: []
-title: Celebrating the 10 years of Elixir
+title: Celebrating the 10 Years of Elixir
 speakers:
 - _participants/jose-valim.md
 
