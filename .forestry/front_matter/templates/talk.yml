@@ -26,6 +26,7 @@ fields:
   default: []
   label: tags
 pages:
+- _keynotes/celebrating-the-10-years-of-elixir.md
 - _keynotes/code-homicide-what-software-developers-can-learn-from-offender-profiling.md
 - _keynotes/it-s-alive-instrumenting-phoenix-1.5-with-telemetry-and-livedashboard.md
 - _keynotes/q-a-with-chris-mccord.md
@@ -40,7 +41,6 @@ pages:
 - _talks/building-a-block-based-editor-in-phoenix-live-view.md
 - _talks/building-a-real-time-collaborative-editor-with-phoenix.md
 - _talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one.md
-- _talks/celebrating-the-10-years-of-elixir.md
 - _talks/clarity.md
 - _talks/config.exs-is-simple-and-other-lies.md
 - _talks/control-node-continuous-delivery-and-orchestration-as-code-for-elixir.md
