@@ -5,6 +5,7 @@ tags: []
 title: 'The Elixir Journey: Convincing enterprise to use Elixir'
 speakers:
 - _participants/bernardo-amorim.md
+published: false
 
 ---
 As SaltPay started to grow and look more enterprise people were concerned about Elixir. There was a fear of emerging technologies. With some teamwork, commitment and effort we managed to convince people. In this talk, I’ll go through the main points higher management raised about Elixir and how we started addressing them and how we got to even became good examples of how to organize development communities inside the company.
