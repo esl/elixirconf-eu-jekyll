@@ -4,7 +4,6 @@ tags: []
 title: Observable Elixir
 speakers:
 - _participants/bernardo-amorim.md
-published: false
 
 ---
 Either because things went wrong or because you just want to keep improving your system, you need to be able to understand it. An observable system is one that you can infer its internal state by only using its outputs. Join me while we go through my journey of making an Elixir system observable.
