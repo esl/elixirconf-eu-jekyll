@@ -1,7 +1,7 @@
 ---
 name: Adam Tornhill
 pic_url: "/assets/images/adam-tornhill.jpg"
-tagline: Founder and CTO of Empear
+tagline: Founder and CTO of CodeScene
 github: adamtornhill
 twitter: adamtornhill
 
