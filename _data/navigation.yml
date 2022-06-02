@@ -18,17 +18,17 @@
 #  link: "video"
 - name: Speakers
   link: "keynotes"
-- name: Trainers
-  link: "trainers"
+#- name: Trainers
+#  link: "trainers"
 - name: Schedule
-  link: schedule
-- name: Training
-  link: "training"
+  link: "schedule"
+#- name: Training
+#  link: "training"
 - name: Diversity
   link: "diversity"
 - name: Volunteer
   link: "volunteer"
-- name: Venue & Hotel
+- name: Venue
   link: "venue"
 - name: COVID-19
   link: "covid-19"
