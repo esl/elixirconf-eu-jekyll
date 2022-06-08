@@ -5,7 +5,6 @@ tags: []
 title: Comparing the Actor model and CSP concurrency with Elixir and Clojure
 speakers:
 - _participants/xiang-ji.md
-published: false
 
 ---
 One big selling point of the BEAM VM is its from-the-ground-up implementation of the Actor model. CSP, another concurrency paradigm, has gained a lot of traction via Go, while also being embraced by Clojure. There is shared heritage between Elixir & Clojure, as well as between Actor model & CSP. However, radical differences between BEAM and JVM inevitably lead to intriguing divergences. You'll gain a better understanding of these paradigms, and (hopefully) a bit more appreciation of what makes BEAM unique.
