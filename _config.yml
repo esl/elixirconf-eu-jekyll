@@ -1,6 +1,6 @@
 title: ElixirConf EU
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to ElixirConf EU, co-organised by ElixirConf and Code Sync. ElixirConf EU is the premiere Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and a day of tutorials.
+  Welcome to ElixirConf EU, co-organised by ElixirConf and Code Sync. ElixirConf EU is the premiere Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and two days of training.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.elixirconf.eu" # the base hostname & protocol for your site
 
@@ -87,7 +87,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: ILEC Conference Center
-map-text-location: 47 Lillie Rd, London SW6 1UD, United Kingdom
-map-lat: 51.485796
-map-lng: -0.199129
+map-text: Altis Grand Hotel
+map-text-location: R. Castilho 11, 1269-072 Lisboa, Portugal
+map-lat: 38.7207416
+map-lng: -9.1521192
