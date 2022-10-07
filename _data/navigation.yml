@@ -8,8 +8,8 @@
 #  link: "newsletter"
 - name: Call for Talks
   link: "cft"
-#- name: Call for Training
-#  link: "call-for-training"
+- name: Call for Training
+  link: "call-for-training"
 #- name: All Recordings
 #  link: "recordings"
 #- name: Student
