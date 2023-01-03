@@ -8,6 +8,8 @@ tags:
 title: Multitenant web applications with Phoenix
 speakers:
 - _participants/eli-kroumova.md
+level:
+- Introductory and overview
 
 ---
 Multitenancy is a software architecture where one instance serves different clients (tenants). This definition is quite general and can be implemented in different ways.  
