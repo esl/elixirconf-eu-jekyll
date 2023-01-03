@@ -1,11 +1,10 @@
 ---
 experience:
 - Intermediate
-name: Phoenix Application Security (Virtual, half day)
+name: Phoenix Application Security (Virtual)
 type: training
 trainers:
 - _participants/michael-lubas.md
-published: false
 
 ---
 When deploying your Phoenix application, it seems like there is a never ending list of security problems to worry about. XSS, CSRF, RCE, timing attacks, the list of acronyms and jargon goes on. How should you get started securing your Phoenix app? What is worth focusing on?
