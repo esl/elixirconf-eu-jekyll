@@ -12,11 +12,11 @@ The content is under the following folders - for example :
      2020
 
 
-For example: 
+For example:
 
      ./2015/
      ./2015//viktoria-fordos.md
-     .. etc etc 
+     .. etc etc
 
 ---
 
@@ -25,7 +25,7 @@ The res folder contains all the speaker images and slides from previous years - 
 
 The res folder is structured into a speakers folder and a slides folder and two top level csv files with metadata about the files (year,name,filename) the csv files are called res/slides.csv and res/speakers.csv
 
-For example : 
+For example :
 
      ./res/
      ./res//speakers
