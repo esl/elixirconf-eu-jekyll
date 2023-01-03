@@ -43,6 +43,7 @@ pages:
 - _talks/building-a-block-based-editor-in-phoenix-live-view.md
 - _talks/building-a-real-time-collaborative-editor-with-phoenix.md
 - _talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one.md
+- _talks/building-livebook-desktop.md
 - _talks/clarity.md
 - _talks/comparing-the-actor-model-and-csp-concurrency-with-elixir-and-clojure.md
 - _talks/config.exs-is-simple-and-other-lies.md
