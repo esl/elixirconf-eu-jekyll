@@ -1,5 +1,5 @@
 ---
-audience:
+level:
 - Introductory and overview
 tags:
 - Multitenancy
@@ -11,11 +11,11 @@ speakers:
 
 ---
 Multitenancy is a software architecture where one instance serves different clients (tenants). This definition is quite general and can be implemented in different ways.  
-  
+
 This talk is about the specific case of web application where each client data is stored independently in the database and served by the same application.  
-  
+
 Phoenix and Ecto already have all we need for the implementation. Ecto prefix option gives us access to PostgreSQL schemas for the data encapsulation and Plug provides a straithforward way to assign the current tenant.  
-  
+
 In this talk we will see how all the pieces fit together in a step by step example.
 
 **Talk objectives:**

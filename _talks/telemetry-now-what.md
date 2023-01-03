@@ -1,6 +1,6 @@
 ---
-audience:
-- "\t Introductory and overview"
+level:
+- Introductory and overview
 tags:
 - Telemetry
 - Metrics
