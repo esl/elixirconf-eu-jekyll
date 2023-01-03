@@ -40,6 +40,7 @@ pages:
 - _trainings/hands-on-tour-of-nerves-using-livebook-(in-person).md
 - _trainings/introduction-to-liveview-(virtual).md
 - _trainings/oban-101-201-(virtual).md
+- _trainings/phoenix-application-security.md
 - _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md
 - _trainings/secure-coding-in-elixir-(in-person).md
