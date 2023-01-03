@@ -1,10 +1,13 @@
 ---
-audience: []
-tags: []
+audience:
+- Introductory and overview
+tags:
+- Enterprise
+- Use-Case
+- Git-Ops
 title: The Journey of Elixir at Helvetia Insurance
 speakers:
 - _participants/andre-graf.md
-published: false
 
 ---
 In this talk we share our experiences of introducing Elixir at a major Swiss insurance company.
