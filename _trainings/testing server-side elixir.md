@@ -1,7 +1,7 @@
 ---
 experience:
 - Intermediate
-name: Testing Server-Side Elixir
+name: Testing Server-Side Elixir - Tools, Tips and Tricks
 type: training
 trainers:
 - _participants/Jeffrey-matthias.md
