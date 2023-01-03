@@ -32,6 +32,7 @@ pages:
 - _trainings/create-an-airbnb-clone-using-phoenix-liveview.md
 - _trainings/debugging-a-running-system.md
 - _trainings/distributed-systems-with-riak-core-lite.md
+- _trainings/dive-into-webrtc-with-jellyfish-and-membrane.md
 - _trainings/ecto-everything-you-need-to-know.md
 - _trainings/ecto-from-the-ground-up.md
 - _trainings/elixir-testing-from-beginner-to-expert.md
