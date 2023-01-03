@@ -45,4 +45,5 @@ pages:
 - _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md
 - _trainings/secure-coding-in-elixir-(in-person).md
+- _trainings/testing server-side elixir.md
 - _trainings/tracing-elixir-in-distributed-network.md
