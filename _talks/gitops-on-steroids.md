@@ -6,8 +6,9 @@ tags:
 - Terraform
 - Templating
 title: GitOps on Steroids
-speakers: []
-published: false
+speakers:
+- _participants/bikram-chatterjee.md
+- _participants/lars-hesel-christensen.md
 
 ---
 In this talk we will see how the Elixir patterns such as State Machine, Templating and custom behaviors are used as building blocks for a GitOps based Self-Service platform.
