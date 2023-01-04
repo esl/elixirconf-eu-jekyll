@@ -91,6 +91,7 @@ pages:
 - _talks/q-a-on-liveview.md
 - _talks/quantum-doodle-digital-twins-for-everyday-activities.md
 - _talks/real-time-product-analytics-with-liveview.md
+- _talks/safer-db-migrations-with-excellent_migrations.md
 - _talks/telemetry-now-what.md
 - _talks/testing-asynchronous-otp.md
 - _talks/the-elixir-journey-convincing-enterprise-to-use-elixir.md
