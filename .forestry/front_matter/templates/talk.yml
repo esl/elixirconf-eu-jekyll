@@ -49,6 +49,7 @@ pages:
 - _talks/building-an-interview-scheduler-in-liveview.md
 - _talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one.md
 - _talks/building-livebook-desktop.md
+- _talks/change-data-capture-with-elixir-and-debezium.md
 - _talks/clarity.md
 - _talks/comparing-the-actor-model-and-csp-concurrency-with-elixir-and-clojure.md
 - _talks/config.exs-is-simple-and-other-lies.md
