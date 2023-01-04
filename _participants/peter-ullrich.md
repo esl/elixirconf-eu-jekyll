@@ -1,10 +1,9 @@
 ---
-pic_url: "/assets/images/peter-ullrich.jpg"
+pic_url: "/assets/images/peter-ullrich.JPG"
 name: Peter Ullrich
-tagline: Software Developer
+tagline: Senior Software Engineer @ Studitemps GmbH
 twitter: pjullrich
 github: PJUllrich
 
 ---
-<p>Peter is a Software Developer from Germany with a Psychology background. He loves to share his lessons learned about Elixir, Software Design, and Domain-driven Design.
- </p>
+Peter Ullrich is a Senior Backend Engineer with a Psychology background. He loves sharing his Elixir knowledge through conference talks, blogs, and podcasts. His speciality is breaking down complex topics into smaller and easy to understand parts. His dream is to make programming approachable for everyone.
