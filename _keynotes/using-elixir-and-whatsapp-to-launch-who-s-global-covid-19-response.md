@@ -3,8 +3,8 @@ audience:
 - Everyone
 tags: []
 title: Using Elixir and WhatsApp to launch WHO’s global COVID-19 response
-speakers:
-- _participants/simon-de-haan.md
+speakers: []
+level: []
 
 ---
 The inside story of how the World Health Organisation’s WhatsApp!
