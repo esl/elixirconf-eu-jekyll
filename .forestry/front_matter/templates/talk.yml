@@ -41,6 +41,7 @@ pages:
 - _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application-1.md
 - _talks/automating-the-automator.md
 - _talks/bringing-opencv-to-the-elixir-world.md
+- _talks/bringing-types-to-elixir.md
 - _talks/build-and-extend-erlang-otp-with-zig.md
 - _talks/building-a-block-based-editor-in-phoenix-live-view.md
 - _talks/building-a-framework-membrane-s-journey-to-1.0.md
