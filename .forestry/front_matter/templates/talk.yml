@@ -92,6 +92,7 @@ pages:
 - _talks/opening-a-black-box-observability-in-a-complex-system.md
 - _talks/optimizing-liveview-for-real-time-applications.md
 - _talks/phoenix-beyond-cowboy.md
+- _talks/phoenix-liveview-test-driven-development-by-example.md
 - _talks/porting-a-big-rails-app-to-elixir-in-two-months.md
 - _talks/powerful-machine-learning-at-your-fingertips.md
 - _talks/q-a-on-liveview.md
