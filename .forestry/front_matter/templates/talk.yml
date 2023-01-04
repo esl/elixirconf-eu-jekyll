@@ -42,6 +42,7 @@ pages:
 - _talks/automating-the-automator.md
 - _talks/bringing-opencv-to-the-elixir-world.md
 - _talks/building-a-block-based-editor-in-phoenix-live-view.md
+- _talks/building-a-framework-membrane-s-journey-to-1.0.md
 - _talks/building-a-real-time-collaborative-editor-with-phoenix.md
 - _talks/building-an-interview-scheduler-in-liveview.md
 - _talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one.md
