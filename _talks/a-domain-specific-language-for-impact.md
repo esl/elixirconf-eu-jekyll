@@ -8,6 +8,7 @@ tags:
 title: A Domain Specific Language for Impact
 speakers:
 - _participants/simon-de-haan.md
+- _participants/federico-meini.md
 
 ---
 Over the last few years, we’ve learned and proven that Elixir scales. We’ve spoken about the services built for the WHO, Ukraine State Emergency Services, the UNHCR, and other organisations around the world using WhatsApp.
