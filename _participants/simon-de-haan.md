@@ -1,9 +1,13 @@
 ---
 name: Simon de Haan
-pic_url: "/assets/images/simon-de-haan.jpg"
-tagline: Turn.io
+pic_url: "/assets/images/simon-de-haan.jpeg"
+tagline: CTO & Co-Founder of Turn.io
 github: smn
 twitter: smn
 
 ---
-Simon is the Co-founder and CTO for Turn.io. Simon is excited about technology, especially when it is applied to improve the lives of less privileged people. Growing up in the Middle East ruined him for the ordinary as those years left an unmistakable impression and set him on a direct course to be involved in community development, entrepreneurship and technology. Prior to Turn.io, Simon was the Chief Engineer for Praekelt.org, helping lead the launch of the world's first nationally integrated mobile pregnancy registry for the South African Department of Health and subsequently launching the world's first national health platform on the WhatsApp Business API.
+Simon de Haan is a co-founder of Turn.io and serial CTO.  
+Simon cares deeply about improving society, and the lives of those most vulnerable in it, through mobile technologies and entrepreneurship.  
+He has spent the last 15 years leading teams, designing, building, and launching programmes at scale that positively impact peoples’ lives.  
+Whether it was maternal health programmes across Africa, election registration programmes in Libya, supporting the UNHCR and Care International in international refugee and humanitarian relief, or building the world’s first WhatsApp based COVID response programmes for the WHO and governments around the world; the common thread has always been ensuring that the world’s best technologies are used to serve those most in need.  
+After a decade of working together at [Praekelt.org](Praekelt.org), reaching 100 million people across Africa, Simon and Gustav established Turn.io with a vision to make effective human support accessible to vulnerable people everywhere.
