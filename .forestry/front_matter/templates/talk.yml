@@ -58,6 +58,7 @@ pages:
 - _talks/diving-into-ecto.query.md
 - _talks/doing-weird-things-with-ecto.md
 - _talks/don-t-fight-the-monolith.md
+- _talks/electricsql-local-first-sql-with-elixir.md
 - _talks/elixir-webassembly-and-rust-the-ultimate-hybrid.md
 - _talks/everything-about-dns-you-never-dared-to-ask.md
 - _talks/exercism-v3.md
