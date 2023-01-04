@@ -79,6 +79,7 @@ pages:
 - _talks/nerves-and-snmp-just-relax-and-use-it.md
 - _talks/not-hotdog-revisited.md
 - _talks/observable-elixir.md
+- _talks/opening-a-black-box-observability-in-a-complex-system.md
 - _talks/phoenix-beyond-cowboy.md
 - _talks/porting-a-big-rails-app-to-elixir-in-two-months.md
 - _talks/powerful-machine-learning-at-your-fingertips.md
