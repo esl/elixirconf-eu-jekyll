@@ -109,5 +109,6 @@ pages:
 - _talks/the-pillars-of-metaprogramming-in-elixir.md
 - _talks/tls-the-otp-way.md
 - _talks/typecheck-effortless-runtime-type-checking.md
+- _talks/understanding-elixir-compilation.md
 - _talks/why-is-my-liveview-slow-and-what-can-i-do-about-it.md
 - _talks/wired-up-using-ecto-without-schemas.md
