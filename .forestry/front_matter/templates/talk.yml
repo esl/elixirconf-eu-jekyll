@@ -99,3 +99,4 @@ pages:
 - _talks/tls-the-otp-way.md
 - _talks/typecheck-effortless-runtime-type-checking.md
 - _talks/why-is-my-liveview-slow-and-what-can-i-do-about-it.md
+- _talks/wired-up-using-ecto-without-schemas.md
