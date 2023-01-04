@@ -1,9 +1,9 @@
 ---
 name: Michal Slaski
-pic_url: "/assets/images/michal_slaski.jpg"
+pic_url: "/assets/images/michal-slaski.jpg"
 tagline: Co-Founder of koderki.pl
 github: michalslaski
 twitter: michalslaski
 
 ---
-AGH graduate, Erlang programmer since 2005. In 2014 began organizing the Lambda Days conference, which focuses on functional languages and new trends in computer science. In the same year also started organizing programming workshops for people who would like to learn languages such as Erlang, Elixir or Swift. Co-Founder of [koderki.pl](http://koderki.pl/) and frequent conference speaker.
+In 2014 began organizing the Lambda Days conference, which focuses on functional languages and new trends in computer science. Co-Founder of koderki.pl - a teaching practice aimed at creating educational content and lesson scenarios. Manager at Google Cloud, father of two and frequent conference speaker.
