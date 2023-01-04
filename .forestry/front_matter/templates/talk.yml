@@ -74,6 +74,7 @@ pages:
 - _talks/getting-to-phoenix-liveview-a-journey-through-nextjs-hasura-faunadb-supabase-rails-and-vanilla-phoenix.md
 - _talks/gitops-on-steroids.md
 - _talks/going-multi-node-with-exunit.md
+- _talks/how-to-describe-robust-nifs.md
 - _talks/how-to-use-opentelemetry-to-troubleshoot-and-monitor-production-applications.md
 - _talks/intellij-elixir-works-even-if-your-code-doesn-t.md
 - _talks/introducing-livedata-liveview-for-json-endpoints.md
