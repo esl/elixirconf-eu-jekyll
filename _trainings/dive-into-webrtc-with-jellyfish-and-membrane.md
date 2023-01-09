@@ -5,6 +5,7 @@ name: Dive into WebRTC with Jellyfish and Membrane!
 type: training
 trainers:
 - _participants/bartosz-blaszkow.md
+- _participants/radoslaw-szuma.md
 
 ---
 In last few years, WebRTC became the technology that runs the world. Classes, stand-ups, conferences - everything can now became remote mainly thanks to this standard.  
