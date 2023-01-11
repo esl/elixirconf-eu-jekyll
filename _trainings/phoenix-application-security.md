@@ -1,7 +1,7 @@
 ---
 experience:
 - Intermediate
-name: Phoenix Application Security - Virtual
+name: Phoenix Application Security Virtual
 type: training
 trainers:
 - _participants/michael-lubas.md
@@ -19,4 +19,4 @@ This training will be an introduction to the web application security concepts m
 
 **Training prerequisites:**
 
-Prior experience with Elixir and Phoenix.
+Prior experience with Elixir and Phoenix
