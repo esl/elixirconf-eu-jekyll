@@ -2,8 +2,8 @@
 name: Bikram Chatterjee
 pic_url: "/assets/images/bikram-chatterjee.jpg"
 tagline: DevOps Solution Architect hacking with Elixir at Helvetia Insurance
-github: ''
-twitter: ''
+github: c-bik
+twitter: c_bikram
 
 ---
 Bikram with his years of experience in Embedded and Mobile Application has started his functional programming journey over a decade ago in building Beam VM based high performance and distributed Telecom solutions.  
