@@ -2,7 +2,7 @@
 name: Basile Nouvellet
 pic_url: "/assets/images/basile-nouvellet.jpg"
 tagline: CTO at Piga - Product Software Engineer
-github: ''
+github: basilenouvellet
 twitter: basilenouvellet
 
 ---
