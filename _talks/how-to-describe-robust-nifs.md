@@ -19,3 +19,11 @@ This talk shows three points to describe robust NIFs:
 2. Perform error handling according to general conventions.
 3. Make assertions that specify implicit preconditions and raise exceptions for Supervisor to handle.
 This talk also shows how to improve performance even with such robustness and fault tolerance and build NIFs for various platforms.
+
+**Talk objectives:**	
+* Present that NIFs are mechanisms for calling higher-performance C code from Elixir.
+* Also, present that though Supervisor realizes fault tolerance, ordinal NIFs hinder it.
+* Provide three tips on enabling Supervisor to achieve fault tolerance even with NIFs.
+
+**Target audience:**	
+* Anyone who has interested in how to describe NIFs with fault-tolerance.
