@@ -6,7 +6,9 @@ tags:
 - Pedagogy
 - Empowerment
 title: 'Functional Juniors: Leveling Up Your New Elixir Devs'
-speakers: []
+speakers:
+- _participants/sarah-roe.md
+- _participants/savannah-manning.md
 
 ---
 We aim to provide unique perspectives on software engineering from two unique backgrounds and the applications of these views to the training of junior developers. This presentation will be a summary of our time learning Elixir as a CS college graduate and a self-taught graduate, the contrast between these, and the benefits of a diverse team.
