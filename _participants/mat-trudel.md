@@ -2,7 +2,7 @@
 name: " Mat Trudel"
 pic_url: "/assets/images/mat-trudel.jpg"
 tagline: Senior Software Engineer @ PagerDuty
-github: ''
+github: mtrudel
 twitter: mattrudel
 
 ---
