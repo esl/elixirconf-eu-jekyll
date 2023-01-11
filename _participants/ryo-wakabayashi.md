@@ -2,7 +2,7 @@
 name: Ryo Wakabayashi
 pic_url: "/assets/images/ryo-wakabayashi.png"
 tagline: AI Engineer at OEC Co., Ltd. - Developing AI Services Together with AUCNET-IBS
-github: ''
+github: ryowakabayashi
 twitter: nakaji573
 
 ---
