@@ -1,7 +1,7 @@
 ---
 pic_url: "/assets/images/peter-ullrich.JPG"
 name: Peter Ullrich
-tagline: Senior Software Engineer @ Studitemps GmbH
+tagline: Senior Elixir Engineer @ Remote.com
 twitter: pjullrich
 github: PJUllrich
 
