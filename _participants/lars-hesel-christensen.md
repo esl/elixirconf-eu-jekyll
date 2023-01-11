@@ -2,7 +2,7 @@
 name: Lars Hesel Christensen
 pic_url: "/assets/images/lars-hesel-christensen.jpg"
 tagline: DevOps Solution Architect integrating stuff with Elixir
-github: ''
+github: larshesel
 twitter: larshesel
 
 ---
