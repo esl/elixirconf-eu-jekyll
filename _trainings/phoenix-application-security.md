@@ -1,7 +1,7 @@
 ---
 experience:
 - Intermediate
-name: Phoenix Application Security (Virtual)
+name: Phoenix Application Security - Virtual
 type: training
 trainers:
 - _participants/michael-lubas.md
