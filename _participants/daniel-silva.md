@@ -2,7 +2,7 @@
 name: Daniel Silva
 pic_url: "/assets/images/daniel-silva.jpg"
 tagline: Product Engineer at Coverflex
-github: ''
+github: DFilipeS
 twitter: DFilipeS
 
 ---
