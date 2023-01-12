@@ -24,10 +24,10 @@
 #  link: "schedule"
 - name: Training
   link: "training"
-#- name: Diversity
-#  link: "diversity"
-#- name: Volunteer
-#  link: "volunteer"
+- name: Diversity
+  link: "diversity"
+- name: Volunteer
+  link: "volunteer"
 - name: Venue
   link: "venue"
 #- name: COVID-19
