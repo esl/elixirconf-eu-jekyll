@@ -19,17 +19,19 @@ This presentation will use Livebook to show visually distributed and parallel im
 
 Livebook has the below features that effectively demonstrate Elixir image processing and help you learn to implement it.
 
-- Results can be displayed directly as images
-- Share code and dependent modules as a notebook so anyone can run it immediately
-- One notebook is one node, so it is easy to understand distributed processing intuitively
+* Results can be displayed directly as images
+* Share code and dependent modules as a notebook so anyone can run it immediately
+* One notebook is one node, so it is easy to understand distributed processing intuitively
 
 This presentation shows a Livebook version of the presentation by Susumu Yamazaki at ElixirConf US 2022.
 
-**Talk objectives:**	
-* I would like to present the effectiveness of image processing in Elixir. By doing so, I hope to increase the number of system development projects using Elixir.
-* I also hope that Livebook will become more popular than Jupyter for use in data analysis, AI development, and programming education.
-* I would also like to increase the opportunities for Livebook to be used in presentations just like mine.
+**Talk objectives:**
+
+* Present how Elixir can efficiently perform image processing.
+* Show how Livebook can be useful for use in data analysis, AI development, and programming education.
+* Encourage people to use Livebook for their presentations.
 
 **Target audience:**
+
 * Anyone interested in distributed processing of images.
 * Anyone interested in Livebook visualization.
