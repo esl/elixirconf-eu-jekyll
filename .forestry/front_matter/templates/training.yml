@@ -15,8 +15,8 @@ fields:
   type: list
   config:
     use_select: true
-    min:
-    max:
+    min: 
+    max: 
     source:
       type: pages
       section: participants
@@ -46,5 +46,5 @@ pages:
 - _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md
 - _trainings/secure-coding-in-elixir-(in-person).md
-- _trainings/testing-server-side-elixir.md
+- _trainings/testing server-side elixir.md
 - _trainings/tracing-elixir-in-distributed-network.md
