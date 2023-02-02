@@ -9,7 +9,7 @@ trainings:
 - training: _trainings/create-an-airbnb-clone-using-phoenix-liveview.md
   start: 2023-04-19T08:00:00.000+00:00
   end: 2023-04-19T16:00:00.000+00:00
-- training: _trainings/testing server-side elixir.md
+- training: _trainings/testing-server-side-elixir.md
   start: 2023-04-19T08:00:00.000+00:00
   end: 2023-04-19T16:00:00.000+00:00
 - training: _trainings/dive-into-webrtc-with-jellyfish-and-membrane.md
