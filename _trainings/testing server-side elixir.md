@@ -4,6 +4,7 @@ experience:
 name: 'Testing Server-Side Elixir: Tools, Tips and Tricks'
 type: training
 trainers:
+- _participants/roland-tritsch.md
 - _participants/Jeffrey-matthias.md
 
 ---
