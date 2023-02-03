@@ -6,6 +6,7 @@ type: training
 trainers:
 - _participants/roland-tritsch.md
 - _participants/Jeffrey-matthias.md
+name: 'Testing Server-Side Elixir: Tools, Tips and Tricks'
 
 ---
 Testing server code can be daunting. In the worse-case you either end up with too little test coverage (and every second change will result in an outage) or you have over-engineered your tests and your testing (and every one-hour change requires you to spend another ten hours fixing broken tests). This training aims to provide you with an overview of different testing approaches, frameworks and tools. And also a lot of guidance on what to use when and where and how to get it right. The training will be delivered in four lectures/modules. Every module will have 30-45 mins of slides followed by 45-60 mins of practical exercises. There will also be guided discussions to use/share the experience of the people in the room. The training is based on the book Testing Elixir by Jeffrey Matthias and Andrea Leopardi.
