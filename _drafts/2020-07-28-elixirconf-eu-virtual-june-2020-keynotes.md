@@ -5,7 +5,7 @@ title: 'ElixirConf EU Virtual June 2020 Keynotes '
 ---
 **![](/assets/images/elixirconf-eu-keynote-blog-1.png)**
 
-In June 2020, we hosted our very first virtual ElixirConf EU event. ElixirConf EU has long been the premiere Elixir users event in Europe. It provides a hub for like-minded community members to come together, share ideas, inspire each other, learn and ultimately, grow both the language and its community.
+In June 2020, we hosted our very first virtual ElixirConf EU event. ElixirConf EU has long been the premier Elixir users event in Europe. It provides a hub for like-minded community members to come together, share ideas, inspire each other, learn and ultimately, grow both the language and its community.
 
 The event was a great success with 400 members of the Elixir community attending. One of the surprising benefits of the virtual conference was that many Elixir users from other parts of the world had the opportunity to attend. This included Elixir programmers from Japan, U.S.A and even a keen attendee from Australia (where the event started at midnight local time).
 
