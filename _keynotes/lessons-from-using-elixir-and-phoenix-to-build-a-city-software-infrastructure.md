@@ -19,14 +19,14 @@ In this talk, I will share
 1. why we moved to Elixir
 2. what were the pitfalls during our migration,
 3. what are the advantages we see in this migration
-4. What are the analysis paralysis we faced in deciding the architecture of the city infrastructure such microservices vs monoliths vs umbrella apps
+4. What are the analysis paralysis we faced in deciding the architecture of the city infrastructure such as microservices vs monoliths vs umbrella apps
 5. Why and how are we training people in Elixir when the talent pool with Elixir skill is low in India?
 6. How we are increasing our productivity by moving to Phoenix LiveView for all our new applications
 7. why we are betting our next 10 years with Elixir and Phoenix by citing the specific features in the language and framework.
 
-The talk will also share instances of different services that don't use Elixir such as the ORY stack for authentication and authorization. In this context, I will share how we use our own version of Citadel pattern (https://m.signalvnoise.com/the-majestic-monolith-can-become-the-citadel/) using Phoenix Umbrella apps interacting with other services within the umbrella and as well as with external services built in Elixir and in other languages.
+I will share how we use our own version of [Citadel pattern](https://m.signalvnoise.com/the-majestic-monolith-can-become-the-citadel/) using Phoenix Umbrella apps interacting with other services within the umbrella and as well as with external services built in Elixir and in other languages.
 
 This keynote will appeal to software engineers and architects who:  
 1\. find themselves split between microservices vs monolith vs Phoenix Umbrella and want to get new perspectives that will help them choose one or more of them for different scenarios.  
 2\. want to learn from the experience of an organisation that has tried multiple patterns through trial and error for solving different business needs.  
-3\. want to see real world application of LiveView and Phoenix API powering financial products.
+3\. want to see real-world application of LiveView and Phoenix API powering financial products.
