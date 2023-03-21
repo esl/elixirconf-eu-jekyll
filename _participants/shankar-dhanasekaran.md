@@ -1,7 +1,7 @@
 ---
 pic_url: "/assets/images/shankar-dhanasekaran.jpeg"
 name: Shankar Dhanasekaran
-tagline: Elixir Team Lead at Forza FC
+tagline: Founder & CTO, Talam, Auroville
 github: shankardevy
 twitter: shankardevy
 
