@@ -1,6 +1,6 @@
 ---
 name: Federico Meini
-pic_url: "/assets/images/federico-meini.jpg"
+pic_url: "/assets/images/federico.jpg"
 tagline: Software Engineer at Turn.io
 github: ''
 twitter: fedmedev
