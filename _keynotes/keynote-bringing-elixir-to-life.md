@@ -1,7 +1,7 @@
 ---
 level: []
 tags: []
-title: 'Keynote: Bringing Elixir to Life'
+title: Bringing Elixir to Life
 speakers:
 - _participants/jose-valim.md
 
