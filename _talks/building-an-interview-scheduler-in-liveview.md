@@ -1,6 +1,6 @@
 ---
 level:
-- Intermediate
+- Introductory and overview
 tags:
 - Case-study
 - Learning
