@@ -158,7 +158,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: .98em; color: #ffffff; tex
 
 .items-container .item:hover { box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); }
 
-.items-container .item:hover .img { align-items: center; display: flex; justify-content: center; background-image: none !important; background-color: #2AEA9C; transition: box-shadow 150ms linear; }
+.items-container .item:hover .img { align-items: center; display: flex; justify-content: center; background-image: none !important; background-color: #9AD7D8; transition: box-shadow 150ms linear; }
 
 .items-container .item:hover .img i { color: #ffffff; display: block; font-size: 2.8em; }
 
@@ -204,7 +204,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: .98em; color: #ffffff; tex
 
 .banner-1 .text { color: #fff; font-size: 1.5em; letter-spacing: .1em; margin-right: 2em; }
 
-.banner-1 .text strong { color: #2AEA9C; }
+.banner-1 .text strong { color: #9AD7D8; }
 
 @media only screen and (max-width: 1112px) { .banner-1 .text { font-size: 1.3em; margin: 0 0 1em 0; text-align: center; } }
 
