@@ -1,6 +1,6 @@
 title: ElixirConf EU
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to ElixirConf EU, co-organised by ElixirConf and Code Sync. ElixirConf EU is the premier Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and two days of training.
+Join us for ElixirConf EU 2024 in Lisbon on 18-19 April: two days of first-rate Elixir talks and networking.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.elixirconf.eu" # the base hostname & protocol for your site
 
