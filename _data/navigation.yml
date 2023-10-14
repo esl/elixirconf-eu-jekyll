@@ -4,7 +4,7 @@
   link: "welcome"
 #- name: Register
 #  link: "register"
-name: Waiting List
+- name: Waiting List
  link: "newsletter"
 - name: Call for Talks
   link: "cft"
