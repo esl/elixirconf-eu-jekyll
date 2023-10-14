@@ -5,7 +5,7 @@
 #- name: Register
 #  link: "register"
 - name: Waiting List
- link: "newsletter"
+  link: "newsletter"
 - name: Call for Talks
   link: "cft"
 - name: Call for Training
