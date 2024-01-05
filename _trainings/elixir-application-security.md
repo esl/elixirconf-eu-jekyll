@@ -6,7 +6,7 @@ venue: Altis Grand Hotel
 experience:
 - Intermediate
 type: in-person full-day training course
-title: "Elixir Application Security (virtual)"
+title: "Elixir Application Security"
 published: true
 
 ---
