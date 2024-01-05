@@ -28,8 +28,8 @@
 #  link: "diversity"
 #- name: Volunteer
 #  link: "volunteer"
-#- name: Venue
-#  link: "venue"
+- name: Venue
+  link: "venue"
 #- name: COVID-19
 #  link: "covid-19"
 #- name: Hybrid
@@ -38,7 +38,7 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-#- name: Sponsors
-#  link: "sponsors"
+- name: Sponsors
+  link: "sponsors"
 - name: Contact
   link: "contact"
