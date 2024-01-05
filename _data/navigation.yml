@@ -2,10 +2,10 @@
 #  link: "cover"
 - name: Welcome
   link: "welcome"
-#- name: Register
-#  link: "register"
 - name: Waiting List
   link: "newsletter"
+- name: Register
+  link: "register"
 #- name: Call for Talks
 #  link: "cft"
 #- name: Call for Training
