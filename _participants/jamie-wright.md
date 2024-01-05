@@ -1,6 +1,6 @@
 ---
 name: Jamie Wright
-pic_url: "/assets/images/jamie-wright.jpg"
+pic_url: "/assets/images/jamie-wright.jpeg"
 tagline: I am the one who knocks
 github: ""
 twitter: jwright
