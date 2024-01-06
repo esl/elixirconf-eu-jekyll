@@ -2,7 +2,6 @@
 name: Markus Kuhnt
 pic_url: "/assets/images/markus-kuhnt.jpg"
 tagline: "Starfish.team - Co-Founder and Chief Technologist"
-github: ""
 twitter: mkuhnt
 linkedin: /in/mkuhnt/
 
