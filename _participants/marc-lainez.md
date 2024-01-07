@@ -1,6 +1,6 @@
 ---
 name: Marc Lainez
-pic_url: "/assets/images/marc-lainez.jpg"
+pic_url: "/assets/images/marc-lainez.jpeg"
 tagline: "Owner & Co-founder @ Spin42"
 github: ""
 twitter: ""

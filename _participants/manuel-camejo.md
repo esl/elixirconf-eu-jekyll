@@ -1,6 +1,6 @@
 ---
 name: Manuel Camejo
-pic_url: "/assets/images/manuel-camejo.jpg"
+pic_url: "/assets/images/manuel-camejo.jpeg"
 tagline: Engineer and Manager at LambdaClass
 github: lambdaclass/game_backend
 github: lambdaclass/curse_of_mirra

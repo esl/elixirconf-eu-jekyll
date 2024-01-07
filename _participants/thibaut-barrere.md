@@ -1,6 +1,6 @@
 ---
 name: Thibaut Barrère
-pic_url: "/assets/images/thibaut-barrere.jpg"
+pic_url: "/assets/images/thibaut-barrere.png"
 tagline: Coder & Data Engineer
 github: ""
 twitter: thibaut_barrere
