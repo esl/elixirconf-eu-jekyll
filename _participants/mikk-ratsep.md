@@ -1,6 +1,6 @@
 ---
 name: Mikk Rätsep
-pic_url: "/assets/images/mikk.ratsep.jpg"
+pic_url: "/assets/images/mikk-ratsep.jpg"
 tagline: "Developer at High Mobility"
 
 ---
