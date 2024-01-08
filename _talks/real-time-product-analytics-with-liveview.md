@@ -7,7 +7,7 @@ tags:
 - LiveView
 title: Real-time Product Analytics with LiveView
 speakers:
-- _participants/basile-nouvellet.md
+-
 
 ---
 LiveView brought a new paradigm for building real-time web applications, relying on one of the most appreciated feature of Elixir: its runtime, the BEAM. In particular, its observability features are appreciated, mostly for debugging purposes like being able to inspect the system behavior, live, in production.

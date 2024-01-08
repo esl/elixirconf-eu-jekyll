@@ -1,14 +1,20 @@
 ---
 trainings:
-- training: _trainings/phoenix-application-security.md
-  start: 2023-04-18T12:00:00.000+00:00
-  end: 2023-04-18T19:00:00.000+00:00
-- training: _trainings/concurrent-data-processing-in-elixir.md
-  start: 2023-04-19T08:00:00.000+00:00
-  end: 2023-04-19T16:00:00.000+00:00
-- training: _trainings/create-an-airbnb-clone-using-phoenix-liveview.md
-  start: 2023-04-19T08:00:00.000+00:00
-  end: 2023-04-19T16:00:00.000+00:00
-- training: _trainings/dive-into-webrtc-with-jellyfish-and-membrane.md
-  start: 2023-04-19T08:00:00.000+00:00
-  end: 2023-04-19T16:00:00.000+00:00
+- training: _trainings/mastering-core-elixir-with-retro-games.md
+  start: 2024-04-16T08:00:00.000+00:00
+  end: 2024-04-16T16:00:00.000+00:00
+- training: _trainings/the-toy-alchemist.md
+  start: 2024-04-16T08:00:00.000+00:00
+  end: 2024-04-16T16:00:00.000+00:00
+- training: _trainings/ash-framework.md
+  start: 2024-04-17T08:00:00.000+00:00
+  end: 2024-04-17T16:00:00.000+00:00
+- training: _trainings/practical-testing-with-elixir-and-phoenix.md
+  start: 2024-04-17T08:00:00.000+00:00
+  end: 2024-04-17T16:00:00.000+00:00
+- training: _trainings/mastering-phoenix-liveview-essential-insights.md
+  start: 2024-04-17T08:00:00.000+00:00
+  end: 2024-04-17T16:00:00.000+00:00
+- training: _trainings/elixir-application-security.md
+  start: 2024-04-17T08:00:00.000+00:00
+  end: 2024-04-17T16:00:00.000+00:00

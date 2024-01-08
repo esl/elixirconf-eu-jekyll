@@ -6,7 +6,7 @@ audience:
 tags: []
 title: Architectural and codewise learnings building a successful Elixir application
 speakers:
-- _participants/fernando-hamasaki-de-amorim.md
+-
 
 ---
 After more than 2 years running a successful Elixir application built from scratch, there are a lot of learnings, gotchas, challenges, and good and painful parts along the way. You will see examples of real code showing how Elixir can be pure love, as well as solutions for simple recurring problems (that sometimes are not so simple) and complex common scenarios. Furthermore, see practical techniques, coding standards and guidelines that can make your Elixir code uniform, more readable and easier to maintain.

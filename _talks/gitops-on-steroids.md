@@ -7,7 +7,6 @@ tags:
 - Templating
 title: GitOps on Steroids
 speakers:
-- _participants/bikram-chatterjee.md
 - _participants/lars-hesel-christensen.md
 
 ---
