@@ -28,14 +28,20 @@
       </div>
     </div>
 
-
+    <div class="countdown-content">
+      <div class="countdown-title">Seconds</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-seconds"></div>
+      </div>
+    </div>
+  </div>
 
   <div class="countdown-cta-container">
     <a
       class="countdown-cta-button"
       target="_blank"
-      href="https://www.elixirconf.eu/#newsletter"
-      >Tickets available soon!</a
+      href="https://www.eventbrite.com/e/code-beam-europe-2023-in-person-tickets-416802205617?keep_tld=1"
+      >Get tickets</a
     >
   </div>
   <div class="dismiss-container">
@@ -53,13 +59,24 @@
 </div>
 
 <script>
-  // Set the target date for your conference
-  var targetDate = new Date("January 09, 2024").getTime();
+  // Sample timezones
+  let Lisbon = "Europe/Lisbon"
+  let London = "Europe/London"
+  let NewYork = "America/New_York";
+  let Tokyo = "Asia/Tokyo";
+  let Sydney = "Australia/Sydney";
+  let UTC = "UTC";
+
+  // Define the desired timezone here
+  let timezone = Lisbon;
+
+  // Set the target date for your conference with time zone
+  var targetDate = moment.tz("2024-10-15 12:00", timezone).valueOf();
 
   // Update the countdown every second
   var countdownInterval = setInterval(function () {
-    // Get the current date and time
-    var now = new Date().getTime();
+    // Get the current date and time in UTC
+    var now = moment.utc().valueOf();
 
     // Calculate the time remaining
     var timeRemaining = targetDate - now;
