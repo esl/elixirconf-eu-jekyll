@@ -801,6 +801,9 @@
 .fa-envelope:before {
   content: "\f0e0";
 }
+.fa-mastodon:before {
+  content:"\f11e";
+}
 .fa-linkedin:before {
   content: "\f0e1";
 }
