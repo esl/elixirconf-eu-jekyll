@@ -1,5 +1,7 @@
 ---
 speakers:
+- _participants/brian-cardarella.md
+- _participants/katelynn-burns.md
 - _participants/joao-vilaca.md
 - _participants/carlos-rodrigues.md
 - _participants/thibaut-barrere.md
@@ -9,16 +11,19 @@ speakers:
 - _participants/filipe-froes.md
 - _participants/aaron-cruz.md
 - _participants/parker-selbert.md
+- _participants/samanta-de-araujo.md
 - _participants/bikram-chatterjee.md
 - _participants/mikk-ratsep.md
 - _participants/nicholas-scheurich.md
 - _participants/fernando-hamasaki-de-amorim.md
 - _participants/melinda-toth.md
+- _participants/dennis-palmer.md
 - _participants/filipe-cabaco.md
 - _participants/shannon-selbert.md
 - _participants/basile-nouvellet.md
 - _participants/jakub-hajto.md
-- _participants/samanta-de-araujo.md
+- _participants/lekha-surasani.md
+- _participants/michael-lubas.md
 - _participants/benjamin-philip.md
 - _participants/matthew-whitworth.md
 - _participants/wojtek-mach.md
@@ -26,12 +31,9 @@ speakers:
 - _participants/daniel-horpacsi.md
 - _participants/anton-frolov.md
 - _participants/markus-kuhnt.md
-- _participants/lekha-surasani.md
-- _participants/katelynn-burns.md
 - _participants/lucas-sifoni.md
 - _participants/kyle-oba.md
 - _participants/federico-carrone.md
-- _participants/dennis-palmer.md
 - _participants/walid-salah.md
 - _participants/maciej-gryka.md
 - _participants/libby-marrs.md
@@ -41,7 +43,5 @@ speakers:
 - _participants/marc-lainez.md
 - _participants/akhilesh-negi.md
 - _participants/meks-mcclure.md
-- _participants/michael-lubas.md
 - _participants/daniel-caixinha.md
 - _participants/barnabas-jovanovics.md
-- _participants/brian-cardarella.md
