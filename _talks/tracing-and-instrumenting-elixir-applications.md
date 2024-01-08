@@ -6,7 +6,7 @@ tags:
 - instrumentation
 - tracing
 audience: "- Elixir developers in general"
-format: in-person
+format: In-person
 title: "Tracing and Instrumenting Elixir Applications - From Zero to Hero"
 speakers:
 - _participants/joao-vilaca.md

@@ -3,7 +3,7 @@ audience:
 - beginners
 tags:
 - compiler
-- " pattern machin"
+- "pattern matching"
 title: A safer Elixir
 speakers:
 - _participants/esteban-ibarra.md
