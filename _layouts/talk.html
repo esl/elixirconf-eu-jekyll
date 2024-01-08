@@ -33,15 +33,33 @@
                             {{ page.content | markdownify }}
                         </div>
                     </div>
+                    {% if page.key_takeaways %}
                     <div class="training-info">
-                        <p><strong>Level:</strong><br> {{ page.level | join: ","}}</p>
+                        <p><strong>Key takeaways:</strong></p>
+                        <div class="content">
+                            {{ page.key_takeaways | markdownify}}
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if page.audience %}
+                    <div class="training-info">
+                        <p><strong>Audience:</strong></p>
+                        <div class="content">
+                            {{ page.audience | markdownify}}
+                        </div>
+                    {% endif %}
+                    <div class="training-info">
+                        <p><strong>Level:</strong> {{ page.level | join: ","}}</p>
                     </div>
                     {% assign size = page.tags | size %}
                     {% if size > 0 %}
                     <div class="training-info">
-                        <p><strong>Tags:</strong><br> {{ page.tags | join: ", "}}</p>
+                        <p><strong>Tags:</strong> {{ page.tags | join: ", "}}</p>
                     </div>
                     {% endif %}
+                    <div class="training-info">
+                        <p><strong>Format:</strong> {{ page.format }}</p>
+                    </div>
                 </div>
             </div>
         </div>
