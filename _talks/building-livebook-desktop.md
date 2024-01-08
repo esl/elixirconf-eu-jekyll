@@ -7,7 +7,6 @@ tags:
 - Cross-platform
 title: Building Livebook Desktop
 speakers:
-- _participants/wojtek-mach.md
 
 ---
 Livebook Desktop is the easiest way to install Livebook on macOS and Windows. It's a one-click installer that contains Livebook, Elixir, OTP, and all the other dependencies.
