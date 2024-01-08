@@ -4,8 +4,6 @@ experience:
 name: Oban 101-201 (virtual)
 type: training
 trainers:
-- _participants/shannon-selbert.md
-- _participants/parker-selbert.md
 venue: Online
 
 ---
