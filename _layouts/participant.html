@@ -31,6 +31,15 @@
                             <i class="fa fa-twitter"></i>
                         </a>
                         {% endif %}
+                        {% if page.linkedin %}
+                        <a href="https://linkedin.com/{{ page.linkedin }}">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                        {% if page.mastodon %}
+                        <a href="https://mastodon.social/@{{ page.mastodon }}">
+                            <i class="fa fa-mastodon"></i>
+                        </a>
                     </div>
                     <div class="speaker-desc">{{ page.content | markdownify }}</div>
 
