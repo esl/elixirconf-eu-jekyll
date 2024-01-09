@@ -2,7 +2,7 @@
 name: Carlos Rodrigues
 pic_url: "/assets/images/carlos-rodrigues.jpg"
 tagline: Software Engineer @ Aubay Portugal
-github: ""
+github: carlosfrodrigues
 twitter: thecarlfelix
 linkedin: /in/carlos-felix-574b47164/
 
