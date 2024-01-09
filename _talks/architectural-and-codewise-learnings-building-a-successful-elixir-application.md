@@ -13,6 +13,7 @@ key_takeaways: "The idea is that during the talk the attendees have at least one
 - 'Ah, that is interesting to try…'\n
 - 'We are doing the same/similar in our application and it works very well…'\n
 - 'Why is he doing that?! I have a much better solution for the same problem.'\n
+
 I hope those kinds of moments above generate discussions and exchange of ideas and experiences after the talk between the attendees."
 
 ---
