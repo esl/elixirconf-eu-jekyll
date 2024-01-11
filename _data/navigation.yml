@@ -12,8 +12,7 @@
 #  link: "call-for-training"
 #- name: All Recordings
 #  link: "recordings"
-#- name: Student
-#  link: "student"
+
 #- name: Public videos
 #  link: "video"
 - name: Speakers
@@ -24,10 +23,12 @@
 #  link: "schedule"
 #- name: Training
 #  link: "training"
-#- name: Diversity
-#  link: "diversity"
+- name: Diversity
+  link: "diversity"
 - name: Volunteer
   link: "volunteer"
+- name: Student
+  link: "student"
 - name: Venue
   link: "venue"
 #- name: COVID-19
@@ -40,5 +41,5 @@
 #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-- name: Contact
-  link: "contact"
+#- name: Contact
+#  link: "contact"
