@@ -2,9 +2,9 @@
 #  link: "cover"
 # name: Welcome
 #  link: "welcome"
-- name: Waiting List
-  link: "newsletter"
-- name: Register
+#- name: Waiting List
+#  link: "newsletter"
+- name: TICKETS
   link: "register"
 #- name: Call for Talks
 #  link: "cft"
@@ -22,12 +22,12 @@
   link: "trainers"
 #- name: Schedule
 #  link: "schedule"
-- name: Training
-  link: "training"
+#- name: Training
+#  link: "training"
 #- name: Diversity
 #  link: "diversity"
-#- name: Volunteer
-#  link: "volunteer"
+- name: Volunteer
+  link: "volunteer"
 - name: Venue
   link: "venue"
 #- name: COVID-19
