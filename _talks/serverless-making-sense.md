@@ -8,6 +8,7 @@ format: In-person
 title: "Server-less Making Sense"
 speakers:
 - _participants/markus-kuhnt.md
+- _participants/alexey-nikitin.md
 key_takeaways: " - Elixir and the BEAM in particular provide an excellent toolbox to provide scalable and powerful platforms.\n
 - With our approach of securely executing custom code, we have proposed a way to extend these platforms in a customer-specific way.\n
 - This keeps the powerful core system of the platform as well as the custom extensions in the same system context and avoids unnecessary complication of the usual server-less infrastructures."

@@ -10,6 +10,7 @@ format: In-person
 title: "Glific: Our journey in adopting and working with Elixir"
 speakers:
 - _participants/akhilesh-negi.md
+- _participants/mohd-shamoon.md
 key_takeaways: " - How we develop, deploy, and maintain an open-source Elixir project used in the Indian social sector. What are the advantages we see to using Elixir and related tools that make open-source SaaS-based platform delivery affordable and accessible to everyone"
 
 ---
