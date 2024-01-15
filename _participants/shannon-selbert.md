@@ -1,7 +1,7 @@
 ---
 name: Shannon Selbert
 pic_url: "/assets/images/shannon-selbert.jpg"
-tagline: Partner @ Soren
+tagline: Oban Core Team
 github: sorentwo
 twitter: sorentwo
 

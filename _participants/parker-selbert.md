@@ -1,7 +1,7 @@
 ---
 name: Parker Selbert
-pic_url: "/assets/images/shannon-and-parker.jpeg"
-tagline: "Author of Oban, Partner @ Soren, Chief Architect @ Dscout"
+pic_url: "/assets/images/parker-selbert.jpg"
+tagline: "Oban Core Team"
 github: sorentwo
 twitter: sorentwo
 
