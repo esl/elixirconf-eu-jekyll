@@ -9,6 +9,7 @@ format: In-person
 title: "Architectural and Codewise Learnings Building a Successful Elixir Application"
 speakers:
 - _participants/fernando-hamasaki-de-amorim.md
+- _participants/vicente-santos.md
 key_takeaways: "The idea is that during the talk the attendees have at least one moment like:\n
 - 'Ah, that is interesting to try…'\n
 - 'We are doing the same/similar in our application and it works very well…'\n
