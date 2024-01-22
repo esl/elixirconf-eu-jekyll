@@ -1,7 +1,7 @@
 ---
 name: Mohd Shamoon
 pic_url: "/assets/images/mohd-shamoon.jpg"
-tagline: Senior Software developer, Project Tech4ev
+tagline: Senior Software developer, Project Tech4dev
 github: mdshamoon
 twitter: Tech_e_moon
 linkedin: /in/mohd-shamoon-4aa7a513b/
