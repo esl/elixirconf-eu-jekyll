@@ -1,6 +1,6 @@
 ---
 name: Matthew Whitworth
-pic_url: "/assets/images/matthew-whitworth.jpg"
+pic_url: "/assets/images/matthew-whitworth.png"
 tagline: "Software Engineer <-> CTO"
 linkedin: in/mwhitworth88/
 
