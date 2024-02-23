@@ -4,7 +4,7 @@ level:
 tags:
 - Shrinking that works
 audience: "- Intermediate Elixir developers who have considered property-based testing. Especially if they have abandoned using it because shrinking did not work as expected."
-format: Virtual
+format: In-person
 title: "The Magic of Internal Shrinking for Property Based Testing"
 speakers:
 - _participants/dennis-palmer.md
