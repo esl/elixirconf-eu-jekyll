@@ -1,6 +1,6 @@
 ---
 name: Andrew Ek
-pic_url: "/assets/images/andrew-ek.jpeg"
+pic_url: "/assets/images/andrew-ek.jpg"
 tagline: Once ate two pizzas on a dare, and only regretted it a little bit
 github: andrewek
 twitter: ektastrophe

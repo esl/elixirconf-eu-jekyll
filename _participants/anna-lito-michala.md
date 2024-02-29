@@ -1,6 +1,6 @@
 ---
 name: Anna Lito Michala
-pic_url: "/assets/images/anna-lito-michala-bw.jpeg"
+pic_url: "/assets/images/anna-lito-michala-bw.jpg"
 tagline: Researching Better Systems for IoT at the University of Glasgow
 github: annalito
 twitter: LitoAnna

@@ -1,6 +1,6 @@
 ---
 name: Michal Buszkiewicz
-pic_url: "/assets/images/michal-buszkiewicz.png"
+pic_url: "/assets/images/michal-buszkiewicz.jpg"
 tagline: CTO & Founder @ Curiosum
 github: vincentvanbush
 twitter: VincentVanBush

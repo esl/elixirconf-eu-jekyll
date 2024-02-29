@@ -1,6 +1,6 @@
 ---
 name: Sarah Roe
-pic_url: "/assets/images/sarah-roe.JPG"
+pic_url: "/assets/images/sarah-roe.jpg"
 tagline: Iconic Moments, Software Engineer
 github: ''
 twitter: saruhroe

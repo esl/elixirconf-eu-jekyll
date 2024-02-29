@@ -1,6 +1,6 @@
 ---
 name: Elle Imhoff
-pic_url: "/assets/images/elle-imhoff.jpeg"
+pic_url: "/assets/images/elle-imhoff.jpg"
 tagline: Creator of IntelliJ Elixir. Principal Software Engineer at DockYard.
 github: KronicDeth
 twitter: KronicDeth

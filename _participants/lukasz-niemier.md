@@ -1,6 +1,6 @@
 ---
 name: Łukasz Niemier
-pic_url: "/assets/images/lukasz-niemier.png"
+pic_url: "/assets/images/lukasz-niemier.jpg"
 tagline: Makes Elixir better at machine-to-machine conversations
 github: hauleth
 twitter: hauleth

@@ -1,6 +1,6 @@
 ---
 name: Josep Lluis Giralt D'Lacoste
-pic_url: "/assets/images/josep-lluis-giralt-dlacoste.png"
+pic_url: "/assets/images/josep-lluis-giralt-dlacoste.jpg"
 tagline: Elixir Developer / DevOps Engineer @ Erlang Solutions
 github: gilacost
 twitter: ''

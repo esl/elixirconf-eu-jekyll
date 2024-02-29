@@ -1,6 +1,6 @@
 ---
 name: Ole Michaelis
-pic_url: "/assets/images/ole-michaelis.png"
+pic_url: "/assets/images/ole-michaelis.jpg"
 tagline: Full Stackoverflow Developer at DNSimple, also knows how to juggle
 github: ''
 twitter: olemchls

@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/chris-mccord.jpeg"
+pic_url: "/assets/images/chris-mccord.jpg"
 name: Chris McCord
 tagline: Creator of Phoenix
 github: chrismccord

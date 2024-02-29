@@ -1,6 +1,6 @@
 ---
 name: Roland Tritsch
-pic_url: "/assets/images/roland-tritsch.png"
+pic_url: "/assets/images/roland-tritsch.jpg"
 tagline: The Extreme Digital Nomad. Writing code. Always and everywhere.
 github: rolandtritsch
 twitter: innolocity

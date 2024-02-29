@@ -1,6 +1,6 @@
 ---
 name: Vicente Santos
-pic_url: "/assets/images/vicente-santos.png"
+pic_url: "/assets/images/vicente-santos.jpg"
 tagline: "Software Engineer; Helping build cool things with Elixir at Vio.com"
 github: vicentedpsantos
 

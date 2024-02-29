@@ -1,6 +1,6 @@
 ---
 name: Simon de Haan
-pic_url: "/assets/images/simon-de-haan.jpeg"
+pic_url: "/assets/images/simon-de-haan.jpg"
 tagline: CTO & Co-Founder of Turn.io
 github: smn
 twitter: smn

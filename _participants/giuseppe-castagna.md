@@ -1,6 +1,6 @@
 ---
 name: Giuseppe Castagna
-pic_url: "/assets/images/giuseppe-castagna.png"
+pic_url: "/assets/images/giuseppe-castagna.jpg"
 tagline: CNRS - Université Paris Cité
 github: ''
 twitter: ''

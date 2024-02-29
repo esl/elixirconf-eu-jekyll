@@ -1,6 +1,6 @@
 ---
 name: Ingela Anderton Andin
-pic_url: "/assets/images/ingela.png"
+pic_url: "/assets/images/ingela.jpg"
 tagline: SW developer in the OTP Team
 github: IngelaAndin
 twitter: "@IngelaAndin"

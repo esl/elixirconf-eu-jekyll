@@ -1,6 +1,6 @@
 ---
 name: Aswin Mohan
-pic_url: "/assets/images/aswin-mohan.jpeg"
+pic_url: "/assets/images/aswin-mohan.jpg"
 tagline: Solo Founder building his first startup in Elixir and loving every second
   of it
 github: aswinmohanme

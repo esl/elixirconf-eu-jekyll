@@ -1,6 +1,6 @@
 ---
 name: Łukasz Pauszek
-pic_url: "/assets/images/lukasz-pauszek.jpeg"
+pic_url: "/assets/images/lukasz-pauszek.jpg"
 tagline: Elixir Consultant @ Erlang Solutions, Coffee Enthusiast
 github: ''
 twitter: ''

@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/peter-ullrich.JPG"
+pic_url: "/assets/images/peter-ullrich.jpg"
 name: Peter Ullrich
 tagline: Senior Elixir Engineer @ Remote.com
 twitter: pjullrich

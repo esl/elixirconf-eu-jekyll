@@ -1,6 +1,6 @@
 ---
 name: Kip Cole
-pic_url: "/assets/images/kip-cole.jpeg"
+pic_url: "/assets/images/kip-cole.jpg"
 tagline: Author of ex_cldr and ex_unicode Elixir libraries
 github: kipcole9
 twitter: kipcole9

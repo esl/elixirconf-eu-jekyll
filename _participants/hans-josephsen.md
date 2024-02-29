@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/hans_josephsen.jpeg"
+pic_url: "/assets/images/hans_josephsen.jpg"
 name: Hans Elias Josephsen
 tagline: Rustler Author, Lumen Core Team Member
 twitter: hansihe

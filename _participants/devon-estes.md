@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/devon_estes.jpeg"
+pic_url: "/assets/images/devon_estes.jpg"
 name: Devon Estes
 tagline: Head of Engineering at Forza FC
 github: devonestes

@@ -1,6 +1,6 @@
 ---
 name: André Graf
-pic_url: "/assets/images/andre-graf.jpeg"
+pic_url: "/assets/images/andre-graf.jpg"
 tagline: DevOps Solution Architect at Helvetia Insurance
 github: dergraf
 twitter: der_graf

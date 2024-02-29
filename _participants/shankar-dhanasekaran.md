@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/shankar-dhanasekaran.jpeg"
+pic_url: "/assets/images/shankar-dhanasekaran.jpg"
 name: Shankar Dhanasekaran
 tagline: Founder & CTO, Talam, Auroville
 github: shankardevy

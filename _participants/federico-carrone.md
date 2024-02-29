@@ -1,6 +1,6 @@
 ---
 name: Federico Carrone
-pic_url: "/assets/images/federico-carrone.png"
+pic_url: "/assets/images/federico-carrone.jpg"
 tagline: "Engineer, Investor and Founder at LambdaClass"
 twitter: fede_intern
 

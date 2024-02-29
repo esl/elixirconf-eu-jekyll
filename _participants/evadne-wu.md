@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/evadne-wu.png"
+pic_url: "/assets/images/evadne-wu.jpg"
 name: Evadne Wu
 tagline: Bodgemaster at Heart / Programmer at Large
 twitter: evadne

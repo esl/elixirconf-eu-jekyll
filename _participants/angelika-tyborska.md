@@ -1,6 +1,6 @@
 ---
 name: Angelika Tyborska
-pic_url: "/assets/images/angelika-tyborska.png"
+pic_url: "/assets/images/angelika-tyborska.jpg"
 tagline: Elixir track maintainer on Exercism.io
 github: angelikatyborska
 twitter: atyborska93

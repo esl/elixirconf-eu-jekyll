@@ -1,6 +1,6 @@
 ---
 name: Matthew Whitworth
-pic_url: "/assets/images/matthew-whitworth.png"
+pic_url: "/assets/images/matthew-whitworth.jpg"
 tagline: "Software Engineer at heart!"
 linkedin: in/mwhitworth88/
 
