@@ -16,7 +16,8 @@
             {% if participant != null %}
                 <div class="item">
                     <a href="{{ participant.url | relative_url }}" class="item-head-link">
-                        <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
+                        <div class="img-wrapper">
+                            <img class="img" loading="lazy" src="{{ participant.pic_url | relative_url }}" alt="{{participant.name}}" />
                             <i class="fa fa-plus-circle"></i>
                         </div>
                         <h4 class="item-name">

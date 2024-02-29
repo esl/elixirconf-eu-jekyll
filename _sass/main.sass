@@ -306,17 +306,14 @@ a
       width: 100%
     .item-head-link
       width: 100%
-    .img
-      background-position: 0 0
-      background-repeat: no-repeat
-      background-size: cover
-      border-radius: 50%
-      display: block
-      height: 14em
-      margin: 2em auto 1em auto
-      width: 14em
-      @media screen and (max-width: 580px)
+    .img-wrapper
+      position: relative
+      .img
+        border-radius: 50%
+        display: block
         height: 14em
+        margin: 2em auto 1em auto
+        width: 14em
       i
         display: none
     .item-name
@@ -343,17 +340,20 @@ a
         color: #372140
     &:hover
       box-shadow: 0 2px 6px rgba(0,0,0,.2)
-      .img
-        align-items: center
-        display: flex
-        justify-content: center
-        background-image: none !important
-        background-color: #9AD7D8
-        transition: box-shadow 150ms linear
+      transition: box-shadow 150ms linear
+      .img-wrapper
+        .img
+          filter: brightness(0.9) grayscale(80%) sepia(10%)
+          transition: filter 150ms linear
         i
           color: #ffffff
           display: block
           font-size: 2.8em
+          position: absolute
+          left: 50%
+          top: 50%
+          transform: translate(-50%,-50%)
+          z-index: 10
 
 .toggle-menu
   color: #ffffff

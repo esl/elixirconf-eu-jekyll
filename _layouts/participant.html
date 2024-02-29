@@ -14,7 +14,7 @@
     <div class="speaker-content">
         <div class="speaker-card">
             <div class="speaker-head">
-                <div class="img" style="background-image: url('{{site.baseurl}}{{ page.pic_url }}');"></div>
+                <img class="img" src="{{ page.pic_url | relative_url }}" alt="{{ page.name }}" />
                 <div class="speaker-col">
                     <h1 class="speaker-name">
                         {{ page.name }}
