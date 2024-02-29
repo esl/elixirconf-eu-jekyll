@@ -5,7 +5,7 @@ tags:
 - Explorer data patterns
 audience: "- Anyone who isn't entirely sure what a dataframe is or why they might use one. And anyone who uses them but thinks they're only for data science task. And anybody else, really."
 format: In-person
-title: "Dataframes are not just for Data Scientists"
+title: "Keynote: Dataframes are not just for Data Scientists"
 speakers:
 - _participants/christopher-grainger.md
 key_takeaways: " - Dataframes are often relegated to the realm of 'data science', but they're actually a really useful tool for everyday programming tasks. They uncover novel and performant patterns in all sorts of applications and should be part of any developer's toolkit."
