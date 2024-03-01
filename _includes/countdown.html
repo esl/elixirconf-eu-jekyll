@@ -28,7 +28,7 @@
       </div>
     </div>
 
-  <div class="countdown-content">
+    <div class="countdown-content">
       <div class="countdown-title">Seconds</div>
       <div class="countdown-square">
         <div class="countdown-value" id="countdown-seconds"></div>
@@ -37,21 +37,12 @@
   </div>
 
   <div class="countdown-cta-container">
-    <a
-      class="countdown-cta-button"
-      target="_blank"
-      href="https://www.elixirconf.eu/#register"
-      >Get your Early Bird ticket!</a
-    >
+    <a class="countdown-cta-button" target="_blank" href="https://www.elixirconf.eu/#register">Get your Early Bird
+      ticket!</a>
   </div>
   <div class="dismiss-container">
     <div class="countdown-dismiss">
-      <svg
-        class="dismiss-icon"
-        onclick="dismissCountdown()"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-      >
+      <svg class="dismiss-icon" onclick="dismissCountdown()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path fill="#888" d="M19 13H5v-2h14v2z" />
       </svg>
     </div>
@@ -59,19 +50,20 @@
 </div>
 
 <script>
-  // Sample timezones
-  let Lisbon = "Europe/Lisbon"
-  let London = "Europe/London"
-  let NewYork = "America/New_York";
-  let Tokyo = "Asia/Tokyo";
-  let Sydney = "Australia/Sydney";
+  /*** Sample timezones: ***/
+  // "Europe/Lisbon"
+  // "Europe/London"
+  // "America/New_York"
+  // "Asia/Tokyo"
+  // "Australia/Sydney" 
+
   let UTC = "UTC";
 
   // Define the desired timezone here
-  let timezone = Lisbon;
+  let timezone = '{{page.timezone}}';
 
   // Set the target date for your conference with time zone
-  var targetDate = moment.tz("2024-03-07 00:01", timezone).valueOf();
+  var targetDate = moment.tz('{{page.deadline}}', timezone).valueOf();
 
   // Update the countdown every second
   var countdownInterval = setInterval(function () {

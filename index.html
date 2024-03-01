@@ -2,11 +2,16 @@
 layout: default
 title: Join ElixirConf EU 2024 on 18-19 April Libson & Virtual
 image: assets/images/ECEU 2024 - 18-19.png
+countdown: true
+timezone: Europe/Lisbon
+deadline: 2024-03-07 00:01
 
 ---
 {% include cover.html %}
 <!-- end of cover -->
-{% include countdown.html %}
+{%  if page.countdown == true  %}
+    {% include countdown.html timezone=page.timezone deadline=page.deadline %}
+{% endif %}
 <!-- end of coundown -->
 {% comment %} {% include modal.html %} {% endcomment %}
 <!-- end of modal -->
