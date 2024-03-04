@@ -5,4 +5,4 @@ tagline: "CEO of DockYard"
 
 
 ---
-Founder and CEO of DockYard. Lorem Ipsum enthusiast.
+Founder and CEO of DockYard.
