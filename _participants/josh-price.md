@@ -1,6 +1,6 @@
 ---
 name: Josh Price
-pic_url: "/assets/images/josh-price.jpeg"
+pic_url: "/assets/images/josh-price.jpg"
 tagline: Technical Director @ Alembic
 github: joshprice
 twitter: joshprice

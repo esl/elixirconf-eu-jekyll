@@ -1,6 +1,6 @@
 ---
 name: Elaine Watanabe
-pic_url: "/assets/images/elaine-watanabe.png"
+pic_url: "/assets/images/elaine-watanabe.jpg"
 tagline: Rails Girls SP mentor. Coffee lover. Former Taiko drummer. Elixir Lab co-founder.
 github: elainenaomi
 twitter: elaine_nw

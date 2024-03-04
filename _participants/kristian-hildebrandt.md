@@ -1,6 +1,6 @@
 ---
 name: Kristian Hildebrandt
-pic_url: "/assets/images/kristian-hildebrandt.jpeg"
+pic_url: "/assets/images/kristian-hildebrandt.jpg"
 tagline: Tech-Lead @ Kloeckner.i
 github: ''
 twitter: ''

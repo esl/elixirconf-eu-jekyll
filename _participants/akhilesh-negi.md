@@ -1,6 +1,6 @@
 ---
 name: Akhilesh Negi
-pic_url: "/assets/images/akhilesh-negi.png"
+pic_url: "/assets/images/akhilesh-negi.jpg"
 tagline: Engineering Lead - Glific
 github: ""
 twitter: ""

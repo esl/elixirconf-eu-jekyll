@@ -1,6 +1,6 @@
 ---
 name: De Wet Blomerus
-pic_url: "/assets/images/de-wet-blomerus.jpeg"
+pic_url: "/assets/images/de-wet-blomerus.jpg"
 tagline: I successfully taught several people how to code, starting with the basics
 github: dewetblomerus
 twitter: ''

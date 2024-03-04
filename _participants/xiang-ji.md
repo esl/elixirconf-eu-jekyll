@@ -1,6 +1,6 @@
 ---
 name: Xiang Ji
-pic_url: "/assets/images/xiang-ji.jpeg"
+pic_url: "/assets/images/xiang-ji.jpg"
 tagline: Senior Backend Engineer @ Remote
 github: x-ji
 twitter: hackerxiang

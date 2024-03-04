@@ -1,6 +1,6 @@
 ---
 name: Cocoa Xu
-pic_url: "/assets/images/cocoa-xu.jpeg"
+pic_url: "/assets/images/cocoa-xu.jpg"
 tagline: Author of Evision, PhD Student @ The University of Glasgow
 github: cocoa-xu
 twitter: _uwu_cocoa

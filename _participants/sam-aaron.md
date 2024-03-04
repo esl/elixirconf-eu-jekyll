@@ -1,6 +1,6 @@
 ---
 name: Sam Aaron
-pic_url: "/assets/images/samaaron.png"
+pic_url: "/assets/images/samaaron.jpg"
 tagline: Creator of Sonic Pi, Live Coding Performer
 github: samaaron
 twitter: samaaron

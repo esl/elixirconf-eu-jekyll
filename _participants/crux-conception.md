@@ -1,6 +1,6 @@
 ---
 name: Crux Conception
-pic_url: "/assets/images/crux-conception.jpeg"
+pic_url: "/assets/images/crux-conception.jpg"
 tagline: Adjunct Professor/Criminal Profiler
 github: CruxConception
 twitter: CruxConception

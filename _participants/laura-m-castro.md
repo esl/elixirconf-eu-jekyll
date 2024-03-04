@@ -1,6 +1,6 @@
 ---
 name: Laura M. Castro
-pic_url: "/assets/images/lauramcastro.jpeg"
+pic_url: "/assets/images/lauramcastro.jpg"
 tagline: Professor and lead researcher @ University of A Coruña
 github: lauramcastro
 twitter: lauramcastro

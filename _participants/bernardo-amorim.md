@@ -1,6 +1,6 @@
 ---
 name: "Bernardo\tAmorim"
-pic_url: "/assets/images/bernardo-amorim.jpeg"
+pic_url: "/assets/images/bernardo-amorim.jpg"
 tagline: Author of typed_ecto_schema. Software Engineer @ Slab
 github: bamorim
 twitter: BernardoDCGA

@@ -1,6 +1,6 @@
 ---
 name: Johanna Larsson
-pic_url: "/assets/images/johanna-larsson.png"
+pic_url: "/assets/images/johanna-larsson.jpg"
 tagline: Creator of Hex Diff
 github: joladev
 twitter: joladev

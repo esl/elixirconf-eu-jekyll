@@ -1,6 +1,6 @@
 ---
 name: Ryan Young
-pic_url: "/assets/images/ryan-young.jpeg"
+pic_url: "/assets/images/ryan-young.jpg"
 tagline: Director of Engineering at theScore, previously at Spotify, WeWork, and Etsy
 github: ryoung786
 twitter: ryoung786

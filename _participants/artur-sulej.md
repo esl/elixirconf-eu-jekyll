@@ -1,6 +1,6 @@
 ---
 name: Artur Sulej
-pic_url: "/assets/images/artur-sulej.png"
+pic_url: "/assets/images/artur-sulej.jpg"
 tagline: Senior Software Engineer at Fresha.com
 github: Artur-Sulej
 twitter: artur_sulej

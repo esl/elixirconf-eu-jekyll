@@ -1,6 +1,6 @@
 ---
 name: Jon Carstens
-pic_url: "/assets/images/jon_carstens.jpeg"
+pic_url: "/assets/images/jon_carstens.jpg"
 tagline: Nerves Core Team
 github: ''
 twitter: ''

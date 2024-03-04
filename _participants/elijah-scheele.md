@@ -1,6 +1,6 @@
 ---
 name: Elijah Scheele
-pic_url: "/assets/images/elijah-scheele.jpeg"
+pic_url: "/assets/images/elijah-scheele.jpg"
 tagline: Amateur mycologist, VP Engineering @ Drift Biotechnologies
 github: zanycadence
 twitter: zanycadence

@@ -1,6 +1,6 @@
 ---
 name: Adam Lancaster
-pic_url: "/assets/images/adam-lancaster.jpeg"
+pic_url: "/assets/images/adam-lancaster.jpg"
 tagline: Elixir Core Contributor, Software Engineer @ Duffel
 github: adzz
 twitter: itizadz

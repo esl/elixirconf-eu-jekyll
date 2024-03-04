@@ -1,6 +1,6 @@
 ---
 name: Jean Parpaillon
-pic_url: "/assets/images/jean-parpaillon.png"
+pic_url: "/assets/images/jean-parpaillon.jpg"
 tagline: Distributed systems enthusiast, open source advocate
 github: jeanparpaillon
 twitter: JeanParpaillon

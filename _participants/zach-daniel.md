@@ -1,6 +1,6 @@
 ---
 name: Zach Daniel
-pic_url: "/assets/images/zach-daniel.png"
+pic_url: "/assets/images/zach-daniel.jpg"
 tagline: "Principal Platform Engineer at Alembic, Creator of Ash Framework"
 github: ""
 twitter: ZachSDaniel1

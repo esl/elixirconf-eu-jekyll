@@ -1,6 +1,6 @@
 ---
 name: Bartosz Błaszków
-pic_url: "/assets/images/bartosz-blaszkow.jpeg"
+pic_url: "/assets/images/bartosz-blaszkow.jpg"
 tagline: Media Engineer, Lead Architect of Membrane
 github: bblaszkow06
 twitter: bbartosz06

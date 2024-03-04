@@ -1,6 +1,6 @@
 ---
 name: Savannah Manning
-pic_url: "/assets/images/savannah-manning-1.png"
+pic_url: "/assets/images/savannah-manning-1.jpg"
 tagline: Pass It Down, Software Engineer
 github: ''
 twitter: savhappy1
