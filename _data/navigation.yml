@@ -19,10 +19,10 @@
   link: "keynotes"
 - name: Trainers
   link: "trainers"
-#- name: Schedule
-#  link: "schedule"
-#- name: Training
-#  link: "training"
+- name: Schedule
+  link: "schedule"
+- name: Training
+  link: "training"
 - name: Diversity
   link: "diversity"
 - name: Volunteer
