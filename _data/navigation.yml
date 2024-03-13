@@ -12,15 +12,12 @@
 #  link: "call-for-training"
 #- name: All Recordings
 #  link: "recordings"
-
+- name: Schedule
+  link: "schedule-button"
 #- name: Public videos
 #  link: "video"
 - name: Speakers
   link: "keynotes"
-- name: Trainers
-  link: "trainers"
-- name: Schedule
-  link: "schedule"
 - name: Training
   link: "training"
 - name: Diversity
