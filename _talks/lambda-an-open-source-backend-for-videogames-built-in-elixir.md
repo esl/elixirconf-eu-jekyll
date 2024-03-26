@@ -12,7 +12,7 @@ format: In-person
 title: "Lambda - An Open Source Backend for Videogames built in Elixir"
 speakers:
 - _participants/manuel-camejo.md
-- _participants/federico-carrone.md
+- _participants/tomas-arjovsky.md
 key_takeaways: " - How to handle communication across a large number of clients.\n
 - How to handle state so that there’s a single source of truth to prevent cheating."
 
