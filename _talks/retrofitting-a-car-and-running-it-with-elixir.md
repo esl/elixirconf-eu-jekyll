@@ -10,6 +10,7 @@ format: in-person
 title: "Retrofitting a Car and Running it with Elixir"
 speakers:
 - _participants/marc-lainez.md
+- _participants/thibault-poncelet.md
 key_takeaways: " - How real-life automotive computing works in practice\n
 - Advantages and limitations of using elixir and nerves in an automotive context\n
 - Struggles in creating an efficient on-site and remote team workflow when working with a physical product sending messages (an actual car sitting in a garage)"
