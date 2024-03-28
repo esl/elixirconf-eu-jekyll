@@ -1,5 +1,6 @@
 ---
 format: In-person
+level: Everyone
 title: "Keynote: Gang of None? Design Patterns in Elixir"
 speakers:
 - _participants/jose-valim.md
