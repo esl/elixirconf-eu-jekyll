@@ -6,7 +6,7 @@ tags:
 - OTP
 - gamedev
 audience: "- Elixir web developers, aspiring game developers, and anyone interested in exploring new software domains."
-format: Virtual
+format: In-person
 title: "Let’s Go on an Adventure!"
 speakers:
 - _participants/nicholas-scheurich.md
