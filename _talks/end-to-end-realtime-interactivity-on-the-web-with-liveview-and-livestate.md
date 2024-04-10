@@ -9,7 +9,7 @@ audience: "- This talk is aimed at Software Engineers with a Product mindset, wh
 format: In-person
 title: "End-to-end Real-time Interactivity on the web with LiveView & LiveState"
 speakers:
-- _participants/basile-nouvellet.md
+- _participants/
 key_takeaways: " - The goal is to inspire people to build with Elixir, by giving an update about my journey building Liveroom, a project I announced during my talk at ElixirConf EU 2023. It is a great showcase of what is possible with LiveView & LiveState when building interactive experiences on the web."
 
 ---
