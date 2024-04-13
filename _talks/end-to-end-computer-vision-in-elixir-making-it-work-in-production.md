@@ -7,7 +7,7 @@ tags:
 - Computer Vision
 audience: "- Accelerate other people’s computer vision projects.\n
 - Explain some of the pitfalls that ExNVR tries to address."
-format: In-person
+format: Virtual
 title: "End to End Computer Vision in Elixir: Making it work in Production"
 speakers:
 - _participants/walid-salah.md

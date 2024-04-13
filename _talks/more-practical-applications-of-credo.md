@@ -4,7 +4,7 @@ level:
 tags:
 - Upgrade code quality
 audience: "- Engineers in team/technical leadership positions, but really anybody with a interest in improving code quality and enforcing best practices over time."
-format: Virtual
+format: In-person
 title: "More Practical Applications of Credo"
 speakers:
 - _participants/matthew-whitworth.md

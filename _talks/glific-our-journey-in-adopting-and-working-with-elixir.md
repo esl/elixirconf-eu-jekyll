@@ -6,7 +6,7 @@ tags:
 - Open Source
 - Social Sector
 audience: "- Elixir Enthusiasts, Open source contributors, People interested in the social sector."
-format: In-person
+format: Virtual
 title: "Glific: Our journey in adopting and working with Elixir"
 speakers:
 - _participants/akhilesh-negi.md
