@@ -9,7 +9,7 @@ audience: "- This talk is great for anyone building applications with Ash or con
 format: In-person
 title: "Bring your App to Life with AshOban and AshStateMachine"
 speakers:
-- _participants/zach-daniel.md
+
 key_takeaways: "- By the end of this talk, viewers will know what kinds of things can be accomplished with some of Ash Framework’s advanced tooling, and will be armed with the knowledge of how they might automate their Ash applications. Attendees of this talk will gain a comprehensive understanding of Ash Framework’s advanced features, particularly AshOban and AshStateMachine. They will learn not only what is possible with these tools but also how to apply them to automate and streamline processes in their Ash applications. This session aims to empower developers with the skills to enhance their applications’ efficiency and capability through practical, hands-on knowledge of these powerful Ash & Elixir tools."
 
 ---
