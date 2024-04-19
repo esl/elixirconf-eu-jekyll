@@ -2,8 +2,8 @@
 #  link: "cover"
 # name: Welcome
 #  link: "welcome"
-#- name: Waiting List
-#  link: "newsletter"
+- name: 2025 Waiting List
+  link: "newsletter"
 - name: TICKETS
   link: "register"
 #- name: Call for Talks
