@@ -3,7 +3,7 @@ level:
 - Introductory and overview
 tags:
 - Oban vs. Broadway
-audience: "- Ddevs who have to synchronize data across services on a daily basis. It was requested by users on Elixir Slack #oban channel."
+audience: "- Devs who have to synchronize data across services on a daily basis. It was requested by users on Elixir Slack #oban channel."
 format: In-person
 title: "A Comparative Dive into Elixir's Oban and Broadway"
 speakers:
