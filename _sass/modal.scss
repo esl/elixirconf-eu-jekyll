@@ -18,11 +18,22 @@
   padding: 20px;
   width: 80%;
   max-width: 500px;
+  text-align: center;
   .title {
     color: white;
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 8px;
+    font-size: 2rem;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-align: center;
+    min-width: 100%;
+    width: 100%;
+  }
+  .btn-outline {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

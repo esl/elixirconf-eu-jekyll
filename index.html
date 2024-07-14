@@ -5,6 +5,9 @@ image: assets/images/ECEU24-18-19.png
 countdown: false
 timezone: Europe/Lisbon
 deadline: 2024-04-18 09:00
+modal: 
+  show: true
+  delay: 2000 
 
 ---
 {% include cover.html %}
@@ -12,9 +15,7 @@ deadline: 2024-04-18 09:00
 {%  if page.countdown == true  %}
     {% include countdown.html timezone=page.timezone deadline=page.deadline %}
 {% endif %}
-<!-- end of coundown -->
-{% comment %} {% include modal.html %} {% endcomment %}
-<!-- end of modal -->
+
 {% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->
 {% include welcome.html %}
@@ -71,3 +72,6 @@ deadline: 2024-04-18 09:00
 <!-- end of newsletter -->
 {% include contact.html %}
 <!-- end of contact -->
+{% if page.modal.show == true %}
+  {% include modal.html %}
+{% endif %}
