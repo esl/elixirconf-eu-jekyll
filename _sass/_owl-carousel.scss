@@ -27,7 +27,7 @@
 
       /* clearfix */
       &:after {
-        content: ".";
+        content: '.';
         display: block;
         clear: both;
         visibility: hidden;
@@ -35,10 +35,9 @@
         height: 0;
       }
     }
-
   }
 
-  .owl-item{
+  .owl-item {
     float: left;
   }
 
@@ -59,9 +58,8 @@
 
   /* fix */
   .owl-wrapper,
-  .owl-item{
+  .owl-item {
     backface-visibility: hidden;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
   }
-
 }

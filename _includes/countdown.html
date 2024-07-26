@@ -37,7 +37,7 @@
   </div>
 
   <div class="countdown-cta-container">
-    <a class="countdown-cta-button" target="_blank" href="https://www.elixirconf.eu/#register">Book your spot!</a>
+    <a class="countdown-cta-button" target="_blank" href="https://codebeameurope.com/#newsletter">Ticket sale starts soon!</a>
   </div>
   <div class="dismiss-container">
     <div class="countdown-dismiss">
@@ -59,10 +59,10 @@
   let UTC = "UTC";
 
   // Define the desired timezone here
-  let timezone = '{{page.timezone}}';
+  let timezone = '{{ site.data.settings.homepage_settings.countdown.timezone }}';
 
   // Set the target date for your conference with time zone
-  var targetDate = moment.tz('{{page.deadline}}', timezone).valueOf();
+  var targetDate = moment.tz('{{ site.data.settings.homepage_settings.countdown.deadline }}', timezone).valueOf();
 
   // Update the countdown every second
   var countdownInterval = setInterval(function () {
@@ -76,7 +76,7 @@
     if (timeRemaining <= 0) {
       clearInterval(countdownInterval);
       document.getElementById("countdown").innerHTML =
-        "Standard tickets available!";
+        "Conference is happening now!";
     } else {
       // Calculate the months, days, hours, minutes, and seconds
       var months = Math.floor(timeRemaining / (1000 * 60 * 60 * 24 * 30));

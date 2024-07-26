@@ -3,14 +3,14 @@
   border-radius: 8px;
   display: flex;
   flex-wrap: wrap;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 14px 14px 14px 14px;
   position: fixed;
   max-width: 360px;
   left: 16px;
   right: 16px;
   bottom: 20px;
-  z-index: 999;
+  z-index: 99999;
   @media only screen and (min-width: 415px) {
     left: unset;
   }

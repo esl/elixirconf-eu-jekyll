@@ -2,18 +2,12 @@
 layout: default
 title: ElixirConf EU 2024 on 18-19 April Lisbon & Virtual
 image: assets/images/ECEU24-18-19.png
-countdown: false
-timezone: Europe/Lisbon
-deadline: 2024-04-18 09:00
-modal: 
-  show: false
-  delay: 2000 
-
 ---
 {% include cover.html %}
 <!-- end of cover -->
-{%  if page.countdown == true  %}
-    {% include countdown.html timezone=page.timezone deadline=page.deadline %}
+<!-- start of coundown block -->
+{% if site.data.settings.homepage_settings.countdown.show %}
+  {% include countdown.html  %}
 {% endif %}
 
 {% comment %} {% include banner-1.html %} {% endcomment %}
@@ -68,10 +62,23 @@ modal:
 <!-- end of blog -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
+<!-- start of  testimonials  block -->
+{% if site.data.settings.homepage_settings.testimonials.show %}
+  {% include testimonials.html  %}
+{% endif %}
+<!-- end of  testimonials  block -->
+{% if site.data.settings.homepage_settings.gallery.show %}
+  {% include gallery-grid.html %}
+{% endif %}
+<!-- end of gallery-grid  -->
 {% include newsletter.html %}
 <!-- end of newsletter -->
 {% include contact.html %}
 <!-- end of contact -->
 {% if page.modal.show == true %}
+  {% include modal.html %}
+{% endif %}
+<!-- modal block -->
+{% if site.data.settings.homepage_settings.modal.show %}
   {% include modal.html %}
 {% endif %}
