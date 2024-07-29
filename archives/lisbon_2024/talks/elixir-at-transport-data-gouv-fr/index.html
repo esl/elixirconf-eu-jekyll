@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <title>ElixirConf EU</title>
+  <meta content="width=device-width" name="viewport" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="description" content="" />
+  <link
+    rel="canonical"
+    href="http://0.0.0.0:4000/talks/elixir-at-transport-data-gouv-fr/"
+  />
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-44973668-1");
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-KRSPKJ3");
+  </script>
+  <!-- End Google Tag Manager -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.32/moment-timezone-with-data.min.js"></script>
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Elixir at transport.data.gouv.fr (maps, proxies, and more) | ElixirConf EU</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Elixir at transport.data.gouv.fr (maps, proxies, and more)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ve been working on https://transport.data.gouv.fr for more than 3 years." />
+<meta property="og:description" content="I’ve been working on https://transport.data.gouv.fr for more than 3 years." />
+<link rel="canonical" href="http://0.0.0.0:4000/talks/elixir-at-transport-data-gouv-fr/" />
+<meta property="og:url" content="http://0.0.0.0:4000/talks/elixir-at-transport-data-gouv-fr/" />
+<meta property="og:site_name" content="ElixirConf EU" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-07-29T07:11:48+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Elixir at transport.data.gouv.fr (maps, proxies, and more)" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/talks/elixir-at-transport-data-gouv-fr/"},"headline":"Elixir at transport.data.gouv.fr (maps, proxies, and more)","dateModified":"2024-07-29T07:11:48+00:00","datePublished":"2024-07-29T07:11:48+00:00","url":"http://0.0.0.0:4000/talks/elixir-at-transport-data-gouv-fr/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:4000/assets/images/logo2022.png"}},"@type":"BlogPosting","description":"I’ve been working on https://transport.data.gouv.fr for more than 3 years.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!--Remove image dragging -->
+  <body ondragstart="return false;" ondrop="return false;">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/assets/font-awesome/css/fontawesome.min.css">
+      <link rel="stylesheet" href="/assets/font-awesome/css/v4-shims.min.css">
+      <link rel="stylesheet" href="/assets/font-awesome/css/brands.min.css">
+        <link rel="stylesheet" href="/assets/font-awesome/css/solid.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- WEBSITE ICON IN BROWSER -->
+    <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
+  </body>
+  <script>
+    (function () {
+      window.ldfdr = window.ldfdr || {};
+      (function (d, s, ss, fs) {
+        fs = d.getElementsByTagName(s)[0];
+        function ce(src) {
+          var cs = d.createElement(s);
+          cs.src = src;
+          setTimeout(function () {
+            fs.parentNode.insertBefore(cs, fs);
+          }, 1);
+        }
+        ce(ss);
+      })(
+        document,
+        "script",
+        "https://sc.lfeeder.com/lftracker_v1_bElvO73DxJE4ZMqj.js"
+      );
+    })();
+  </script>
+  <!-- Hotjar Tracking Code for www.elixirconf.eu -->
+  <!-- <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1678389,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->
+</head>
+
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    </div>
+    <nav class="navbar-fixed-top navbar-speaker">
+    <a class="logo" href="/"></a>
+    <ul class="nav">
+        <li>
+            <a href="/">Home</a>
+        </li>
+    </ul>
+</nav>
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h1 class="training-name">
+                        Elixir at transport.data.gouv.fr (maps, proxies, and more)
+                    </h1>
+
+                    
+
+                    <div class="training-info">
+                        
+                        <p><strong>Speaker:</strong><br> <a
+                                href="/participants/thibaut-barrere/">Thibaut Barrère</a></p>
+                        <br>
+                        
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Abstract:</strong></p>
+                        <div class="content">
+                            <p>I’ve been working on <a href="https://transport.data.gouv.fr">https://transport.data.gouv.fr</a> for more than 3 years.</p>
+
+<p>The idea behind this talk is to show how versatile Elixir &amp; the BEAM are, and how they helped us implement a wide array of interesting features more easily, at a lower ops cost too.</p>
+
+<p>We have a lot of stuff going on: maps with 650k points shown, real-time maps showing vehicles with 80+ sources (channels/presence), “business reverse caching proxy” to reduce the load of 3rd party servers, XML query generators with LiveView, on-demand tooling (again using LiveView), data analysis scripts with LiveBook, etc etc.</p>
+
+<p>We also have a strong maintenance process in place, and I want to share how good the maintenance story is.</p>
+
+                        </div>
+                    </div>
+                    
+                    <div class="training-info">
+                        <p><strong>Key takeaways:</strong></p>
+                        <div class="content">
+                            <ul>
+  <li>Sharing a long-term, product oriented real life experience.</li>
+  <li>How solid Elixir is for versatile needs on a small team with large needs.</li>
+  <li>Maintenance story.</li>
+  <li>Full features set that can be approached with Elixir.</li>
+  <li>All the problems that do not exist, compared to some other stacks.</li>
+</ul>
+
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="training-info">
+                        <p><strong>Audience:</strong></p>
+                        <div class="content">
+                            <ul>
+  <li>People not knowing Elixir, because they will be able to see a wide array of different features and how Elixir/Phoenix make them much easier &amp; scalable.</li>
+  <li>People more experimented with Elixir, sharing the knowledge &amp; pushing them a bit more forward :-)</li>
+  <li>This could be made a fairly technical talk (Postgres PostGIS aggregates, Channels/Presence, proxying..), but I plan to make sure it can be understood by less advanced people.</li>
+</ul>
+
+                        </div>
+                    
+                    <div class="training-info">
+                        <p><strong>Level:</strong> Intermediate</p>
+                    </div>
+                    
+                    
+                    <div class="training-info">
+                        <p><strong>Tags:</strong> maps, proxy, powerful</p>
+                    </div>
+                    
+                    <div class="training-info">
+                        <p><strong>Format:</strong> Virtual</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+    <div class="social-icons">
+        <a href="https://www.youtube.com/@CodeSync" target="_blank">
+            <i class="fi flaticon-youtube"></i>
+        </a>
+        <a href="https://twitter.com/elixirconfeu?lang=en" target="_blank">
+            <i class="fi flaticon-twitter"></i>
+        </a>
+    </div>
+
+    <hr/>
+
+    <p>All Rights Reserved</p>
+
+    <p>
+        <strong>ElixirConf EU</strong>© 2023 Copyright
+    </p>
+
+    <p>
+        <strong>Co-organised by <strong><a href="https://www.codesync.global">Code Sync</a></strong> and <a href="https://elixirconf.com/">ElixirConf &reg;</a></strong>
+    </p>
+
+    <br>
+
+    <p>
+        <strong>View <a href="assets/images/CoCECEU.pdf"> Code of Conduct</a> </strong>
+        <strong>and <a href="https://codesync.global/privacy_policy/"> Privacy Policy</a> </strong>
+        <br>
+    </p>
+</div>
+
+    <!-- jQuery Version 1.11.0 -->
+<script src="/assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/assets/js/jquery.easing.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/agency.js"></script>
+
+<!-- Owl Carousel -->
+<script src="/assets/js/owl.carousel.min.js" charset="utf-8"></script>
+
+<!-- Parallaxing & SmoothScroll -->
+<script src="/assets/js/scrollax.min.js" charset="utf-8"></script>
+
+
+
+<!-- Main JS -->
+<script src="/assets/js/main.js" charset="utf-8"></script>
+<script type="text/javascript">
+piAId = '24452';
+piCId = '63005';
+piHostname = 'pi.pardot.com';
+
+(function() {
+function async_load(){
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+}
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+</body>
+
+</html>

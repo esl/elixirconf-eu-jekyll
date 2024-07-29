@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <title>ElixirConf EU</title>
+  <meta content="width=device-width" name="viewport" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="description" content="" />
+  <link
+    rel="canonical"
+    href="http://0.0.0.0:4000/talks/exstan-elixir-stan-for-probabilistic-modeling/"
+  />
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-44973668-1");
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-KRSPKJ3");
+  </script>
+  <!-- End Google Tag Manager -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.32/moment-timezone-with-data.min.js"></script>
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>ExStan: Elixir 🤝 Stan for Probabilistic Modeling | ElixirConf EU</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="ExStan: Elixir 🤝 Stan for Probabilistic Modeling" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Dive into the fundamentals of probabilistic programming and Bayesian inference in this introductory session. The session will emphasize how Stan, a renowned tool for sophisticated statistical modeling, is seamlessly integrated with Elixir via the ExStan package. This integration is not just theoretical; participants will witness its practical application through a focused case study on predicting the 2022 Football World Cup outcomes. This real-world example will illuminate ExStan’s capabilities in model fitting, rigorous testing, and thorough evaluation. Attendees will depart with a comprehensive understanding of ExStan’s current functionalities, a preview of its promising future developments, and a curated list of resources for further exploration. This session is an opportunity to grasp the essentials of probabilistic programming and understand how it can be applied to solve complex problems in various domains using ExStan." />
+<meta property="og:description" content="Dive into the fundamentals of probabilistic programming and Bayesian inference in this introductory session. The session will emphasize how Stan, a renowned tool for sophisticated statistical modeling, is seamlessly integrated with Elixir via the ExStan package. This integration is not just theoretical; participants will witness its practical application through a focused case study on predicting the 2022 Football World Cup outcomes. This real-world example will illuminate ExStan’s capabilities in model fitting, rigorous testing, and thorough evaluation. Attendees will depart with a comprehensive understanding of ExStan’s current functionalities, a preview of its promising future developments, and a curated list of resources for further exploration. This session is an opportunity to grasp the essentials of probabilistic programming and understand how it can be applied to solve complex problems in various domains using ExStan." />
+<link rel="canonical" href="http://0.0.0.0:4000/talks/exstan-elixir-stan-for-probabilistic-modeling/" />
+<meta property="og:url" content="http://0.0.0.0:4000/talks/exstan-elixir-stan-for-probabilistic-modeling/" />
+<meta property="og:site_name" content="ElixirConf EU" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-07-29T07:11:48+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ExStan: Elixir 🤝 Stan for Probabilistic Modeling" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/talks/exstan-elixir-stan-for-probabilistic-modeling/"},"headline":"ExStan: Elixir 🤝 Stan for Probabilistic Modeling","dateModified":"2024-07-29T07:11:48+00:00","datePublished":"2024-07-29T07:11:48+00:00","url":"http://0.0.0.0:4000/talks/exstan-elixir-stan-for-probabilistic-modeling/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:4000/assets/images/logo2022.png"}},"@type":"BlogPosting","description":"Dive into the fundamentals of probabilistic programming and Bayesian inference in this introductory session. The session will emphasize how Stan, a renowned tool for sophisticated statistical modeling, is seamlessly integrated with Elixir via the ExStan package. This integration is not just theoretical; participants will witness its practical application through a focused case study on predicting the 2022 Football World Cup outcomes. This real-world example will illuminate ExStan’s capabilities in model fitting, rigorous testing, and thorough evaluation. Attendees will depart with a comprehensive understanding of ExStan’s current functionalities, a preview of its promising future developments, and a curated list of resources for further exploration. This session is an opportunity to grasp the essentials of probabilistic programming and understand how it can be applied to solve complex problems in various domains using ExStan.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!--Remove image dragging -->
+  <body ondragstart="return false;" ondrop="return false;">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/assets/font-awesome/css/fontawesome.min.css">
+      <link rel="stylesheet" href="/assets/font-awesome/css/v4-shims.min.css">
+      <link rel="stylesheet" href="/assets/font-awesome/css/brands.min.css">
+        <link rel="stylesheet" href="/assets/font-awesome/css/solid.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- WEBSITE ICON IN BROWSER -->
+    <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
+  </body>
+  <script>
+    (function () {
+      window.ldfdr = window.ldfdr || {};
+      (function (d, s, ss, fs) {
+        fs = d.getElementsByTagName(s)[0];
+        function ce(src) {
+          var cs = d.createElement(s);
+          cs.src = src;
+          setTimeout(function () {
+            fs.parentNode.insertBefore(cs, fs);
+          }, 1);
+        }
+        ce(ss);
+      })(
+        document,
+        "script",
+        "https://sc.lfeeder.com/lftracker_v1_bElvO73DxJE4ZMqj.js"
+      );
+    })();
+  </script>
+  <!-- Hotjar Tracking Code for www.elixirconf.eu -->
+  <!-- <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1678389,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->
+</head>
+
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    </div>
+    <nav class="navbar-fixed-top navbar-speaker">
+    <a class="logo" href="/"></a>
+    <ul class="nav">
+        <li>
+            <a href="/">Home</a>
+        </li>
+    </ul>
+</nav>
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h1 class="training-name">
+                        ExStan: Elixir 🤝 Stan for Probabilistic Modeling
+                    </h1>
+
+                    
+
+                    <div class="training-info">
+                        
+                        <p><strong>Speaker:</strong><br> <a
+                                href="/participants/shubham-gupta/">Shubham Gupta</a></p>
+                        <br>
+                        
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Abstract:</strong></p>
+                        <div class="content">
+                            <p>Dive into the fundamentals of probabilistic programming and Bayesian inference in this introductory session. The session will emphasize how Stan, a renowned tool for sophisticated statistical modeling, is seamlessly integrated with Elixir via the ExStan package. This integration is not just theoretical; participants will witness its practical application through a focused case study on predicting the 2022 Football World Cup outcomes. This real-world example will illuminate ExStan’s capabilities in model fitting, rigorous testing, and thorough evaluation. Attendees will depart with a comprehensive understanding of ExStan’s current functionalities, a preview of its promising future developments, and a curated list of resources for further exploration. This session is an opportunity to grasp the essentials of probabilistic programming and understand how it can be applied to solve complex problems in various domains using ExStan.</p>
+
+                        </div>
+                    </div>
+                    
+                    <div class="training-info">
+                        <p><strong>Key takeaways:</strong></p>
+                        <div class="content">
+                            <ul>
+  <li>A foundational grasp of probabilistic programming and Bayesian inference, tailored for those new to the field.</li>
+  <li>An in-depth understanding of how ExStan seamlessly integrates the power of Stan with the flexibility of Elixir.</li>
+  <li>Practical knowledge from a real-world case study on the 2022 Football World Cup predictions using ExStan.</li>
+  <li>Comprehensive insights into model development, from fitting and testing to evaluation, within the ExStan framework.</li>
+  <li>A foresight into the evolving landscape of ExStan, including its potential future applications and enhancements.</li>
+</ul>
+
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="training-info">
+                        <p><strong>Audience:</strong></p>
+                        <div class="content">
+                            <ul>
+  <li>Software developers and programmers who are keen to explore the intersection of Elixir and advanced statistical modeling.</li>
+  <li>Data scientists and analysts interested in leveraging the power of Stan for probabilistic modeling within the Elixir ecosystem.</li>
+  <li>Professionals in industries reliant on data-driven decision-making, looking to understand how probabilistic programming can be applied in real-world scenarios.</li>
+</ul>
+
+                        </div>
+                    
+                    <div class="training-info">
+                        <p><strong>Level:</strong> Introductory and overview</p>
+                    </div>
+                    
+                    
+                    <div class="training-info">
+                        <p><strong>Tags:</strong> Probabilistic Programming, Statistical Modelling, ExStan</p>
+                    </div>
+                    
+                    <div class="training-info">
+                        <p><strong>Format:</strong> Virtual</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+    <div class="social-icons">
+        <a href="https://www.youtube.com/@CodeSync" target="_blank">
+            <i class="fi flaticon-youtube"></i>
+        </a>
+        <a href="https://twitter.com/elixirconfeu?lang=en" target="_blank">
+            <i class="fi flaticon-twitter"></i>
+        </a>
+    </div>
+
+    <hr/>
+
+    <p>All Rights Reserved</p>
+
+    <p>
+        <strong>ElixirConf EU</strong>© 2023 Copyright
+    </p>
+
+    <p>
+        <strong>Co-organised by <strong><a href="https://www.codesync.global">Code Sync</a></strong> and <a href="https://elixirconf.com/">ElixirConf &reg;</a></strong>
+    </p>
+
+    <br>
+
+    <p>
+        <strong>View <a href="assets/images/CoCECEU.pdf"> Code of Conduct</a> </strong>
+        <strong>and <a href="https://codesync.global/privacy_policy/"> Privacy Policy</a> </strong>
+        <br>
+    </p>
+</div>
+
+    <!-- jQuery Version 1.11.0 -->
+<script src="/assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/assets/js/jquery.easing.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/agency.js"></script>
+
+<!-- Owl Carousel -->
+<script src="/assets/js/owl.carousel.min.js" charset="utf-8"></script>
+
+<!-- Parallaxing & SmoothScroll -->
+<script src="/assets/js/scrollax.min.js" charset="utf-8"></script>
+
+
+
+<!-- Main JS -->
+<script src="/assets/js/main.js" charset="utf-8"></script>
+<script type="text/javascript">
+piAId = '24452';
+piCId = '63005';
+piHostname = 'pi.pardot.com';
+
+(function() {
+function async_load(){
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+}
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+</body>
+
+</html>
