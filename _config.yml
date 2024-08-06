@@ -89,7 +89,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: Altis Grand Hotel
-map-text-location: R. Castilho 11, 1269-072 Lisboa, Portugal
-map-lat: 38.720989
-map-lng: -9.150190
+map-text: DoubleTree by Hilton
+map-text-location: Dąbska 5, 31-572 Kraków, Poland
+map-lat: 50.06464869180978
+map-lng: -19.98181385577854
