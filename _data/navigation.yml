@@ -6,8 +6,8 @@
   link: "newsletter"
 #- name: TICKETS
 #  link: "register"
-#- name: Call for Talks
-#  link: "cft"
+- name: Call for Talks
+  link: "cft"
 #- name: Call for Training
 #  link: "call-for-training"
 #- name: All Recordings
