@@ -43,6 +43,10 @@ endcomment %}
 <!-- end of schedule -->
 {% comment %} {% include training.html %} {% endcomment %}
 <!-- end of training -->
+{% if site.data.settings.homepage_settings.tickets %}
+{% include tickets-block.html %}
+{% endif %}
+<!-- end of tickets -->
 {% comment %} {% include register.html %} {% endcomment %}
 <!-- end of register -->
 {% comment %} {% include diversity.html %} {% endcomment %}
