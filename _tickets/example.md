@@ -1,11 +1,11 @@
 ---
 title: 'Virtual Ticket'
-price: 'From 99€'
-discount: 'LIMITED AMMOUNT'
-description: "Join the Waiting List to get access to this limited Very Early Bird pricing!"
+price: 'from 99€'
+discount: 'LIMITED AMOUNT'
+description: "Join the Waiting List to get access to this limited Super Early Bird pricing!"
 link: '#newsletter'
 conditions:
-  - "Prices don't include VAT."
+  - "Prices don't include VAT and fees."
 
 ---
 
