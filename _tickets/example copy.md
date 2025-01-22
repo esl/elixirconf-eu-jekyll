@@ -1,11 +1,12 @@
 ---
 title: 'In-Person Ticket'
 price: 'from 349€'
-discount: '15% off until dec 2025'
+discount: 'LIMITED AMMOUNT'
 description: "Join the Waiting List to get access to this limited Very Early Bird pricing!"
 link: '#newsletter'
 conditions:
   - "The conference ticket doesn't include training sessions."
+  - "Prices don't include VAT."
 ---
 
 ### FEATURES
