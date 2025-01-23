@@ -2,7 +2,7 @@
 title: 'In-Person Ticket'
 price: 'from 349€'
 discount: 'LIMITED AMOUNT'
-description: "Join the Waiting List to get access to this limited Very Early Bird pricing!"
+description: "Join the Waiting List to get access to this limited Super Early Bird pricing!"
 link: '#newsletter'
 conditions:
   - "The conference ticket doesn't include training sessions."
