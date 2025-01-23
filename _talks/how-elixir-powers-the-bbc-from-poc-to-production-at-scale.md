@@ -1,5 +1,8 @@
 ---
-tags: Resilience, Enterprise, Scale
+tags:
+- Resilience
+- Enterprise
+- Scale
 level: Intermediate
 title: "How Elixir Powers the BBC: From PoC to Production at Scale"
 speakers:

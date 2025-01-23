@@ -1,5 +1,8 @@
 ---
-tags: legacy, refactoring, technology shift
+tags:
+- legacy
+- refactoring
+- technology shift
 level: Intermediate
 title: "Turn Old Into New: Moving to Elixir Feature by Feature"
 speakers:

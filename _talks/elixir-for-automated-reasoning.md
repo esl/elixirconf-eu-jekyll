@@ -1,5 +1,6 @@
 ---
-tags: automated-reasoning AI
+tags:
+- automated-reasoning AI
 level: Intermediate
 title: "Elixir for Automated Reasoning"
 speakers:

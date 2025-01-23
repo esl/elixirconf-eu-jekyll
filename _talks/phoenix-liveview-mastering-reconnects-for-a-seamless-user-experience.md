@@ -1,5 +1,8 @@
 ---
-tags: liveview reconnection restoring
+tags:
+- LiveView
+- reconnection
+- restoring
 level: Intermediate
 title: "Phoenix LiveView: Mastering Reconnects for a Seamless User Experience"
 speakers:

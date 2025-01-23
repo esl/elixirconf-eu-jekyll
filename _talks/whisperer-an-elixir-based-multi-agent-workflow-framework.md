@@ -1,8 +1,11 @@
 ---
-tags: AI, Agents, Multi-Agent Systems
+tags:
+- AI
+- Agents
+- Multi-Agent Systems
 level: Intermediate
 title: "Whisperer: An Elixir-Based Multi-Agent Workflow Framework"
-speakers: 
+speakers:
 - _participants/sola-aremu-pelumi.md
 - _participants/ridwan-otun.md
 
@@ -25,4 +28,3 @@ In the ever-changing landscape of LLMs and Agentic systems, where implementation
 - Academics
 - Companies
 - AI Enthusiasts
-

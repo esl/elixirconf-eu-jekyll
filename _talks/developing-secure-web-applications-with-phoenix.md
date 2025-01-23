@@ -1,5 +1,6 @@
 ---
-tags: secure web applications
+tags:
+- secure web applications
 level: Introductory and overview
 title: "Developing Secure Web Applications With Phoenix"
 speakers:

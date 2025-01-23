@@ -1,5 +1,8 @@
 ---
-tags: Livebook, LiveView, distribution
+tags:
+- Livebook
+- LiveView
+- distribution
 level: Intermediate
 title: "Livebook Behind the Cover"
 speakers:

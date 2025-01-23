@@ -1,5 +1,8 @@
 ---
-tags: TigerBeetle, NIFs, Zig
+tags:
+- TigerBeetle
+- NIFs
+- Zig
 level: Intermediate
 title: "TigerBeetlex: An Elixir and Zig Love Story"
 speakers:

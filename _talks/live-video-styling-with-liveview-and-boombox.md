@@ -1,5 +1,8 @@
 ---
-tags: LiveView, Boombox, AI
+tags:
+- LiveView
+- Boombox
+- AI
 level: Intermediate
 title: "Live Video Styling With LiveView and Boombox"
 speakers:

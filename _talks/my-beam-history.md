@@ -1,5 +1,6 @@
 ---
-tags: BEAM VM compiler
+tags:
+- BEAM VM compiler
 level: Intermediate
 title: "My BEAM History"
 speakers:

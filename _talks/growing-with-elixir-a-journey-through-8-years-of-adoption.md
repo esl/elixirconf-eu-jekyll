@@ -1,5 +1,6 @@
 ---
-tags: edtech adoption challenges
+tags:
+- edtech adoption challenges
 level: Introductory and overview
 title: "Growing With Elixir: A Journey Through 8 Years of Adoption"
 speakers:

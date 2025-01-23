@@ -1,5 +1,6 @@
 ---
-tags: FLAME on HPC
+tags:
+- FLAME on HPC
 level: Introductory and overview
 title: "Flame on Slurm HPC Cluster"
 speakers:

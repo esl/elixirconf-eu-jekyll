@@ -1,5 +1,6 @@
 ---
-tags: Elixir asynchronous services
+tags:
+- Elixir asynchronous services
 level: Intermediate
 title: "Making Bookings Asynchronously"
 speakers:

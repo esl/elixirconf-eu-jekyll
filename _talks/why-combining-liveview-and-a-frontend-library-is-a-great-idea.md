@@ -1,5 +1,6 @@
 ---
-tags: Mix Vue & LiveView
+tags:
+- Mix Vue & LiveView
 level: Intermediate
 title: "Why Combining LiveView and a Frontend Library Is a Great Idea"
 speakers:

@@ -1,5 +1,8 @@
 ---
-tags: Code Generation, DX, AST
+tags:
+- Code Generation
+- DX
+- AST
 level: Intermediate
 title: "The Next Dimension of Developer Experience"
 speakers:

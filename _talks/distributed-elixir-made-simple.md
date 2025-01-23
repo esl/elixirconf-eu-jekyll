@@ -1,5 +1,6 @@
 ---
-tags: simple distributed elixir
+tags:
+- simple distributed elixir
 level: Intermediate
 title: "Distributed Elixir Made Simple"
 speakers:

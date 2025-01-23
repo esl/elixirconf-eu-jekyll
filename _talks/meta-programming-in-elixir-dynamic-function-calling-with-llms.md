@@ -1,5 +1,8 @@
 ---
-tags: LLM Metaprogramming Function-calling
+tags:
+- LLM
+- Metaprogramming
+- Function-calling
 level: Intermediate
 title: "Meta-Programming in Elixir: Dynamic Function Calling With LLMs"
 speakers:

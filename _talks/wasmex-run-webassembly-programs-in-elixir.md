@@ -1,5 +1,8 @@
 ---
-tags: WebAssembly, Runtime, Ecosystem
+tags:
+- WebAssembly
+- Runtime
+- Ecosystem
 level: Intermediate
 title: "Wasmex: Run WebAssembly Programs in Elixir"
 speakers:

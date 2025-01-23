@@ -1,5 +1,8 @@
 ---
-tags: database, concurrency, optimization
+tags:
+- database
+- concurrency
+- optimization
 level: Introductory and overview
 title: "Dealing With a Monster Ecto Query"
 speakers:

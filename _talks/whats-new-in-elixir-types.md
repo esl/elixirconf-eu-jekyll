@@ -1,5 +1,8 @@
 ---
-tags: Types, Elixir, Future
+tags:
+- Types
+- Elixir
+- Future
 level: Introductory and overview
 title: "What's New in Elixir Types"
 speakers:

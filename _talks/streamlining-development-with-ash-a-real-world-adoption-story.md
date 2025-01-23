@@ -1,5 +1,8 @@
 ---
-tags: Ash, Productivity, Extensions
+tags:
+- Ash
+- Productivity
+- Extensions
 level: Intermediate
 title: "Streamlining Development With Ash: A Real-World Adoption Story"
 speakers:

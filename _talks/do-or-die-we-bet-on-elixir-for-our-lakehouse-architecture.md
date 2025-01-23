@@ -1,5 +1,8 @@
 ---
-tags: Concurrency, Scalability, Simplicity
+tags:
+- Concurrency
+- Scalability
+- Simplicity
 level: Intermediate
 title: "Do or Die! We Bet on Elixir for Our Lakehouse Architecture"
 speakers:

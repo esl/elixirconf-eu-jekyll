@@ -1,5 +1,8 @@
 ---
-tags: kubernetes gcp cloud
+tags:
+- kubernetes
+- gcp
+- cloud
 level: Intermediate
 title: "Four Years of Running Elixir on Kubernetes in Google Cloud: Lessons Learned"
 speakers:

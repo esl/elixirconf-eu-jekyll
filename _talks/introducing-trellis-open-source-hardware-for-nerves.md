@@ -1,5 +1,6 @@
 ---
-tags: Nerves hardware release
+tags:
+- Nerves hardware release
 level: Introductory and overview
 title: "Introducing Trellis: Open Source Hardware for Nerves"
 speakers:

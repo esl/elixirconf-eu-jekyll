@@ -1,5 +1,8 @@
 ---
-tags: Elixir, Frontend, Innovation
+tags:
+- Elixir
+- Frontend
+- Innovation
 level: Introductory and overview
 title: "Hologram: Building Rich UIs With Elixir Running in the Browser"
 speakers:
