@@ -1,11 +1,11 @@
 ---
 name: Marc Nickert
-pic_url: "/assets/images/Marc_Nickert.jpg"
+pic_url: "/assets/images/Marc_Nickert.png"
 tagline: "Marc Nickert Student at FU Berlin "
 
 ---
-Born and raised in Berlin, Germany._x000D_
-Studying Computer science and do event technic and Software development._x000D_
-Love to dance Salsa and do sports._x000D_
-They worked on distributed system in May languages._x000D_
+Born and raised in Berlin, Germany.
+Studying Computer science and do event technic and Software development.
+Love to dance Salsa and do sports.
+They worked on distributed system in May languages.
 And focused on Elixir for Ai about 1,5 years ago.

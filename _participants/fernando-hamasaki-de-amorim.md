@@ -1,6 +1,6 @@
 ---
 name: Fernando Hamasaki de Amorim
-pic_url: "/assets/images/Fernando_Hamasaki_de_Amorim.jpg"
+pic_url: "/assets/images/Fernando_Hamasaki_de_Amorim.jpeg"
 tagline: "Elixir adoption at Vio.com. Leading an exceptional team composed by passionate Elixir engineers. "
 twitter: prodis
 linkedin: /in/prodis
