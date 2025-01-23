@@ -2,7 +2,8 @@
 tags: liveview reconnection restoring
 level: Intermediate
 title: "Phoenix LiveView: Mastering Reconnects for a Seamless User Experience"
-speakers: - _participants/giovanni-francischelli.md
+speakers:
+- _participants/giovanni-francischelli.md
 
 ---
 Phoenix LiveView provides powerful tools to handle real-time interactions and reconnections gracefully. This talk explores how to maximize LiveView’s capabilities to create a seamless user experience during connection drops and recoveries. From basic use cases to handling advanced recovery scenarios, we’ll demonstrate techniques that ensure resilient and polished applications.
@@ -18,4 +19,3 @@ Whether you’re new to LiveView or refining an existing application, this sessi
 
 **Target Audience:**
 Anyone writing or wanting to write web applications with Phoenix LiveView. Advanced reconnection issues will need to be handled eventually, specially if mobile usage is a big deal. Knowing how to do them early will surely prevent incidents.
-

@@ -2,7 +2,8 @@
 tags: TigerBeetle, NIFs, Zig
 level: Intermediate
 title: "TigerBeetlex: An Elixir and Zig Love Story"
-speakers: - _participants/riccardo-binetti.md
+speakers:
+- _participants/riccardo-binetti.md
 
 ---
 What if your application database could process financial transactions up to 1000x faster than a general purpose database? That's the goal of TigerBeetle, a distributed financial accounting database designed for mission critical safety and performance.
@@ -22,4 +23,3 @@ We will also cover some of the tradeoffs in the design of the library (e.g. macr
 Programmers who want to use TigerBeetle with their Elixir applications
 - Developers who are interested in NIFs and BEAM internals
 - Programming Language enthusiasts curious about Zig
-

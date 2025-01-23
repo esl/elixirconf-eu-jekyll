@@ -2,7 +2,8 @@
 tags: Elixir, Frontend, Innovation
 level: Introductory and overview
 title: "Hologram: Building Rich UIs With Elixir Running in the Browser"
-speakers: - _participants/bart-blast.md
+speakers:
+- _participants/bart-blast.md
 
 ---
 Building rich, interactive UIs in pure Elixir is now possible with Hologram - a full-stack isomorphic web framework. By automatically transpiling Elixir to JavaScript, Hologram enables Elixir code to run directly in the browser while keeping the state on the client side.
@@ -24,4 +25,3 @@ This talk demonstrates how Hologram analyzes code to determine what should run o
 
 **Target Audience:**
 - The presentation will be valuable for Phoenix developers looking to simplify their frontend stack and Elixir enthusiasts interested in client-side possibilities, showing a new way to build modern web applications in pure Elixir.
-

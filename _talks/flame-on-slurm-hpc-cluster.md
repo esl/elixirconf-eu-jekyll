@@ -2,7 +2,8 @@
 tags: FLAME on HPC
 level: Introductory and overview
 title: "Flame on Slurm HPC Cluster"
-speakers: - _participants/marc-nickert.md
+speakers:
+- _participants/marc-nickert.md
 
 ---
 In this talk, I will present Flame on SLURM Backend to run Langchain tool calling with Bumblebee.

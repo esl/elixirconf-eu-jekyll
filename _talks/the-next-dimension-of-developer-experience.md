@@ -2,12 +2,13 @@
 tags: Code Generation, DX, AST
 level: Intermediate
 title: "The Next Dimension of Developer Experience"
-speakers: - _participants/zach-daniel.md
+speakers:
+- _participants/zach-daniel.md
 
 ---
 Igniter is a project patching and code generation framework for Elixir.
 
-By leveraging AST-based code patching, library authors can provide intelligent installer and upgraders, massively improving the developer experience for getting started with a new Elixir tool. It also standardizes the process of installing and upgrading elixir packages, massively reducing the cognitive overhead of setting up new applications or installing new packages. 
+By leveraging AST-based code patching, library authors can provide intelligent installer and upgraders, massively improving the developer experience for getting started with a new Elixir tool. It also standardizes the process of installing and upgrading elixir packages, massively reducing the cognitive overhead of setting up new applications or installing new packages.
 
 Want to set up a new package? mix igniter.install.
 Want to upgrade a package and apply any changes suggested by the package authors? mix igniter.upgrade..
@@ -21,4 +22,3 @@ We start by exploring the unique capabilities Igniter offers to library and appl
 
 **Target Audience:**
 Any Elixir developer, or library author.
-

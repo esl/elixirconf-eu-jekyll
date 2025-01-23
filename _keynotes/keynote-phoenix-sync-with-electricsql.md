@@ -2,7 +2,8 @@
 tags: Phoenix, sync, Electric
 level: Intermediate
 title: "Keynote: Phoenix Sync With ElectricSQL"
-speakers: - _participants/james-arthur.md
+speakers:
+- _participants/james-arthur.md
 published: false
 
 ---
@@ -30,4 +31,3 @@ This includes syncing "shapes" based on Ecto queries, for direct sync into the f
 This talk is suitable for all levels:
 - easy to understand and usable by beginners
 - interesting for intermediate and advanced
-

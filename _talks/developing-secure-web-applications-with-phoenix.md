@@ -2,7 +2,8 @@
 tags: secure web applications
 level: Introductory and overview
 title: "Developing Secure Web Applications With Phoenix"
-speakers: - _participants/eli-kroumova.md
+speakers:
+- _participants/eli-kroumova.md
 
 ---
 In the moment a web application is available in internet, there is somebody that tries to break it. We can not avoid this but we can be prepared for it.
@@ -17,5 +18,4 @@ If you want to learn what are the common vulnerabilities a web application is ex
 - Short review of the vulnerabilites and how to take them into account while writing the code.
 
 **Target Audience:**
-- Developers who start working on web applications or seasoned web applications developers who want to refresh their knowledge 
-
+- Developers who start working on web applications or seasoned web applications developers who want to refresh their knowledge

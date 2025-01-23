@@ -1,11 +1,12 @@
 ---
-tags: WebAssembly, Runtime, Ecosystem 
+tags: WebAssembly, Runtime, Ecosystem
 level: Intermediate
 title: "Wasmex: Run WebAssembly Programs in Elixir"
-speakers: - _participants/philipp-tessenow.md
+speakers:
+- _participants/philipp-tessenow.md
 
 ---
-WebAssembly is a compilation target and execution environment often used in Browsers to speed up intensive algorithms that would be slow in pure JavaScript. 
+WebAssembly is a compilation target and execution environment often used in Browsers to speed up intensive algorithms that would be slow in pure JavaScript.
 But Elixir can run WebAssembly too and it's about much more just speedy code execution.
 
 In this session, we will talk about wasmex, a WebAssembly runtime written in Elixir. We investigate common use cases of WebAssembly and how they benefit Elixir hosts. If you are interested in running unsafe (user-provided) programs in your Elixir application, or you want to interface with programs written in other programming language, or even in speeding up your algorithms, this talk is for you.
@@ -26,5 +27,3 @@ In general, I want to  spark some excitement about WebAssembly and Elixir. I wan
 - Seasoned Elixir developers who want to contribute to this space (future & open problems)
 - Developers who need to interface with code from different programming languages (that compile into WebAssembly) or have to run user-provided code safely (in a WebAssembly sandbox)
 - People who like to play with different programming languages or runtimes, while still connecting this interest to Elixir
-
-

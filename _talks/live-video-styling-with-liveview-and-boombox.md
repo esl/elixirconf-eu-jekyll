@@ -2,7 +2,8 @@
 tags: LiveView, Boombox, AI
 level: Intermediate
 title: "Live Video Styling With LiveView and Boombox"
-speakers: - _participants/feliks-pobiedzinski.md
+speakers:
+- _participants/feliks-pobiedzinski.md
 
 ---
 Have you ever considered adding a multimedia layer to your Phoenix application?
@@ -24,4 +25,3 @@ We'll begin with a demonstration of how to establish a relay between a browser a
 - People interested in using AI to process or generate video.
 - People interested in adding a multimedia layer into their Elixir application
 - People who are looking for a simpler-to-use alternative to the Membrane Framework.
-

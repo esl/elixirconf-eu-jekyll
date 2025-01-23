@@ -2,7 +2,8 @@
 tags: Authorization, Access Control, Elixir
 level: Intermediate
 title: "Authorization & Access Control: Case Studies and Practical Solutions Using Elixir"
-speakers: - _participants/michal-buszkiewicz.md
+speakers:
+- _participants/michal-buszkiewicz.md
 
 ---
 We'd like to share with you some of the lessons we learnt over time as we implemented authorization, permission management and access control in a variety of applications differing in scale, domain and purpose, and other constraints - in industries ranging from robotics all the way to healthcare.
@@ -15,4 +16,3 @@ This includes both choosing the best tool for a job and designing the system in 
 
 **Target Audience:**
 - All Elixir developers and architects, as well as persons involved in business domain analysis in cooperation with software development teams.
-

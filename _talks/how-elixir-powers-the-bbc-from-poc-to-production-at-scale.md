@@ -2,7 +2,8 @@
 tags: Resilience, Enterprise, Scale
 level: Intermediate
 title: "How Elixir Powers the BBC: From PoC to Production at Scale"
-speakers: - _participants/ettore-berardi.md
+speakers:
+- _participants/ettore-berardi.md
 
 ---
 This talk chronicles the four-year journey of adopting Elixir at the BBC, evolving from our initial proof-of-concept to serving almost all BBC's web and app traffic. The presentation will explore how a small team successfully introduced a niche language in a risk-averse enterprise environment, built critical infrastructure components, and gained organisational trust. We'll dive into practical examples of how Elixir's strengths were leveraged to handle traffic spikes, implement circuit breakers, and create powerful DSLs for route management.
@@ -18,4 +19,3 @@ This talk chronicles the four-year journey of adopting Elixir at the BBC, evolvi
 * Adopting Elixir in enterprise environments
 * Building and scaling mission-critical infrastructure
 * Managing organisational change and technical risk
-

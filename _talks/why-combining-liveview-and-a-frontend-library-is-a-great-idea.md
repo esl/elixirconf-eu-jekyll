@@ -2,7 +2,8 @@
 tags: Mix Vue & LiveView
 level: Intermediate
 title: "Why Combining LiveView and a Frontend Library Is a Great Idea"
-speakers: - _participants/jakub-skalecki.md
+speakers:
+- _participants/jakub-skalecki.md
 
 ---
 LiveView revolutionized web development by enabling server-rendered, dynamic UI. Just, as our applications grow in complexity, we often find ourselves needing more sophisticated client-side interactions. While LiveView excels at server-driven UI, managing complex client-side state can become challenging.
@@ -25,4 +26,3 @@ This talk is aimed at Elixir developers who:
 - Want to understand how to effectively combine server and client-side frameworks
 - Are interested in modernizing their LiveView applications while maintaining their existing investment
 - Have team members with Vue.js (or other frontend framework) experience
-

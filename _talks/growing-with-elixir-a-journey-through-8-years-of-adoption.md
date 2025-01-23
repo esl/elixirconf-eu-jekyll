@@ -2,7 +2,8 @@
 tags: edtech adoption challenges
 level: Introductory and overview
 title: "Growing With Elixir: A Journey Through 8 Years of Adoption"
-speakers: - _participants/anderson-konzen.md
+speakers:
+- _participants/anderson-konzen.md
 
 ---
 The Elixir programming language ecosystem has been steadily evolving, celebrating 13 years since its release. Built on solid foundations, Elixir boasts a vibrant and respected global community, evidenced by its many books, resources, and active groups.
@@ -21,4 +22,3 @@ This includes topics such as hiring, adoption, scaling the application, the fram
 **Target Audience:**
 - This talk is ideal for beginners looking to understand how a codebase evolves over time and the challenges that come with it.
 - It also offers valuable insights for intermediate developers, as I will touch on technical topics such as scaling, codebase management, and the adoption of frameworks and libraries. Whether you’re starting your journey or already have some experience, this talk provides a balanced mix of high-level concepts and practical examples.
-

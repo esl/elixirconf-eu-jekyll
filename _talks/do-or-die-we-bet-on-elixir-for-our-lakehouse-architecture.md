@@ -2,7 +2,8 @@
 tags: Concurrency, Scalability, Simplicity
 level: Intermediate
 title: "Do or Die! We Bet on Elixir for Our Lakehouse Architecture"
-speakers: - _participants/herman-langner.md
+speakers:
+- _participants/herman-langner.md
 
 ---
 Zappi, a growing scale-up, faced a make-or-break moment: to unlock the next generation of insights, it needed a purpose-built Lakehouse platform - fast. With limited runway after previous setbacks, it took a bold gamble: adopting Elixir, despite having zero prior experience with the language.
@@ -28,4 +29,3 @@ While it won't go into deep technical details, there will be content for
 - Engineers who are cautious about adopting Elixir
 - Engineers interested in real world implementations, especially in organisations where the primary language is not Elixir
 - Engineers who are interested in design and architecture
-
