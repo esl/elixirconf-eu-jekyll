@@ -9,6 +9,7 @@ title: Bringing Types to Elixir
 speakers:
 - _participants/giuseppe-castagna.md
 - _participants/guillaume-duboc.md
+published: false
 
 ---
 I propose a talk on my PhD research on introducing a type system to Elixir. This talk will focus on set-theoretic types, and how they are uniquely suited to represent Elixir programs. I will discuss the potential benefits of a type system designed for Elixir, such as detecting common bugs and providing direct feedback on code quality.  

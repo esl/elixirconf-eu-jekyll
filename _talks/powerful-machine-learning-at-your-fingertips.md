@@ -8,6 +8,7 @@ tags:
 title: Powerful Machine Learning at Your Fingertips
 speakers:
 - _participants/jonatan-klosko.md
+published: false
 
 ---
 Two years ago Nx laid the foundation for efficient numerical computation in Elixir. Soon followed Axon bringing the building blocks for training and running Neural Networks. At this talk we will focus on a new part of the story - Bumblebee - and we will see how using powerful models is just a few lines of code (or clicks) away.

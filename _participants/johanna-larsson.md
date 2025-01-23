@@ -1,9 +1,9 @@
 ---
 name: Johanna Larsson
-pic_url: "/assets/images/johanna-larsson.jpg"
-tagline: Creator of Hex Diff
-github: joladev
+pic_url: "/assets/images/Johanna_Larsson.jpg"
+tagline: "Creator of HexDiff and ElixirEvents"
 twitter: joladev
+linkedin: /in/joladev/
 
 ---
-Johanna is a software engineer at Duffel, a startup revolutionising the flights industry. Obsessed with distributed systems and observability, she is also the creator of Hex Diff, the diffing service for the Hex package manager.
+Johanna is a big fan of the amazing Erlang/Elixir community. With over 12 years of professional software development experience, 6 years ago she discovered Elixir and it's the most productive she's ever felt. She loves building things and is the creator of HexDiff and ElixirEvents

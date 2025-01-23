@@ -10,6 +10,7 @@ speakers:
 - _participants/eli-kroumova.md
 level:
 - Introductory and overview
+published: false
 
 ---
 Multitenancy is a software architecture where one instance serves different clients (tenants). This definition is quite general and can be implemented in different ways.  

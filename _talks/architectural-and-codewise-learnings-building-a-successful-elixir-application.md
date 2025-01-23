@@ -16,6 +16,7 @@ key_takeaways: "The idea is that during the talk the attendees have at least one
 - 'Why is he doing that?! I have a much better solution for the same problem.'\n
 
 I hope those kinds of moments above generate discussions and exchange of ideas and experiences after the talk between the attendees."
+published: false
 
 ---
 After more than 4 years running a successful Elixir application built from scratch, there are a lot of learnings, gotchas, challenges, and good and painful parts along the way.

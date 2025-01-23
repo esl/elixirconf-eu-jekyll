@@ -1,8 +1,7 @@
 ---
 name: Parker Selbert
-pic_url: "/assets/images/parker-selbert.jpg"
+pic_url: "/assets/images/Parker_Selbert.jpg"
 tagline: "Oban Core Team"
-github: sorentwo
 twitter: sorentwo
 
 ---

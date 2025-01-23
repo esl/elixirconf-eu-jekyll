@@ -8,6 +8,7 @@ tags:
 title: ElectricSQL - Local-first SQL with Elixir
 speakers:
 - _participants/james-arthur.md
+published: false
 
 ---
 Local-first is a new paradigm for developing apps, where you code against an embedded database in the client and have reactive, realtime, multi-user sync in the background.

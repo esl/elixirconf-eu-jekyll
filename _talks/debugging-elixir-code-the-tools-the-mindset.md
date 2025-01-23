@@ -10,6 +10,7 @@ tags:
 title: Debugging Elixir Code - The Tools, The Mindset
 speakers:
 - _participants/michal-buszkiewicz.md
+published: false
 
 ---
 In a perfect world, debugging wouldn't exist.  

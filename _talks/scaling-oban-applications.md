@@ -12,6 +12,7 @@ speakers:
 - _participants/shannon-selbert.md
 - _participants/parker-selbert.md
 key_takeaways: " - Understand the Oban scaling bottlenecks applications may experience and the strategies to mitigate them."
+published: false
 
 ---
 Perhaps you've heard the common refrain that relational database backed queues don't scale. Well,

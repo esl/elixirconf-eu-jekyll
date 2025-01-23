@@ -13,6 +13,7 @@ speakers:
 key_takeaways: " - Some common problems folks face when building applications with functions\n
 - How Ash can help solve those problems\n
 - What’s new with Ash"
+published: false
 
 ---
 Imperative code imposes artificial constraints. Once you see this in action, you can't unsee it. This is one of the fundamental ideas behind Ash Framework.
