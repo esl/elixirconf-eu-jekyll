@@ -35,6 +35,11 @@ p
   letter-spacing: 0.03rem
   color: #5e5e5e
 
+ul, ol
+  li:first-child
+    margin-top: 0
+  li
+    margin-top: 0.5em
 a
   font-family: 'Montserrat', sans-serif
   font-size: 100%
@@ -273,7 +278,18 @@ a
         justify-content: center
         flex-flow: column
         width: 100%
-
+.training-content
+  .training-card
+    .training-head
+      .training-col
+        .training-info
+          .content
+            ol, ul
+              padding: 0.3em !important
+              margin-block-start: 0 !important
+              margin-block-end: 0 !important
+            p:contains("Target Audience")
+              margin-top: 2em
 .text-title
   color: #9769c9
   letter-spacing: .1em
