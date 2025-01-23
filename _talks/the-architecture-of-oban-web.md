@@ -1,5 +1,8 @@
 ---
-tags: Oban, LiveView, Distributed
+tags: 
+- Oban
+- LiveView
+- Distributed
 level: Intermediate
 title: "The Architecture of Oban Web"
 speakers: 
@@ -15,8 +18,8 @@ Additionally, we'll investigate Oban Met, an in-memory, compacting, time series,
 
 
 **Key Takeaways:**
-How to structure a complex LiveView application designed for high-performance queries in unpredictable environments, all backed by an in-memory, distributed time series database.
+- How to structure a complex LiveView application designed for high-performance queries in unpredictable environments, all backed by an in-memory, distributed time series database.
 
 **Target Audience:**
-Intermediate to advanced Elixirists interested in real-world LiveView applications, time series databases, distributed systems, and perhaps even Oban.
+- Intermediate to advanced Elixirists interested in real-world LiveView applications, time series databases, distributed systems, and perhaps even Oban.
 
