@@ -1,7 +1,7 @@
 ---
 name: Ridwan Otun
 pic_url: "/assets/images/Ridwan_Otun.jpg"
-tagline: "Software Engineer"
+tagline: "Software Engineer, VP of Engineering at Juicyway"
 twitter: codesmear
 
 ---
