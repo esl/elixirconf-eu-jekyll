@@ -27,6 +27,7 @@ Whether you're a tech lead or engineer, this story offers real-world guidance fo
 - Useful insights on how to use Elixir in practice.
 
 **Target Audience:**
+
 The intended scope of the audience is quite broad.
 While it won't go into deep technical details, there will be content for
 - Engineers who are cautious about adopting Elixir
