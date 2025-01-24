@@ -24,4 +24,5 @@ We start by exploring the unique capabilities Igniter offers to library and appl
 - The utility of igniter for improving the everyday experience of working with Elixir
 
 **Target Audience:**
+
 Any Elixir developer, or library author.
