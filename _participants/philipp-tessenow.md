@@ -5,7 +5,6 @@ tagline: "Creator of wasmex and Engineering Team Lead at remote.com"
 linkedin: /in/philipptessenow/
 
 ---
-* Started adventuring with Elixir in 2019.
-* Created wasmex, an Elixir library for running WebAssembly modules on an Elixir host, in early 2020. Maintaining and growing the library since then.
-* Joined remote.com, one of the biggest Elixir codebases, in 2022. Now working as an engineering team lead, responsible for parts of remotes finance infrastructure.
-* Became father of two wonderful daughters in between, which gave them immense joy and a lot of struggle to find time for their open source projects :)
+Philipp started adventuring with Elixir in 2019. He created wasmex, an Elixir library for running WebAssembly modules on an Elixir host, in early 2020 and is maintaining and growing the library since then.
+Philipp joined remote.com, one of the biggest Elixir codebases, in 2022 and is now working as an engineering team lead, responsible for parts of remotes finance infrastructure.
+He became father of two wonderful daughters in between, which gave him immense joy and a lot of struggle to find time for his open source projects :)
