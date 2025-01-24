@@ -20,6 +20,10 @@ social:
     url: https://twitter.com/elixirconfeu
     username: elixirconfeu
     card: image
+  - title: bluesky
+    url: https://bsky.app/profile/elixirconfeu.bsky.social
+    username: elixirconfeu
+    card: image
 
 # Build settings
 markdown: kramdown

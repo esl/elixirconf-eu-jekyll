@@ -1,6 +1,6 @@
 ---
 name: Chris Beck
-pic_url: "/assets/images/Chris_Beck.jpg"
+pic_url: "/assets/images/chris-beck.jpg"
 tagline: "Chief Mischief Officer @bitcrowd"
 twitter: bitcrowd
 linkedin: /company/bitcrowd
