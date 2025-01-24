@@ -21,4 +21,4 @@ Whether you’re new to LiveView or refining an existing application, this sessi
 - Walk away with a practical example wrapping up all the covered techniques.
 
 **Target Audience:**
-Anyone writing or wanting to write web applications with Phoenix LiveView. Advanced reconnection issues will need to be handled eventually, specially if mobile usage is a big deal. Knowing how to do them early will surely prevent incidents.
+- Anyone writing or wanting to write web applications with Phoenix LiveView. Advanced reconnection issues will need to be handled eventually, specially if mobile usage is a big deal. Knowing how to do them early will surely prevent incidents.
