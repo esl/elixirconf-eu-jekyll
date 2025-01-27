@@ -1,18 +1,18 @@
 ---
 trainings:
-  - training: _trainings/ash-framework.md
-    start: 2024-04-17T08:00:00.000+00:00
-    end: 2024-04-17T16:00:00.000+00:00
+ - training: _trainings/beam-vm-under-the-hood.md
+   start: 2025-05-14T09:00:00.000+00:00
+    end: 2024-05-14T05:00:00.000+00:00
     timezone: CEST
-  - training: _trainings/practical-testing-with-elixir-and-phoenix.md
-    start: 2024-04-17T08:00:00.000+00:00
-    end: 2024-04-17T16:00:00.000+00:00
+  - training: _trainings/code-intelligence-with-rag-and-llms.md
+   start: 2025-05-14T09:00:00.000+00:00
+    end: 2024-05-14T05:00:00.000+00:00
     timezone: CEST
-  - training: _trainings/mastering-phoenix-liveview-essential-insights.md
-    start: 2024-04-17T08:00:00.000+00:00
-    end: 2024-04-17T16:00:00.000+00:00
+  - training: _trainings/hologram.md
+  start: 2025-05-14T09:00:00.000+00:00
+    end: 2024-05-14T05:00:00.000+00:00
     timezone: CEST
-  - training: _trainings/elixir-application-security.md
-    start: 2024-04-17T08:00:00.000+00:00
-    end: 2024-04-17T16:00:00.000+00:00
+  - training: _trainings/interfacing-rust-in-elixir.md
+    start: 2025-05-14T09:00:00.000+00:00
+    end: 2024-05-14T05:00:00.000+00:00
     timezone: CEST
