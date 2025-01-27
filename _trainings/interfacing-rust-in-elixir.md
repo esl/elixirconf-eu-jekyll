@@ -13,4 +13,4 @@ published: true
 Elixir and Rust are two complementary languages. In this tutorial, we will leverage both for their respective strength.
 
 **TUTORIAL OBJECTIVES:**
-To understand when to use Elixir, when to use Rust, and when to use them together.
+- To understand when to use Elixir, when to use Rust, and when to use them together.
