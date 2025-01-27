@@ -7,7 +7,7 @@ experience:
 - Beginners and Intermediate users
 type: in-person full-day training course
 title: "Mastering Phoenix LiveView: Essential Insights"
-published: true
+published: false
 
 ---
 Have you just started your LiveView journey? Or are you looking for an opportunity to elevate your skills with the LiveView library? Let Łukasz share his knowledge and experience, learn best practices when working with large data collections and other techniques to improve app performance, code readability and many others.
