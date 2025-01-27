@@ -18,8 +18,8 @@
 #  link: "video"
 - name: Speakers
   link: "keynotes"
-#- name: Training
-#  link: "training"
+- name: Training
+  link: "training"
 #- name: Diversity
 #  link: "diversity"
 #- name: Volunteer
