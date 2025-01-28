@@ -5,6 +5,8 @@ level: Intermediate
 title: "Making Bookings Asynchronously"
 speakers:
 - _participants/fernando-hamasaki-de-amorim.md
+- _participants/rauan-assis.md
+
 
 ---
 Let’s dive into the evolution of an Elixir backend application responsible for hotel online reservations.
