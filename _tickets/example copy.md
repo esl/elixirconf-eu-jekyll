@@ -2,14 +2,14 @@
 title: 'In-Person Ticket'
 price: 'from 349€'
 discount: 'LIMITED AMOUNT'
-description: "Join the Waiting List to get access to this limited Super Early Bird pricing!"
-link: '#newsletter'
+description: "Only for the Waiting List subscribers!"
+link: '#'
 conditions:
   - "The conference ticket doesn't include training sessions."
   - "Prices don't include VAT and fees."
 ---
 
-### FEATURES
+### INCLUDED
 
 - Live access to all talks
 - Access to the conference app
