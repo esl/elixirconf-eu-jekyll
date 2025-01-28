@@ -29,8 +29,6 @@ endcomment %}
 <!-- end of banner-5 -->
 {% comment %} {% include video.html %} {% endcomment %}
 <!-- end of video -->
-{% include register.html %}
-<!-- end of register -->
 {% include keynotes.html %}
 <!-- end of speakers -->
 {% include speakers.html %}
@@ -48,9 +46,11 @@ endcomment %}
 {% if site.data.settings.homepage_settings.tickets %} {% include
 tickets-block.html %} {% endif %}
 <!-- end of tickets -->
-{% comment %} {% include diversity.html %} {% endcomment %}
+{% include register.html %}
+<!-- end of register -->
+{% include diversity.html %}
 <!-- end of diversity -->
-{% comment %} {% include banner-4.html %} {% endcomment %}
+{% include banner-4.html %}
 <!-- end of banner-4 -->
 {% include venue.html %}
 <!-- end of venue -->
