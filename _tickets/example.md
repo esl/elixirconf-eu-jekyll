@@ -2,14 +2,14 @@
 title: 'Virtual Ticket'
 price: 'from 99€'
 discount: 'LIMITED AMOUNT'
-description: "Join the Waiting List to get access to this limited Super Early Bird pricing!"
-link: '#newsletter'
+description: "Only for the Waiting List subscribers!"
+link: '#'
 conditions:
   - "Prices don't include VAT and fees."
 
 ---
 
-### FEATURES
+### INCLUDED
 
 - Live access to all talks
 - Access to the conference app
