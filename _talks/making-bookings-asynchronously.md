@@ -14,7 +14,8 @@ This application started small as a minimum viable product (MVP) implementing a 
 The final result made the entire booking process more reliable, increased the performance of the application, mitigated some issues and improved the customers’ experience.
 
 **Key Takeaways:**
-- The booking flow used in Vio.com to make online hotel reservations consists of many steps, integrating with several internal and external applications, like hotel providers, payment service providers, fraud protection service and tracking systems. Those steps when executed synchronously and sequentially can have problems in performance, request time, reliability and poor user experience.
+
+The booking flow used in Vio.com to make online hotel reservations consists of many steps, integrating with several internal and external applications, like hotel providers, payment service providers, fraud protection service and tracking systems. Those steps when executed synchronously and sequentially can have problems in performance, request time, reliability and poor user experience.
 For a MVP version a synchronously booking flow was enough. However, as the product grew up, more features were required and the volume of traffic increased, new technical solutions were necessary to meet new requirements.
 
 It will present the evolution of this application, the challenges faced and the technical solutions applied in an incremental way to reach the current state of the application architecture using an event-driven approach.
