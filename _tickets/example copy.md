@@ -1,9 +1,9 @@
 ---
 title: 'In-Person Ticket'
-price: 'from 349€'
-discount: 'LIMITED AMOUNT'
-description: "Only for the Waiting List subscribers!"
-link: '#'
+price: 'from 460€'
+discount: 'EARLY BIRD TICKETS'
+description: "Limited amount available. Group discounts apply."
+link: '#register'
 conditions:
   - "The conference ticket doesn't include training sessions."
   - "Prices don't include VAT and fees."
