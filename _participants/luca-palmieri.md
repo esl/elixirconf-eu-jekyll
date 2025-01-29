@@ -2,6 +2,9 @@
 name: Luca Palmieri
 pic_url: "/assets/images/luca-palmieri.png"
 tagline: Principal Engineering Consultant @ Mainmatter
+github: lukemathwalker
+bluesky: lpalmieri.com 
+twitter: algo_luca 
 
 ---
 Luca Palmieri builds technology products for a living. His current focus is on backend development, software architecture and the Rust programming language. 
