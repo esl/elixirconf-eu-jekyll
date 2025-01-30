@@ -2,7 +2,7 @@
 name: Anderson Konzen
 pic_url: "/assets/images/Anderson_Konzen.jpg"
 tagline: "Staff Engineer at Árvore"
-twitter: anderkonzen
+bluesky: anderkonzen.com
 linkedin: /in/andersonkonzen
 
 ---
