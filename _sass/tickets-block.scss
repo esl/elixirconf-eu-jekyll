@@ -1,6 +1,6 @@
 .tickets-block {
   font-family: 'Montserrat', sans-serif;
-  background-color: #98D4D5;
+  background-color: #98d4d5;
   .title {
     color: #fff;
   }
@@ -23,7 +23,7 @@
     text-align: center;
     font-family: 'Lato';
     border-radius: 8px;
-    background: linear-gradient(-45deg, $brand, #98D4D5, $secondary, #98D4D5);
+    background: linear-gradient(-45deg, $brand, #3a1d4c, $secondary, #3a1d4c);
     background-size: 400% 400%;
     position: relative;
     z-index: 1;
@@ -32,7 +32,7 @@
       flex: 0 1 25%;
     }
     &:nth-child(even) {
-      background: linear-gradient(-45deg, #98D4D5, $secondary, #98D4D5, $brand);
+      background: linear-gradient(-45deg, #3a1d4c, $secondary, #3a1d4c, $brand);
     }
     > div {
       background-color: #fff;
