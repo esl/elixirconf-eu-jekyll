@@ -15,16 +15,16 @@ This talk demonstrates how Hologram analyzes code to determine what should run o
 
 **Key Takeaways:**
 1. Understanding Hologram's Core Innovation
-- HowElixir code getsautomatically transpiled to runin the browser
-- Why client-side state management leadsto better performance and offline capabilities
+- How Elixir code gets automatically transpiled to run in the browser
+- Why client-side state management leads to better performance and offline capabilities
 
 2. Building UIs Without JavaScript
-- Howto create interactive web interfacesusing only Elixir
+- Howto create interactive web interfaces using only Elixir
 - Practical patterns for handling user interactions and state updates
 
 3. Real-World Benefits
 - Reduced server costs and improved scalability
-- Howit simplifies full-stackElixir development
+- Howit simplifies full-stack Elixir development
 
 **Target Audience:**
 - The presentation will be valuable for Phoenix developers looking to simplify their frontend stack and Elixir enthusiasts interested in client-side possibilities, showing a new way to build modern web applications in pure Elixir.
