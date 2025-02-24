@@ -1,8 +1,8 @@
 ---
 title: 'Virtual Ticket'
-price: 'from 99€'
-discount: 'LIMITED AMOUNT'
-description: "Super Early Bird discount available for Waiting List subscribers"
+price: '129€'
+discount: 'Early Birds discount is on'
+description: "Can't join us in Kraków? Opt for virtual attendance!"
 link: '#register'
 conditions:
   - "Prices don't include VAT and fees."

@@ -1,7 +1,7 @@
 ---
 name: Anonymous
-role: 2023 Survey
+role: 2024 Survey
 profile_pic: /assets/images/testimonials/1.png
 ---
 
-Code BEAM Europe is a meeting ground for the whole BEAM community.
+THE TECH EVENT where Chris McCord teaches people how to deliver on the promises of serverless using Elixir.
