@@ -11,14 +11,14 @@ speakers:
 ---
 Have you ever considered adding a multimedia layer to your Phoenix application?
 
-In my upcoming talk, I will show you just how straightforward this can be using Boombox and LiveExWebRTC.
+In my upcoming talk, I will show you just how straightforward this can be using Boombox and Membrane.WebRTC.Live.
 
 We'll begin with a demonstration of how to establish a relay between a browser and an Elixir server using LiveView components. Next, I'll illustrate how to utilize Boombox to enhance ingested multimedia streams with generative AI models. To wrap up, I'll present a demo where I apply AI-generated style transfer to a live stream from my personal camera, bringing all these elements together seamlessly.
 
 
 **Key Takeaways:**
 - how to use Boombox within a Phoenix application
-- how to use LiveExWebRTC library to establish a live multimedia connection between a browser and an Elixir server using ready-to-use LiveView components
+- how to use Membrane.WebRTC.Live library to establish a live multimedia connection between a browser and an Elixir server using ready-to-use LiveView components
 - how to use Boombox, to ingest multimedia streams, process them in Elixir and stream them further using state-of-the-art network protocols, e.g. WebRTC
 - how to integrate Boombox with a generative AI model that produces video
 
