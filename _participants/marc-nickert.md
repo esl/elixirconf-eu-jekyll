@@ -1,7 +1,7 @@
 ---
 name: Marc Nickert
 pic_url: "/assets/images/Marc_Nickert.png"
-tagline: "Marc Nickert Student at FU Berlin "
+tagline: "Senior Software Engineer @ Intcube.io"
 
 ---
 Born and raised in Berlin, Germany.
