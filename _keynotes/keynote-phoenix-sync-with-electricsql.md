@@ -4,7 +4,7 @@ level: Intermediate
 title: "Keynote: Phoenix Sync With ElectricSQL"
 speakers:
 - _participants/james-arthur.md
-published: false
+published: true
 
 ---
 At ElixirConf US in September 2024, José gave a keynote outlining his vision for Phoenix sync. This talk introduces our work implementing Phoenix sync with ElectricSQL, an open source sync engine developed in Elixir that we've adapted under his guidance to realise José's original vision.
