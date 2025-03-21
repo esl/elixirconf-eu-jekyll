@@ -1,7 +1,7 @@
 ---
 tags: Phoenix, sync, Electric
 level: Intermediate
-title: "Keynote: Introducing Phoenix.Sync"
+title: "Introducing Phoenix.Sync"
 speakers:
 - _participants/james-arthur.md
 published: true
