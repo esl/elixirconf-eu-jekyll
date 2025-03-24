@@ -3,11 +3,11 @@ tags:
 - AtomVM
 - BEAM
 - Platforms
-title: "Keynote: The AtomVM and New Horizons for Elixir"
+title: "The AtomVM and New Horizons for Elixir"
 speakers:
 - _participants/mateusz-front.md
 - _participants/davide-bettio.md
-published: false
+published: true
 
 ---
 Elixir owes a lot to the BEAM Virtual Machine. Thanks to its capabilities and guarantees, we can do everything from web development to AI and media streaming, in a concurrent and fault-tolerant way. However, certain environments with limited resources or different constraints, such as microcontrollers, are not suitable for the BEAM. Does it mean we should abandon the idea of using Elixir in these environments? Not anymore. We have AtomVM - an alternative implementation of the BEAM - designed specifically to run on microcontrollers!
