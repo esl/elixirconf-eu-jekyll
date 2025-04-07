@@ -20,10 +20,10 @@
   link: "keynotes"
 - name: Training
   link: "training"
-#- name: Diversity
-#  link: "diversity"
-#- name: Volunteer
-#  link: "volunteer"
+- name: Diversity
+  link: "diversity"
+- name: Volunteer
+  link: "volunteer"
 #- name: Student
 #  link: "student"
 - name: Venue
