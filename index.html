@@ -13,8 +13,6 @@ endcomment %}
 <!-- end of banner-1  -->
 {% include welcome.html %}
 <!-- end of welcome -->
-{% comment %} {% include banner-3.html %} {% endcomment %}
-<!-- end of banner-3 -->
 {% comment %} {% include travelling.html %} {% endcomment %}
 <!-- end of travelling -->
 {% comment %} {% include cft.html %} {% endcomment %}
@@ -25,36 +23,38 @@ endcomment %}
 <!-- end of recordings -->
 {% comment %} {% include video.html %} {% endcomment %}
 <!-- end of video -->
-{% include keynotes.html %}
-<!-- end of speakers -->
-{% include speakers.html %}
-<!-- end of speakers -->
-{% comment %} {% include lightningtalks.html %} {% endcomment %}
-<!-- end of lightningtalks -->
-{% include trainers.html %}
-<!-- end of trainers -->
-{% comment %}{% include banner-schedule.html %}{% endcomment %}
-<!-- end of schedule banner -->
-{% comment %} {% include schedule.html %} {% endcomment %}
-<!-- end of schedule -->
-{% include training.html %}
-<!-- end of training -->
 {% if site.data.settings.homepage_settings.tickets %} {% include
 tickets-block.html %} {% endif %}
 <!-- end of tickets -->
 {% include register.html %}
 <!-- end of register -->
+{% include keynotes.html %}
+<!-- end of speakers -->
+{% include speakers.html %}
+<!-- end of speakers -->
+{% include trainers.html %}
+<!-- end of trainers -->
+{% comment %} {% include banner-schedule.html %} {% endcomment %}
+<!-- end of schedule banner -->
+{% comment %} {% include schedule.html %} {% endcomment %}
+<!-- end of schedule -->
+{% include training.html %}
+<!-- end of training -->
 {% include banner-4.html %}
 <!-- end of banner-4 -->
 {% include diversity.html %}
 <!-- end of diversity -->
 {% include banner-5.html %}
 <!-- end of banner-5 -->
+{% include venue.html %}
+<!-- end of venue -->
+{% include lightningtalks.html %}
+<!-- end of lightningtalks -->
+{% comment %} {% include banner-3.html %} {% endcomment %}
+<!-- end of banner-3 -->
 {% if site.data.settings.homepage_settings.gallery.show %} {% include
 gallery-grid.html %} {% endif %}
 <!-- end of gallery-grid  -->
-{% include venue.html %}
-<!-- end of venue -->
 {% comment %} {% include covid-19.html %} {% endcomment %}
 <!-- end of covid-19 -->
 {% comment %} {% include hybrid.html %} {% endcomment %}
