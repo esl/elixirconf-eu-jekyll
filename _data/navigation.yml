@@ -24,8 +24,8 @@
   link: "diversity"
 - name: Volunteer
   link: "volunteer"
-#- name: Student
-#  link: "student"
+- name: Students
+  link: "student"
 - name: Venue
   link: "venue"
 #- name: COVID-19
