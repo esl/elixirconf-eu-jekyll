@@ -1,7 +1,4 @@
 ---
 trainers:
-- _participants/robert-virding.md
-- _participants/chris-beck.md
-- _participants/bart-blast.md
-- _participants/lukasz-pauszek.md
-- _participants/luca-palmieri.md
+  - _participants/robert-virding.md
+  - _participants/chris-beck.md
