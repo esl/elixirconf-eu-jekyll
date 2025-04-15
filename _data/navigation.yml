@@ -12,8 +12,8 @@
 #  link: "call-for-training"
 #- name: All Recordings
 #  link: "recordings"
-#- name: Schedule
-#  link: "schedule-button"
+- name: Schedule
+  link: "schedule-button"
 #- name: Public videos
 #  link: "video"
 - name: Speakers
