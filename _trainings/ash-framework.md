@@ -8,7 +8,7 @@ experience:
 - "All levels of Elixir developers, beginner to intermediate Ash devs."
 type: in-person full-day training course
 title: "Ash Framework: The Fast Track to Full Stack"
-published: true
+published: false
 
 ---
 Are you an Elixir developer looking to build ambitious applications? Have you felt the pain of building large applications with a lack of consistency, tooling and extensibility? Do you hate spending time reinventing the wheel, when you could be crafting innovative solutions for your customers? Join us on a hands-on journey from beginner to expert using the Ash Framework to build an Elixir application in a way that change the way you think about building applications.
