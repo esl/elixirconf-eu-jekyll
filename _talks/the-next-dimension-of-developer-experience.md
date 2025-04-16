@@ -5,6 +5,7 @@ tags:
 - AST
 level: Intermediate
 title: "The Next Dimension of Developer Experience"
+published: false
 speakers:
 - _participants/zach-daniel.md
 
