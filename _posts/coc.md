@@ -6,6 +6,8 @@ pic_url: "/assets/images/ELIXIR_2025_logo-07.png"
 tags: coc, safety, guidelines, rules
 
 ---
+---
+![](/assets/images/ELIXIR_2025_logo-07.png)
 **CODE OF CONDUCT**
 ElixirConf EU is a community conference created to promote education, networking and
 collaboration within the Elixir/Erlang/Ruby communities. We value the participation of
