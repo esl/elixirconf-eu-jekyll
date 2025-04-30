@@ -7,7 +7,9 @@ tags: coc, safety, guidelines, rules
 
 ---
 ![](/assets/images/ELIXIR_2025_logo-07.png)
+
 **CODE OF CONDUCT**
+
 ElixirConf EU is a community conference created to promote education, networking and
 collaboration within the Elixir/Erlang/Ruby communities. We value the participation of
 each member of the community and want all attendees to have an enjoyable and fulfilling
@@ -32,6 +34,7 @@ newspaper or on the web? If the answer is “No” to any of these questions, do
 want to thank you for helping make this a welcoming, friendly event for all.
 
 **Legal Details**
+
 Harassment includes offensive verbal comments related to gender, sexual orientation,
 disability, physical appearance, body size, race, religion, sexual images in public
 spaces, deliberate intimidation, stalking, following, harassing photography or recording,
@@ -47,7 +50,8 @@ action they deem appropriate, including warning the offender or expulsion from t
 conference with no refund.
 
 **Contact Information**
+
 If you need support during the conference, don't hesitate to approach a member of the
 ElixirConf EU team (Monika Coles, John Baughen, Barbara Trojecka, Ewa Kowalska, we are all
-on SwapCard ready to help). Approach us, send us a direct message or email us with your
+on SwapCard, ready to help). Approach us, send us a direct message or email us with your
 concerns at info@elixiconf.eu.
