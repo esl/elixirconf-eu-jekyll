@@ -54,5 +54,5 @@ conference with no refund.
 
 If you need support during the conference, don't hesitate to approach a member of the
 ElixirConf EU team (Monika Coles, John Baughen, Barbara Trojecka, Ewa Kowalska, we are all
-on SwapCard ready to help). Approach us, send us a direct message or email us with your
+on SwapCard, ready to help). Approach us, send us a direct message or email us with your
 concerns at info@elixiconf.eu.
