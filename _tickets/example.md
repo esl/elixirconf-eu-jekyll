@@ -1,7 +1,7 @@
 ---
 title: 'Virtual Ticket'
-price: '129€'
-discount: 'Early Birds discount is on'
+price: '199€'
+discount: 'STANDARD TICKETS'
 description: "Can't join us in Kraków? Opt for virtual attendance!"
 link: '#register'
 conditions:

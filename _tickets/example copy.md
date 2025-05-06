@@ -1,8 +1,8 @@
 ---
 title: 'In-Person Ticket'
-price: 'from 460€'
-discount: 'EARLY BIRD TICKETS'
-description: "Limited amount available. Group discounts apply."
+price: 'from 539'
+discount: 'STANDARD TICKETS'
+description: "Last chance to grab a ticket at this rate. Group discounts apply."
 link: '#register'
 conditions:
   - "The conference ticket doesn't include training sessions."
