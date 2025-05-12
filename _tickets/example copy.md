@@ -1,6 +1,6 @@
 ---
 title: 'In-Person Ticket'
-price: 'from €599'
+price: '€649'
 discount: 'STANDARD TICKETS'
 description: "Last chance to grab a ticket at this rate. Group discounts apply."
 link: '#register'

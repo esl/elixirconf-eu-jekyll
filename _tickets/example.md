@@ -1,6 +1,6 @@
 ---
 title: 'Virtual Ticket'
-price: '€199'
+price: '€219'
 discount: 'STANDARD TICKETS'
 description: "Can't join us in Kraków? Opt for virtual attendance!"
 link: '#register'
