@@ -4,8 +4,8 @@
 #  link: "welcome"
 #- name: 2025 Waiting List
 #  link: "newsletter"
-- name: TICKETS
-  link: "tickets"
+#- name: TICKETS
+#  link: "tickets"
 #- name: Call for Talks
 #  link: "cft"
 #- name: Call for Training
@@ -20,12 +20,12 @@
   link: "keynotes"
 - name: Training
   link: "training"
-- name: Volunteer
-  link: "volunteer"
-- name: Diversity
-  link: "diversity"
-- name: Students
-  link: "student"
+#- name: Volunteer
+#  link: "volunteer"
+#- name: Diversity
+#  link: "diversity"
+#- name: Students
+#  link: "student"
 - name: Venue
   link: "venue"
 #- name: COVID-19
