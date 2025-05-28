@@ -1,0 +1,154 @@
+.lightning-talks-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.lightning-talk-item {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #E94D8B;
+  position: relative;
+  overflow: hidden;
+}
+
+.lightning-talk-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.lightning-talk-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 40px 40px 0;
+  border-color: transparent #9769c9 transparent transparent;
+  opacity: 0.7;
+}
+
+.lightning-talk-title h3 {
+  color: #543462;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.lightning-talk-title h3:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #E94D8B;
+}
+
+.lightning-talk-speaker p {
+  color: #9769c9;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.lightning-talk-video {
+  margin-top: 15px;
+}
+
+.video-link {
+  display: inline-flex;
+  align-items: center;
+  color: #E94D8B;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 6px 12px;
+  border: 1px solid #E94D8B;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.video-link:hover {
+  color: #fff;
+  background-color: #E94D8B;
+  text-decoration: none;
+}
+
+.video-link i {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+.lightning-talk-speaker p i {
+  margin-right: 8px;
+  color: #E94D8B;
+}
+
+#lightning-talks {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+#lightning-talks:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(to right, #9769c9, #E94D8B);
+}
+
+#lightning-talks .title {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#lightning-talks .title:after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 3px;
+  background-color: #E94D8B;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-blue {
+  color: #543462;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .lightning-talks-container {
+    grid-template-columns: 1fr;
+  }
+  
+  #lightning-talks .title {
+    font-size: 2em;
+  }
+}

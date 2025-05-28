@@ -1,0 +1,45 @@
+<div class="section" id="lightning-talks">
+    <div class="container pt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-10 text-center">
+                <h1 class="title text-blue">Lightning Talks</h1>
+                <p class="lead mb-5">Watch the recorded lightning talks from ElixirConf EU 2025</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="lightning-talks-container">
+                    {% for talk in site.data.lightning_talks.talks %}
+                    <div class="lightning-talk-item">
+                        <div class="lightning-talk-title">
+                            <h3>{{ talk.title }}</h3>
+                        </div>
+                        <div class="lightning-talk-speaker">
+                            <p><i class="fas fa-user-circle mr-2"></i>{{ talk.name }}</p>
+                        </div>
+                        {% if talk.youtube %}
+                        <div class="lightning-talk-video mt-3">
+                            <a href="{{ talk.youtube }}" target="_blank" class="btn btn-sm btn-outline-danger video-link">
+                                <i class="fab fa-youtube mr-2"></i>Watch on YouTube
+                            </a>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="banner-3" id="call-for-lightning-talks">
+                                <h3 class="text">Submit your lightning talk for the next ElixirConf EU!</h3>
+                                <a
+                                    class="page-scroll btn-outline btn-blue ml-1"
+                                    href="https://forms.gle/h2Nr5Jmvkffd4iL28"
+                                    >SUBMIT</a
+                                >
+                            </div>
+            </div>
+        </div>
+    </div>
+</div>

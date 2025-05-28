@@ -1,0 +1,35 @@
+- name: "Marton Veres"
+  title: "Elixir communities in Germany"
+  youtube: "https://youtu.be/qA68q-VqDVE"
+  
+- name: "Meks McClure"
+  title: "Resilient Code, Resilient Engineer: Lessons from Changing Requirements"
+  youtube: "https://youtu.be/n2RQtPyCJt8"
+  
+- name: "Nikola Begedin"
+  title: "GameDev in Elixir using ECS and Live View"
+  youtube: "https://youtu.be/me8udc1ZEzk"
+  
+- name: "Hernan Rivas Acosta"
+  title: "Ticks, Elixir and Gaming"
+  youtube: "https://youtu.be/jKvsAAg64V0"
+  
+- name: "Boris Kuznetsov"
+  title: "All you want to know about Waffle and file uploads"
+  youtube: "https://youtu.be/4iM-V9yELsE"
+  
+- name: "Krzysztof Nalepa"
+  title: "Debugging LiveView with LiveDebugger"
+  youtube: "https://youtu.be/mTYxjXdMoNs"
+  
+- name: "Alistair Woodman"
+  title: "EEF Update"
+  youtube: "https://youtu.be/5WqMpSt_rRE"
+  
+- name: "Juan Azambuja"
+  title: "Introducing Elixir Observer"
+  youtube: "https://youtu.be/o-FsRSDg6Pc"
+  
+- name: "Denys Gonchar"
+  title: "opentelemetry_testing"
+  youtube: "https://youtu.be/5CECx5Z_D1I"
