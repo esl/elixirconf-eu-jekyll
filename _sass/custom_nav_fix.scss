@@ -1,0 +1,45 @@
+/* Simple fixes for navigation bar alignment and spacing */
+.navbar-fixed-top {
+  padding: 0.2em 0;
+}
+
+.navbar-fixed-top .nav {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.navbar-fixed-top .nav li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Make all menu items the same height */
+.navbar-fixed-top .nav li a,
+.navbar-fixed-top .nav li .dropbtn {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.35em;
+  margin: 0 0.35em !important;
+}
+
+/* Fix for dropdown alignment */
+.dropdown .dropdown-content {
+  top: 40px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 1112px) {
+  .navbar-fixed-top {
+    padding: 1em 0;
+  }
+  
+  .navbar-fixed-top .nav li a,
+  .navbar-fixed-top .nav li .dropbtn {
+    height: auto;
+    padding: 15px;
+    margin: 0 !important;
+  }
+}
