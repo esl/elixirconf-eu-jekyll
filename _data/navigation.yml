@@ -13,7 +13,8 @@
 #- name: All Recordings
 #  link: "recordings"
 - name: Schedule
-  link: "schedule-button"
+  link: "https://www.elixirconf.eu/schedule/"
+  external: true
 #- name: Public videos
 #  link: "video"
 - name: Speakers
