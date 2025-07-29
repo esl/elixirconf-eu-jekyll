@@ -21,3 +21,5 @@ With that in mind, a small team at Software Mansion paired with the Atom VM team
 - Learn the basics of how Elixir runtimes work
 - Learn about previous attempts to run Elixir on different platforms
 - Learn how AtomVM makes Elixir more versatile and how you can help
+
+Read the blog post about Popcorn [here](https://blog.swmansion.com/popcorn-bringing-elixir-to-the-browser-8993a58a00be)
