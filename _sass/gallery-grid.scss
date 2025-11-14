@@ -1,18 +1,25 @@
+.gallery-wrapper {
+    background-color: #202020;
+    .title {
+        color: #ffffff;
+    }
+}
+
 .gallery-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .gallery-item {
-  flex: 0 0 calc(50% - 10px);
-  box-sizing: border-box;
+    flex: 0 0 calc(50% - 10px);
+    box-sizing: border-box;
 
-  @media screen and (min-width: 768px) {
-    flex: 0 0 calc(25% - 10px);
-  }
-  img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+    @media screen and (min-width: 768px) {
+        flex: 0 0 calc(25% - 10px);
+    }
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 }
