@@ -94,7 +94,7 @@ defaults:
 
 # Google Map JS api
 # This is my api for this template
-key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
+key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
 map-text: NH Málaga
 map-text-location: C. San Jacinto 2, 29007 Málaga, Spain
 map-lat: 36.718463
