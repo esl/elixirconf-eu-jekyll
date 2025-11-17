@@ -170,8 +170,13 @@
             });
         infowindow.open(map, marker);
     }
-    google
-        .maps
-        .event
-        .addDomListener(window, "load", init_map);
+    // Try immediate initialization if DOM already loaded, otherwise wait
+    if (document.readyState === 'complete') {
+        init_map();
+    } else {
+        google
+            .maps
+            .event
+            .addDomListener(window, "load", init_map);
+    }
 </script>
