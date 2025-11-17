@@ -27,8 +27,8 @@
 #  link: "diversity"
 #- name: Students
 #  link: "student"
-#- name: Venue
-#  link: "venue"
+- name: Venue
+  link: "venue"
 #- name: COVID-19
 #  link: "covid-19"
 #- name: Hybrid
