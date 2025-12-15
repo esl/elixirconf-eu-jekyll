@@ -1,7 +1,4 @@
 ---
 keynotes:
-- _participants/jose-valim.md
-- _participants/chris-mccord.md
-- _participants/james-arthur.md
-- _participants/mateusz-front.md
-- _participants/davide-bettio.md
+  - _participants/jose-valim.md
+  - _participants/chris-mccord.md
