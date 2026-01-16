@@ -6,10 +6,10 @@
   link: "newsletter"
 #- name: TICKETS
 #  link: "tickets"
-- name: Call for Talks
-  link: "cft"
-- name: Call for Training
-  link: "banner-6"
+#- name: Call for Talks
+#  link: "cft"
+#- name: Call for Training
+#  link: "banner-6"
 #- name: All Recordings
 #  link: "recordings"
 #- name: Schedule
@@ -19,8 +19,8 @@
 #  link: "video"
 #- name: Speakers
 #  link: "keynotes"
-#- name: Training
-#  link: "training"
+- name: Training
+  link: "training"
 #- name: Volunteer
 #  link: "volunteer"
 #- name: Diversity
