@@ -7,7 +7,7 @@ experience:
 - Intermediate
 type: in-person full-day training course
 title: "Let Your Codebase Talk to You, Not Your Competition: Code Intelligence with RAG and LLMs"
-published: true
+published: false
 
 ---
 How to gain insights and intelligence about your codebase without training other people's LLM: Setup an Elixir-only RAG application that analyses your code, helps you with documentation and maintains your style:
