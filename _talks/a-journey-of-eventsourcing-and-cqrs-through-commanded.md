@@ -8,6 +8,7 @@ tags:
 title: Eventsourcing and CQRS in Elixir
 speakers:
 - _participants/vasilis-spilka.md
+published: false
 
 ---
 Eventsourcing does not have to be difficult.
