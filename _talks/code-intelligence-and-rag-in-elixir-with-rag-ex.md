@@ -4,7 +4,7 @@ level: Intermediate
 title: "Code Intelligence and RAG in Elixir With rag.ex"
 speakers:
 - _participants/chris-beck.md
-
+published: false
 ---
 Generative AI is here. In the form of Devin, Cursor and Builder.io, the technologies promise to “disrupt the industry”. Meanwhile, developers often find themselves increasingly in the “valley of death” where helpful assistants give unhelpful circular advice, and companies have concerns about their intellectual property escaping through the backdoor. - Not to mention the level of surveillance and control those off-site technologies offer.
 
