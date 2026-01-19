@@ -1,8 +1,8 @@
 ---
 experience:
 - Intermediate
-title: "Beyond Vibe Coding: Layering techniques and AI prompts in Phoenix"
-type: tutorial
+title: "Beyond Vibe Coding: Layered AI Prompts and Elixir Code to Achieve Better Outcomes"
+type: in-person full-day training course
 event_date: 22 April
 venue: NH Málaga
 trainers:
