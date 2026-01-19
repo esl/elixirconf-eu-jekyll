@@ -5,7 +5,7 @@ name: Concurrent data processing in Elixir
 type: training
 trainers:
 - _participants/andrea-leopardi.md
-
+published: false
 ---
 Consuming data and processing it is a central problem in so many systems nowadays. And Elixir is just so good at doing that, and doing it concurrently! Whether you run an event-sourced architecture with applications that react to events, or you have the occasional use case of map/reducing over collections in an optimized way, Elixir has your back. The current ecosystem is full of fantastic tools to help with these problems: GenStage, Broadway, Flow.  
   
