@@ -17,8 +17,8 @@
 #  external: true
 #- name: Public videos
 #  link: "video"
-#- name: Speakers
-#  link: "keynotes"
+- name: Speakers
+  link: "keynotes"
 - name: Training
   link: "training"
 #- name: Volunteer
