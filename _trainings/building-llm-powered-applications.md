@@ -14,8 +14,7 @@ Learn both applied and theoretical knowledge on working with LLMs. In this train
 **Training Objectives:**
 This packed class will teach you both theoretical and practical aspects of working with LLMs in Elixir applications.
 
-### Theory
-
+**Theory**
 * What are LLMs and how do they work
 * Embeddings and semantic token representations
 * Tools and MCPs
@@ -24,8 +23,7 @@ This packed class will teach you both theoretical and practical aspects of worki
 * The core building blocks of Agentic Applications
 * Evaluation and why it is essential for scaling LLM powered apps
 
-### Practice
-
+**Practice**
 * Basic chat interface with streaming
 * Receiving user commands
 * Adding our first tool to the LLM

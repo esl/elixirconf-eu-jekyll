@@ -1,7 +1,7 @@
 homepage_settings:
   countdown:
     show: false
-    timezone: Europe/Berlin
+    timezone: Europe/Malaga
     deadline: 2025-01-28 11:59
   modal:
     show: false

@@ -4,8 +4,8 @@
 #  link: "welcome"
 - name: Waiting list 2026
   link: "newsletter"
-#- name: TICKETS
-#  link: "tickets"
+- name: TICKETS
+  link: "tickets"
 #- name: Call for Talks
 #  link: "cft"
 #- name: Call for Training
