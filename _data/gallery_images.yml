@@ -1,16 +1,16 @@
-- src: 'https://elixirconf.eu/assets/images/Gallery.jpg'
-  alt: 'ElixirConf EU 2025 Gallery'
-- src: 'https://elixirconf.eu/assets/images/Gallery-1.jpg'
-  alt: 'ElixirConf EU 2025 Gallery'
-- src: 'https://elixirconf.eu/assets/images/Gallery-2.jpg'
-  alt: 'ElixirConf EU 2025 Gallery'
-- src: 'https://elixirconf.eu/assets/images/Gallery-3.jpg'
-  alt: 'ElixirConf EU 2025 Gallery'
-- src: 'https://elixirconf.eu/assets/images/Gallery-4.jpg'
-  alt: 'ElixirConf EU 2025 Gallery'
-- src: 'https://elixirconf.eu//assets/images/Gallery-5.jpg'
-  alt: 'ElixirConf EU 2025 Gallery'
-- src: 'https://elixirconf.eu/assets/images/Gallery-6.jpg'
-  alt: 'ElixirConf EU 2025 Gallery'
-- src: 'https://elixirconf.eu/assets/images/Gallery-7.jpg'
-  alt: 'ElixirConf EU 2025 Gallery'
+- src: "/assets/images/Gallery.jpg"
+  alt: "ElixirConf EU 2025 Gallery"
+- src: "/assets/images/Gallery-1.jpg"
+  alt: "ElixirConf EU 2025 Gallery"
+- src: "/assets/images/Gallery-2.jpg"
+  alt: "ElixirConf EU 2025 Gallery"
+- src: "/assets/images/Gallery-3.jpg"
+  alt: "ElixirConf EU 2025 Gallery"
+- src: "/assets/images/Gallery-4.jpg"
+  alt: "ElixirConf EU 2025 Gallery"
+- src: "/assets/images/Gallery-5.jpg"
+  alt: "ElixirConf EU 2025 Gallery"
+- src: "/assets/images/Gallery-6.jpg"
+  alt: "ElixirConf EU 2025 Gallery"
+- src: "/assets/images/Gallery-7.jpg"
+  alt: "ElixirConf EU 2025 Gallery"
