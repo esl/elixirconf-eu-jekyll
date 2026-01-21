@@ -1,8 +1,8 @@
 ---
 title: 'Virtual Ticket'
-price: '€219'
-discount: 'STANDARD TICKETS'
-description: "Can't join us in Kraków? Opt for virtual attendance!"
+price: '€99'
+discount: 'SUPER EARLY BIRD'
+description: "Can't join us in Málaga? Opt for virtual attendance!"
 link: '#register'
 conditions:
   - "Prices don't include VAT and fees."
@@ -11,7 +11,7 @@ conditions:
 
 ### INCLUDED
 
-- Live access to all talks
+- Live access to all talks in three tracks
 - Access to the conference app
 - Access to live Q&A sessions
 - Online networking via app

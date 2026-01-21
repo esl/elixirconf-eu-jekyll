@@ -1,8 +1,8 @@
 ---
 title: 'In-Person Ticket'
-price: '€649'
-discount: 'STANDARD TICKETS'
-description: "Last chance to grab a ticket at this rate. Group discounts apply."
+price: '€349'
+discount: 'SUPER EARLY BIRD TICKETS'
+description: "Join the waiting list to grab a ticket at the lowest rate, limited number available."
 link: '#register'
 conditions:
   - "The conference ticket doesn't include training sessions."
@@ -11,7 +11,7 @@ conditions:
 
 ### INCLUDED
 
-- Live access to all talks
+- Live access to all talks in three tracks
 - Access to the conference app
 - Access to live Q&A sessions
 - Online networking via app
@@ -19,4 +19,4 @@ conditions:
 - Access to networking and exhibitors area at the venue
 - Conference t-shirt
 - Lunch and beverages
-- Drinks after Day 1
+- Drinks and socialising at the end of Day 1
