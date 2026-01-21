@@ -8,6 +8,7 @@ title: "The Architecture of Oban Web"
 speakers: 
 - _participants/parker-selbert.md
 - _participants/shannon-selbert.md
+published: false
 
 ---
 Oban Web, the live dashboard for Oban, is fully open source! Now we can properly share the internals of a complex, battle tested, real-world, and formerly commercial LiveView app.
@@ -22,4 +23,3 @@ Additionally, we'll investigate Oban Met, an in-memory, compacting, time series,
 
 **Target Audience:**
 - Intermediate to advanced Elixirists interested in real-world LiveView applications, time series databases, distributed systems, and perhaps even Oban.
-

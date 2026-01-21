@@ -1,13 +1,13 @@
 ---
 name: Chris Beck
-pic_url: "/assets/images/chris-beck.jpg"
+pic_url: "/assets/images/speakers/Chris_Beck.jpg"
 tagline: "Chief Mischief Officer @bitcrowd"
 twitter: bitcrowd
 linkedin: /company/bitcrowd
 
 ---
-Chris founded bitcrowd in 2010 as a rails company, since 2016, bitcrowd mainly works with elixir projects. Their open source elixir projects include <a href="https://github.com/bitcrowd/carbonite">carbonite</a> and <a href="https://github.com/bitcrowd/chromic_pdf">chromic_pdf</a>.
+Chris began his career by attempting to code a text editor in assembly on a C64. After that — somewhat surprisingly — failed, he took a break from computers and founded Bitcrowd much later, in 2010.
 
-When ChatGPT had its first coding interview with Chris, he was fascinated to encounter a new form of thinking and coding, reminiscent of his fascination with BASIC on his first computer at the age of 12.
+Since 2016, Bitcrowd has primarily focused on Elixir projects. Their open-source Elixir projects include Carbonite (https://github.com/bitcrowd/carbonite), Chromic PDF (https://github.com/bitcrowd/chromic_pdf), and RAG.ex (https://hex.pm/packages/rag). They also run Exmeralda (https://exmeralda.chat/), a chatbot for Hex packages. They are one of Europe’s go-to Elixir & AI consultancies.
 
-Since then, he has been researching the opportunities, dangers, and influence of AI. bitcrowd, his Elixir consultancy, has built various ML projects since 2021.
+Since the rise of AI, Chris and his team have been researching the opportunities, dangers, and influences of AI. bitcrowd, his Elixir consultancy, has built countless ML projects since 2020.

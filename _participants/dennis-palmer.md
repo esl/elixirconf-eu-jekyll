@@ -1,8 +1,7 @@
 ---
 name: Dennis Palmer
-pic_url: "/assets/images/dennis-palmer.jpg"
+pic_url: "/assets/images/speakers/Dennis_Palmer.png"
 tagline: "Elixir Developer at Erlang Solutions"
-github: ""
 twitter: CoderDennis
 linkedin: /in/dennispalmerjr
 

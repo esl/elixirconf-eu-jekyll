@@ -1,6 +1,6 @@
 ---
 name: Shannon Selbert
-pic_url: "/assets/images/Shannon_Selbert.jpg"
+pic_url: "/assets/images/speakers/Shannon_Selbert.jpeg"
 tagline: "Oban Core Team"
 twitter: sorentwo
 

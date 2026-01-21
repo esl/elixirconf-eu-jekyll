@@ -7,7 +7,7 @@ title: "The AtomVM and New Horizons for Elixir"
 speakers:
 - _participants/mateusz-front.md
 - _participants/davide-bettio.md
-published: true
+published: false
 level: Everyone
 
 ---

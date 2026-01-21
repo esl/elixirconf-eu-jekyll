@@ -7,6 +7,7 @@ tags:
 title: Don't fight the Monolith
 speakers:
 - _participants/peter-ullrich.md
+published: false
 
 ---
 Microservices often seem like the perfect solution to all company problems. Teams won't interfere with each other, everything becomes scalable, and only happiness lies ahead. But software architectures must solve - and obey - social requirements just as much as technical ones.

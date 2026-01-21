@@ -1,8 +1,7 @@
 ---
 name: Wojtek Mach
-pic_url: "/assets/images/wojtek-mach.jpg"
-tagline: Developer at Dashbit
-github: ''
+pic_url: "/assets/images/speakers/Wojtek_Mach.jpg"
+tagline: "Developer at Dashbit"
 twitter: wojtekmach
 
 ---

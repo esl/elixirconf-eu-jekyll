@@ -1,9 +1,8 @@
 ---
-pic_url: "/assets/images/peter-ullrich.jpg"
 name: Peter Ullrich
-tagline: Senior Elixir Engineer @ Remote.com
-twitter: pjullrich
-github: PJUllrich
+pic_url: "/assets/images/speakers/Peter_Ullrich.jpg"
+tagline: "Senior Software Engineer"
+linkedin: /in/pjullrich/
 
 ---
-Peter Ullrich is a Senior Backend Engineer with a Psychology background. He loves sharing his Elixir knowledge through conference talks, blogs, and podcasts. His speciality is breaking down complex topics into smaller and easy to understand parts. His dream is to make programming approachable for everyone.
+I'm a Senior Elixir developer with a Psychology background, PragProg Author, Public Speaker and Blogger, and Founder. I'm passionate about Software Architecture, Product Engineering, and sharing knowledge. Loves Sport, Music, and Dad Jokes.

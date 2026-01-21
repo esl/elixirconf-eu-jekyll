@@ -8,6 +8,7 @@ tags:
 title: Lively LiveView with Membrane
 speakers:
 - _participants/lars-wikman.md
+published: false
 
 ---
 A showcase of what the Membrane Framework enables us to do in terms of live video, audio and such.  

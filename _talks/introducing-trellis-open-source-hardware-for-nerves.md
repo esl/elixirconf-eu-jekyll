@@ -5,6 +5,7 @@ level: Introductory and overview
 title: "Introducing Trellis: Open Source Hardware for Nerves"
 speakers:
 - _participants/gus-workman.md
+published: false
 
 ---
 This talk will discuss the ongoing development of Trellis, a fully open-source hardware platform built for Nerves. Think of it as an open-source Raspberry Pi, but designed to be easily adapted to produce your own custom circuit boards for Nerves and Elixir. We’ll discuss the benefits of building custom hardware for your products, and how open source unlocks even faster rapid prototyping for Nerves and Elixir in embedded device development.

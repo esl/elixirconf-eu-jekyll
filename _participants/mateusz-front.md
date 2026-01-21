@@ -1,8 +1,7 @@
 ---
 name: Mateusz Front
-pic_url: "/assets/images/mateusz-front.png"
+pic_url: "/assets/images/speakers/Mateusz_Front.png"
 tagline: "Software Engineer at Software Mansion"
-github: mat-hek
 twitter: uusszz
 linkedin: /in/mateusz-front-596090296/
 

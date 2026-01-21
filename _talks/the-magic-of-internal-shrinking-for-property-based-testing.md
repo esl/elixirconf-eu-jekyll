@@ -9,6 +9,7 @@ title: "The Magic of Internal Shrinking for Property Based Testing"
 speakers:
 - _participants/dennis-palmer.md
 key_takeaways: " - The audience will gain familiarity with the limits of traditional shrinking mechanisms and learn the advantages of internal shrinking."
+published: false
 
 ---
 Shrinking is the real magic of property-based testing — producing a small, human-readable test case whenever a larger random case causes a test to fail. However, it can be hard to do correctly.
