@@ -5,7 +5,7 @@ tags:
   - scale
 
 level: Intermediate
-title: "Building Real-Time AI Sales Agents with Elixir"
+title: "Building Real-Time AI Agents with Elixir"
 speakers:
   - _participants/kimutai-kiprotich.md
 
