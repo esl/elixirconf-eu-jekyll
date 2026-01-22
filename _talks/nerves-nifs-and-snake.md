@@ -8,6 +8,7 @@ level: Intermediate
 title: "Nerves, NIFs, and Snake"
 speakers:
   - _participants/gus-workman.md
+published: false
 
 ---
 NOTE TO SELECTION COMMITTEE: I would be able to tailor this talk to either 40 mins or 20 mins :)
