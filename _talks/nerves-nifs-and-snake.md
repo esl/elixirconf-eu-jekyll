@@ -8,9 +8,9 @@ level: Intermediate
 title: "Nerves, NIFs, and Snake"
 speakers:
   - _participants/gus-workman.md
+published: true
 
 ---
-NOTE TO SELECTION COMMITTEE: I would be able to tailor this talk to either 40 mins or 20 mins :)
 
 This talk will walk you through the process I went through of bringing Nerves support to a custom e-ink device. The story walks through the last year or so of development of this project, including a look at how a LiveView-like model for representing stateful systems can be applied to hardware and e-ink displays.
 
