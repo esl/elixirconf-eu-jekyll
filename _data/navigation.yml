@@ -25,8 +25,8 @@
   link: "training"
 #- name: Volunteer
 #  link: "volunteer"
-#- name: Diversity
-#  link: "diversity"
+- name: Diversity
+  link: "diversity"
 #- name: Students
 #  link: "student"
 - name: Venue & Accommodation
