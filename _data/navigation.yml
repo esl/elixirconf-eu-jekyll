@@ -23,8 +23,8 @@
   link: "keynotes"
 - name: Training
   link: "training"
-#- name: Volunteer
-#  link: "volunteer"
+- name: Volunteer
+  link: "volunteer"
 - name: Diversity
   link: "diversity"
 #- name: Students
