@@ -1,6 +1,6 @@
 ---
 tags:
-  - ashframework
+  - ash framework
   - durability
   - workloads
 
