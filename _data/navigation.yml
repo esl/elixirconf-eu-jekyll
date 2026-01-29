@@ -2,8 +2,6 @@
 #  link: "cover"
 # name: Welcome
 #  link: "welcome"
-- name: Waiting list 2026
-  link: "newsletter"
 - name: Register
   link: "register"
 #- name: TICKETS
@@ -43,5 +41,7 @@
 #  link: "lightning-talks"
 - name: Sponsors
   link: "sponsors"
+- name: Newsletter
+  link: "newsletter"
 #- name: Contact
 #  link: "contact"

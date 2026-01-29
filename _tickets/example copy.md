@@ -1,8 +1,8 @@
 ---
 title: 'In-Person Ticket'
 price: '€349'
-discount: 'SUPER EARLY BIRD TICKETS'
-description: "Join the waiting list to grab a ticket at the lowest rate, limited number available."
+discount: 'EARLY BIRD TICKETS'
+description: "Join us in sunny Malaga for an unforgettable experience! Limited number available."
 link: '#register'
 conditions:
   - "The conference ticket doesn't include training sessions."
@@ -11,7 +11,7 @@ conditions:
 
 ### INCLUDED
 
-- Live access to all talks in three tracks
+- Live access to all talks in *three* tracks
 - Access to the conference app
 - Access to live Q&A sessions
 - Online networking via app
