@@ -1,5 +1,5 @@
 ---
-name: Vivekbala A
+name: A. Vivekbala
 pic_url: "/assets/images/speakers/Vivekbala_A.jpg"
 tagline: "Learning and Building PaperLand"
 
