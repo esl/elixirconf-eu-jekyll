@@ -1,6 +1,7 @@
 ---
 audience:
-- beginners
+- Everyone
+level: Beginners
 title: "The Latest on Elixir Types"
 speakers:
 - _participants/jose-valim.md
