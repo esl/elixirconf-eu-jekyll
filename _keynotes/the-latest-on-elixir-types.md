@@ -1,6 +1,4 @@
 ---
-audience:
-- Everyone
 level: Beginners
 title: "The Latest on Elixir Types"
 speakers:

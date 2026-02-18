@@ -1,6 +1,5 @@
 ---
-audience:
-- beginners
+level: Beginners
 title: "DurableServer: Always Running Somewhere"
 speakers:
 - _participants/chris-mccord.md
