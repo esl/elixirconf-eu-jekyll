@@ -10,16 +10,18 @@ speakers:
   - _participants/kimutai-kiprotich.md
 
 ---
-Discover how Elixir's concurrency model enables building autonomous AI sales agents that manage over 200 million leads while processing millions of buying signals in real-time. This talk reveals the architecture behind Nexuscale.ai - a B2B sales platform where AI agents automatically identify high-intent prospects and generate personalized outreach at scale.
+Discover how Elixir's concurrency model enables building autonomous AI agents that handle diverse tasks at massive scale. Whether you're building agents for web scraping, managing logins across multiple platforms, or processing real-time data, Elixir provides the perfect foundation for reliable, fault-tolerant automation.
 
-We'll explore practical patterns for integrating AI models with Elixir, handling massive datasets, and orchestrating complex AI workflows using GenServers and OTP supervision trees. Learn how we built fault-tolerant systems that scan 2.4M+ data points daily, achieve 94% targeting accuracy, and deliver 3.2x higher conversion rates.
+This talk explores practical patterns for building AI agents that work independently and handle millions of operations concurrently. We'll look at how to integrate AI models with Elixir and use its built-in tools like GenServers and supervision trees to create agents that recover from failures automatically and never stop working.
 
-Key technical insights include: real-time signal detection, AI model integration strategies, concurrent data processing, and building resilient AI agents that never miss opportunities. Perfect for developers building AI-powered applications who need proven patterns for scale and reliability.
+You'll learn proven strategies for common challenges: coordinating multiple agents working together, managing stateful operations like authenticated sessions, processing data in real-time, and scaling to handle massive workloads. We'll cover real-world examples from web scraping to automated interactions across different platforms.
 
 **Key Takeaways:**
 
-- This talk aims to bridge the gap between AI/ML theory and production-ready Elixir applications by sharing battle-tested patterns from managing 200M+ leads in a live B2B sales platform. Attendees will leave with concrete architectural knowledge, specific code patterns, and confidence to build their own scalable AI-powered systems using Elixir's unique strengths in concurrency and fault tolerance.
+- This talk bridges the gap between AI/ML theory and production-ready applications by sharing battle-tested patterns for building autonomous agents with Elixir. Whether you're automating web scraping, managing authentication across platforms, or processing data streams, you'll learn how to leverage Elixir's unique strengths in concurrency and fault tolerance.
+
+- Attendees will leave with concrete architectural knowledge, practical code patterns, and the confidence to build their own scalable AI-powered agents - from simple automation to complex multi-agent systems handling millions of operations.
 
 **Target Audience:**
 
-- Elixir developers looking to integrate AI capabilities into their applications, backend engineers evaluating Elixir for data-intensive projects, and technical leads responsible for building scalable automation systems. Also valuable for developers from other languages curious about Elixir's advantages in AI/ML workflows and anyone building B2B tools that need real-time data processing at scale.
+- Elixir developers looking to integrate AI capabilities into their applications, backend engineers evaluating Elixir for building autonomous agents, and technical leads responsible for scalable automation systems. Also valuable for developers from other languages curious about Elixir's advantages for AI agent workflows, and anyone building tools that require real-time data processing, concurrent operations, or fault-tolerant automation at scale.
