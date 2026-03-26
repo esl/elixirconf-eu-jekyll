@@ -7,7 +7,7 @@ tags:
 level: Introductory and overview
 title: "Let’s Cut the Cord: Bringing LiveView to the Client with Popcorn"
 speakers:
-  - _participants/mateusz-front.md
+  - _participants/franciszek-kubis.md
 
 ---
 Phoenix LiveView revolutionized web development by moving state to the server, allowing developers to build rich, interactive experiences without the overhead of complex JavaScript frameworks. But this power comes with a physical constraint: the round-trip time to the server. For high-interactivity features or users on high-latency connections, it can still be a barrier to a truly "instant" feel.
