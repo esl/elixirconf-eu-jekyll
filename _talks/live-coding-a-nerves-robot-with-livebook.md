@@ -3,7 +3,7 @@ tags:
   - nerves-self-balancing-robot
 
 level: Introductory and overview
-title: "Live Coding a Nerves Robot with LiveBook"
+title: "Live Coding a Nerves Robot with Livebook"
 speakers:
   - _participants/dennis-palmer.md
 
