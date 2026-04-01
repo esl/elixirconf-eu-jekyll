@@ -1,7 +1,7 @@
 ---
 title: 'In-Person Ticket'
-price: '€539'
-discount: 'EARLY BIRD TICKETS'
+price: '€599'
+discount: 'STANDARD TICKETS'
 description: "Join us in sunny Malaga for an unforgettable experience! Limited number available."
 link: '#register'
 conditions:

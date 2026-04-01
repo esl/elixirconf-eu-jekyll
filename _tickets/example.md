@@ -1,7 +1,7 @@
 ---
 title: 'Virtual Ticket'
-price: '€129'
-discount: 'EARLY BIRD'
+price: '€199'
+discount: 'STANDARD'
 description: "Can't join us in Málaga? Opt for virtual attendance!"
 link: '#register'
 conditions:
