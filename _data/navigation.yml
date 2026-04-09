@@ -19,6 +19,8 @@
 #  link: "video"
 - name: Speakers
   link: "keynotes"
+- name: Track Hosts
+  link: "track-hosts"
 - name: Training
   link: "training"
 - name: Volunteer

@@ -1,0 +1,24 @@
+<div class="section trainers" id="track-hosts">
+    <h2 class="title">TRACK HOSTS</h2>
+    <hr/>
+    <div class="items-container">
+
+        {% for item in site.data.track-hosts-list.track-hosts %}
+            {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
+            {% if participant != null %}
+                <div class="item">
+                    <a href="{{ participant.url | relative_url }}" class="item-head-link">
+                        <div class="img-wrapper">
+                            <img class="img" loading="lazy" src="{{ participant.pic_url | relative_url }}" alt="{{participant.name}}" />
+                            <i class="fa fa-plus-circle"></i>
+                        </div>
+                        <h4 class="item-name">
+                            {{ participant.name}}
+                        </h4>
+                    </a>
+                    <p class="item-position">{{ participant.tagline }}</p>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
