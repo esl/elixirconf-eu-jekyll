@@ -39,8 +39,8 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-#- name: Lightning Talks
-#  link: "lightning-talks"
+- name: Lightning Talks
+  link: "lightning-talks"
 - name: Sponsors
   link: "sponsors"
 - name: Newsletter
