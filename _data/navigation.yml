@@ -2,8 +2,8 @@
 #  link: "cover"
 # name: Welcome
 #  link: "welcome"
-- name: Register
-  link: "register"
+#- name: Register
+#  link: "register"
 #- name: TICKETS
 #  link: "tickets"
 #- name: Call for Talks
@@ -23,10 +23,10 @@
   link: "track-hosts"
 - name: Training
   link: "training"
-- name: Volunteer
-  link: "volunteer"
-- name: Diversity
-  link: "diversity"
+#- name: Volunteer
+#  link: "volunteer"
+#- name: Diversity
+#  link: "diversity"
 #- name: Students
 #  link: "student"
 - name: Venue & Accommodation
