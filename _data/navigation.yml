@@ -40,7 +40,8 @@
 #- name: Blog
 #  link: "blog"
 - name: Lightning Talks
-  link: "lightning-talks"
+  link: "/lightning-talks"
+  external: true
 - name: Sponsors
   link: "sponsors"
 - name: Newsletter
