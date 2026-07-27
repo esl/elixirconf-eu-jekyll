@@ -1,0 +1,23 @@
+edition: ElixirConf EU 2016
+source:  http://www.archive.elixirconf.eu/elixirconf2016  (mode: live)
+date:    2026-07-27 14:36
+pages: 18   assets: 54   missing: 0   elapsed: 72s
+
+[index.html] STRIPPED script: inline
+[jose-valim/index.html] STRIPPED script: inline
+[justin-schneck/index.html] STRIPPED script: inline
+[chris-mccord/index.html] STRIPPED script: inline
+[rene-fohring/index.html] STRIPPED script: inline
+[keith-salisbury/index.html] STRIPPED script: inline
+[sasa-juric/index.html] STRIPPED script: inline
+[zandra-norman/index.html] STRIPPED script: inline
+[andrea-leopardi/index.html] STRIPPED script: inline
+[roope-kangas/index.html] STRIPPED script: inline
+[volker-rabe/index.html] STRIPPED script: inline
+[michal-muskala/index.html] STRIPPED script: inline
+[gary-rennie/index.html] STRIPPED script: inline
+[bram-verburg/index.html] STRIPPED script: inline
+[ben-tyler/index.html] STRIPPED script: inline
+[lance-halvorsen/index.html] STRIPPED script: inline
+[eric-meadows-jonsson/index.html] STRIPPED script: inline
+[paul-wilson/index.html] STRIPPED script: inline

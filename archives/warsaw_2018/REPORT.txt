@@ -1,0 +1,35 @@
+edition: ElixirConf EU 2018
+source:  http://www.archive.elixirconf.eu/elixirconfeu2018  (mode: live)
+date:    2026-07-27 14:39
+pages: 30   assets: 80   missing: 0   elapsed: 111s
+
+[index.html] STRIPPED script: inline
+[jose-valim/index.html] STRIPPED script: inline
+[chris-mccord/index.html] STRIPPED script: inline
+[evadne-wu/index.html] STRIPPED script: inline
+[georgina-mcfadyen/index.html] STRIPPED script: inline
+[szymon-mentel/index.html] STRIPPED script: inline
+[andrea-leopardi/index.html] STRIPPED script: inline
+[serge-boucher/index.html] STRIPPED script: inline
+[laszlo-bacsi/index.html] STRIPPED script: inline
+[guilherme-de-maio/index.html] STRIPPED script: inline
+[milad-rastian/index.html] STRIPPED script: inline
+[arkadiusz-gil/index.html] STRIPPED script: inline
+[raphae-costa/index.html] STRIPPED script: inline
+[jusabe-guedes/index.html] STRIPPED script: inline
+[fernando-mendes/index.html] STRIPPED script: inline
+[orestis-markou/index.html] STRIPPED script: inline
+[maciej-kaszubowski/index.html] STRIPPED script: inline
+[ley-missailidis/index.html] STRIPPED script: inline
+[troels-brodsgaard/index.html] STRIPPED script: inline
+[ian-duggan/index.html] STRIPPED script: inline
+[xavier-noria/index.html] STRIPPED script: inline
+[albert-zak/index.html] STRIPPED script: inline
+[anil-wadghule/index.html] STRIPPED script: inline
+[justin-schneck/index.html] STRIPPED script: inline
+[tobias-pfeiffer/index.html] STRIPPED script: inline
+[bram-verburg/index.html] STRIPPED script: inline
+[mate-marjai/index.html] STRIPPED script: inline
+[stanislaw-chmiela/index.html] STRIPPED script: inline
+[lukasz-gurdek/index.html] STRIPPED script: inline
+[frank-hunleth/index.html] STRIPPED script: inline
