@@ -1,1 +1,1 @@
-Sitemap: http://0.0.0.0:4000/sitemap.xml
+Sitemap: https://www.elixirconf.eu/archives/lisbon_2023/sitemap.xml
