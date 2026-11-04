@@ -1,36 +1,51 @@
-<div class="section video" id="video" style="height: auto; padding-bottom: 3em">
+<style>
+  .v26.section { height: auto; background: linear-gradient(160deg, #201042 0%, #3a1d4c 100%); padding: 4em 2em; }
+  .v26 .title { color: #ffffff; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); }
+  .v26-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2em; max-width: 1100px; margin: 2.5em auto 0; }
+  .v26-card { background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45); transition: transform 0.3s ease; }
+  .v26-card:hover { transform: translateY(-6px); }
+  .v26-frame { position: relative; padding-top: 56.25%; background: #000; }
+  .v26-frame iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+  .v26-body { padding: 1.2em 1.4em 1.5em; text-align: left; }
+  .v26-body a { display: block; font-family: Montserrat, sans-serif; font-weight: 600; font-size: 1.1em; line-height: 1.4; color: #201042; text-decoration: none; }
+  .v26-body a:hover { color: #ad3a8a; }
+  .v26-body span { display: block; margin-top: 0.7em; font-style: italic; color: #6b4a8a; }
+  .v26-more { text-align: center; margin-top: 3em; }
+  .v26-more a { text-shadow: none; }
+</style>
+<div class="section v26" id="video">
     <h2 class="title">2026 VIDEOS</h2>
     <hr />
-    <div class="videos-container">
-        <div class="video-item">
-            <div class="item-container">
-                <div class="item-right">
-                    <iframe width="100%" height="185em" src="https://www.youtube.com/embed/Ay-gnCqDw9o" title="Precision in Type System Design" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <a class="video-title" href="https://www.youtube.com/watch?v=Ay-gnCqDw9o" target="_blank">Precision in Type System Design</a>
-                    <p class="video-item-tags">José Valim, keynote</p>
-                </div>
+    <div class="v26-grid">
+        <div class="v26-card">
+            <div class="v26-frame">
+                <iframe src="https://www.youtube.com/embed/Ay-gnCqDw9o" title="Precision in Type System Design" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="v26-body">
+                <a href="https://www.youtube.com/watch?v=Ay-gnCqDw9o" target="_blank">Precision in Type System Design</a>
+                <span>José Valim, keynote</span>
             </div>
         </div>
-        <div class="video-item">
-            <div class="item-container">
-                <div class="item-right">
-                    <iframe width="100%" height="185em" src="https://www.youtube.com/embed/nZmDEUeHeVI" title="DurableServer: Always Running Somewhere" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <a class="video-title" href="https://www.youtube.com/watch?v=nZmDEUeHeVI" target="_blank">DurableServer: Always Running Somewhere</a>
-                    <p class="video-item-tags">Chris McCord, keynote</p>
-                </div>
+        <div class="v26-card">
+            <div class="v26-frame">
+                <iframe src="https://www.youtube.com/embed/nZmDEUeHeVI" title="DurableServer: Always Running Somewhere" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="v26-body">
+                <a href="https://www.youtube.com/watch?v=nZmDEUeHeVI" target="_blank">DurableServer: Always Running Somewhere</a>
+                <span>Chris McCord, keynote</span>
             </div>
         </div>
-        <div class="video-item">
-            <div class="item-container">
-                <div class="item-right">
-                    <iframe width="100%" height="185em" src="https://www.youtube.com/embed/02r5xP2BgNk" title="One Monolith, Many Teams: Growing an Org with Elixir" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <a class="video-title" href="https://www.youtube.com/watch?v=02r5xP2BgNk" target="_blank">One Monolith, Many Teams: Growing an Org with Elixir</a>
-                    <p class="video-item-tags">Sofia Silva and André Albuquerque, keynote</p>
-                </div>
+        <div class="v26-card">
+            <div class="v26-frame">
+                <iframe src="https://www.youtube.com/embed/02r5xP2BgNk" title="One Monolith, Many Teams: Growing an Org with Elixir" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="v26-body">
+                <a href="https://www.youtube.com/watch?v=02r5xP2BgNk" target="_blank">One Monolith, Many Teams: Growing an Org with Elixir</a>
+                <span>Sofia Silva and André Albuquerque, keynote</span>
             </div>
         </div>
     </div>
-    <p style="text-align: center; margin-top: 2em">
+    <p class="v26-more">
         <a class="btn-outline btn-orange" href="https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsIgecSexrk26--PBWiEyUy" target="_blank">WATCH THE FULL PLAYLIST</a>
     </p>
 </div>
