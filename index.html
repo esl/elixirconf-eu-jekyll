@@ -4,6 +4,15 @@ title: ElixirConf EU 2027 on 22-23 April, Lisbon & Virtual
 image: assets/images/venue-background-Altis.jpg
 ---
 
+<style>
+  .cover h4, .cover .date, .cover a.btn-outline { text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7); }
+  .venue { position: relative; }
+  .venue::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(32, 16, 66, 0.6); z-index: 0; }
+  .venue .row { position: relative; z-index: 1; }
+  .venue .title, .venue .venue-subtitle, .venue .venue-text { text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9); }
+  .banner-1 .text, .banner-2 .text, .banner-2 p { text-shadow: 0 2px 6px rgba(0, 0, 0, 0.55); }
+</style>
+
 {% include cover.html %}
 <!-- end of cover -->
 <!-- start of coundown block -->
@@ -13,6 +22,8 @@ countdown.html %} {% endif %}
 <!-- end of banner-1  -->
 {% include welcome.html %}
 <!-- end of welcome -->
+{% include cft.html %}
+<!-- end of call for talks -->
 {% comment %} {% include travelling.html %} {% endcomment %}
 <!-- end of travelling -->
 {% comment %} {% include gallery-carousel.html %} {% endcomment %}
@@ -21,10 +32,8 @@ countdown.html %} {% endif %}
 <!-- end of register -->
 {% comment %} {% include banner-schedule.html %}{% endcomment %}
 <!-- end of schedule banner -->
-{% include keynotes.html %}
+{% comment %} {% include keynotes.html %} {% endcomment %}
 <!-- end of keynotes -->
-{% include cft.html %}
-<!-- end of cft / speakers -->
 {% comment %} {% include trainers.html %} {% endcomment %}
 <!-- end of trainers -->
 {% comment %} {% include track-hosts.html %} {% endcomment %}
