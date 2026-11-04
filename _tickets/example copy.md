@@ -1,9 +1,9 @@
 ---
-title: 'In-Person Ticket'
-price: '€599'
-discount: 'STANDARD TICKETS'
-description: "Join us in sunny Malaga for an unforgettable experience! Limited number available."
-link: '#register'
+title: 'Early Bird In-Person Ticket'
+price: 'To be announced'
+discount: 'EARLY BIRD'
+description: "Join us in sunny Lisbon for an unforgettable experience! Limited number available."
+link: '#newsletter'
 conditions:
   - "The conference ticket doesn't include training sessions."
   - "Prices don't include VAT and fees."
@@ -11,7 +11,7 @@ conditions:
 
 ### INCLUDED
 
-- Live access to all talks in *three* tracks
+- Live access to all talks in *two* tracks
 - Access to the conference app
 - Access to live Q&A sessions
 - Online networking via app
