@@ -1,10 +1,10 @@
 homepage_settings:
   countdown:
     show: false
-    timezone: Europe/Malaga
+    timezone: Europe/Lisbon
     deadline: 2025-01-28 11:59
   modal:
-    show: false
+    show: true
     delay: 5000
   testimonials:
     show: true
@@ -12,4 +12,4 @@ homepage_settings:
   gallery:
     show: true
     title: "ELIXIRCONF EU 2026 HIGHLIGHTS"
-  tickets: false
+  tickets: true
