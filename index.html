@@ -72,6 +72,8 @@ countdown.html %} {% endif %}
 {% include gallery-carousel.html %}
 {% include cft.html %}
 <!-- end of call for talks -->
+{% include banner-sponsorship.html %}
+<!-- end of sponsorship banner -->
 {% comment %} {% include travelling.html %} {% endcomment %}
 <!-- end of travelling -->
 {% comment %} {% include gallery-carousel.html %} {% endcomment %}
@@ -110,14 +112,9 @@ countdown.html %} {% endif %}
 {% if site.data.settings.homepage_settings.testimonials.show %} {% include
 testimonials.html %} {% endif %}
 <!-- end of  testimonials  block -->
-{% if site.data.settings.homepage_settings.gallery.show %} {% include
-gallery-grid.html %} {% endif %}
-<!-- end of gallery-grid  -->
 {% if site.data.settings.homepage_settings.tickets %} {% include
 tickets-block.html %} {% endif %}
 <!-- end of tickets -->
-{% include banner-sponsorship.html %}
-<!-- end of sponsorship banner -->
 {% comment %} {% include covid-19.html %} {% endcomment %}
 <!-- end of covid-19 -->
 {% comment %} {% include hybrid.html %} {% endcomment %}
