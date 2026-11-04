@@ -1,15 +1,24 @@
 <!-- The modal -->
 <div id="myModal" class="modal">
-  <div class="modal-content" style="background-color: #201042; border-radius: 8px">
+  <div class="modal-content" style="background-color: #201042; border-radius: 8px; padding: 2em 1.5em">
     <span class="close">&times;</span>
     <!-- modal content here -->
-    <img src="{{ site.baseurl }}/assets/images/jose-valim.jpg" alt="José Valim, ElixirConf EU speaker" style="width: 140px; height: 140px; border-radius: 50%; border: 6px solid #9ad7d8; object-fit: cover; margin-top: 10px" />
     <h3 class="title">Call for Talks is open</h3>
-    <p style="color: #fff">ElixirConf EU 2027 takes place on 22-23 April in Lisbon. Submit your talk proposal by 15 December.</p>
+    <p style="color: #fff; line-height: 1.6">ElixirConf EU 2027 takes place on 22-23 April in Lisbon. Submit your talk proposal by 15 December.</p>
 
-    <a id="btn-modal" class="btn-outline btn-orange mb-4 mt-4 inline-block" href="https://sessionize.com/elixirconf-eu-2027/" target="_blank">
+    <a class="modal-action btn-outline btn-orange inline-block" style="margin: 1.2em 0 0.8em" href="https://sessionize.com/elixirconf-eu-2027/" target="_blank">
       SUBMIT A TALK
     </a>
+    <br />
+    <a class="modal-action btn-outline btn-purple inline-block" style="margin: 0.8em 0" href="#newsletter">
+      JOIN THE WAITING LIST
+    </a>
+    <p style="color: #fff; margin-top: 1.5em">Follow us</p>
+    <p style="margin-bottom: 0.5em">
+      <a href="https://www.linkedin.com/company/elixirconf" target="_blank" style="color: #9ad7d8; margin: 0 0.6em">LinkedIn</a>
+      <a href="https://bsky.app/profile/elixirconf.bsky.social" target="_blank" style="color: #9ad7d8; margin: 0 0.6em">Bluesky</a>
+      <a href="https://twitter.com/elixirconfeu" target="_blank" style="color: #9ad7d8; margin: 0 0.6em">X</a>
+    </p>
   </div>
 </div>
 
@@ -19,7 +28,6 @@
 
   // Get the <span> element that closes the modal
   var closeBtn = document.getElementsByClassName("close")[0];
-  var btn = document.getElementById('btn-modal')
 
   // Function to open the modal
   function openModal() {
@@ -33,7 +41,9 @@
 
   // Event listener to close the modal when the close button is clicked
   closeBtn.addEventListener("click", closeModal);
-  btn.addEventListener("click", closeModal);
+  document.querySelectorAll(".modal-action").forEach(function (el) {
+    el.addEventListener("click", closeModal);
+  });
 
   // Event listener to close the modal when clicking on the backdrop
   window.addEventListener("click", function (event) {
