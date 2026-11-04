@@ -1,39 +1,35 @@
 ---
 layout: default
 title: ElixirConf EU 2027 on 22-23 April, Lisbon & Virtual
-image: assets/images/ElixirConf EU 2026 banner dates.png
+image: assets/images/venue-background-Altis.jpg
 ---
 
 {% include cover.html %}
 <!-- end of cover -->
 <!-- start of coundown block -->
 {% if site.data.settings.homepage_settings.countdown.show %} {% include
-countdown.html %} {% endif %} {% comment %} {% include banner-1.html %} {%
-endcomment %}
+countdown.html %} {% endif %}
+{% include banner-1.html %}
 <!-- end of banner-1  -->
 {% include welcome.html %}
 <!-- end of welcome -->
 {% comment %} {% include travelling.html %} {% endcomment %}
 <!-- end of travelling -->
-{% include cft.html %}
-<!-- end of cft -->
-{% comment %} {% include banner-1.html %} {% endcomment %}
-<!-- end of banner-1 -->
-{% comment %} {% include recordings.html %} {% endcomment %}
-<!-- end of recordings -->
-{% comment %} {% include video.html %} {% endcomment %}
-<!-- end of video -->
+{% comment %} {% include gallery-carousel.html %} {% endcomment %}
+<!-- end of gallery carousel -->
 {% if site.data.settings.homepage_settings.tickets %} {% include
 tickets-block.html %} {% endif %}
 <!-- end of tickets -->
+{% include banner-sponsorship.html %}
+<!-- end of sponsorship banner -->
 {% comment %} {% include register.html %} {% endcomment %}
 <!-- end of register -->
 {% comment %} {% include banner-schedule.html %}{% endcomment %}
 <!-- end of schedule banner -->
-{% comment %} {% include keynotes.html %} {% endcomment %}
-<!-- end of speakers -->
-{% comment %} {% include speakers.html %} {% endcomment %}
-<!-- end of speakers -->
+{% include keynotes.html %}
+<!-- end of keynotes -->
+{% include cft.html %}
+<!-- end of cft / speakers -->
 {% comment %} {% include trainers.html %} {% endcomment %}
 <!-- end of trainers -->
 {% comment %} {% include track-hosts.html %} {% endcomment %}
@@ -42,6 +38,10 @@ tickets-block.html %} {% endif %}
 <!-- end of schedule -->
 {% comment %} {% include training.html %} {% endcomment %}
 <!-- end of training -->
+{% include video-2026.html %}
+<!-- end of 2026 videos -->
+{% include sponsors.html %}
+<!-- end of sponsors -->
 {% comment %} {% include banner-4.html %} {% endcomment %}
 <!-- end of banner-4 -->
 {% comment %} {% include diversity.html %} {% endcomment %}
@@ -69,8 +69,6 @@ gallery-grid.html %} {% endif %}
 <!-- end of shop -->
 {% comment %} {% include blog.html %} {% endcomment %}
 <!-- end of blog -->
-{% comment %} {% include sponsors.html %} {% endcomment %}
-<!-- end of sponsors -->
 {% include newsletter.html %}
 <!-- end of newsletter -->
 {% include contact.html %}
