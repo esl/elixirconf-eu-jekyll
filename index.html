@@ -17,11 +17,6 @@ countdown.html %} {% endif %}
 <!-- end of travelling -->
 {% comment %} {% include gallery-carousel.html %} {% endcomment %}
 <!-- end of gallery carousel -->
-{% if site.data.settings.homepage_settings.tickets %} {% include
-tickets-block.html %} {% endif %}
-<!-- end of tickets -->
-{% include banner-sponsorship.html %}
-<!-- end of sponsorship banner -->
 {% comment %} {% include register.html %} {% endcomment %}
 <!-- end of register -->
 {% comment %} {% include banner-schedule.html %}{% endcomment %}
@@ -61,6 +56,11 @@ testimonials.html %} {% endif %}
 {% if site.data.settings.homepage_settings.gallery.show %} {% include
 gallery-grid.html %} {% endif %}
 <!-- end of gallery-grid  -->
+{% if site.data.settings.homepage_settings.tickets %} {% include
+tickets-block.html %} {% endif %}
+<!-- end of tickets -->
+{% include banner-sponsorship.html %}
+<!-- end of sponsorship banner -->
 {% comment %} {% include covid-19.html %} {% endcomment %}
 <!-- end of covid-19 -->
 {% comment %} {% include hybrid.html %} {% endcomment %}
