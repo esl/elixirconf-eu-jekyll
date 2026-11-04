@@ -6,23 +6,23 @@
 #  link: "register"
 #- name: TICKETS
 #  link: "tickets"
-#- name: Call for Talks
-#  link: "cft"
+- name: Call for Talks
+  link: "cft"
 #- name: Call for Training
 #  link: "banner-6"
 #- name: All Recordings
 #  link: "recordings"
-- name: Schedule
-  link: "https://www.elixirconf.eu/schedule/"
-  external: true
+#- name: Schedule
+#  link: "https://www.elixirconf.eu/schedule/"
+#  external: true
 #- name: Public videos
 #  link: "video"
-- name: Speakers
-  link: "keynotes"
-- name: Track Hosts
-  link: "track-hosts"
-- name: Training
-  link: "training"
+#- name: Speakers
+#  link: "keynotes"
+#- name: Track Hosts
+#  link: "track-hosts"
+#- name: Training
+#  link: "training"
 #- name: Volunteer
 #  link: "volunteer"
 #- name: Diversity
@@ -39,11 +39,11 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-- name: Lightning Talks
-  link: "/lightning-talks"
-  external: true
-- name: Sponsors
-  link: "sponsors"
+#- name: Lightning Talks
+#  link: "/lightning-talks"
+#  external: true
+#- name: Sponsors
+#  link: "sponsors"
 - name: Newsletter
   link: "newsletter"
 #- name: Contact

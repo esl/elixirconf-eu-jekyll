@@ -1,6 +1,6 @@
 title: ElixirConf EU
 description: > # this means to ignore newlines until "baseurl:"
-Join us for ElixirConf EU 2026 in Málaga on 23-24 April: two days of first-rate Elixir talks and networking and training on 22 April.
+Join us for ElixirConf EU 2027 in Lisbon on 22-23 April: two days of first-rate Elixir talks and networking and training on 21 April.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.elixirconf.eu" # the base hostname & protocol for your site
 
@@ -95,7 +95,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-map-text: NH Málaga
-map-text-location: C. San Jacinto 2, 29007 Málaga, Spain
-map-lat: 36.718463
-map-lng: -4.426307
+map-text: Altis Grand Hotel
+map-text-location: R. Castilho 11, 1269-072 Lisboa, Portugal
+map-lat: 38.720989
+map-lng: -9.15019

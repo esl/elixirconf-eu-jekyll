@@ -11,5 +11,5 @@ homepage_settings:
     title: "Testimonials"
   gallery:
     show: true
-    title: "ELIXIRCONF EU 2025 HIGHLIGHTS"
-  tickets: true
+    title: "ELIXIRCONF EU 2026 HIGHLIGHTS"
+  tickets: false
