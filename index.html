@@ -13,6 +13,44 @@ image: assets/images/venue-background-Altis.jpg
   .banner-1 .text, .banner-2 .text, .banner-2 p { text-shadow: 0 2px 6px rgba(0, 0, 0, 0.55); }
 </style>
 
+
+<style id="theme-2027">
+.section .title{font-family:'Montserrat',sans-serif;font-weight:800;letter-spacing:.03em}
+.section hr{width:84px;height:4px;border:0;border-radius:4px;background:linear-gradient(90deg,#e94d8b,#9ad7d8);opacity:1}
+#welcome{background:linear-gradient(180deg,#fff 0%,#f6f2fb 100%)}
+#welcome .title,#welcome .text-title{color:#201042}
+#welcome iframe{border-radius:18px;box-shadow:0 18px 50px rgba(32,16,66,.28)}
+#welcome .text-content{color:#3b2d55}
+#cft{position:relative;background:radial-gradient(900px 400px at 85% 10%,rgba(233,77,139,.25),transparent 60%),linear-gradient(135deg,#201042 0%,#3a1d4c 55%,#5e3a8c 100%);padding-top:110px;padding-bottom:110px}
+#cft::before,#cft::after{content:'';position:absolute;left:0;width:100%;height:70px;background-size:100% 100%;background-repeat:no-repeat;pointer-events:none}
+#cft::before{top:-1px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80' preserveAspectRatio='none'%3E%3Cpath fill='%23f6f2fb' d='M0 40C240 90 480 0 720 30s480 60 720 10V0H0z'/%3E%3C/svg%3E")}
+#cft::after{bottom:-1px;transform:rotate(180deg);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80' preserveAspectRatio='none'%3E%3Cpath fill='%23f6f2fb' d='M0 40C240 90 480 0 720 30s480 60 720 10V0H0z'/%3E%3C/svg%3E")}
+#cft .title,#cft .text-title,#cft .text-content,#cft p,#cft strong,#cft h3{color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+#cft .btn-orange{background:#e94d8b;color:#201042!important;border:0;border-radius:999px;font-weight:800;padding:16px 38px;box-shadow:0 10px 28px rgba(233,77,139,.45);transition:transform .2s,box-shadow .2s}
+#cft .btn-orange:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(233,77,139,.6)}
+#video{background:linear-gradient(180deg,#f6f2fb,#fff)}
+#video .title{color:#201042}
+#video .v26-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 14px 40px rgba(32,16,66,.18);transition:transform .25s,box-shadow .25s}
+#video .v26-card:hover{transform:translateY(-6px);box-shadow:0 22px 50px rgba(32,16,66,.28)}
+#sponsors{background:linear-gradient(180deg,#fff,#eee8f6)}
+#sponsors .title,#sponsors .sponsor-title{color:#201042}
+#sponsors .sponsor-logo,#sponsors .sponsors a{transition:transform .2s}
+#sponsors .sponsors a img{background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 8px 24px rgba(32,16,66,.12)}
+#tickets{background:radial-gradient(800px 400px at 15% 0%,rgba(154,215,216,.22),transparent 60%),linear-gradient(160deg,#201042,#3a1d4c 60%,#5e3a8c);color:#fff}
+#tickets .title{color:#fff}
+#tickets .ticket,#tickets .card,#tickets [class*=ticket-]{border-radius:22px}
+#tickets .ticket,#tickets .card{box-shadow:0 20px 55px rgba(0,0,0,.35);border:0}
+#waiting-list,#newsletter{background:linear-gradient(135deg,#201042,#3a1d4c 70%,#5e3a8c)}
+#waiting-list .title,#newsletter .title,#waiting-list p,#newsletter p{color:#fff}
+#waiting-list form,#newsletter form,#waiting-list getresponse-form,#newsletter getresponse-form{background:#fff;border-radius:20px;padding:24px;box-shadow:0 20px 55px rgba(0,0,0,.35)}
+#contact{background:radial-gradient(900px 500px at 90% 0%,rgba(233,77,139,.28),transparent 60%),linear-gradient(160deg,#3a1d4c,#5e3a8c 70%,#7a4fb0)}
+#contact .title,#contact h2,#contact p,#contact h3{color:#fff}
+#contact form,#contact .form,#contact iframe{border-radius:20px;box-shadow:0 20px 55px rgba(0,0,0,.35)}
+#contact input,#contact select,#contact textarea{border-radius:10px}
+#footer{background:#160b30}
+</style>
+<script>document.addEventListener('DOMContentLoaded',function(){var t=document.getElementById('tickets');if(!t)return;var w=document.createTreeWalker(t,NodeFilter.SHOW_TEXT),n;while(n=w.nextNode()){if(n.nodeValue.indexOf('\u{1F449}')>-1)n.nodeValue=n.nodeValue.replace(/\u{1F449}/gu,'\u2713')}});</script>
+
 {% include cover.html %}
 <!-- end of cover -->
 <!-- start of coundown block -->
