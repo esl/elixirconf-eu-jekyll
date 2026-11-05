@@ -52,14 +52,14 @@ description: Ready-to-use letter and cost calculator to help you get approval to
 
 <div class="panel" id="personalise">
 <h2>Personalise your letter</h2>
-<p class="note" style="margin:0 0 18px">Leave a field empty and the letter shows a highlighted placeholder for you to fill in later.</p>
+<p class="note" style="margin:0 0 18px">Leave a field empty and the letter shows a highlighted placeholder for you to fill in later. The three goals are optional: skip them and the letter makes the case in general terms.</p>
 <div class="grid">
 <div><label for="f-boss">Your manager's name</label><input id="f-boss" placeholder="e.g. Anna"></div>
 <div><label for="f-me">Your name</label><input id="f-me" placeholder="e.g. Piotr"></div>
 <div><label for="f-mode">How will you attend?</label><select id="f-mode"><option value="in">In person in Lisbon</option><option value="virtual">Virtually</option></select></div>
 <div><label for="f-train">Training day (21 April)?</label><select id="f-train"><option value="no">Conference only</option><option value="yes">Include a training day</option></select></div>
 </div>
-<div class="sub">How this supports our work</div>
+<div class="sub">How this supports our work (optional)</div>
 <div class="grid">
 <div><label for="f-p1">Project, skill or goal 1</label><input id="f-p1" placeholder="e.g. scaling our Phoenix LiveView app"></div>
 <div><label for="f-p2">Project, skill or goal 2</label><input id="f-p2" placeholder="e.g. adopting Broadway"></div>
@@ -123,7 +123,7 @@ description: Ready-to-use letter and cost calculator to help you get approval to
   }
   function build(){
     var c=costs(), boss=val('f-boss')||ph("Manager's name"), me=val('f-me')||ph('Your name');
-    var p1=val('f-p1')||ph('project, skill or goal 1'), p2=val('f-p2')||ph('project, skill or goal 2'), p3=val('f-p3')||ph('project, skill or goal 3');
+    var goals=['f-p1','f-p2','f-p3'].map(val).filter(Boolean);
     var how=c.inP?'in Lisbon':'online';
     var where=c.inP?'in Lisbon, Portugal':'virtually';
     var train=c.tr?' I would also like to join a training day on 21 April to go deeper on a hands-on topic.':'';
@@ -137,13 +137,12 @@ description: Ready-to-use letter and cost calculator to help you get approval to
     '- Learning from peers: roundtables and hallway conversations with engineers solving similar problems.\n'+
     '- Industry relationships: contact with the Elixir community, partners and potential hires.\n\n'+
     (c.inP?'Attending in person matters because the best conversations happen between sessions, and they are hard to replicate on a video call.\n\n':'Attending virtually lets me follow the programme with minimal cost and time away, and recordings help me share what I learn with the team.\n\n')+
-    'How this supports our work\n\n'+
-    '- '+p1+'\n- '+p2+'\n- '+p3+'\n\n'+
+    (goals.length?'How I see that this supports our work:\n\n'+goals.map(function(g){return '- '+g}).join('\n')+'\n\n':'It would really help me boost my skills and bring fresh ideas back to the team.\n\n')+
     'After the conference I will share my notes and the key takeaways with the team and suggest what we should try next.\n\n'+
     'Estimated costs\n\n'+costText(c)+'\n\n'+
     'Thank you for considering this. I am happy to discuss it whenever suits you.\n\nBest regards,\n'+me;
     var short='Dear '+boss+',\n\n'+
-    'I would like to attend ElixirConf EU 2027 ('+how+', 22-23 April 2027). It is Europe’s conference for Elixir and the BEAM, and I expect it to help us with '+p1+' and '+p2+'. I will share what I learn with the team afterwards. Estimated cost: '+(c.total?money(c.total,c.cur):ph('total'))+'.\n\n'+
+    'I would like to attend ElixirConf EU 2027 ('+how+', 22-23 April 2027). It is Europe’s conference for Elixir and the BEAM, '+(goals.length?'and I expect it to help us with '+goals.slice(0,2).join(' and ')+'.':'and it would really help me boost my skills.')+' I will share what I learn with the team afterwards. Estimated cost: '+(c.total?money(c.total,c.cur):ph('total'))+'.\n\n'+
     'Could we talk about it this week? Booking earlier usually means better ticket prices and hotel rates.\n\nBest regards,\n'+me;
     return {ext:ext,short:short};
   }
