@@ -68,6 +68,10 @@ image: assets/images/venue-background-Altis.jpg
 </style>
 <script>document.addEventListener('DOMContentLoaded',function(){var t=document.getElementById('tickets');if(!t)return;var w=document.createTreeWalker(t,NodeFilter.SHOW_TEXT),n;while(n=w.nextNode()){if(n.nodeValue.indexOf('\u{1F449}')>-1)n.nodeValue=n.nodeValue.replace(/\u{1F449}/gu,'\u2713')}});</script>
 
+<style id="no-nested-scroll">
+/* sections must not get their own scrollbar (1px waves overflow) */
+#cft,.section--carousel,.gallery-strip,.section.contact{overflow:hidden!important}
+</style>
 {% include cover.html %}
 <!-- end of cover -->
 <!-- start of coundown block -->
