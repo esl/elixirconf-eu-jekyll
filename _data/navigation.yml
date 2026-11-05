@@ -31,6 +31,9 @@
 #  link: "student"
 - name: Venue & Accommodation
   link: "venue"
+- name: Convince Your Boss
+  link: "/convince-your-boss"
+  external: true
 #- name: COVID-19
 #  link: "covid-19"
 #- name: Hybrid
