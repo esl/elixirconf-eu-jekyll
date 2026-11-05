@@ -1,0 +1,176 @@
+---
+layout: default
+title: Convince your boss to send you to ElixirConf EU 2027
+permalink: /convince-your-boss
+description: Ready-to-use letter and cost calculator to help you get approval to attend ElixirConf EU 2027 in Lisbon, 22-23 April 2027.
+---
+
+<style>
+#cyb{background:#201042;color:#fff;font-family:Lato,sans-serif;padding:110px 0 90px}
+#cyb .wrap{max-width:980px;margin:0 auto;padding:0 24px}
+#cyb .facts{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+#cyb .facts span{background:#3a1d4c;border-radius:999px;padding:7px 16px;font-size:14px;color:#e8dff5}
+#cyb h1{font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(30px,5vw,52px);line-height:1.1;margin:0 0 18px;color:#fff}
+#cyb h1 span{color:#e94d8b}
+#cyb h2{font-family:Montserrat,sans-serif;font-weight:700;font-size:clamp(22px,3vw,30px);margin:0 0 12px;color:#fff}
+#cyb .lead{font-size:19px;line-height:1.6;color:#e8dff5;max-width:760px;margin:0 0 26px}
+#cyb .rule{display:flex;margin:0 0 22px}
+#cyb .rule i{display:block;height:4.8px;width:40px;background:#fff}
+#cyb .rule i+i{background:#e94d8b}
+#cyb .jump{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:54px}
+#cyb .jump a,#cyb .btn-ghost{border:1px solid #c9b8e8;color:#e8dff5;border-radius:8px;padding:12px 22px;font-family:Montserrat,sans-serif;font-weight:700;font-size:14px;letter-spacing:1px;text-transform:uppercase;text-decoration:none;background:transparent;cursor:pointer}
+#cyb .jump a:hover,#cyb .btn-ghost:hover{background:#3a1d4c;color:#fff}
+#cyb .btn-main{background:#e94d8b;color:#201042;border:0;border-radius:8px;padding:14px 26px;font-family:Montserrat,sans-serif;font-weight:700;font-size:14px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;text-decoration:none;display:inline-block}
+#cyb .btn-main:hover{filter:brightness(1.08)}
+#cyb .panel{background:#3a1d4c;border-radius:14px;border-top:3px solid #5e3a8c;padding:26px 24px;margin-bottom:54px}
+#cyb .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+#cyb label{display:block;font-size:14px;color:#e8dff5;margin-bottom:6px}
+#cyb input,#cyb select{width:100%;box-sizing:border-box;background:#201042;border:1px solid #5e3a8c;border-radius:8px;color:#fff;padding:11px 12px;font-size:16px;font-family:Lato,sans-serif}
+#cyb input:focus,#cyb select:focus{outline:2px solid #9ad7d8;outline-offset:1px}
+#cyb .sub{font-family:Montserrat,sans-serif;font-weight:700;font-size:15px;letter-spacing:1px;text-transform:uppercase;color:#fff;margin:24px 0 12px}
+#cyb .total{display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:16px;border-top:1px solid #5e3a8c;font-size:18px}
+#cyb .total strong{font-family:Montserrat,sans-serif;font-size:24px;color:#fff}
+#cyb .letter{background:#fff;color:#201042;border-radius:14px;padding:30px 28px;font-size:17px;line-height:1.65;white-space:pre-wrap;word-wrap:break-word;margin:16px 0 20px}
+#cyb .letter .ph{background:#fbe3ee;color:#8c1d4f;border-radius:4px;padding:0 3px}
+#cyb .subject{color:#c9b8e8;font-size:15px;margin-bottom:4px}
+#cyb .actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+#cyb .copied{color:#9ad7d8;font-size:15px;min-height:20px}
+#cyb section.block{margin-bottom:64px}
+#cyb .note{font-size:15px;color:#c9b8e8;margin-top:14px}
+#cyb a{color:#fff}
+@media(max-width:600px){#cyb{padding-top:90px}#cyb .letter{padding:22px 18px;font-size:16px}}
+</style>
+
+<section id="cyb">
+<div class="wrap">
+
+<div class="facts"><span>22-23 April 2027</span><span>Lisbon, Portugal</span><span>In person + virtual</span></div>
+<h1>Convince <span>your boss</span></h1>
+<p class="lead">Want to be in Lisbon but need a yes from your manager? Fill in the details below and the letter writes itself. Use the full letter or just the pieces you need. Everything stays in your browser.</p>
+<div class="rule"><i></i><i></i></div>
+<div class="jump"><a href="#personalise">Personalise</a><a href="#sample-letter-extended">Sample letter (extended)</a><a href="#sample-letter-shortened">Sample letter (shortened)</a></div>
+
+<div class="panel" id="personalise">
+<h2>Personalise your letter</h2>
+<p class="note" style="margin:0 0 18px">Leave a field empty and the letter shows a highlighted placeholder for you to fill in later.</p>
+<div class="grid">
+<div><label for="f-boss">Your manager's name</label><input id="f-boss" placeholder="e.g. Anna"></div>
+<div><label for="f-me">Your name</label><input id="f-me" placeholder="e.g. Piotr"></div>
+<div><label for="f-mode">How will you attend?</label><select id="f-mode"><option value="in">In person in Lisbon</option><option value="virtual">Virtually</option></select></div>
+<div><label for="f-train">Training day (21 April)?</label><select id="f-train"><option value="no">Conference only</option><option value="yes">Include a training day</option></select></div>
+</div>
+<div class="sub">How this supports our work</div>
+<div class="grid">
+<div><label for="f-p1">Project, skill or goal 1</label><input id="f-p1" placeholder="e.g. scaling our Phoenix LiveView app"></div>
+<div><label for="f-p2">Project, skill or goal 2</label><input id="f-p2" placeholder="e.g. adopting Broadway"></div>
+<div><label for="f-p3">Project, skill or goal 3</label><input id="f-p3" placeholder="e.g. hiring and team growth"></div>
+</div>
+<div class="sub" id="costs-head">Estimated costs</div>
+<div class="grid">
+<div><label for="f-cur">Currency</label><select id="f-cur"><option>EUR</option><option>GBP</option><option>USD</option><option>PLN</option></select></div>
+<div><label for="f-ticket">Conference ticket</label><input id="f-ticket" type="number" min="0" step="any" placeholder="0"></div>
+<div id="w-train"><label for="f-trainc">Training day</label><input id="f-trainc" type="number" min="0" step="any" placeholder="0"></div>
+<div class="w-travel"><label for="f-flight">Travel (return)</label><input id="f-flight" type="number" min="0" step="any" placeholder="0"></div>
+<div class="w-travel"><label for="f-hotel">Hotel per night</label><input id="f-hotel" type="number" min="0" step="any" placeholder="0"></div>
+<div class="w-travel"><label for="f-nights">Nights</label><input id="f-nights" type="number" min="0" step="1" value="3"></div>
+<div class="w-travel"><label for="f-meals">Meals and extras per day</label><input id="f-meals" type="number" min="0" step="any" placeholder="0"></div>
+</div>
+<div class="total"><span>Estimated total</span><strong id="total">0 EUR</strong></div>
+<p class="note">Check current ticket prices and the hotel on <a href="/">elixirconf.eu</a>. We do not fill in prices here because they change over time.</p>
+</div>
+
+<section class="block" id="sample-letter-extended">
+<h2>Sample letter (extended)</h2>
+<div class="rule"><i></i><i></i></div>
+<div class="subject" id="subj-ext"></div>
+<div class="letter" id="letter-ext"></div>
+<div class="actions"><button class="btn-main" id="copy-ext" type="button">Copy letter</button><a class="btn-ghost" id="mail-ext" href="#">Open in email</a><span class="copied" id="msg-ext" aria-live="polite"></span></div>
+</section>
+
+<section class="block" id="sample-letter-shortened">
+<h2>Sample letter (shortened)</h2>
+<div class="rule"><i></i><i></i></div>
+<div class="subject" id="subj-short"></div>
+<div class="letter" id="letter-short"></div>
+<div class="actions"><button class="btn-main" id="copy-short" type="button">Copy letter</button><a class="btn-ghost" id="mail-short" href="#">Open in email</a><span class="copied" id="msg-short" aria-live="polite"></span></div>
+</section>
+
+<p class="note">Questions about tickets or invoices? Write to <a href="mailto:info@codesync.global">info@codesync.global</a>.</p>
+
+</div>
+</section>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id)};
+  var SUBJECT='Request to attend ElixirConf EU 2027 in Lisbon';
+  function val(id){return $(id).value.trim()}
+  function ph(s){return '⟦'+s+'⟧'}
+  function num(id){var n=parseFloat($(id).value);return isNaN(n)?0:n}
+  function money(n,cur){return (Math.round(n*100)/100).toLocaleString('en-GB',{maximumFractionDigits:2})+' '+cur}
+  function costs(){
+    var inP=$('f-mode').value==='in', cur=$('f-cur').value, tr=$('f-train').value==='yes';
+    var ticket=num('f-ticket'), trainc=tr?num('f-trainc'):0;
+    var flight=inP?num('f-flight'):0, hotelN=inP?num('f-hotel')*num('f-nights'):0, days=2+(tr?1:0), meals=inP?num('f-meals')*days:0;
+    var lines=[['Conference registration',ticket]];
+    if(tr)lines.push(['Training day',trainc]);
+    if(inP){lines.push(['Travel (return)',flight]);lines.push(['Hotel ('+num('f-nights')+' nights)',hotelN]);lines.push(['Meals and extras ('+days+' days)',meals])}
+    var total=0;lines.forEach(function(l){total+=l[1]});
+    return {lines:lines,total:total,cur:cur,inP:inP,tr:tr};
+  }
+  function costText(c){
+    return c.lines.map(function(l){return '- '+l[0]+': '+(l[1]?money(l[1],c.cur):ph('amount'))}).join('\n')+'\n- Estimated total: '+(c.total?money(c.total,c.cur):ph('total'));
+  }
+  function build(){
+    var c=costs(), boss=val('f-boss')||ph("Manager's name"), me=val('f-me')||ph('Your name');
+    var p1=val('f-p1')||ph('project, skill or goal 1'), p2=val('f-p2')||ph('project, skill or goal 2'), p3=val('f-p3')||ph('project, skill or goal 3');
+    var how=c.inP?'in Lisbon':'online';
+    var where=c.inP?'in Lisbon, Portugal':'virtually';
+    var train=c.tr?' I would also like to join a training day on 21 April to go deeper on a hands-on topic.':'';
+    var ext='Dear '+boss+',\n\n'+
+    'I would like to request approval to attend ElixirConf EU 2027, taking place '+where+' on 22-23 April 2027. ElixirConf EU is Europe’s conference for Elixir and the Erlang VM (BEAM), with talks from practitioners and core contributors, a room for attendee-run roundtables, and a hybrid format that includes a virtual programme.'+train+'\n\n'+
+    'Here is what I expect to get out of it:\n\n'+
+    '- Deep technical learning: sessions on Phoenix and LiveView, Broadway, Flow, Oban, Ecto, Nerves and AtomVM, plus real-world case studies.\n'+
+    '- Solutions to real-world problems: speakers share what worked and what did not in production, which saves us from learning the same lessons the hard way.\n'+
+    '- Direct access to experts: the chance to ask questions of the people who build and maintain the tools we rely on.\n'+
+    '- Evaluating technologies: seeing how other teams run Elixir at scale helps us judge tools and approaches before we commit.\n'+
+    '- Learning from peers: roundtables and hallway conversations with engineers solving similar problems.\n'+
+    '- Industry relationships: contact with the Elixir community, partners and potential hires.\n\n'+
+    (c.inP?'Attending in person matters because the best conversations happen between sessions, and they are hard to replicate on a video call.\n\n':'Attending virtually lets me follow the programme with minimal cost and time away, and recordings help me share what I learn with the team.\n\n')+
+    'How this supports our work\n\n'+
+    '- '+p1+'\n- '+p2+'\n- '+p3+'\n\n'+
+    'After the conference I will share my notes and the key takeaways with the team and suggest what we should try next.\n\n'+
+    'Estimated costs\n\n'+costText(c)+'\n\n'+
+    'Thank you for considering this. I am happy to discuss it whenever suits you.\n\nBest regards,\n'+me;
+    var short='Dear '+boss+',\n\n'+
+    'I would like to attend ElixirConf EU 2027 ('+how+', 22-23 April 2027). It is Europe’s conference for Elixir and the BEAM, and I expect it to help us with '+p1+' and '+p2+'. I will share what I learn with the team afterwards. Estimated cost: '+(c.total?money(c.total,c.cur):ph('total'))+'.\n\n'+
+    'Could we talk about it this week? Booking earlier usually means better ticket prices and hotel rates.\n\nBest regards,\n'+me;
+    return {ext:ext,short:short};
+  }
+  function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+  function plain(s){return s.replace(/⟦/g,'[').replace(/⟧/g,']')}
+  function html(s){return esc(s).replace(/⟦([^⟧]*)⟧/g,'<span class="ph">[$1]</span>')}
+  var cur={ext:'',short:''};
+  function render(){
+    var inP=$('f-mode').value==='in', tr=$('f-train').value==='yes';
+    document.querySelectorAll('.w-travel').forEach(function(e){e.style.display=inP?'':'none'});
+    $('w-train').style.display=tr?'':'none';
+    $('total').textContent=money(costs().total,$('f-cur').value);
+    var b=build(); cur.ext=plain(b.ext); cur.short=plain(b.short);
+    $('letter-ext').innerHTML=html(b.ext); $('letter-short').innerHTML=html(b.short);
+    $('subj-ext').textContent='Subject: '+SUBJECT; $('subj-short').textContent='Subject: '+SUBJECT;
+    $('mail-ext').href='mailto:?subject='+encodeURIComponent(SUBJECT)+'&body='+encodeURIComponent(cur.ext);
+    $('mail-short').href='mailto:?subject='+encodeURIComponent(SUBJECT)+'&body='+encodeURIComponent(cur.short);
+  }
+  function copy(key,msgId){
+    var text='Subject: '+SUBJECT+'\n\n'+cur[key], m=$(msgId);
+    function ok(){m.textContent='Copied to clipboard';setTimeout(function(){m.textContent=''},2500)}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(ok,fallback)}else{fallback()}
+    function fallback(){var t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();try{document.execCommand('copy');ok()}catch(e){m.textContent='Select the text and copy it manually'}document.body.removeChild(t)}
+  }
+  document.querySelectorAll('#cyb input,#cyb select').forEach(function(e){e.addEventListener('input',render);e.addEventListener('change',render)});
+  $('copy-ext').addEventListener('click',function(){copy('ext','msg-ext')});
+  $('copy-short').addEventListener('click',function(){copy('short','msg-short')});
+  render();
+})();
+</script>
