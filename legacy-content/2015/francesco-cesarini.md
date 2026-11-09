@@ -20,7 +20,7 @@ In this talk, I will tell you how the scalability and robustness capabilities of
 
 Developers, Support and Operations staff who believe devops is the way (and do not want to be woken up at night).
 
-[Slides](http://www.elixirconf.eu/static/upload/media/1438266492995elixirvfandfc.pdf)
+[Slides](https://www.elixirconf.eu/static/upload/media/1438266492995elixirvfandfc.pdf)
 
 [Video](https://youtu.be/wGAc_QwD_6Q)
 

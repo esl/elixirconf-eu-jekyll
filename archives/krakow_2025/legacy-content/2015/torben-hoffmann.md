@@ -16,7 +16,7 @@ Robots are fun. Programming is fun. Programming Lego robots with the visual envi
 
 \- Programmers curious about how to apply Elixir's processes in a good way
 
-[Slides](http://www.elixirconf.eu/static/upload/media/14382623667112154elixirconflego.pdf)
+[Slides](https://www.elixirconf.eu/static/upload/media/14382623667112154elixirconflego.pdf)
 
 [Video](https://youtu.be/C8SZaV96_vk)
 

@@ -10,7 +10,7 @@ Dragonfly is a fairly popular Ruby library to manage file uploads and it include
 
 **Target audience:** Beginners - Medium
 
-[Slides](http://www.elixirconf.eu/static/upload/media/1429829832891618elixirconfclaudio.pdf)
+[Slides](https://www.elixirconf.eu/static/upload/media/1429829832891618elixirconfclaudio.pdf)
 
 [Video](https://www.youtube.com/watch?v=lho1e04Gzzs)
 

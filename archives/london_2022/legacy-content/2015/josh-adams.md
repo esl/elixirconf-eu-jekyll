@@ -10,7 +10,7 @@ We'll live-code the game of Tetris from scratch, culminating in a browser-based 
 
 \- Elixir beginners through intermediates
 
-[Slides](http://www.elixirconf.eu/static/upload/media/1434997669828collaborativetetrisfromscratchelixirconfeu.pdf)
+[Slides](https://www.elixirconf.eu/static/upload/media/1434997669828collaborativetetrisfromscratchelixirconfeu.pdf)
 
 [Video](https://www.youtube.com/watch?v=e_QefYcKkfk)
 

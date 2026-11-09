@@ -14,7 +14,7 @@ As more and more companies start using GraphQL as their API language, familiarit
 
 Beginner, Intermediate
 
-Trainers are: Łukasz Gurdek and [Stanisław Chmiela](http://www.elixirconf.eu/elixirconfeu2018/stanislaw-chmiela).
+Trainers are: Łukasz Gurdek and [Stanisław Chmiela](https://www.elixirconf.eu/elixirconfeu2018/stanislaw-chmiela).
 
 While I'm currently a university student (ETA of graduation: June 2018), I have more than several years of experience working with code. Since 2016 I work for Software Mansion, which allowed me to build up knowledge of many technologies, involving React, React Native, Ruby on Rails and Elixir.
 

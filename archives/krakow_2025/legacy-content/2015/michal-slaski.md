@@ -10,7 +10,7 @@ In this talk we will discuss designing systems on Erlang VM. One of the reasons 
 
 \- Attendees should be familiar with functional programming, actor based concurrency, pattern matching, dynamic typing, TCP/IP.
 
-[Slides](http://www.elixirconf.eu/static/upload/media/14322855889793lessonsfromerlang_michalslaski.pdf)
+[Slides](https://www.elixirconf.eu/static/upload/media/14322855889793lessonsfromerlang_michalslaski.pdf)
 
 [Video](https://youtu.be/TkCftBMJyy0)
 

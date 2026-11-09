@@ -12,7 +12,7 @@ This talk will quickly introduce Ecto for unfamiliar audience members. Ecto rece
 
 Elixir developers interested in Ecto
 
-[Slides](http://www.elixirconf.eu/static/upload/media/1431364865356862elixirconfeu215ecto.pdf)
+[Slides](https://www.elixirconf.eu/static/upload/media/1431364865356862elixirconfeu215ecto.pdf)
 
 [Video](https://www.youtube.com/watch?v=snka1bAtZS0&feature=youtu.be)
 
