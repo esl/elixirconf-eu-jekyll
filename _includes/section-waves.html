@@ -1,0 +1,38 @@
+<!-- Subtle animated wave dividers between sections. Purely decorative: sits behind section content, ignores the pointer, pauses off screen. -->
+<style>
+.sw-defs{position:absolute;width:0;height:0;overflow:hidden}
+.sw-host{position:relative;isolation:isolate}
+.sw-waves{position:absolute;left:0;right:0;bottom:0;height:clamp(90px,14vw,150px);overflow:hidden;z-index:-1;pointer-events:none}
+.sw-waves svg{position:absolute;left:0;bottom:0;width:200%;height:100%;animation:swwave 18s linear infinite}
+.sw-waves .w2{animation-duration:26s;animation-direction:reverse}
+.sw-waves .w3{animation-duration:36s}
+.sw-paused .sw-waves svg{animation-play-state:paused}
+@keyframes swwave{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.sw-waves svg{animation:none!important}}
+</style>
+<svg class="sw-defs" aria-hidden="true"><defs>
+<linearGradient id="swA" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".45"/><stop offset=".4" stop-color="#9769c9" stop-opacity=".20"/><stop offset="1" stop-color="#9769c9" stop-opacity=".03"/></linearGradient>
+<linearGradient id="swB" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#e94d8b" stop-opacity=".14"/><stop offset="1" stop-color="#9769c9" stop-opacity=".02"/></linearGradient>
+<linearGradient id="swC" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#9ad7d8" stop-opacity=".20"/><stop offset="1" stop-color="#9ad7d8" stop-opacity=".02"/></linearGradient>
+</defs></svg>
+<script>
+(function () {
+    var html = '<div class="sw-waves" aria-hidden="true">' +
+        '<svg class="w3" viewBox="0 0 2400 300" preserveAspectRatio="none"><path fill="url(#swC)" d="M0 140 C 200 100 400 100 600 140 C 800 180 1000 180 1200 140 C 1400 100 1600 100 1800 140 C 2000 180 2200 180 2400 140 L2400 300 L0 300 Z"/></svg>' +
+        '<svg class="w2" viewBox="0 0 2400 300" preserveAspectRatio="none"><path fill="url(#swB)" d="M0 178 C 200 144 400 144 600 178 C 800 212 1000 212 1200 178 C 1400 144 1600 144 1800 178 C 2000 212 2200 212 2400 178 L2400 300 L0 300 Z"/></svg>' +
+        '<svg class="w1" viewBox="0 0 2400 300" preserveAspectRatio="none"><path fill="url(#swA)" d="M0 208 C 200 180 400 180 600 208 C 800 236 1000 236 1200 208 C 1400 180 1600 180 1800 208 C 2000 236 2200 236 2400 208 L2400 300 L0 300 Z"/></svg></div>';
+    var hosts = [];
+    document.querySelectorAll('.section, .banner-2').forEach(function (s) {
+        if (s.id === 'cover' || s.id === 'announcements' || s.querySelector('.sw-waves')) return;
+        s.classList.add('sw-host');
+        s.insertAdjacentHTML('beforeend', html);
+        hosts.push(s);
+    });
+    if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (es) {
+            es.forEach(function (e) { e.target.classList.toggle('sw-paused', !e.isIntersecting); });
+        });
+        hosts.forEach(function (h) { h.classList.add('sw-paused'); io.observe(h); });
+    }
+})();
+</script>
