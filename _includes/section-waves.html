@@ -3,7 +3,7 @@
      with two translucent layers moving at different speeds. Replaces the static wave edges (hidden once the script runs).
      Decorative: behind content, ignores the pointer, pauses off screen, off for prefers-reduced-motion. -->
 <style>
-.sw-trans{position:absolute;left:0;right:0;top:-1px;height:clamp(90px,10vw,190px);overflow:hidden;z-index:-1;pointer-events:none}
+.sw-trans{position:absolute;left:0;right:0;top:-1px;height:clamp(110px,13vw,230px);overflow:hidden;z-index:-1;pointer-events:none}
 .sw-host{position:relative;isolation:isolate}
 .sw-trans svg{position:absolute;left:0;top:0;width:200%;height:100%;display:block}
 .sw-trans .l1{animation:swflow 22s linear infinite}
@@ -51,9 +51,9 @@
             return '<svg class="' + cls + '" viewBox="0 0 2400 ' + H + '" preserveAspectRatio="none"><path fill="' + fill + '" d="' + p + '"/></svg>';
         };
         var html = '<div class="sw-trans" aria-hidden="true">' +
-            svg('l3', 'rgba(151,105,201,.38)', path(172, 20, H)) +
-            svg('l2', 'rgba(233,77,139,.20)', path(138, 26, H)) +
-            svg('l1', css(ca, 1), path(98, 30, H)) + '</div>';
+            svg('l3', 'rgba(151,105,201,.38)', path(168, 26, H)) +
+            svg('l2', 'rgba(233,77,139,.20)', path(128, 34, H)) +
+            svg('l1', css(ca, 1), path(84, 38, H)) + '</div>';
         B.classList.add('sw-host');
         B.insertAdjacentHTML('afterbegin', html);
         hosts.push(B);
