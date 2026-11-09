@@ -1,11 +1,13 @@
 <!-- Animated wave transitions between sections.
-     At the top of every section a wave in the colour of the previous section flows into the section's own background,
-     with two translucent layers moving at different speeds. Replaces the static wave edges (hidden once the script runs).
+     At the bottom of every section a wave in the colour of the next section flows into it,
+     with two translucent layers moving at different speeds. Sits at the bottom of each section, so it never covers a heading. Replaces the static wave edges (hidden once the script runs).
      Decorative: behind content, ignores the pointer, pauses off screen, off for prefers-reduced-motion. -->
 <style>
-.sw-trans{position:absolute;left:0;right:0;top:-1px;height:clamp(110px,13vw,230px);overflow:hidden;z-index:-1;pointer-events:none}
+.sw-trans{position:absolute;left:0;right:0;bottom:-1px;height:clamp(110px,13vw,230px);overflow:hidden;z-index:-1;pointer-events:none;transform:scaleY(-1)}
+.sw-trans.sw-sm{height:clamp(70px,8vw,120px)}
 .sw-host{position:relative;isolation:isolate}
-.section.sw-host,section.sw-host{padding-top:max(6em,calc(clamp(110px,13vw,230px) * .62))!important}
+.section.sw-host,section.sw-host,#cover.sw-host{padding-bottom:max(6em,calc(clamp(110px,13vw,230px) * .62))!important}
+.banner-2.sw-host,.banner-1.sw-host{padding-bottom:calc(clamp(70px,8vw,120px) * .6)!important}
 .sw-trans svg{position:absolute;left:0;top:0;width:200%;height:100%;display:block}
 .sw-trans .l1{animation:swflow 22s linear infinite}
 .sw-trans .l2{animation:swflow 31s linear infinite reverse}
@@ -44,8 +46,8 @@
     var hosts = [];
     for (var i = 1; i < els.length; i++) {
         var A = els[i - 1], B = els[i];
-        if (A.querySelector('.ann-waves') || B.querySelector(':scope > .sw-trans')) continue;
-        var ca = edge(A, 'bottom'), cb = edge(B, 'top');
+        if (A.querySelector('.ann-waves') || A.querySelector(':scope > .sw-trans')) continue;
+        var ca = edge(A, 'bottom'), cb = edge(B, 'top'); var small = /banner/.test(A.className);
         if (!ca || !cb || dist(ca, cb) < 14) continue;
         var H = 200, mid = [Math.round((ca[0] + cb[0]) / 2), Math.round((ca[1] + cb[1]) / 2), Math.round((ca[2] + cb[2]) / 2)];
         var svg = function (cls, fill, p) {
@@ -54,10 +56,11 @@
         var html = '<div class="sw-trans" aria-hidden="true">' +
             svg('l3', 'rgba(151,105,201,.38)', path(168, 26, H)) +
             svg('l2', 'rgba(233,77,139,.20)', path(128, 34, H)) +
-            svg('l1', css(ca, 1), path(84, 38, H)) + '</div>';
-        B.classList.add('sw-host');
-        B.insertAdjacentHTML('afterbegin', html);
-        hosts.push(B);
+            svg('l1', css(cb, 1), path(84, 38, H)) + '</div>';
+        if (small) html = html.replace('class="sw-trans"', 'class="sw-trans sw-sm"');
+        A.classList.add('sw-host');
+        A.insertAdjacentHTML('beforeend', html);
+        hosts.push(A);
     }
     document.documentElement.classList.add('sw-on');
     if ('IntersectionObserver' in window) {

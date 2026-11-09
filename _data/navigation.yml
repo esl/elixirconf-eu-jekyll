@@ -6,10 +6,10 @@
 #  link: "register"
 #- name: TICKETS
 #  link: "tickets"
-- name: Announcements
-  link: "announcements"
 - name: Call for Talks
   link: "cft"
+- name: Announcements
+  link: "announcements"
 #- name: Call for Training
 #  link: "banner-6"
 #- name: All Recordings

@@ -81,18 +81,27 @@ image: assets/images/venue-background-Altis.jpg
 <!-- start of coundown block -->
 {% if site.data.settings.homepage_settings.countdown.show %} {% include
 countdown.html %} {% endif %}
+{% comment %} Page order: Call for Talks / Call for Training first, then the waiting list strip, volunteers, About + Announcements, sponsorship, convince your boss, gallery, videos. {% endcomment %}
+{% include cft.html %}
+{% include _includes/cft-training.html %}
+<!-- end of call for talks -->
 {% include banner-1.html %}
 <!-- end of banner-1  -->
+{% include banner-4.html %}
+<!-- end of banner-4 -->
 {% include welcome.html %}
 
 {% include announcements.html %}
 <!-- end of welcome -->
-{% include gallery-carousel.html %}
-{% include cft.html %}
-{% include _includes/cft-training.html %}
-<!-- end of call for talks -->
 {% include banner-sponsorship.html %}
 <!-- end of sponsorship banner -->
+{% include sponsors.html %}
+<!-- end of sponsors -->
+{% include convince-your-boss.html %}
+{% include gallery-carousel.html %}
+{% include video-2026.html %}
+<!-- end of 2026 videos -->
+
 {% comment %} {% include travelling.html %} {% endcomment %}
 <!-- end of travelling -->
 {% comment %} {% include gallery-carousel.html %} {% endcomment %}
@@ -111,13 +120,6 @@ countdown.html %} {% endif %}
 <!-- end of schedule -->
 {% comment %} {% include training.html %} {% endcomment %}
 <!-- end of training -->
-{% include video-2026.html %}
-{% include convince-your-boss.html %}
-<!-- end of 2026 videos -->
-{% include sponsors.html %}
-<!-- end of sponsors -->
-{% include banner-4.html %}
-<!-- end of banner-4 -->
 {% comment %} {% include diversity.html %} {% endcomment %}
 <!-- end of diversity -->
 {% comment %} {% include banner-5.html %} {% endcomment %}
