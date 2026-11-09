@@ -52,7 +52,11 @@ image: assets/images/venue-background-Altis.jpg
 #sponsors{background:linear-gradient(180deg,#fff,#eee8f6)}
 #sponsors .title,#sponsors .sponsor-title{color:#201042}
 #sponsors .sponsor-logo,#sponsors .sponsors a{transition:transform .2s}
-#sponsors .sponsors a img{background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 8px 24px rgba(32,16,66,.12)}
+#sponsors .sponsors a{height:100px;margin:1.2em 1.6em}
+#sponsors .sponsors a img{background:none;border-radius:0;padding:0;box-shadow:none;height:100px;width:auto;max-width:280px;max-height:100px;object-fit:contain;opacity:.88;transition:transform .25s,opacity .25s,filter .25s}
+#sponsors .sponsors a:hover img,#sponsors .sponsors a:focus img{transform:scale(1.12);opacity:1;filter:drop-shadow(0 8px 14px rgba(32,16,66,.25))}
+#sponsors .sponsors a.sponsor-main{height:130px}
+#sponsors .sponsors a.sponsor-main img{height:130px;max-width:520px;max-height:130px}
 #tickets{background:radial-gradient(800px 400px at 15% 0%,rgba(154,215,216,.22),transparent 60%),linear-gradient(160deg,#201042,#3a1d4c 60%,#5e3a8c);color:#fff}
 #tickets .title{color:#fff}
 #tickets .ticket,#tickets .card,#tickets [class*=ticket-]{border-radius:22px}
