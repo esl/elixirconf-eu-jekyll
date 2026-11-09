@@ -11,4 +11,16 @@
 #announcements .ann-card a.ann-cta:hover{color:#201042}
 #announcements .ann-more{text-align:center;margin-top:36px}
 #announcements .ann-more a{display:inline-block;background:#e94d8b;color:#fff;font-weight:800;letter-spacing:.1em;padding:.9em 2.4em;border-radius:999px;text-decoration:none}
+#announcements .ann-wrap{position:relative;width:100%;max-width:1200px;margin:0 auto;flex:0 0 100%}
+#announcements .ann-wave{position:absolute;left:0;top:0;width:100%;height:100%;z-index:0;pointer-events:none;overflow:visible}
+#announcements .ann-wave path{fill:none;vector-effect:non-scaling-stroke;stroke-linecap:round}
+#announcements .ann-wave .glass{stroke:rgba(154,120,220,.16);stroke-width:78px}
+#announcements .ann-wave .edge{stroke:rgba(255,255,255,.75);stroke-width:2px}
+#announcements .ann-wave .glow{stroke:url(#annGrad);stroke-width:10px;filter:blur(7px);stroke-dasharray:130 870;animation:annflow 9s linear infinite}
+#announcements .ann-wave .core{stroke:url(#annGrad);stroke-width:3px;stroke-dasharray:130 870;animation:annflow 9s linear infinite;opacity:.9}
+@keyframes annflow{from{stroke-dashoffset:130}to{stroke-dashoffset:-870}}
+@media (prefers-reduced-motion:reduce){#announcements .ann-wave .glow,#announcements .ann-wave .core{animation:none}}
+#announcements .ann-grid{position:relative;z-index:1;width:100%}
+#announcements .ann-more{flex:0 0 100%;width:100%}
+#announcements .ann-card,#announcements .ann-card *{text-align:left}
 </style>
