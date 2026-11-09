@@ -1,0 +1,16 @@
+# Newest first. date: YYYY-MM-DD
+- date: 2026-11-09
+  title: Volunteers wanted - join the crew
+  text: Become a volunteer at ElixirConf EU 2027 and attend the event for free. Help us run two great days in Lisbon and meet the community while you are at it.
+  link: https://docs.google.com/forms/d/e/1FAIpQLSf8aQJy9OWpE3L08ItiiDWCzp8aQHwF0uL96hSCZq2AYQssQQ/viewform?usp=header
+  cta: Apply as a volunteer
+- date: 2026-11-06
+  title: Call for Training is open
+  text: Teach a full-day Elixir or BEAM training on 21 April in Lisbon. Submit your training idea by 15 December.
+  link: https://forms.gle/YY3cJJpt9fYaMPQ46
+  cta: Submit your training
+- date: 2026-10-27
+  title: Call for Talks is open
+  text: Share your story in Lisbon. Submit your talk proposal for ElixirConf EU 2027 by 15 December. New to Elixir or a core team member, we would love to hear from you.
+  link: https://sessionize.com/elixirconf-eu-2027/
+  cta: Submit a talk

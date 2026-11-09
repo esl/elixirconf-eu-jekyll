@@ -1,0 +1,12 @@
+<div class="ann-grid">
+{% assign items = site.data.announcements %}
+{% if include.limit %}{% assign items = items | slice: 0, include.limit %}{% endif %}
+{% for a in items %}
+<article class="ann-card">
+    <span class="ann-date">{{ a.date | date: "%-d %b %Y" }}</span>
+    <h3>{{ a.title }}</h3>
+    <p>{{ a.text }}</p>
+    <a class="ann-cta" href="{{ a.link }}" target="_blank" rel="noopener">{{ a.cta }} &rarr;</a>
+</article>
+{% endfor %}
+</div>
