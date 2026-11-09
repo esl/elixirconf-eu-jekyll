@@ -1,10 +1,15 @@
 <div class="ann-wrap">
 <svg class="ann-wave" viewBox="0 0 1200 400" preserveAspectRatio="none" aria-hidden="true">
-<defs><linearGradient id="annGrad" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#e94d8b"/><stop offset=".5" stop-color="#b58be0"/><stop offset="1" stop-color="#9ad7d8"/></linearGradient></defs>
-<path class="glass" pathLength="1000" d="M-20 200 C 150 60, 300 340, 480 200 S 800 60, 960 200 S 1130 330, 1220 190"/>
-<path class="edge" pathLength="1000" d="M-20 200 C 150 60, 300 340, 480 200 S 800 60, 960 200 S 1130 330, 1220 190"/>
-<path class="glow" pathLength="1000" d="M-20 200 C 150 60, 300 340, 480 200 S 800 60, 960 200 S 1130 330, 1220 190"/>
-<path class="core" pathLength="1000" d="M-20 200 C 150 60, 300 340, 480 200 S 800 60, 960 200 S 1130 330, 1220 190"/>
+<defs>
+<linearGradient id="annGrad" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#e94d8b"/><stop offset=".5" stop-color="#b58be0"/><stop offset="1" stop-color="#9ad7d8"/></linearGradient>
+<linearGradient id="annFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#9769c9" stop-opacity=".30"/><stop offset="1" stop-color="#9769c9" stop-opacity="0"/></linearGradient>
+</defs>
+<path class="l3" d="M-60 190 C 150 140, 330 250, 560 195 S 950 120, 1260 200 V400 H-60Z"/>
+<path class="l2" d="M-60 220 C 180 170, 380 275, 620 220 S 1000 160, 1260 225 V400 H-60Z"/>
+<path class="l1" d="M-60 250 C 200 205, 420 295, 660 245 S 1040 205, 1260 255 V400 H-60Z"/>
+<path class="edge" d="M-60 220 C 180 170, 380 275, 620 220 S 1000 160, 1260 225"/>
+<path class="glow" pathLength="1000" d="M-60 220 C 180 170, 380 275, 620 220 S 1000 160, 1260 225"/>
+<path class="core" pathLength="1000" d="M-60 220 C 180 170, 380 275, 620 220 S 1000 160, 1260 225"/>
 </svg>
 <div class="ann-grid">
 {% assign items = site.data.announcements %}

@@ -12,15 +12,18 @@
 #announcements .ann-more{text-align:center;margin-top:36px}
 #announcements .ann-more a{display:inline-block;background:#e94d8b;color:#fff;font-weight:800;letter-spacing:.1em;padding:.9em 2.4em;border-radius:999px;text-decoration:none}
 #announcements .ann-wrap{position:relative;width:100%;max-width:1200px;margin:0 auto;flex:0 0 100%}
-#announcements .ann-wave{position:absolute;left:0;top:0;width:100%;height:100%;z-index:0;pointer-events:none;overflow:visible}
-#announcements .ann-wave path{fill:none;vector-effect:non-scaling-stroke;stroke-linecap:round}
-#announcements .ann-wave .glass{stroke:rgba(154,120,220,.13);stroke-width:54px}
-#announcements .ann-wave .edge{stroke:rgba(255,255,255,.75);stroke-width:2px}
-#announcements .ann-wave .glow{stroke:url(#annGrad);stroke-width:10px;filter:blur(7px);stroke-dasharray:130 870;animation:annflow 9s linear infinite}
-#announcements .ann-wave .core{stroke:url(#annGrad);stroke-width:3px;stroke-dasharray:130 870;animation:annflow 9s linear infinite;opacity:.9}
-@keyframes annflow{from{stroke-dashoffset:130}to{stroke-dashoffset:-870}}
-@media (prefers-reduced-motion:reduce){#announcements .ann-wave .glow,#announcements .ann-wave .core{animation:none}}
+#announcements .ann-wave{position:absolute;left:0;top:35%;width:100%;height:calc(65% + 150px);z-index:0;pointer-events:none;overflow:visible;-webkit-mask-image:linear-gradient(180deg,#000 50%,transparent 100%);mask-image:linear-gradient(180deg,#000 50%,transparent 100%)}
+#announcements .ann-wave path{vector-effect:non-scaling-stroke}
+#announcements .ann-wave .l1{fill:rgba(94,58,140,.10);animation:annsway 11s ease-in-out infinite alternate}
+#announcements .ann-wave .l2{fill:rgba(151,105,201,.14);animation:annsway 8s ease-in-out infinite alternate-reverse}
+#announcements .ann-wave .l3{fill:url(#annFill);animation:annsway 14s ease-in-out infinite alternate}
+#announcements .ann-wave .edge{fill:none;stroke:rgba(255,255,255,.85);stroke-width:1.5px}
+#announcements .ann-wave .glow{fill:none;stroke:url(#annGrad);stroke-width:12px;stroke-linecap:round;filter:blur(8px);stroke-dasharray:180 820;animation:annflow 8s linear infinite}
+#announcements .ann-wave .core{fill:none;stroke:url(#annGrad);stroke-width:3px;stroke-linecap:round;stroke-dasharray:180 820;animation:annflow 8s linear infinite}
+@keyframes annflow{from{stroke-dashoffset:180}to{stroke-dashoffset:-820}}
+@keyframes annsway{from{transform:translateX(-2%)}to{transform:translateX(2%)}}
+@media (prefers-reduced-motion:reduce){#announcements .ann-wave *{animation:none!important}}
 #announcements .ann-grid{position:relative;z-index:1;width:100%}
-#announcements .ann-more{flex:0 0 100%;width:100%}
+#announcements .ann-more{flex:0 0 100%;width:100%;position:relative;z-index:2}
 #announcements .ann-card,#announcements .ann-card *{text-align:left}
 </style>
