@@ -1,34 +1,64 @@
-<!-- Animated wave dividers on every section: same look as the Announcements waves. Decorative, behind content, ignores the pointer, pauses off screen. -->
+<!-- Animated wave transitions between sections.
+     At the top of every section a wave in the colour of the previous section flows into the section's own background,
+     with two translucent layers moving at different speeds. Replaces the static wave edges (hidden once the script runs).
+     Decorative: behind content, ignores the pointer, pauses off screen, off for prefers-reduced-motion. -->
 <style>
-.sw-defs{position:absolute;width:0;height:0;overflow:hidden}
+.sw-trans{position:absolute;left:0;right:0;top:-1px;height:clamp(90px,10vw,190px);overflow:hidden;z-index:-1;pointer-events:none}
 .sw-host{position:relative;isolation:isolate}
-.sw-waves{position:absolute;left:0;right:0;bottom:0;height:300px;max-height:100%;overflow:hidden;z-index:-1;pointer-events:none}
-.sw-waves svg{position:absolute;left:0;bottom:0;width:200%;height:100%;filter:drop-shadow(0 -4px 14px rgba(233,77,139,.18))}
-.sw-waves .w1{animation:swwave 16s linear infinite}
-.sw-waves .w2{animation:swwave 24s linear infinite reverse}
-.sw-waves .w3{animation:swwave 34s linear infinite;opacity:.9}
-.sw-paused .sw-waves svg{animation-play-state:paused}
-@keyframes swwave{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.sw-waves svg{animation:none!important}}
+.sw-trans svg{position:absolute;left:0;top:0;width:200%;height:100%;display:block}
+.sw-trans .l1{animation:swflow 22s linear infinite}
+.sw-trans .l2{animation:swflow 31s linear infinite reverse}
+.sw-trans .l3{animation:swflow 40s linear infinite}
+.sw-paused .sw-trans svg{animation-play-state:paused}
+@keyframes swflow{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.sw-trans svg{animation:none!important}}
+.sw-on #welcome::before,.sw-on #video::before,.sw-on #tickets::before,.sw-on #cft::before,.sw-on #cft::after{display:none!important}
 </style>
-<svg class="sw-defs" aria-hidden="true"><defs>
-<linearGradient id="swW1" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".55"/><stop offset=".35" stop-color="#9769c9" stop-opacity=".22"/><stop offset="1" stop-color="#9769c9" stop-opacity=".04"/></linearGradient>
-<linearGradient id="swW2" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#e94d8b" stop-opacity=".16"/><stop offset="1" stop-color="#9769c9" stop-opacity=".03"/></linearGradient>
-<linearGradient id="swW3" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#9ad7d8" stop-opacity=".22"/><stop offset="1" stop-color="#9ad7d8" stop-opacity=".02"/></linearGradient>
-</defs></svg>
 <script>
 (function () {
-    var html = '<div class="sw-waves" aria-hidden="true">' +
-        '<svg class="w3" viewBox="0 0 2400 300" preserveAspectRatio="none"><path fill="url(#swW3)" d="M0 140 C 200 85 400 85 600 140 C 800 195 1000 195 1200 140 C 1400 85 1600 85 1800 140 C 2000 195 2200 195 2400 140 L2400 300 L0 300 Z"/></svg>' +
-        '<svg class="w2" viewBox="0 0 2400 300" preserveAspectRatio="none"><path fill="url(#swW2)" d="M0 175 C 200 130 400 130 600 175 C 800 220 1000 220 1200 175 C 1400 130 1600 130 1800 175 C 2000 220 2200 220 2400 175 L2400 300 L0 300 Z"/></svg>' +
-        '<svg class="w1" viewBox="0 0 2400 300" preserveAspectRatio="none"><path fill="url(#swW1)" d="M0 205 C 200 167 400 167 600 205 C 800 243 1000 243 1200 205 C 1400 167 1600 167 1800 205 C 2000 243 2200 243 2400 205 L2400 300 L0 300 Z"/></svg></div>';
-    var hosts = [];
-    document.querySelectorAll('.section, .banner-2').forEach(function (s) {
-        if (s.id === 'cover' || s.id === 'announcements' || s.querySelector('.sw-waves')) return;
-        s.classList.add('sw-host');
-        s.insertAdjacentHTML('beforeend', html);
-        hosts.push(s);
+    function rgb(s) { var m = s.match(/rgba?\(\s*(\d+)[,\s]+(\d+)[,\s]+(\d+)(?:[,\/\s]+([\d.]+))?/); return m ? [+m[1], +m[2], +m[3], m[4] === undefined ? 1 : +m[4]] : null; }
+    function edge(el, side) {
+        var cs = getComputedStyle(el), c = rgb(cs.backgroundColor);
+        if (c && c[3] > 0.5) return c;
+        var all = (cs.backgroundImage.match(/rgba?\([^)]*\)/g) || []).map(rgb).filter(Boolean);
+        var solid = all.filter(function (x) { return x[3] >= 0.99; });
+        var list = solid.length ? solid : all;
+        if (!list.length) return null;
+        return side === 'top' ? list[0] : list[list.length - 1];
+    }
+    function css(c, a) { return 'rgba(' + c[0] + ',' + c[1] + ',' + c[2] + ',' + (a === undefined ? 1 : a) + ')'; }
+    function dist(a, b) { return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]) + Math.abs(a[2] - b[2]); }
+    function path(base, amp, H) {
+        var d = 'M0 0 L0 ' + base;
+        for (var i = 0; i < 4; i++) {
+            var up = i % 2 === 0 ? -1 : 1, x = i * 600;
+            d += ' C ' + (x + 200) + ' ' + (base + up * amp) + ' ' + (x + 400) + ' ' + (base + up * amp) + ' ' + (x + 600) + ' ' + base;
+        }
+        return d + ' L2400 0 Z';
+    }
+    var sel = '#cover, .banner-1, .banner-2, .section, section#convince, #footer';
+    var els = Array.prototype.slice.call(document.querySelectorAll(sel)).filter(function (e) {
+        return !e.parentElement.closest(sel) && e.offsetHeight > 0;
     });
+    var hosts = [];
+    for (var i = 1; i < els.length; i++) {
+        var A = els[i - 1], B = els[i];
+        if (A.querySelector('.ann-waves') || B.querySelector(':scope > .sw-trans')) continue;
+        var ca = edge(A, 'bottom'), cb = edge(B, 'top');
+        if (!ca || !cb || dist(ca, cb) < 14) continue;
+        var H = 200, mid = [Math.round((ca[0] + cb[0]) / 2), Math.round((ca[1] + cb[1]) / 2), Math.round((ca[2] + cb[2]) / 2)];
+        var svg = function (cls, fill, p) {
+            return '<svg class="' + cls + '" viewBox="0 0 2400 ' + H + '" preserveAspectRatio="none"><path fill="' + fill + '" d="' + p + '"/></svg>';
+        };
+        var html = '<div class="sw-trans" aria-hidden="true">' +
+            svg('l3', 'rgba(151,105,201,.38)', path(172, 20, H)) +
+            svg('l2', 'rgba(233,77,139,.20)', path(138, 26, H)) +
+            svg('l1', css(ca, 1), path(98, 30, H)) + '</div>';
+        B.classList.add('sw-host');
+        B.insertAdjacentHTML('afterbegin', html);
+        hosts.push(B);
+    }
+    document.documentElement.classList.add('sw-on');
     if ('IntersectionObserver' in window) {
         var io = new IntersectionObserver(function (es) {
             es.forEach(function (e) { e.target.classList.toggle('sw-paused', !e.isIntersecting); });
