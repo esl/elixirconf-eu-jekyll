@@ -7,11 +7,14 @@
 .sw-trans{position:absolute;left:0;right:0;bottom:-1px;height:var(--sw-h);overflow:hidden;z-index:-1;pointer-events:none;transform:scaleY(-1)}
 .sw-trans.sw-sm{height:var(--sw-sm)}
 .sw-host{position:relative;isolation:isolate}
-.sw-host:not(.banner-1):not(.banner-2){padding-bottom:calc(var(--sw-h) + 1.5em)!important}
+.sw-host:not(.banner-1):not(.banner-2){padding-bottom:calc(var(--sw-h) + 3em)!important}
+.sw-on .section{padding-top:3.5em!important}
+.sw-on .section.section--carousel{padding-top:2em!important}
+#volunteer{background:#7a4fb0!important}
 .sw-host + *{margin-top:-1px}
 #convince{padding-top:48px!important}
 #tickets{background:linear-gradient(180deg,#201042 0,rgba(32,16,66,0) 180px),radial-gradient(800px 400px at 15% 0%,rgba(154,215,216,.22),transparent 60%),linear-gradient(160deg,#201042,#3a1d4c 60%,#5e3a8c)}
-.banner-2.sw-host,.banner-1.sw-host{padding-bottom:calc(var(--sw-sm) + .6em)!important}
+.banner-2.sw-host,.banner-1.sw-host{padding-bottom:calc(var(--sw-sm) + 1.2em)!important}
 /* hero, Call for Talks, hero and Call for Talks share one continuous dark background, so there are no hard seams between them */
 #cft{background:linear-gradient(180deg,#201042 0,#2c1649 100%)!important}
 .sw-trans svg{position:absolute;left:0;top:0;width:200%;height:100%;display:block}
