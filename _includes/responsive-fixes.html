@@ -1,0 +1,29 @@
+<style id="responsive-fixes">
+/* Buttons: one solid box, never fragmented across lines */
+.btn-outline,#cft a.btn-outline,#cft-training a.btn-outline{display:inline-block!important;box-sizing:border-box;max-width:100%;text-align:center;white-space:normal;line-height:1.25;-webkit-box-decoration-break:clone;box-decoration-break:clone;vertical-align:middle}
+#cft a.btn-outline,#cft-training a.btn-outline{padding:.75em 2em!important}
+/* Sponsor logos: contained, centred */
+#sponsors .sponsors{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%}
+#sponsors .sponsors a{height:auto!important;width:auto!important;display:inline-flex!important;align-items:center;justify-content:center;margin:1em 1.4em!important}
+#sponsors .sponsors a img{width:auto!important;height:auto!important;max-width:min(170px,38vw)!important;max-height:120px!important;object-fit:contain}
+#sponsors .sponsors a.sponsor-main img{max-width:min(380px,72vw)!important;max-height:110px!important}
+/* Tablets */
+@media (max-width:1024px){
+  #cft,#cft-training{padding-left:3em!important;padding-right:3em!important}
+}
+/* Phones */
+@media (max-width:640px){
+  #cft,#cft-training{padding-left:1.25em!important;padding-right:1.25em!important}
+  #cft p,#cft-training p{letter-spacing:.02em!important}
+  #cft-training p{font-size:1.25em!important}
+  .btn-outline{font-size:1.05em;letter-spacing:.1em;padding:.7em 1.5em}
+  #banner-1 .btn-outline,#volunteer .btn-outline{display:block!important;width:100%;max-width:340px;margin:1.2em auto 0!important}
+  #sponsors .sponsors a{margin:.7em .9em!important}
+  .section{padding-left:1em;padding-right:1em}
+}
+/* Wide screens: keep reading width comfortable */
+@media (min-width:1500px){
+  #cft,#cft-training{padding-left:calc((100% - 1100px)/2)!important;padding-right:calc((100% - 1100px)/2)!important}
+}
+img,video,iframe{max-width:100%}
+</style>
