@@ -1,0 +1,58 @@
+<!-- ElixirConf EU 2027 design system for subpages (Speak, Convince your boss, Announcements, Code of conduct).
+Adds the banner hill shapes, the shared 2027 theme, full-width alternating bands with hill transitions, yellow buttons and DS cards. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><path id="ec-hb" transform="translate(-5.58 426.15)scale(0.18000)" d="M0 1053L334 900C670 748 1338 443 2008 383C2677 324 3346 510 4015 690C4685 869 5354 1040 6023 924C6693 808 7361 404 7696 202L8031 0L8031 2592L2980 2592L455 2592C413 2592 0 2593 0 2589L0 2533L0 2256L0 1053Z"/><path id="ec-br" transform="translate(68.37 233.72)scale(0.13242)" d="M730 1454C694 1510 637 1551 559 1575C637 1600 694 1640 730 1696C766 1753 784 1838 784 1952L784 2491C784 2572 805 2633 846 2676C888 2718 949 2740 1030 2740L1091 2740L1091 3151L895 3151C687 3151 528 3099 421 2996C313 2892 259 2743 259 2548L259 1939C259 1887 246 1848 220 1821C214 1814 196 1808 173 1803C72 1780 0 1689 0 1586L0 1565C0 1461 72 1370 173 1348C196 1343 214 1336 220 1330C246 1303 259 1263 259 1212L259 602C259 407 313 258 421 155C528 52 687 0 895 0L1091 0L1091 411L1030 411C949 411 888 432 846 475C805 517 784 579 784 660L784 1198C784 1313 766 1398 730 1454Z"/><path id="ec-as" transform="translate(177.04 476.56)scale(0.20778)" d="M435 155C428 130 398 109 372 119C338 132 305 144 271 157C272 122 272 86 271 51C270 25 248 -1 219 0C192 1 167 23 168 51C169 86 169 121 168 155C134 142 99 128 65 115C40 105 7 126 2 151C-5 180 10 203 37 214C67 225 96 237 126 248C99 281 72 314 47 348C30 370 43 406 65 418C92 434 118 422 135 400C159 368 184 338 210 307C235 336 258 366 281 398C297 420 326 431 351 416C373 403 386 369 369 346C347 315 324 284 300 255C333 243 366 230 399 218C425 208 443 183 435 155Z"/><path id="ec-hm" transform="translate(-3.56 547.62)scale(0.18000)" d="M0 22L334 10C670 -3 1338 -28 2008 130C2651 282 3228 581 3890 690C4614 810 5333 611 6023 459C6686 312 7358 196 8031 80L8031 1495L0 1495L0 22Z"/><path id="ec-hf" transform="translate(-3.56 605.94)scale(0.18000)" d="M0 0L334 67C670 135 1338 269 2008 282C2677 295 3346 185 4015 207C4680 228 5322 374 5975 455C6544 526 7121 546 7696 552L8031 556L8031 1151L0 1151L0 0Z"/><path id="ec-bd" transform="translate(1113.14 456.49)scale(0.23664)" d="M587 205C587 205 714 199 720 226C726 253 649 328 649 328C649 328 764 410 742 434C719 458 621 490 621 490C621 490 658 575 639 584C620 592 530 578 530 578C530 578 535 701 521 704C506 708 391 630 391 630C391 630 278 736 272 728C260 714 217 606 217 606C217 606 103 612 97 607C86 596 144 469 144 469C144 469 -14 416 1 391C16 366 116 318 116 318L42 210L161 187C161 187 173 11 195 25C218 39 299 106 299 106C299 106 378 -15 393 2C407 18 447 114 447 114C447 114 582 39 596 49L587 205Z"/><path id="ec-ck" transform="translate(1154.60 502.42)scale(0.23670)" d="M0 257C0 257 41 149 50 153C60 157 171 222 171 222C171 222 243 -6 246 0C248 6 343 42 343 42C343 42 238 352 212 338L0 257Z"/></defs></svg>
+{% include theme-2027.html %}
+<style id="page-theme-2027">
+html,body{overflow-x:clip}
+#speak,#cyb{background:#4d1484!important}
+.ec27-sec{position:relative;background:var(--b)!important;box-shadow:0 0 0 100vmax var(--b);clip-path:inset(0 -100vmax);padding-top:2.5em!important;padding-bottom:2.5em!important;margin-top:0!important;margin-bottom:0!important}
+.sw-sep{position:relative;line-height:0;pointer-events:none;overflow:hidden}
+.sw-sep.bleed{width:100vw;margin:-1px 0 -1px calc(50% - 50vw)}
+.sw-sep svg{display:block;width:100%;height:clamp(90px,12vw,180px)}
+.sw-sep .s1,.sw-sep .s2,.sw-sep .s3{transform-box:view-box;transform-origin:50% 100%}
+.sw-sep .s1{animation:pgdrift 15s ease-in-out infinite alternate}
+.sw-sep .s2{animation:pgdrift 11s ease-in-out infinite alternate-reverse}
+.sw-sep .s3{animation:pgdrift 8s ease-in-out infinite alternate}
+@keyframes pgdrift{from{transform:scale(1.04,1) translateX(-1.1%)}to{transform:scale(1.04,1) translateX(1.1%)}}
+@media (prefers-reduced-motion:reduce){.sw-sep g{animation:none!important;transform:scale(1.04,1)}}
+#speak .facts>*,#cyb .facts>*{background:transparent!important;border:2px solid #80d2d2!important;color:#fff!important;box-shadow:none!important}
+#speak .facts>*:first-child,#cyb .facts>*:first-child{background:#f0cf5a!important;border-color:#f0cf5a!important;color:#4d1484!important}
+body a.btn-speak,body a.btn-apply{display:inline-block;background:#f0cf5a!important;color:#fff!important;border:0!important;border-radius:15px!important;padding:18px 40px!important;font-family:Montserrat,sans-serif!important;font-size:20px!important;font-weight:800!important;line-height:1.1!important;letter-spacing:.02em;text-transform:uppercase;text-decoration:none!important;box-shadow:none!important;transform:none!important;transition:background .2s,color .2s}
+body a.btn-speak:hover,body a.btn-apply:hover{background:#fff!important;color:#5a3181!important}
+body a.btn-ghost{background:transparent!important;border:3px solid #f0cf5a!important;color:#f0cf5a!important;border-radius:15px!important;text-decoration:none!important;box-shadow:none!important}
+body a.btn-ghost:hover{background:#f0cf5a!important;color:#4d1484!important}
+#speak .cards>*{position:relative;overflow:hidden;background:#7841ae!important;color:#fff!important;border:0!important;border-radius:28px!important;box-shadow:none!important;padding:28px 28px 40px!important}
+#speak .cards>* h3,#speak .cards>* h4{position:relative;color:#fff!important;font-family:Montserrat,sans-serif!important;font-size:clamp(20px,1.6vw,26px)!important;font-weight:800!important;line-height:1.2!important}
+#speak .cards>* p{position:relative;color:#fff!important;font-size:17px!important;line-height:1.5!important}
+#speak .cards>*::after{content:"";position:absolute;right:-20px;bottom:-20px;width:110px;height:110px;background-repeat:no-repeat;background-position:center;background-size:contain;pointer-events:none;opacity:1}
+#speak .cards>*:nth-child(3n+1)::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-10 -10 460 450'%3E%3Cpath fill='%23e84f8b' d='M435 155C428 130 398 109 372 119C338 132 305 144 271 157C272 122 272 86 271 51C270 25 248 -1 219 0C192 1 167 23 168 51C169 86 169 121 168 155C134 142 99 128 65 115C40 105 7 126 2 151C-5 180 10 203 37 214C67 225 96 237 126 248C99 281 72 314 47 348C30 370 43 406 65 418C92 434 118 422 135 400C159 368 184 338 210 307C235 336 258 366 281 398C297 420 326 431 351 416C373 403 386 369 369 346C347 315 324 284 300 255C333 243 366 230 399 218C425 208 443 183 435 155Z'/%3E%3C/svg%3E")}
+#speak .cards>*:nth-child(3n+2)::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1091 3151'%3E%3Cpath fill='%2380d2d2' d='M730 1454C694 1510 637 1551 559 1575C637 1600 694 1640 730 1696C766 1753 784 1838 784 1952L784 2491C784 2572 805 2633 846 2676C888 2718 949 2740 1030 2740L1091 2740L1091 3151L895 3151C687 3151 528 3099 421 2996C313 2892 259 2743 259 2548L259 1939C259 1887 246 1848 220 1821C214 1814 196 1808 173 1803C72 1780 0 1689 0 1586L0 1565C0 1461 72 1370 173 1348C196 1343 214 1336 220 1330C246 1303 259 1263 259 1212L259 602C259 407 313 258 421 155C528 52 687 0 895 0L1091 0L1091 411L1030 411C949 411 888 432 846 475C805 517 784 579 784 660L784 1198C784 1313 766 1398 730 1454Z'/%3E%3C/svg%3E");width:64px;right:-4px}
+#speak .cards>*:nth-child(3n)::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-20 -20 780 780'%3E%3Cpath fill='%2380d2d2' d='M587 205C587 205 714 199 720 226C726 253 649 328 649 328C649 328 764 410 742 434C719 458 621 490 621 490C621 490 658 575 639 584C620 592 530 578 530 578C530 578 535 701 521 704C506 708 391 630 391 630C391 630 278 736 272 728C260 714 217 606 217 606C217 606 103 612 97 607C86 596 144 469 144 469C144 469 -14 416 1 391C16 366 116 318 116 318L42 210L161 187C161 187 173 11 195 25C218 39 299 106 299 106C299 106 378 -15 393 2C407 18 447 114 447 114C447 114 582 39 596 49L587 205Z'/%3E%3C/svg%3E")}
+</style>
+<script>
+(function () {
+var root = document.querySelector('#speak .wrap, #cyb .wrap');
+if (!root) return;
+var secs = [].slice.call(root.children).filter(function (e) { return e.matches('.sec, .panel, .block'); });
+if (!secs.length) return;
+var cols = ['#5a3181', '#4d1484'];
+function sep(prev, next) {
+return '<div class="sw-sep bleed" aria-hidden="true" style="background:' + prev + '"><svg viewBox="0 426 1440 300" preserveAspectRatio="none" focusable="false">' +
+'<g class="s1"><use href="#ec-hb" fill="#9878c1"/></g><g class="s2"><use href="#ec-hm" fill="#7841ae"/></g><g class="s3"><use href="#ec-hf" fill="' + next + '"/></g></svg></div>';
+}
+var prev = '#4d1484';
+secs.forEach(function (s, i) {
+var c = cols[i % 2];
+s.classList.add('ec27-sec');
+s.style.setProperty('--b', c);
+s.insertAdjacentHTML('beforebegin', sep(prev, c));
+prev = c;
+});
+var after = root.closest('section') || root.parentElement;
+var nx = after.nextElementSibling;
+while (nx && /^(SCRIPT|STYLE|SVG|svg)$/.test(nx.tagName)) nx = nx.nextElementSibling;
+var m = nx && getComputedStyle(nx).backgroundColor.match(/\d+/g);
+var nextCol = m && (m.length < 4 || +m[3] > 0) ? 'rgb(' + m[0] + ',' + m[1] + ',' + m[2] + ')' : '#201042';
+secs[secs.length - 1].insertAdjacentHTML('afterend', sep(prev, nextCol));
+})();
+</script>
