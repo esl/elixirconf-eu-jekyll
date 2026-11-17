@@ -1,38 +1,50 @@
 <!-- The modal -->
 <style>
-  #myModal.modal { background-color: rgba(20, 8, 46, 0.78); }
-  #myModal .cfp-card { position: relative; width: calc(100% - 2em); max-width: 560px; margin: 6vh auto; padding: 0; background: #201042; border-radius: 18px; overflow: hidden; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.65); text-align: center; }
-  #myModal .cfp-head { position: relative; height: 290px; background-image: linear-gradient(180deg, rgba(32, 16, 66, 0) 0%, rgba(32, 16, 66, 0.15) 35%, rgba(32, 16, 66, 0.92) 100%), url('https://images.pixieset.com/434636311/fc9493092c552108c3e89d9a0d23acb7-large.jpg'); background-size: cover; background-position: 58% 20%; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; padding-bottom: 46px; }
-  #myModal .cfp-head img { width: 62%; max-width: 300px; filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.6)); }
-  #myModal .cfp-date { margin: 14px 0 0; color: #ffffff; font-family: Montserrat, sans-serif; font-size: 15px; font-weight: 600; letter-spacing: 0.04em; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8); }
-  #myModal .cfp-waves { position: absolute; left: 0; bottom: -1px; width: 100%; height: 70px; display: block; }
-  #myModal .close { position: absolute; top: 12px; right: 12px; z-index: 3; width: 34px; height: 34px; line-height: 32px; text-align: center; border-radius: 50%; background: rgba(32, 16, 66, 0.7); color: #ffffff; font-size: 24px; float: none; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); cursor: pointer; }
-  #myModal .cfp-body { padding: 8px 2em 2.2em; }
-  #myModal .cfp-body h3 { margin: 0 0 12px; color: #ffffff; font-family: Montserrat, sans-serif; font-size: 30px; font-weight: 800; line-height: 1.15; }
-  #myModal .cfp-body p { margin: 0 auto 26px; max-width: 24em; color: #d9ccf0; font-family: Lato, sans-serif; font-size: 17px; line-height: 1.55; }
-  #myModal .cfp-btn { display: block; box-sizing: border-box; width: 100%; max-width: 360px; margin: 0 auto 14px; padding: 15px 20px; border-radius: 8px; font-family: Montserrat, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0.1em; text-decoration: none; transition: all 0.3s ease; }
-  #myModal .cfp-btn.primary { background: #e94d8b; color: #201042; box-shadow: 0 8px 22px rgba(233, 77, 139, 0.4); }
-  #myModal .cfp-btn.primary:hover { background: #ffffff; }
-  #myModal .cfp-btn.secondary { border: 2px solid #b9a3e3; color: #ffffff; }
-  #myModal .cfp-btn.secondary:hover { background: #b9a3e3; color: #201042; }
-  #myModal .cfp-social { display: flex; justify-content: center; align-items: center; gap: 14px; margin-top: 26px; }
-  #myModal .cfp-social span { color: #b9a3e3; font-family: Lato, sans-serif; font-size: 14px; margin-right: 4px; }
-  #myModal .cfp-social a { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: rgba(255, 255, 255, 0.12); transition: background 0.3s ease; }
-  #myModal .cfp-social a:hover { background: #e94d8b; }
-  #myModal .cfp-social svg { width: 18px; height: 18px; fill: #ffffff; }
+#myModal.modal{background-color:rgba(20,10,46,.82)}
+#myModal .cfp-card{position:relative;width:calc(100% - 2em);max-width:560px;margin:5vh auto;padding:0;background:#7841ae;border-radius:24px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6);text-align:center;font-family:Montserrat,sans-serif}
+#myModal .cfp-head{position:relative;overflow:hidden;height:420px;background:#4d1484}
+#myModal .cfp-photo{position:absolute;left:-57.5%;top:-164px;width:223.2%;max-width:none;height:auto}
+#myModal .cfp-ov{position:absolute;inset:0;background:rgba(92,2,143,.81)}
+#myModal .cfp-logo{position:absolute;left:10%;top:96px;width:80%;z-index:2}
+#myModal .cfp-date{position:absolute;left:0;right:0;top:216px;margin:0;z-index:2;color:#fff;font-size:19px;font-weight:700}
+#myModal .cfp-hills{position:absolute;left:0;bottom:-1px;width:100%;height:150px;display:block}
+#myModal .m27-l1,#myModal .m27-l2,#myModal .m27-l3{transform-box:view-box;transform-origin:50% 100%}
+#myModal .m27-l1{animation:m27drift 15s ease-in-out infinite alternate}
+#myModal .m27-l2{animation:m27drift 11s ease-in-out infinite alternate-reverse}
+#myModal .m27-l3{animation:m27drift 8s ease-in-out infinite alternate}
+@keyframes m27drift{from{transform:scale(1.04,1) translateX(-1.1%)}to{transform:scale(1.04,1) translateX(1.1%)}}
+@media (prefers-reduced-motion:reduce){#myModal .m27-l1,#myModal .m27-l2,#myModal .m27-l3{animation:none;transform:scale(1.04,1)}}
+#myModal .close{position:absolute;top:16px;right:16px;z-index:5;width:44px;height:44px;line-height:42px;text-align:center;border-radius:50%;background:rgba(77,20,132,.85);color:#fff;font-size:26px;float:none;opacity:1;text-shadow:none;cursor:pointer}
+#myModal .cfp-body{padding:4px 40px 40px;background:#7841ae}
+#myModal .cfp-body h3{margin:0 0 14px;color:#fff;font-family:Montserrat,sans-serif;font-size:36px;font-weight:800;line-height:1.1}
+#myModal .cfp-body p{margin:0 auto 24px;max-width:24em;color:#fff;font-family:Montserrat,sans-serif;font-size:20px;line-height:1.45}
+#myModal a.cfp-btn{display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:100%;margin:0 auto 14px;border-radius:15px;font-family:Montserrat,sans-serif;text-transform:uppercase;text-decoration:none;transition:background .2s,color .2s}
+#myModal a.cfp-btn.primary{height:72px;background:#f0cf5a;color:#fff;font-size:28px;font-weight:800}
+#myModal a.cfp-btn.primary:hover{background:#fff;color:#5a3181}
+#myModal a.cfp-btn.secondary{height:62px;border:3px solid #f0cf5a;color:#f0cf5a;font-size:20px;font-weight:400}
+#myModal a.cfp-btn.secondary:hover{background:#f0cf5a;color:#4d1484}
+#myModal .cfp-social{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:22px}
+#myModal .cfp-social span{color:#fff;font-size:16px;margin-right:4px}
+#myModal .cfp-social a{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#5a3181;transition:background .2s}
+#myModal .cfp-social a:hover{background:#e84f8b}
+#myModal .cfp-social svg{width:18px;height:18px;fill:#fff}
+@media (max-width:600px){#myModal .cfp-head{height:330px}#myModal .cfp-logo{top:70px}#myModal .cfp-date{top:170px;font-size:16px}#myModal .cfp-hills{height:110px}#myModal .cfp-body{padding:4px 22px 28px}#myModal .cfp-body h3{font-size:28px}#myModal .cfp-body p{font-size:17px}#myModal a.cfp-btn.primary{height:60px;font-size:22px}#myModal a.cfp-btn.secondary{height:54px;font-size:16px}}
 </style>
 <div id="myModal" class="modal">
-  <div class="modal-content cfp-card">
-    <span class="close">&times;</span>
-    <div class="cfp-head">
-      <img src="{{ site.baseurl }}/assets/images/logo2024www.svg" alt="ElixirConf EU" />
-      <p class="cfp-date">22-23 April 2027 | Lisbon & Virtual</p>
-      <svg class="cfp-waves" viewBox="0 0 560 70" preserveAspectRatio="none" aria-hidden="true">
-        <path fill="#3a1d4c" d="M0 30 C 120 5, 230 62, 350 32 S 500 8, 560 28 L560 70 L0 70 Z" />
-        <path fill="#5e3a8c" d="M0 44 C 130 22, 240 70, 360 46 S 510 24, 560 42 L560 70 L0 70 Z" />
-        <path fill="#201042" d="M0 58 C 140 42, 250 74, 370 58 S 520 44, 560 56 L560 70 L0 70 Z" />
-      </svg>
-    </div>
+<div class="modal-content cfp-card">
+<span class="close">&times;</span>
+<div class="cfp-head">
+<img class="cfp-photo" src="{{ site.baseurl }}/assets/images/hero-photo-color.jpg" alt="">
+<div class="cfp-ov" aria-hidden="true"></div>
+<img class="cfp-logo" src="{{ site.baseurl }}/assets/images/ec-lockup-2027.png" alt="ElixirConf EU" />
+<p class="cfp-date">22-23 April 2027 | Lisbon &amp; Virtual</p>
+<svg class="cfp-hills" viewBox="0 426 1440 384" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+<g class="m27-l1"><use href="#ec-hb" fill="#9878c1"/></g>
+<g class="m27-l2"><use href="#ec-hm" fill="#5a3181"/></g>
+<g class="m27-l3"><use href="#ec-hf" fill="#7841ae"/></g>
+<use href="#ec-bd" fill="#80d2d2"/><use href="#ec-ck" fill="#fbfcff"/>
+</svg>
+</div>
     <div class="cfp-body">
       <h3>Call for Talks is open</h3>
       <p>Submit your talk proposal for ElixirConf EU 2027 by 15 December.</p>
