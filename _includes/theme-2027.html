@@ -43,4 +43,15 @@ body a.btn-outline.btn-orange:hover,body a.btn-outline.btn-blue:hover,body a.btn
 /* tablets and phones */
 @media (max-width:1024px){.calls27 #cft,.calls27 #cft-training{padding:40px 24px 32px!important}}
 @media (max-width:640px){#calls.calls27{gap:20px;padding:2.5em 14px 3em!important}.calls27 #cft,.calls27 #cft-training{border-radius:22px;padding:32px 18px 28px!important}.ann-grid{grid-template-columns:1fr!important}.ann-card{min-height:0}body a.btn-outline.btn-orange,body a.btn-outline.btn-blue,body a.btn-outline.btn-purple,body a.cyb-btn,#cft a.btn-orange,#cft-training a.btn-orange,#announcements a:not(.ann-cta),#sponsors a.page-scroll{padding:16px 26px!important;font-size:17px!important}}
+/* tickets: 3 equal cards that share the width instead of fixed 25% columns */
+#tickets .items-container{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:24px;align-items:stretch;max-width:1100px;margin-left:auto!important;margin-right:auto!important}
+#tickets .ticket-item{flex:none!important;width:auto!important;max-width:none!important;margin:0!important;display:flex}
+#tickets .ticket-item>div{flex:1;width:auto!important;margin:0!important;padding:28px 24px!important;display:flex;flex-direction:column;align-items:center;text-align:center}
+#tickets .ticket-item h3{font-size:clamp(18px,1.6vw,22px)!important;line-height:1.25!important;min-height:2.5em}
+#tickets .ticket-item .price{font-size:clamp(24px,2.4vw,32px)!important;line-height:1.15!important;justify-content:center;flex-wrap:wrap;text-align:center}
+#tickets .ticket-item .description{margin:12px 0!important}
+#tickets .ticket-item .features,#tickets .ticket-item .conditions{align-self:stretch;text-align:left}
+#tickets .ticket-item .features li{font-size:15px!important;line-height:1.45!important}
+#tickets .ticket-item>div>a{display:block!important;width:100%!important;box-sizing:border-box;padding:12px 16px!important;border:2px solid #4d1484!important;border-radius:12px!important;color:#4d1484!important;font-weight:700!important;text-decoration:none!important}
+#tickets .ticket-item>div>a:hover{background:#4d1484!important;color:#fff!important}
 </style>
