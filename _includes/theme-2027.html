@@ -92,6 +92,14 @@ body a.btn-outline.btn-orange:hover,body a.btn-outline.btn-blue:hover,body a.btn
 /* section titles: the yellow line always sits centred under the title */
 #welcome{flex-direction:column!important;flex-wrap:nowrap!important;align-items:center!important}
 #welcome>.row{width:100%}
-.section .title+hr{display:block;margin-left:auto!important;margin-right:auto!important}
+.section>.title+hr{display:block;flex:0 0 84px;margin-left:calc(50% - 42px)!important;margin-right:calc(50% - 42px)!important}
 .calls27 .title+hr{margin:16px 0 12px!important}
+/* v4: tile details */
+.sw-on .calls27 #cft::before{display:block!important}
+.calls27 #cft-training::after{content:"";position:absolute;z-index:-1;right:-28px;bottom:-28px;width:200px;height:200px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-20 -20 780 780'%3E%3Cpath fill='%2380d2d2' d='M587 205C587 205 714 199 720 226C726 253 649 328 649 328C649 328 764 410 742 434C719 458 621 490 621 490C621 490 658 575 639 584C620 592 530 578 530 578C530 578 535 701 521 704C506 708 391 630 391 630C391 630 278 736 272 728C260 714 217 606 217 606C217 606 103 612 97 607C86 596 144 469 144 469C144 469 -14 416 1 391C16 366 116 318 116 318L42 210L161 187C161 187 173 11 195 25C218 39 299 106 299 106C299 106 378 -15 393 2C407 18 447 114 447 114C447 114 582 39 596 49L587 205Z'/%3E%3C/svg%3E") no-repeat center/contain;pointer-events:none}
+.calls27 .text-title,.calls27 .text-content,.calls27 .text-content *{letter-spacing:normal!important}
+.calls27 .text-content{font-size:16px!important;font-weight:500!important}
+.calls27 #cft a[href*="speak"]{font-size:16px!important}
+@media (min-width:641px){.calls27 #cft a[href*="speak"]{white-space:nowrap}}
+@media (max-width:640px){.calls27 #cft-training::after{width:130px;height:130px}}
 </style>
