@@ -37,4 +37,10 @@ body a.btn-outline.btn-orange:hover,body a.btn-outline.btn-blue:hover,body a.btn
 #announcements a:not(.ann-cta),#sponsors a.page-scroll{display:inline-block;background:#f0cf5a!important;color:#fff!important;border:0!important;border-radius:15px!important;padding:18px 40px!important;font-family:Montserrat,sans-serif!important;font-size:20px!important;font-weight:800!important;line-height:1.1!important;letter-spacing:.02em;text-transform:uppercase;text-decoration:none!important;box-shadow:none!important}
 #announcements a:not(.ann-cta):hover,#sponsors a.page-scroll:hover{background:#4d1484!important;color:#fff!important}
 #sponsorship .text{color:#fff!important}
+/* wide screens: keep content at a readable width instead of stretching */
+@media (min-width:1400px){#banner-1>*,#volunteer>*,#welcome>*,#announcements>*,#sponsorship>*,#sponsors>*,#convince>*,#gallery-strip>*,#video>*,#venue>*,#tickets>*,#waiting-list>*,#contact>*,#speak>.wrap,#cyb>.wrap{max-width:1240px;margin-left:auto!important;margin-right:auto!important}}
+@media (min-width:1400px){#calls.calls27{padding-left:calc((100% - 1240px) / 2)!important;padding-right:calc((100% - 1240px) / 2)!important}}
+/* tablets and phones */
+@media (max-width:1024px){.calls27 #cft,.calls27 #cft-training{padding:40px 24px 32px!important}}
+@media (max-width:640px){#calls.calls27{gap:20px;padding:2.5em 14px 3em!important}.calls27 #cft,.calls27 #cft-training{border-radius:22px;padding:32px 18px 28px!important}.ann-grid{grid-template-columns:1fr!important}.ann-card{min-height:0}body a.btn-outline.btn-orange,body a.btn-outline.btn-blue,body a.btn-outline.btn-purple,body a.cyb-btn,#cft a.btn-orange,#cft-training a.btn-orange,#announcements a:not(.ann-cta),#sponsors a.page-scroll{padding:16px 26px!important;font-size:17px!important}}
 </style>
