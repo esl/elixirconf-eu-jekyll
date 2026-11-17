@@ -1,3 +1,72 @@
+
+<style id="eggs-2027">
+#egg-iex{position:fixed;right:18px;bottom:18px;width:min(420px,calc(100vw - 36px));z-index:99999;background:#1b0b33;color:#e8dcf7;border:1px solid #7841ae;border-radius:10px;box-shadow:0 20px 50px rgba(0,0,0,.5);font:13px/1.5 ui-monospace,Menlo,Consolas,monospace;display:none;text-align:left}
+#egg-iex.on{display:block}
+#egg-iex .eh{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;background:#4d1484;border-radius:9px 9px 0 0;font-weight:700}
+#egg-iex .eh button{background:none;border:0;color:#fff;font-size:20px;cursor:pointer;line-height:1}
+#egg-iex .eo{max-height:min(280px,40vh);overflow:auto;padding:10px 12px;white-space:pre-wrap;word-break:break-word}
+#egg-iex .ei{display:flex;gap:8px;padding:0 12px 12px;margin:0}
+#egg-iex .ei span{color:#80d2d2}
+#egg-iex input{flex:1;min-width:0;background:transparent;border:0;outline:0;color:#f2d970;font:inherit;padding:0;box-shadow:none}
+#egg-iex a{color:#80d2d2}
+#egg-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,30px);opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;z-index:99999;background:#4d1484;color:#fff;border:2px solid #f2d970;border-radius:12px;padding:14px 18px;max-width:min(440px,calc(100vw - 32px));font-weight:600;font-size:15px;line-height:1.4;text-align:center}
+#egg-toast.on{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+#egg-toast a{color:#f2d970;font-weight:800}
+.egg-drop{position:fixed;top:-40px;z-index:99998;pointer-events:none;animation:eggfall linear forwards}
+@keyframes eggfall{to{transform:translateY(calc(100vh + 80px)) rotate(var(--rot))}}
+.egg-glow{animation-name:eggpulse!important;animation-duration:1s!important;animation-iteration-count:4!important}
+@keyframes eggpulse{50%{filter:drop-shadow(0 0 18px #f2d970) brightness(1.5)}}
+@media (prefers-reduced-motion:reduce){.egg-drop{display:none}.egg-glow{animation:none!important}}
+</style>
+<script>(function(){
+var D=document,B=D.body;
+function mk(h){var t=D.createElement('div');t.innerHTML=h;return t.firstChild}
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function toast(h,ms){var t=D.getElementById('egg-toast');if(!t){t=mk('<div id="egg-toast" role="status"></div>');B.appendChild(t)}t.innerHTML=h;t.className='on';clearTimeout(t._t);t._t=setTimeout(function(){t.className=''},ms||6000)}
+var K=[38,38,40,40,37,39,37,39,66,65],ki=0,buf='';
+function rain(){
+var cs=['#c1a7e8','#80d2d2','#f2d970','#e84f8b','#7841ae'];
+for(var i=0;i<70;i++){(function(i){var s=D.createElement('div'),z=14+Math.random()*18;s.className='egg-drop';s.style.cssText='left:'+Math.random()*100+'vw;width:'+z+'px;height:'+z*1.4+'px;--rot:'+(Math.random()*360-180)+'deg;animation-duration:'+(2.5+Math.random()*2.5)+'s;animation-delay:'+Math.random()*1.5+'s';s.innerHTML='<svg viewBox="0 0 16 22" width="100%" height="100%" aria-hidden="true"><path d="M8 0C8 0 0 10 0 14a8 8 0 0016 0C16 10 8 0 8 0z" fill="'+cs[i%5]+'"/></svg>';B.appendChild(s);setTimeout(function(){s.remove()},6600)})(i)}
+var z=D.querySelectorAll('#cover .dz');for(var j=0;j<z.length;j++){(function(e){e.classList.add('egg-glow');setTimeout(function(){e.classList.remove('egg-glow')},4200)})(z[j])}
+toast('You found the Konami potion. Elixir for everyone!',5000)}
+var T,O,I;
+function pr(t){var d=D.createElement('div');d.textContent=t;O.appendChild(d);O.scrollTop=O.scrollHeight}
+function prh(h){var d=D.createElement('div');d.innerHTML=h;O.appendChild(d);O.scrollTop=O.scrollHeight}
+function closeIex(){if(T)T.classList.remove('on')}
+var L={
+'ElixirConf.when()':'"22-23 April 2027 (training day: 21 April)"',
+'ElixirConf.where()':'"Lisbon, Portugal &amp; Virtual"',
+'ElixirConf.cft()':'{:ok, "<a href="https://sessionize.com/elixirconf-eu-2027/" target="_blank" rel="noopener">Call for Talks is open</a>"}',
+'ElixirConf.tickets()':'{:ok, "<a href="#waiting-list">Join the Super Early Bird waiting list</a>"}',
+'ElixirConf.sponsors()':'{:ok, "<a href="#sponsors">Meet the sponsors</a>"}'};
+function run(raw){
+var c=raw.trim(),k=c.replace(/\s+/g,''),m;
+prh('<span style="color:#80d2d2">iex&gt;</span> '+esc(c));
+if(!c)return;
+if(k==='help'||k==='h'||k==='h()')return prh('Try:<br>ElixirConf.when()<br>ElixirConf.where()<br>ElixirConf.cft()<br>ElixirConf.tickets()<br>ElixirConf.sponsors()<br>1 + 1<br>IO.puts("hello")<br>exit');
+if(k==='exit'||k==='System.halt()'||k==='System.halt')return closeIex();
+if(L[k])return prh(L[k]);
+if((m=c.match(/^IO\.puts\((["'])(.*)\1\)$/))){pr(m[2]);return prh(':ok')}
+if(/^[\d\s+\-*\/().]+$/.test(c)){try{var v=Function('"use strict";return ('+c+')')();if(typeof v==='number'&&isFinite(v))return pr(String(v))}catch(e){}}
+prh('** (UndefinedFunctionError) '+esc(c)+' is undefined. Type help')}
+function openIex(){
+if(!T){T=mk('<div id="egg-iex" role="dialog" aria-label="IEx terminal"><div class="eh"><span>iex</span><button type="button" aria-label="Close">&times;</button></div><div class="eo"></div><form class="ei"><span>iex&gt;</span><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="IEx input"></form></div>');B.appendChild(T);O=T.querySelector('.eo');I=T.querySelector('input');T.querySelector('button').onclick=closeIex;T.querySelector('form').onsubmit=function(e){e.preventDefault();run(I.value);I.value=''};I.onkeydown=function(e){if(e.key==='Escape')closeIex();e.stopPropagation()};pr('Interactive Elixir. Type help for commands.')}
+T.classList.add('on');I.focus()}
+D.addEventListener('keydown',function(e){
+if(e.keyCode===K[ki])ki++;else ki=(e.keyCode===K[0])?1:0;
+if(ki===K.length){ki=0;rain()}
+var t=e.target,tg=t&&t.tagName;
+if(tg==='INPUT'||tg==='TEXTAREA'||tg==='SELECT'||(t&&t.isContentEditable)||e.ctrlKey||e.metaKey||e.altKey||e.key.length!==1)return;
+buf=(buf+e.key.toLowerCase()).slice(-3);
+if(buf==='iex'){buf='';e.preventDefault();openIex()}});
+var cc=0,ct;
+D.addEventListener('click',function(e){
+var hit=!!(e.target.closest&&e.target.closest('#cover img[alt="ElixirConf EU"]'));
+if(!hit){var z=D.querySelectorAll('#cover .dz');for(var i=0;i<z.length;i++){var r=z[i].getBoundingClientRect();if(r.width&&e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom){hit=true;break}}}
+if(!hit)return;
+cc++;clearTimeout(ct);ct=setTimeout(function(){cc=0},2500);
+if(cc>=7){cc=0;toast('Psst, you found it! Super Early Bird tickets are coming. <a href="#waiting-list">Join the waiting list</a> and be first in line.',9000)}});
+})();</script>
 <!-- Hero 2027: built from the Canva banner (nakladka-canva-kolor-foto). Hills sit low at the bottom; shapes drift gently.
 Layout: composition scaled by --u (fits width and height, so wide screens are capped at the viewport height); phones and portrait tablets get a stacked layout. -->
 <style id="cover-2027">
