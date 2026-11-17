@@ -102,4 +102,8 @@ body a.btn-outline.btn-orange:hover,body a.btn-outline.btn-blue:hover,body a.btn
 .calls27 #cft a[href*="speak"]{font-size:16px!important}
 @media (min-width:641px){.calls27 #cft a[href*="speak"]{white-space:nowrap}}
 @media (max-width:640px){.calls27 #cft-training::after{width:130px;height:130px}}
+/* v5: sections built as wrapping rows get the title and its line on their own rows */
+#sponsors,#gallery-strip,#tickets,#waiting-list,#contact{flex-direction:column!important;flex-wrap:nowrap!important;align-items:center!important}
+#tickets .items-container,#gallery-strip>*:not(.title):not(hr),#sponsors>*:not(.title):not(hr){width:100%}
+.calls27 #cft a[href*="speak"]{padding:16px 30px!important;border:3px solid #f0cf5a!important;line-height:1.2!important;height:auto!important}
 </style>
