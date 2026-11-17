@@ -2,7 +2,7 @@
 The front hill takes the colour of the next section, so each section flows into the next. Hills drift gently; paused off screen and for prefers-reduced-motion. -->
 <style>
 .sw-sep{position:relative;line-height:0;margin:-1px 0;pointer-events:none;overflow:hidden}
-.sw-sep svg{display:block;width:100%;height:clamp(90px,12vw,180px)}
+.sw-sep svg{display:block;width:100%;height:clamp(60px,8vw,130px)}
 .sw-sep .s1,.sw-sep .s2,.sw-sep .s3{transform-box:view-box;transform-origin:50% 100%}
 .sw-sep .s1{animation:swdrift 15s ease-in-out infinite alternate}
 .sw-sep .s2{animation:swdrift 11s ease-in-out infinite alternate-reverse}
@@ -48,7 +48,7 @@ var light = lum(cb) > 160 || lum(ca) > 160;
 var back = light ? LAVENDER : VIOLET;
 var midc = mix(light ? VIOLET : ca, cb, 0.45);
 var html = '<div class="sw-sep" aria-hidden="true" style="background:' + css(ca) + '">' +
-'<svg viewBox="0 426 1440 300" preserveAspectRatio="none" focusable="false">' +
+'<svg viewBox="0 480 1440 246" preserveAspectRatio="none" focusable="false">' +
 '<g class="s1"><use href="#ec-hb" fill="' + css(back) + '"/></g>' +
 '<g class="s2"><use href="#ec-hm" fill="' + css(midc) + '"/></g>' +
 '<g class="s3"><use href="#ec-hf" fill="' + css(cb) + '"/></g></svg></div>';
