@@ -82,8 +82,10 @@ image: assets/images/venue-background-Altis.jpg
 {% if site.data.settings.homepage_settings.countdown.show %} {% include
 countdown.html %} {% endif %}
 {% comment %} Page order: Call for Talks / Call for Training first, then the waiting list strip, volunteers, About + Announcements, sponsorship, convince your boss, gallery, videos. {% endcomment %}
+<div class="section calls27" id="calls">
 {% include cft.html %}
 {% include _includes/cft-training.html %}
+</div>
 <!-- end of call for talks -->
 {% include banner-1.html %}
 <!-- end of banner-1  -->
@@ -156,5 +158,6 @@ tickets-block.html %} {% endif %}
 {% if site.data.settings.homepage_settings.modal.show %} {% include modal.html
 %} {% endif %}
 
+{% include theme-2027.html %}
 {% include section-waves.html %}
 {% include responsive-fixes.html %}
