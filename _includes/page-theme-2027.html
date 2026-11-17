@@ -61,6 +61,8 @@ var nx = after.nextElementSibling;
 while (nx && /^(SCRIPT|STYLE|SVG|svg)$/.test(nx.tagName)) nx = nx.nextElementSibling;
 var m = nx && getComputedStyle(nx).backgroundColor.match(/\d+/g);
 var nextCol = m && (m.length < 4 || +m[3] > 0) ? 'rgb(' + m[0] + ',' + m[1] + ',' + m[2] + ')' : '#201042';
-secs[secs.length - 1].insertAdjacentHTML('afterend', sep(prev, nextCol));
+var ph = prev.replace('#', '');
+var prgb = 'rgb(' + parseInt(ph.substr(0, 2), 16) + ',' + parseInt(ph.substr(2, 2), 16) + ',' + parseInt(ph.substr(4, 2), 16) + ')';
+if (prgb !== nextCol) secs[secs.length - 1].insertAdjacentHTML('afterend', sep(prev, nextCol));
 })();
 </script>
