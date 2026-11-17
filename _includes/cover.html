@@ -1,20 +1,26 @@
-<!-- Hero 2027: built from the Canva banner (nakladka-canva-kolor-foto). Photo crop, overlay, hills and shapes match the design 1:1. -->
+<!-- Hero 2027: built from the Canva banner (nakladka-canva-kolor-foto). Hills sit low at the bottom; shapes drift gently.
+Layout: composition scaled by --u (fits width and height, so wide screens are capped at the viewport height); phones and portrait tablets get a stacked layout. -->
 <style id="cover-2027">
-#cover.c27{position:relative;overflow:hidden;container-type:inline-size;aspect-ratio:1440 / 810;background:#7841ae;padding:0;margin:0;font-family:Montserrat,sans-serif;text-align:center}
-#cover.c27 .hp{position:absolute;left:-9.473%;top:-22.343%;width:125.319%;height:107.31%;max-width:none}
-#cover.c27 .ho{position:absolute;left:0;right:0;top:0;height:85%;background:rgba(92,2,143,.81)}
+#cover.c27{position:relative;overflow:hidden;container-type:size;box-sizing:border-box;width:100%;height:min(56.25vw,100svh);min-height:520px;background:#4d1484;padding:0;margin:0;font-family:Montserrat,sans-serif;text-align:center}
+#cover.c27>*{--u:min(1cqw,1.7778cqh)}
+#cover.c27 .hp{position:absolute;left:-9.473%;top:-22.343%;width:125.319%;height:auto;min-height:107.31%;object-fit:cover;max-width:none}
+#cover.c27 .ho{position:absolute;inset:0;background:rgba(92,2,143,.81)}
 #cover.c27 .hsvg{position:absolute;inset:0;width:100%;height:100%}
 #cover.c27 .hsvg-m{display:none}
-#cover.c27 .hlogo{position:absolute;left:24.88%;top:23.46%;width:49.86%;margin:0;z-index:4}
+#cover.c27 .dz{position:absolute;height:auto;overflow:visible;pointer-events:none}
+#cover.c27 .dz-br{left:4.72%;top:42.5%;width:calc(10.1 * var(--u))}
+#cover.c27 .dz-as{left:12.3%;top:72%;width:calc(6.4 * var(--u));z-index:3}
+#cover.c27 .dz-bd{left:77.1%;top:66.5%;width:calc(12.8 * var(--u));z-index:5}
+#cover.c27 .hlogo{position:absolute;left:50%;top:23.46%;width:calc(49.86 * var(--u));transform:translateX(-50%);margin:0;z-index:4}
 #cover.c27 .hlogo img{display:block;width:100%;height:auto}
-#cover.c27 .hcall{position:absolute;left:0;right:0;top:46.6%;margin:0;color:#fff;font-weight:700;font-size:1.74cqw;line-height:1.3;z-index:4}
-#cover.c27 a.hb1,#cover.c27 a.hb2{position:absolute;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-decoration:none;text-transform:uppercase;border-radius:1.04cqw;z-index:6;font-family:Montserrat,sans-serif;letter-spacing:.01em;transition:background .2s,color .2s}
-#cover.c27 a.hb1{left:34.99%;top:54.53%;width:29.49%;height:9.79%;background:#f0cf5a;color:#fff;font-weight:800;font-size:2.36cqw}
+#cover.c27 .hcall{position:absolute;left:0;right:0;top:46.6%;margin:0;color:#fff;font-weight:700;font-size:calc(1.74 * var(--u));line-height:1.3;z-index:4}
+#cover.c27 a.hb1,#cover.c27 a.hb2{position:absolute;left:50%;transform:translateX(-50%);box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:calc(29.49 * var(--u));text-decoration:none;text-transform:uppercase;border-radius:calc(1.04 * var(--u));z-index:6;font-family:Montserrat,sans-serif;letter-spacing:.01em;transition:background .2s,color .2s}
+#cover.c27 a.hb1{top:54.53%;height:calc(5.51 * var(--u));background:#f0cf5a;color:#fff;font-weight:800;font-size:calc(2.36 * var(--u))}
 #cover.c27 a.hb1:hover{background:#fff;color:#5a3181}
-#cover.c27 a.hb2{left:35.06%;top:66.16%;width:29.49%;height:8.64%;border:.2cqw solid #f0cf5a;color:#f0cf5a;font-weight:400;font-size:1.6cqw}
+#cover.c27 a.hb2{top:66.16%;height:calc(4.86 * var(--u));border:calc(.2 * var(--u)) solid #f0cf5a;color:#f0cf5a;font-weight:400;font-size:calc(1.6 * var(--u))}
 #cover.c27 a.hb2:hover{background:#f0cf5a;color:#4d1484}
 #cover.c27 a:focus-visible{outline:3px solid #80d2d2;outline-offset:3px}
-#cover.c27 .hstat{position:absolute;left:10%;right:10%;top:83%;margin:0;color:#fff;font-weight:500;font-size:1.66cqw;line-height:1.7;z-index:4}
+#cover.c27 .hstat{position:absolute;left:50%;top:88.6%;width:calc(80 * var(--u));transform:translateX(-50%);margin:0;color:#fff;font-weight:500;font-size:calc(1.5 * var(--u));line-height:1.5;z-index:4}
 #cover.c27 .hstat .y{color:#f0cf5a}
 #cover.c27 .hstat a{color:#80d2d2;text-decoration:none}
 #cover.c27 .hstat a:hover{text-decoration:underline}
@@ -23,41 +29,56 @@
 #cover.c27 .hl2{animation:c27drift 11s ease-in-out infinite alternate-reverse}
 #cover.c27 .hl3{animation:c27drift 8s ease-in-out infinite alternate}
 @keyframes c27drift{from{transform:scale(1.04,1) translateX(-1.1%)}to{transform:scale(1.04,1) translateX(1.1%)}}
-@media (prefers-reduced-motion:reduce){#cover.c27 .hl1,#cover.c27 .hl2,#cover.c27 .hl3{animation:none;transform:scale(1.04,1)}}
-@media (max-width:767px){
-#cover.c27{aspect-ratio:auto;display:flex;flex-direction:column;align-items:center;gap:18px;padding:110px 16px 150px}
-#cover.c27 .hp{left:0;top:0;width:100%;height:100%;object-fit:cover;object-position:58% 20%}
-#cover.c27 .ho{height:100%}
+#cover.c27 .dz-br{animation:c27float 6s ease-in-out infinite alternate}
+#cover.c27 .dz-as{animation:c27spin 24s linear infinite}
+#cover.c27 .dz-bd{animation:c27wobble 5s ease-in-out infinite alternate}
+@keyframes c27float{from{translate:0 -6px}to{translate:0 8px}}
+@keyframes c27spin{to{rotate:360deg}}
+@keyframes c27wobble{from{rotate:-7deg;scale:1}to{rotate:7deg;scale:1.05}}
+@media (prefers-reduced-motion:reduce){#cover.c27 .hl1,#cover.c27 .hl2,#cover.c27 .hl3{animation:none;transform:scale(1.04,1)}#cover.c27 .dz{animation:none}}
+@media (max-width:767px),(max-width:1199px) and (orientation:portrait){
+#cover.c27{container-type:normal;height:auto;min-height:0;display:flex;flex-direction:column;align-items:center;gap:18px;padding:clamp(96px,14vw,140px) 20px clamp(120px,22vw,190px)}
+#cover.c27 .hp{left:0;top:0;width:100%;height:100%;min-height:0;object-position:60% 22%}
 #cover.c27 .hsvg{display:none}
-#cover.c27 .hsvg-m{display:block;position:absolute;left:0;bottom:-1px;width:100%;height:130px}
-#cover.c27 .hlogo,#cover.c27 .hcall,#cover.c27 a.hb1,#cover.c27 a.hb2,#cover.c27 .hstat{position:relative;left:auto;right:auto;top:auto}
-#cover.c27 .hlogo{width:92%}
-#cover.c27 .hcall{font-size:17px}
-#cover.c27 a.hb1,#cover.c27 a.hb2{width:100%;max-width:340px;border-radius:14px}
-#cover.c27 a.hb1{height:60px;font-size:22px}
-#cover.c27 a.hb2{height:54px;font-size:16px;border-width:2px}
-#cover.c27 .hstat{font-size:15px;line-height:1.55}
+#cover.c27 .hsvg-m{display:block;position:absolute;left:0;bottom:-1px;width:100%;height:clamp(90px,18vw,170px)}
+#cover.c27 .dz-br{display:none}
+#cover.c27 .dz-as{left:6%;top:auto;bottom:clamp(56px,10vw,110px);width:clamp(30px,6vw,52px)}
+#cover.c27 .dz-bd{left:auto;right:5%;top:auto;bottom:clamp(40px,8vw,90px);width:clamp(58px,12vw,110px)}
+#cover.c27 .hlogo,#cover.c27 .hcall,#cover.c27 a.hb1,#cover.c27 a.hb2,#cover.c27 .hstat{position:relative;left:auto;right:auto;top:auto;transform:none}
+#cover.c27 .hlogo{width:min(92%,620px)}
+#cover.c27 .hcall{font-size:clamp(16px,3.4vw,22px);margin-top:6px}
+#cover.c27 a.hb1,#cover.c27 a.hb2{width:min(100%,420px);border-radius:14px}
+#cover.c27 a.hb1{height:clamp(56px,9vw,72px);font-size:clamp(20px,4.4vw,28px)}
+#cover.c27 a.hb2{height:clamp(50px,8vw,62px);font-size:clamp(15px,3.2vw,20px);border-width:2px}
+#cover.c27 .hstat{width:min(100%,640px);font-size:clamp(14px,3.1vw,18px);line-height:1.55}
+#cover.c27 .hstat br{display:none}
 }
+@media (max-width:380px){#cover.c27{padding:92px 14px 110px;gap:14px}#cover.c27 a.hb1{font-size:19px}}
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><path id="ec-hb" transform="translate(-5.58 426.15)scale(0.18000)" d="M0 1053L334 900C670 748 1338 443 2008 383C2677 324 3346 510 4015 690C4685 869 5354 1040 6023 924C6693 808 7361 404 7696 202L8031 0L8031 2592L2980 2592L455 2592C413 2592 0 2593 0 2589L0 2533L0 2256L0 1053Z"/><path id="ec-br" transform="translate(68.37 233.72)scale(0.13242)" d="M730 1454C694 1510 637 1551 559 1575C637 1600 694 1640 730 1696C766 1753 784 1838 784 1952L784 2491C784 2572 805 2633 846 2676C888 2718 949 2740 1030 2740L1091 2740L1091 3151L895 3151C687 3151 528 3099 421 2996C313 2892 259 2743 259 2548L259 1939C259 1887 246 1848 220 1821C214 1814 196 1808 173 1803C72 1780 0 1689 0 1586L0 1565C0 1461 72 1370 173 1348C196 1343 214 1336 220 1330C246 1303 259 1263 259 1212L259 602C259 407 313 258 421 155C528 52 687 0 895 0L1091 0L1091 411L1030 411C949 411 888 432 846 475C805 517 784 579 784 660L784 1198C784 1313 766 1398 730 1454Z"/><path id="ec-as" transform="translate(177.04 476.56)scale(0.20778)" d="M435 155C428 130 398 109 372 119C338 132 305 144 271 157C272 122 272 86 271 51C270 25 248 -1 219 0C192 1 167 23 168 51C169 86 169 121 168 155C134 142 99 128 65 115C40 105 7 126 2 151C-5 180 10 203 37 214C67 225 96 237 126 248C99 281 72 314 47 348C30 370 43 406 65 418C92 434 118 422 135 400C159 368 184 338 210 307C235 336 258 366 281 398C297 420 326 431 351 416C373 403 386 369 369 346C347 315 324 284 300 255C333 243 366 230 399 218C425 208 443 183 435 155Z"/><path id="ec-hm" transform="translate(-3.56 547.62)scale(0.18000)" d="M0 22L334 10C670 -3 1338 -28 2008 130C2651 282 3228 581 3890 690C4614 810 5333 611 6023 459C6686 312 7358 196 8031 80L8031 1495L0 1495L0 22Z"/><path id="ec-hf" transform="translate(-3.56 605.94)scale(0.18000)" d="M0 0L334 67C670 135 1338 269 2008 282C2677 295 3346 185 4015 207C4680 228 5322 374 5975 455C6544 526 7121 546 7696 552L8031 556L8031 1151L0 1151L0 0Z"/><path id="ec-bd" transform="translate(1113.14 456.49)scale(0.23664)" d="M587 205C587 205 714 199 720 226C726 253 649 328 649 328C649 328 764 410 742 434C719 458 621 490 621 490C621 490 658 575 639 584C620 592 530 578 530 578C530 578 535 701 521 704C506 708 391 630 391 630C391 630 278 736 272 728C260 714 217 606 217 606C217 606 103 612 97 607C86 596 144 469 144 469C144 469 -14 416 1 391C16 366 116 318 116 318L42 210L161 187C161 187 173 11 195 25C218 39 299 106 299 106C299 106 378 -15 393 2C407 18 447 114 447 114C447 114 582 39 596 49L587 205Z"/><path id="ec-ck" transform="translate(1154.60 502.42)scale(0.23670)" d="M0 257C0 257 41 149 50 153C60 157 171 222 171 222C171 222 243 -6 246 0C248 6 343 42 343 42C343 42 238 352 212 338L0 257Z"/></defs></svg>
 <div class="cover c27" id="cover">
 <img class="hp" src="{{ site.baseurl }}/assets/images/hero-photo-color.jpg" alt="">
 <div class="ho" aria-hidden="true"></div>
+<svg class="dz dz-br" viewBox="68 234 146 418" aria-hidden="true" focusable="false"><use href="#ec-br" fill="#80d2d2"/></svg>
 <svg class="hsvg" viewBox="0 0 1440 810" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-<g class="hl1"><use href="#ec-hb" fill="#9878c1"/></g>
-<use href="#ec-br" fill="#80d2d2"/><use href="#ec-as" fill="#e84f8b"/>
-<g class="hl2"><use href="#ec-hm" fill="#5a3181"/></g>
-<g class="hl3"><use href="#ec-hf" fill="#7841ae"/></g>
-<use href="#ec-bd" fill="#80d2d2"/><use href="#ec-ck" fill="#fbfcff"/>
-</svg>
-<svg class="hsvg-m" viewBox="0 426 1440 384" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+<g transform="translate(0 810) scale(1 .45) translate(0 -810)">
 <g class="hl1"><use href="#ec-hb" fill="#9878c1"/></g>
 <g class="hl2"><use href="#ec-hm" fill="#5a3181"/></g>
-<g class="hl3"><use href="#ec-hf" fill="#7841ae"/></g>
+<g class="hl3"><use href="#ec-hf" fill="#4d1484"/></g>
+</g>
 </svg>
+<svg class="hsvg-m" viewBox="0 600 1440 210" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+<g transform="translate(0 810) scale(1 .45) translate(0 -810)">
+<g class="hl1"><use href="#ec-hb" fill="#9878c1"/></g>
+<g class="hl2"><use href="#ec-hm" fill="#5a3181"/></g>
+<g class="hl3"><use href="#ec-hf" fill="#4d1484"/></g>
+</g>
+</svg>
+<svg class="dz dz-as" viewBox="175 475 96 94" aria-hidden="true" focusable="false"><use href="#ec-as" fill="#e84f8b"/></svg>
+<svg class="dz dz-bd" viewBox="1106 449 194 186" aria-hidden="true" focusable="false"><use href="#ec-bd" fill="#80d2d2"/><use href="#ec-ck" fill="#fbfcff"/></svg>
 <h1 class="hlogo"><img src="{{ site.baseurl }}/assets/images/ec-lockup-2027.png" alt="ElixirConf EU"></h1>
 <p class="hcall">Call for Talks is open until 15 December!</p>
 <a class="hb1" href="https://sessionize.com/elixirconf-eu-2027/">Submit a talk</a>
 <a class="hb2" href="#waiting-list">Join the waiting list</a>
-<p class="hstat"><span class="y">Ticket sales are not open yet.</span> Join the ElixirConf EU waiting list to be the first to know,<br>and follow us on <a href="https://www.linkedin.com/company/elixirconf" target="_blank" rel="noopener">LinkedIn</a>, <a href="https://bsky.app/profile/elixirconf.bsky.social" target="_blank" rel="noopener">Bluesky</a> and <a href="https://twitter.com/elixirconfeu" target="_blank" rel="noopener">X</a>.</p>
+<p class="hstat"><span class="y">Ticket sales are not open yet.</span> Join the ElixirConf EU waiting list to be the first to know,<br> and follow us on <a href="https://www.linkedin.com/company/elixirconf" target="_blank" rel="noopener">LinkedIn</a>, <a href="https://bsky.app/profile/elixirconf.bsky.social" target="_blank" rel="noopener">Bluesky</a> and <a href="https://twitter.com/elixirconfeu" target="_blank" rel="noopener">X</a>.</p>
 </div>
