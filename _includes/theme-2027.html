@@ -38,7 +38,7 @@ body a.btn-outline.btn-orange:hover,body a.btn-outline.btn-blue:hover,body a.btn
 #announcements a:not(.ann-cta):hover,#sponsors a.page-scroll:hover{background:#4d1484!important;color:#fff!important}
 #sponsorship .text{color:#fff!important}
 /* wide screens: keep content at a readable width instead of stretching */
-@media (min-width:1400px){#banner-1>*,#volunteer>*,#welcome>*,#announcements>*,#sponsorship>*,#sponsors>*,#convince>*,#gallery-strip>*,#video>*,#venue>*,#tickets>*,#waiting-list>*,#contact>*,#speak>.wrap,#cyb>.wrap{max-width:1240px;margin-left:auto!important;margin-right:auto!important}}
+@media (min-width:1400px){#banner-1>*:not([class*=wave]):not(svg),#volunteer>*:not([class*=wave]):not(svg),#welcome>*:not([class*=wave]):not(svg),#announcements>*:not([class*=wave]):not(svg),#sponsorship>*:not([class*=wave]):not(svg),#sponsors>*:not([class*=wave]):not(svg),#convince>*:not([class*=wave]):not(svg),#gallery-strip>*:not([class*=wave]):not(svg),#video>*:not([class*=wave]):not(svg),#venue>*:not([class*=wave]):not(svg),#tickets>*:not([class*=wave]):not(svg),#waiting-list>*:not([class*=wave]):not(svg),#contact>*:not([class*=wave]):not(svg),#speak>.wrap,#cyb>.wrap{max-width:1240px;margin-left:auto!important;margin-right:auto!important}}
 @media (min-width:1400px){#calls.calls27{padding-left:calc((100% - 1240px) / 2)!important;padding-right:calc((100% - 1240px) / 2)!important}}
 /* tablets and phones */
 @media (max-width:1024px){.calls27 #cft,.calls27 #cft-training{padding:40px 24px 32px!important}}
@@ -54,4 +54,39 @@ body a.btn-outline.btn-orange:hover,body a.btn-outline.btn-blue:hover,body a.btn
 #tickets .ticket-item .features li{font-size:15px!important;line-height:1.45!important}
 #tickets .ticket-item>div>a{display:block!important;width:100%!important;box-sizing:border-box;padding:12px 16px!important;border:2px solid #4d1484!important;border-radius:12px!important;color:#4d1484!important;font-weight:700!important;text-decoration:none!important}
 #tickets .ticket-item>div>a:hover{background:#4d1484!important;color:#fff!important}
+/* v3: CFT/CFTraining tiles with DS shapes, compact text, buttons at the bottom */
+.calls27 #cft,.calls27 #cft-training{display:flex!important;flex-direction:column;align-items:stretch;text-align:left!important;border-radius:32px!important;padding:52px 44px 44px!important;border:2px solid rgba(193,167,232,.35);isolation:isolate}
+.calls27 #cft-training>div{display:flex;flex-direction:column;flex:1}
+.calls27 #cft>div,.calls27 #cft-training>div>div{display:flex;flex-direction:column;align-items:flex-start;flex:1}
+.calls27 .title{text-align:left!important;font-size:clamp(28px,2.4vw,38px)!important;margin:0!important;padding-right:96px}
+.calls27 hr{margin:16px 0 12px!important}
+.calls27 br{display:none}
+.calls27 .text-title{font-size:clamp(17px,1.3vw,20px)!important;line-height:1.45!important;font-weight:600!important;text-align:left!important;margin:0 0 10px!important}
+.calls27 .text-content{font-size:15px!important;line-height:1.55!important;text-align:left!important}
+.calls27 #cft-training .text-content:first-child,.calls27 #cft-training .text-content:first-child strong{font-size:clamp(17px,1.3vw,20px)!important;line-height:1.45!important}
+.calls27 .text-content.mb-5{margin:auto 0 0!important;padding-top:24px}
+.calls27 #cft .text-content:last-child{margin-top:16px!important}
+.calls27 #cft a[href*="speak"]{display:inline-block;padding:16px 30px;border:3px solid #f0cf5a;border-radius:15px;color:#f0cf5a!important;font:700 18px/1.1 Montserrat,sans-serif;text-transform:uppercase;letter-spacing:.02em;text-decoration:none!important;transition:background .2s,color .2s}
+.calls27 #cft a[href*="speak"]:hover{background:#f0cf5a;color:#4d1484!important}
+.calls27 #cft::before,.calls27 #cft-training::before{content:"";position:absolute;z-index:-1;pointer-events:none;background-repeat:no-repeat;background-position:center;background-size:contain}
+.calls27 #cft::before{right:36px;top:-46px;width:76px;height:220px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1091 3151'%3E%3Cpath fill='%2380d2d2' d='M730 1454C694 1510 637 1551 559 1575C637 1600 694 1640 730 1696C766 1753 784 1838 784 1952L784 2491C784 2572 805 2633 846 2676C888 2718 949 2740 1030 2740L1091 2740L1091 3151L895 3151C687 3151 528 3099 421 2996C313 2892 259 2743 259 2548L259 1939C259 1887 246 1848 220 1821C214 1814 196 1808 173 1803C72 1780 0 1689 0 1586L0 1565C0 1461 72 1370 173 1348C196 1343 214 1336 220 1330C246 1303 259 1263 259 1212L259 602C259 407 313 258 421 155C528 52 687 0 895 0L1091 0L1091 411L1030 411C949 411 888 432 846 475C805 517 784 579 784 660L784 1198C784 1313 766 1398 730 1454Z'/%3E%3C/svg%3E")}
+.calls27 #cft-training::before{right:32px;top:30px;width:92px;height:92px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-10 -10 460 450'%3E%3Cpath fill='%23e84f8b' d='M435 155C428 130 398 109 372 119C338 132 305 144 271 157C272 122 272 86 271 51C270 25 248 -1 219 0C192 1 167 23 168 51C169 86 169 121 168 155C134 142 99 128 65 115C40 105 7 126 2 151C-5 180 10 203 37 214C67 225 96 237 126 248C99 281 72 314 47 348C30 370 43 406 65 418C92 434 118 422 135 400C159 368 184 338 210 307C235 336 258 366 281 398C297 420 326 431 351 416C373 403 386 369 369 346C347 315 324 284 300 255C333 243 366 230 399 218C425 208 443 183 435 155Z'/%3E%3C/svg%3E");animation:c27spin2 30s linear infinite}
+@keyframes c27spin2{to{rotate:360deg}}
+@media (prefers-reduced-motion:reduce){.calls27 #cft-training::before{animation:none}}
+@media (max-width:640px){.calls27 #cft,.calls27 #cft-training{padding:40px 22px 28px!important}.calls27 .title{padding-right:64px}.calls27 #cft::before{width:52px;height:150px;right:18px;top:-30px}.calls27 #cft-training::before{width:60px;height:60px;right:16px;top:22px}}
+/* waiting-list strip and volunteer strip: one row, text then button */
+#banner-1,#volunteer{display:flex!important;align-items:center;justify-content:center;flex-wrap:wrap;gap:20px 48px;padding:48px max(20px,calc((100% - 1160px) / 2))!important}
+#banner-1 .text,#volunteer .text{margin:0!important;flex:1 1 420px;max-width:64ch;text-align:left!important;font-family:Montserrat,sans-serif!important;font-size:clamp(16px,1.3vw,20px)!important;font-weight:500!important;letter-spacing:normal!important;line-height:1.5!important;color:#fff!important}
+#volunteer .text{font-weight:700!important;font-size:clamp(18px,1.6vw,24px)!important}
+#banner-1 .text strong{color:#f0cf5a!important}
+#banner-1 .text a{color:#80d2d2!important}
+#banner-1 a.btn-outline,#volunteer a.btn-outline{margin:0!important;flex:0 0 auto}
+@media (max-width:767px){#banner-1 .text,#volunteer .text{text-align:center!important;flex-basis:100%}}
+/* old static wave edges are replaced by the hill transitions */
+#waiting-list::before,#waiting-list::after,#newsletter::before,#newsletter::after,#contact::before,#contact::after,#tickets::before,#tickets::after{display:none!important}
+/* announcement cards: the shape never covers the button */
+.ann-card a.ann-cta{z-index:2}
+.ann-card::after{z-index:0;width:96px;height:96px;right:-14px;bottom:-14px}
+.ann-card:nth-child(3n+2)::after{width:56px;right:-4px}
+.ann-card{padding-bottom:40px!important}
 </style>
