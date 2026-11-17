@@ -62,6 +62,28 @@ Layout: composition scaled by --u (fits width and height, so wide screens are ca
 @keyframes ecdfill{from{transform:translateY(var(--y0))}to{transform:translateY(var(--y1))}}
 @keyframes ecdwave{from{transform:translateX(0)}to{transform:translateX(-40px)}}
 @media (prefers-reduced-motion:reduce){#cover.c27 .ecd-w{animation:none;transform:translateY(var(--y1))}#cover.c27 .ecd-wave{animation:none}}
+/* Dates: two ticket stubs (training + conference) */
+#cover.c27 .hdates{position:absolute;left:50%;top:16.2%;transform:translateX(-50%);display:flex;align-items:center;gap:calc(1.6 * var(--u));margin:0;padding:0;list-style:none;z-index:6;filter:drop-shadow(0 calc(.5 * var(--u)) calc(1.2 * var(--u)) rgba(20,6,46,.5))}
+#cover.c27 .tk{--a:#f0cf5a;--cut:calc(10.6 * var(--u));--r:calc(.62 * var(--u));position:relative;display:flex;align-items:stretch;overflow:hidden;color:#fff;text-align:left;background:linear-gradient(135deg,rgba(77,20,132,.86),rgba(36,10,72,.72));-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:calc(.15 * var(--u)) solid var(--a);border-radius:calc(1 * var(--u));-webkit-mask:radial-gradient(circle at var(--cut) 0,#0000 var(--r),#000 calc(var(--r) + .5px)) top/100% 51% no-repeat,radial-gradient(circle at var(--cut) 100%,#0000 var(--r),#000 calc(var(--r) + .5px)) bottom/100% 51% no-repeat;mask:radial-gradient(circle at var(--cut) 0,#0000 var(--r),#000 calc(var(--r) + .5px)) top/100% 51% no-repeat,radial-gradient(circle at var(--cut) 100%,#0000 var(--r),#000 calc(var(--r) + .5px)) bottom/100% 51% no-repeat;opacity:0;animation:tkin .8s cubic-bezier(.2,.9,.25,1.25) forwards;transition:transform .25s ease}
+#cover.c27 .tk-t{--a:#80d2d2;--cut:calc(6.8 * var(--u));rotate:-2.5deg;animation-delay:.3s}
+#cover.c27 .tk-c{rotate:1.5deg;animation-delay:.5s}
+#cover.c27 .tk:hover{transform:translateY(-5px) scale(1.05) rotate(var(--tilt,0deg))}
+#cover.c27 .tk-t:hover{--tilt:2.5deg}
+#cover.c27 .tk-c:hover{--tilt:-1.5deg}
+#cover.c27 .tk-d{box-sizing:border-box;width:var(--cut);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:calc(.8 * var(--u)) calc(.6 * var(--u));border-right:calc(.15 * var(--u)) dashed var(--a);line-height:1}
+#cover.c27 .tk-d b{font-weight:800;font-size:calc(2.9 * var(--u));color:var(--a);letter-spacing:-.02em;white-space:nowrap}
+#cover.c27 .tk-d i{font-style:normal;font-weight:700;font-size:max(10px,calc(.95 * var(--u)));letter-spacing:.3em;margin:calc(.35 * var(--u)) -.3em 0 0}
+#cover.c27 .tk-l{display:flex;flex-direction:column;justify-content:center;gap:calc(.3 * var(--u));padding:calc(.8 * var(--u)) calc(1.6 * var(--u)) calc(.8 * var(--u)) calc(1.3 * var(--u))}
+#cover.c27 .tk-l em{font-style:normal;font-weight:800;font-size:calc(1.6 * var(--u));text-transform:uppercase;letter-spacing:.05em;line-height:1}
+#cover.c27 .tk-l small{font-weight:500;font-size:max(11px,calc(.95 * var(--u)));line-height:1.2;opacity:.92;white-space:nowrap}
+#cover.c27 .tk-cd{color:var(--a);font-weight:700}
+#cover.c27 .tk::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.32) 50%,transparent 65%);transform:translateX(-130%);animation:tkshine 6s ease-in-out 2s infinite;pointer-events:none}
+@keyframes tkin{from{opacity:0;translate:0 calc(2 * var(--u))}to{opacity:1;translate:0 0}}
+@keyframes tkshine{0%,75%{transform:translateX(-130%)}100%{transform:translateX(130%)}}
+@media (prefers-reduced-motion:reduce){#cover.c27 .tk{animation:none;opacity:1}#cover.c27 .tk::after{display:none}}
+@media (max-width:767px),(max-width:1199px) and (orientation:portrait){
+#cover.c27>.hdates{--u:clamp(7px,2.5vw,11px);position:relative;left:auto;top:auto;transform:none;flex-wrap:wrap;justify-content:center;gap:14px 16px;margin:4px 0 2px}
+}
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><path id="ec-hb" transform="translate(-5.58 426.15)scale(0.18000)" d="M0 1053L334 900C670 748 1338 443 2008 383C2677 324 3346 510 4015 690C4685 869 5354 1040 6023 924C6693 808 7361 404 7696 202L8031 0L8031 2592L2980 2592L455 2592C413 2592 0 2593 0 2589L0 2533L0 2256L0 1053Z"/><path id="ec-br" transform="translate(68.37 233.72)scale(0.13242)" d="M730 1454C694 1510 637 1551 559 1575C637 1600 694 1640 730 1696C766 1753 784 1838 784 1952L784 2491C784 2572 805 2633 846 2676C888 2718 949 2740 1030 2740L1091 2740L1091 3151L895 3151C687 3151 528 3099 421 2996C313 2892 259 2743 259 2548L259 1939C259 1887 246 1848 220 1821C214 1814 196 1808 173 1803C72 1780 0 1689 0 1586L0 1565C0 1461 72 1370 173 1348C196 1343 214 1336 220 1330C246 1303 259 1263 259 1212L259 602C259 407 313 258 421 155C528 52 687 0 895 0L1091 0L1091 411L1030 411C949 411 888 432 846 475C805 517 784 579 784 660L784 1198C784 1313 766 1398 730 1454Z"/><path id="ec-as" transform="translate(177.04 476.56)scale(0.20778)" d="M435 155C428 130 398 109 372 119C338 132 305 144 271 157C272 122 272 86 271 51C270 25 248 -1 219 0C192 1 167 23 168 51C169 86 169 121 168 155C134 142 99 128 65 115C40 105 7 126 2 151C-5 180 10 203 37 214C67 225 96 237 126 248C99 281 72 314 47 348C30 370 43 406 65 418C92 434 118 422 135 400C159 368 184 338 210 307C235 336 258 366 281 398C297 420 326 431 351 416C373 403 386 369 369 346C347 315 324 284 300 255C333 243 366 230 399 218C425 208 443 183 435 155Z"/><path id="ec-hm" transform="translate(-3.56 547.62)scale(0.18000)" d="M0 22L334 10C670 -3 1338 -28 2008 130C2651 282 3228 581 3890 690C4614 810 5333 611 6023 459C6686 312 7358 196 8031 80L8031 1495L0 1495L0 22Z"/><path id="ec-hf" transform="translate(-3.56 605.94)scale(0.18000)" d="M0 0L334 67C670 135 1338 269 2008 282C2677 295 3346 185 4015 207C4680 228 5322 374 5975 455C6544 526 7121 546 7696 552L8031 556L8031 1151L0 1151L0 0Z"/><path id="ec-bd" transform="translate(1113.14 456.49)scale(0.23664)" d="M587 205C587 205 714 199 720 226C726 253 649 328 649 328C649 328 764 410 742 434C719 458 621 490 621 490C621 490 658 575 639 584C620 592 530 578 530 578C530 578 535 701 521 704C506 708 391 630 391 630C391 630 278 736 272 728C260 714 217 606 217 606C217 606 103 612 97 607C86 596 144 469 144 469C144 469 -14 416 1 391C16 366 116 318 116 318L42 210L161 187C161 187 173 11 195 25C218 39 299 106 299 106C299 106 378 -15 393 2C407 18 447 114 447 114C447 114 582 39 596 49L587 205Z"/><path id="ec-ck" transform="translate(1154.60 502.42)scale(0.23670)" d="M0 257C0 257 41 149 50 153C60 157 171 222 171 222C171 222 243 -6 246 0C248 6 343 42 343 42C343 42 238 352 212 338L0 257Z"/></defs></svg>
 <div class="cover c27" id="cover">
@@ -86,8 +108,13 @@ Layout: composition scaled by --u (fits width and height, so wide screens are ca
 <svg class="dz dz-as" viewBox="175 475 96 94" aria-hidden="true" focusable="false"><use href="#ec-as" fill="#e84f8b"/></svg>
 <svg class="dz dz-bd" viewBox="1106 449 194 186" aria-hidden="true" focusable="false"><use href="#ec-bd" fill="#80d2d2"/><use href="#ec-ck" fill="#fbfcff"/></svg>
 <h1 class="hlogo"><img src="{{ site.baseurl }}/assets/images/ec-lockup-2027.png" alt="ElixirConf EU"></h1>
+<ul class="hdates" aria-label="Event dates">
+<li class="tk tk-t"><span class="tk-d"><b>21</b><i>APR</i></span><span class="tk-l"><em>Training</em><small>Full-day workshops</small></span></li>
+<li class="tk tk-c"><span class="tk-d"><b>22–23</b><i>APR</i></span><span class="tk-l"><em>Conference</em><small>Lisbon &amp; Virtual<span class="tk-cd"></span></small></span></li>
+</ul>
 <p class="hcall">Call for Talks is open until 15 December!</p>
 <a class="hb1" href="https://sessionize.com/elixirconf-eu-2027/">Submit a talk</a>
 <a class="hb2" href="#waiting-list">Join the waiting list</a>
 <p class="hstat"><span class="y">Ticket sales are not open yet.</span> Join the ElixirConf EU waiting list to be the first to know,<br> and follow us on <a href="https://www.linkedin.com/company/elixirconf" target="_blank" rel="noopener">LinkedIn</a>, <a href="https://bsky.app/profile/elixirconf.bsky.social" target="_blank" rel="noopener">Bluesky</a> and <a href="https://twitter.com/elixirconfeu" target="_blank" rel="noopener">X</a>.</p>
 </div>
+<script>(function(){var e=document.querySelector("#cover .tk-cd");if(!e)return;var d=Math.ceil((Date.UTC(2027,3,22)-Date.now())/864e5);if(d>1)e.textContent=" \u00b7 "+d+" days to go";else if(d===1)e.textContent=" \u00b7 tomorrow!";})();</script>
