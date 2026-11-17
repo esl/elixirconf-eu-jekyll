@@ -4,7 +4,7 @@ Adds the banner hill shapes, the shared 2027 theme, full-width alternating bands
 {% include theme-2027.html %}
 <style id="page-theme-2027">
 html,body{overflow-x:clip}
-#speak,#cyb{background:#4d1484!important}
+#speak,#cyb{background:#5a3181!important}
 .ec27-sec{position:relative;background:var(--b)!important;box-shadow:0 0 0 100vmax var(--b);clip-path:inset(0 -100vmax);padding-top:2.5em!important;padding-bottom:2.5em!important;margin-top:0!important;margin-bottom:0!important}
 .sw-sep{position:relative;line-height:0;pointer-events:none;overflow:hidden}
 .sw-sep.bleed{width:100vw;margin:-1px 0 -1px calc(50% - 50vw)}
@@ -37,12 +37,12 @@ var root = document.querySelector('#speak .wrap, #cyb .wrap');
 if (!root) return;
 var secs = [].slice.call(root.children).filter(function (e) { return e.matches('.sec, .panel, .block'); });
 if (!secs.length) return;
-var cols = ['#5a3181', '#4d1484'];
+var cols = ['#7841ae', '#5a3181'];
 function sep(prev, next) {
 return '<div class="sw-sep bleed" aria-hidden="true" style="background:' + prev + '"><svg viewBox="0 426 1440 300" preserveAspectRatio="none" focusable="false">' +
 '<g class="s1"><use href="#ec-hb" fill="#9878c1"/></g><g class="s2"><use href="#ec-hm" fill="#7841ae"/></g><g class="s3"><use href="#ec-hf" fill="' + next + '"/></g></svg></div>';
 }
-var prev = '#4d1484';
+var prev = '#5a3181';
 secs.forEach(function (s, i) {
 var c = cols[i % 2];
 s.classList.add('ec27-sec');
