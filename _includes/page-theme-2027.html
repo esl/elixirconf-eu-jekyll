@@ -8,7 +8,7 @@ html,body{overflow-x:clip}
 .ec27-sec{position:relative;background:var(--b)!important;box-shadow:0 0 0 100vmax var(--b);clip-path:inset(0 -100vmax);padding-top:2.5em!important;padding-bottom:2.5em!important;margin-top:0!important;margin-bottom:0!important}
 .sw-sep{position:relative;line-height:0;pointer-events:none;overflow:hidden}
 .sw-sep.bleed{width:calc(100vw - var(--sbw,0px));margin:-1px 0 -1px calc(50% - (100vw - var(--sbw,0px)) / 2)}
-.sw-sep svg{display:block;width:100%;height:clamp(90px,12vw,180px)}
+.sw-sep svg{display:block;width:100%;height:clamp(60px,8vw,130px)}
 .sw-sep .s1,.sw-sep .s2,.sw-sep .s3{transform-box:view-box;transform-origin:50% 100%}
 .sw-sep .s1{animation:pgdrift 15s ease-in-out infinite alternate}
 .sw-sep .s2{animation:pgdrift 11s ease-in-out infinite alternate-reverse}
@@ -45,7 +45,7 @@ var secs = [].slice.call(root.children).filter(function (e) { return e.matches('
 if (!secs.length) return;
 var cols = ['#7841ae', '#5a3181'];
 function sep(prev, next) {
-return '<div class="sw-sep bleed" aria-hidden="true" style="background:' + prev + '"><svg viewBox="0 426 1440 300" preserveAspectRatio="none" focusable="false">' +
+return '<div class="sw-sep bleed" aria-hidden="true" style="background:' + prev + '"><svg viewBox="0 480 1440 246" preserveAspectRatio="none" focusable="false">' +
 '<g class="s1"><use href="#ec-hb" fill="#9878c1"/></g><g class="s2"><use href="#ec-hm" fill="#7841ae"/></g><g class="s3"><use href="#ec-hf" fill="' + next + '"/></g></svg></div>';
 }
 var prev = '#5a3181';
