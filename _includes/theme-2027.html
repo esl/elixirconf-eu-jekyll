@@ -106,4 +106,8 @@ body a.btn-outline.btn-orange:hover,body a.btn-outline.btn-blue:hover,body a.btn
 #sponsors,#gallery-strip,#tickets,#waiting-list,#contact{flex-direction:column!important;flex-wrap:nowrap!important;align-items:center!important}
 #tickets .items-container,#gallery-strip>*:not(.title):not(hr),#sponsors>*:not(.title):not(hr){width:100%}
 .calls27 #cft a[href*="speak"]{padding:16px 30px!important;border:3px solid #f0cf5a!important;line-height:1.2!important;height:auto!important}
+/* v6: Call for Training tile gets a photo from a past training session instead of empty space */
+.calls27 #cft-training .text-content.mb-5{align-self:stretch;display:flex;flex-direction:column;align-items:flex-start;flex:1;padding-top:20px!important}
+.calls27 #cft-training .text-content.mb-5::before{content:"";display:block;align-self:stretch;flex:1;min-height:200px;margin-bottom:24px;border-radius:20px;background:linear-gradient(rgba(84,51,125,.25),rgba(84,51,125,.25)),url(/assets/images/Gallery.jpg) 50% 40%/cover no-repeat}
+.calls27 #cft-training::after{display:none}
 </style>
