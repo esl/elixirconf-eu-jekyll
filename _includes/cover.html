@@ -133,20 +133,20 @@ Layout: composition scaled by --u (fits width and height, so wide screens are ca
 @media (prefers-reduced-motion:reduce){#cover.c27 .ecd-w{animation:none;transform:translateY(var(--y1))}#cover.c27 .ecd-wave{animation:none}}
 /* Dates: two ticket stubs (training + conference) */
 #cover.c27 .hdates{position:absolute;left:50%;top:16.2%;transform:translateX(-50%);display:flex;align-items:center;gap:calc(1.6 * var(--u));margin:0;padding:0;list-style:none;z-index:6;filter:drop-shadow(0 calc(.5 * var(--u)) calc(1.2 * var(--u)) rgba(20,6,46,.5))}
-#cover.c27 .tk{--a:#f0cf5a;--cut:calc(10.6 * var(--u));--r:calc(.62 * var(--u));position:relative;display:flex;align-items:stretch;overflow:hidden;color:#fff;text-align:left;background:linear-gradient(135deg,rgba(77,20,132,.86),rgba(36,10,72,.72));-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:calc(.15 * var(--u)) solid var(--a);border-radius:calc(1 * var(--u));-webkit-mask:radial-gradient(circle at var(--cut) 0,#0000 var(--r),#000 calc(var(--r) + .5px)) top/100% 51% no-repeat,radial-gradient(circle at var(--cut) 100%,#0000 var(--r),#000 calc(var(--r) + .5px)) bottom/100% 51% no-repeat;mask:radial-gradient(circle at var(--cut) 0,#0000 var(--r),#000 calc(var(--r) + .5px)) top/100% 51% no-repeat,radial-gradient(circle at var(--cut) 100%,#0000 var(--r),#000 calc(var(--r) + .5px)) bottom/100% 51% no-repeat;opacity:0;animation:tkin .8s cubic-bezier(.2,.9,.25,1.25) forwards;transition:transform .25s ease}
-#cover.c27 .tk-t{--a:#80d2d2;--cut:calc(6.8 * var(--u));rotate:-2.5deg;animation-delay:.3s}
-#cover.c27 .tk-c{rotate:1.5deg;animation-delay:.5s}
-#cover.c27 .tk:hover{transform:translateY(-5px) scale(1.05) rotate(var(--tilt,0deg))}
+#cover.c27 .tk{--a:#c1a7e8;--cut:calc(11.4 * var(--u));--r:calc(.62 * var(--u));position:relative;display:flex;align-items:stretch;overflow:hidden;color:#fff;text-align:left;background:linear-gradient(135deg,rgba(77,20,132,.86),rgba(36,10,72,.72));-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:calc(.15 * var(--u)) solid var(--a);border-radius:calc(1 * var(--u));-webkit-mask:radial-gradient(circle at var(--cut) 0,#0000 var(--r),#000 calc(var(--r) + .5px)) top/100% 51% no-repeat,radial-gradient(circle at var(--cut) 100%,#0000 var(--r),#000 calc(var(--r) + .5px)) bottom/100% 51% no-repeat;mask:radial-gradient(circle at var(--cut) 0,#0000 var(--r),#000 calc(var(--r) + .5px)) top/100% 51% no-repeat,radial-gradient(circle at var(--cut) 100%,#0000 var(--r),#000 calc(var(--r) + .5px)) bottom/100% 51% no-repeat;opacity:0;animation:tkin .8s cubic-bezier(.2,.9,.25,1.25) forwards;transition:transform .25s ease}
+#cover.c27 .tk-t{--cut:calc(8.6 * var(--u));animation-delay:.3s}
+#cover.c27 .tk-c{animation-delay:.5s}
+#cover.c27 .tk:hover{transform:translateY(-3px)}
 #cover.c27 .tk-t:hover{--tilt:2.5deg}
 #cover.c27 .tk-c:hover{--tilt:-1.5deg}
 #cover.c27 .tk-d{box-sizing:border-box;width:var(--cut);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:calc(.8 * var(--u)) calc(.6 * var(--u));border-right:calc(.15 * var(--u)) dashed var(--a);line-height:1}
-#cover.c27 .tk-d b{font-weight:800;font-size:calc(2.9 * var(--u));color:var(--a);letter-spacing:-.02em;white-space:nowrap}
-#cover.c27 .tk-d i{font-style:normal;font-weight:700;font-size:max(10px,calc(.95 * var(--u)));letter-spacing:.3em;margin:calc(.35 * var(--u)) -.3em 0 0}
+#cover.c27 .tk-d b{font-weight:800;font-size:calc(2.9 * var(--u));color:#fff;letter-spacing:-.02em;white-space:nowrap}
+#cover.c27 .tk-d i{font-style:normal;font-weight:700;font-size:max(9px,calc(.8 * var(--u)));letter-spacing:.14em;color:var(--a);margin:calc(.35 * var(--u)) -.14em 0 0;white-space:nowrap}
 #cover.c27 .tk-l{display:flex;flex-direction:column;justify-content:center;gap:calc(.3 * var(--u));padding:calc(.8 * var(--u)) calc(1.6 * var(--u)) calc(.8 * var(--u)) calc(1.3 * var(--u))}
 #cover.c27 .tk-l em{font-style:normal;font-weight:800;font-size:calc(1.6 * var(--u));text-transform:uppercase;letter-spacing:.05em;line-height:1}
 #cover.c27 .tk-l small{font-weight:500;font-size:max(11px,calc(.95 * var(--u)));line-height:1.2;opacity:.92;white-space:nowrap}
-#cover.c27 .tk-cd{color:var(--a);font-weight:700}
-#cover.c27 .tk::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.32) 50%,transparent 65%);transform:translateX(-130%);animation:tkshine 6s ease-in-out 2s infinite;pointer-events:none}
+#cover.c27 .tk-cd{display:block;color:#f2d970;font-weight:700;margin-top:calc(.2 * var(--u))}
+#cover.c27 .tk::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.32) 50%,transparent 65%);transform:translateX(-130%);pointer-events:none}
 @keyframes tkin{from{opacity:0;translate:0 calc(2 * var(--u))}to{opacity:1;translate:0 0}}
 @keyframes tkshine{0%,75%{transform:translateX(-130%)}100%{transform:translateX(130%)}}
 @media (prefers-reduced-motion:reduce){#cover.c27 .tk{animation:none;opacity:1}#cover.c27 .tk::after{display:none}}
@@ -178,12 +178,12 @@ Layout: composition scaled by --u (fits width and height, so wide screens are ca
 <svg class="dz dz-bd" viewBox="1106 449 194 186" aria-hidden="true" focusable="false"><use href="#ec-bd" fill="#80d2d2"/><use href="#ec-ck" fill="#fbfcff"/></svg>
 <h1 class="hlogo"><img src="{{ site.baseurl }}/assets/images/ec-lockup-2027.png" alt="ElixirConf EU"></h1>
 <ul class="hdates" aria-label="Event dates">
-<li class="tk tk-t"><span class="tk-d"><b>21</b><i>APR</i></span><span class="tk-l"><em>Training</em><small>Full-day workshops</small></span></li>
-<li class="tk tk-c"><span class="tk-d"><b>22–23</b><i>APR</i></span><span class="tk-l"><em>Conference</em><small>Lisbon &amp; Virtual<span class="tk-cd"></span></small></span></li>
+<li class="tk tk-t"><span class="tk-d"><b>21</b><i>APR 2027</i></span><span class="tk-l"><em>Training</em><small>Full-day workshops</small></span></li>
+<li class="tk tk-c"><span class="tk-d"><b>22–23</b><i>APR 2027</i></span><span class="tk-l"><em>Conference</em><small>Lisbon &amp; Virtual<span class="tk-cd"></span></small></span></li>
 </ul>
 <p class="hcall">Call for Talks is open until 15 December!</p>
 <a class="hb1" href="https://sessionize.com/elixirconf-eu-2027/">Submit a talk</a>
 <a class="hb2" href="#waiting-list">Join the waiting list</a>
 <p class="hstat"><span class="y">Ticket sales are not open yet.</span> Join the ElixirConf EU waiting list to be the first to know,<br> and follow us on <a href="https://www.linkedin.com/company/elixirconf" target="_blank" rel="noopener">LinkedIn</a>, <a href="https://bsky.app/profile/elixirconf.bsky.social" target="_blank" rel="noopener">Bluesky</a> and <a href="https://twitter.com/elixirconfeu" target="_blank" rel="noopener">X</a>.</p>
 </div>
-<script>(function(){var e=document.querySelector("#cover .tk-cd");if(!e)return;var d=Math.ceil((Date.UTC(2027,3,22)-Date.now())/864e5);if(d>1)e.textContent=" \u00b7 "+d+" days to go";else if(d===1)e.textContent=" \u00b7 tomorrow!";})();</script>
+<script>(function(){var e=document.querySelector("#cover .tk-cd");if(!e)return;var d=Math.ceil((Date.UTC(2027,3,22)-Date.now())/864e5);if(d>1)e.textContent=d+" days to go";else if(d===1)e.textContent="Tomorrow!";})();</script>
